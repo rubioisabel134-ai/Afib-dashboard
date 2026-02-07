@@ -1,0 +1,580 @@
+{
+  "as_of": "2026-02-07",
+  "items": [
+    {
+      "id": "milvexian",
+      "name": "Milvexian",
+      "type": "Drug",
+      "category": "Stroke Prevention - FXI Inhibitors",
+      "stage": "Phase 3",
+      "mechanism": "Oral Factor XIa inhibitor",
+      "focus": "Stroke prevention in AF and secondary stroke prevention",
+      "company": "BMS / Johnson & Johnson",
+      "latest_update": "Librexia AF and Librexia STROKE continue; topline data expected in 2026",
+      "tags": ["FXI", "oral", "SPAF", "secondary stroke"],
+      "trials": [
+        {
+          "name": "LIBREXIA AF",
+          "phase": "Phase 3",
+          "status": "Ongoing",
+          "readout": "Topline expected 2026",
+          "readout_date": null,
+          "registry_id": "NCT05757869",
+          "note": "AF stroke prevention"
+        },
+        {
+          "name": "LIBREXIA STROKE",
+          "phase": "Phase 3",
+          "status": "Ongoing",
+          "readout": "Topline expected 2026",
+          "readout_date": null,
+          "registry_id": "NCT05702034",
+          "note": "Secondary stroke prevention"
+        }
+      ],
+      "notes": "Librexia ACS was discontinued after interim analysis; AF and STROKE programs continue with 2026 readouts.",
+      "sources": ["https://news.bms.com/news/details/2025/Update-on-Phase-3-Librexia-ACS-Trial/default.aspx"]
+    },
+    {
+      "id": "asundexian",
+      "name": "Asundexian",
+      "type": "Drug",
+      "category": "Stroke Prevention - FXI Inhibitors",
+      "stage": "Phase 3",
+      "mechanism": "Oral Factor XIa inhibitor",
+      "focus": "Secondary stroke prevention; AF program stopped",
+      "company": "Bayer",
+      "latest_update": "OCEANIC-AF stopped for lack of efficacy; OCEANIC-STROKE positive readout at ISC 2026",
+      "tags": ["FXI", "oral", "secondary stroke"],
+      "trials": [
+        {
+          "name": "OCEANIC-AF",
+          "phase": "Phase 3",
+          "status": "Stopped early",
+          "readout": "Stopped for lack of efficacy",
+          "readout_date": "2023-11-15",
+          "registry_id": null,
+          "note": "AF stroke prevention vs apixaban"
+        },
+        {
+          "name": "OCEANIC-STROKE",
+          "phase": "Phase 3",
+          "status": "Readout",
+          "readout": "ISC 2026 results (Feb 5, 2026)",
+          "readout_date": "2026-02-05",
+          "registry_id": "NCT05686070",
+          "note": "Secondary stroke prevention"
+        }
+      ],
+      "notes": "OCEANIC-STROKE reported a significant reduction in recurrent ischemic stroke with no increase in ISTH major bleeding vs placebo plus antiplatelet therapy.",
+      "sources": [
+        "https://www.bayer.com/media/en-us/oceanic-af-study-stopped-early-due-to-lack-of-efficacy/",
+        "https://www.bayer.com/en/us/news-stories/asundexian-after-a-non-cardioembolic-ischemic-stroke",
+        "https://www.bayer.com/media/en-us/bayers-asundexian-demonstrated-a-substantial-26-percent-reduction-in-stroke-after-a-non-cardioembolic-ischemic-stroke-or-high-risk-transient-ischemic-attack-with-no-increase-in-isth-major-bleeding-versus-placebo/"
+      ]
+    },
+    {
+      "id": "abelacimab",
+      "name": "Abelacimab (MAA868)",
+      "type": "Drug",
+      "category": "Stroke Prevention - FXI Inhibitors",
+      "stage": "Phase 3",
+      "mechanism": "Monoclonal antibody targeting FXI/FXIa",
+      "focus": "Stroke and systemic embolism prevention in AF",
+      "company": "Novartis / Anthos Therapeutics",
+      "latest_update": "Phase 3 development in AF; FDA Fast Track for AF stroke prevention",
+      "tags": ["FXI", "mAb", "monthly"],
+      "trials": [
+        {
+          "name": "AZALEA-TIMI 71",
+          "phase": "Phase 2",
+          "status": "Completed",
+          "readout": "Bleeding endpoint favored abelacimab vs rivaroxaban",
+          "readout_date": null,
+          "registry_id": null,
+          "note": "AF moderate-to-high risk"
+        },
+        {
+          "name": "Phase 3 AF program",
+          "phase": "Phase 3",
+          "status": "Ongoing",
+          "readout": "TBD",
+          "readout_date": null,
+          "registry_id": null,
+          "note": "Stroke and systemic embolism prevention"
+        }
+      ],
+      "notes": "Novartis announced abelacimab as a late-stage AF asset with Phase 3 development for stroke/systemic embolism prevention; Anthos reports Phase 2 AZALEA-TIMI 71 and Phase 3 enrollment milestones.",
+      "sources": [
+        "https://www.novartis.com/news/media-releases/novartis-bolsters-late-stage-cardiovascular-pipeline-agreement-acquire-anthos-therapeutics-usd-925-million-upfront",
+        "https://anthostherapeutics.com/press-release/anthos_2024-08-15_release-10/",
+        "https://anthostherapeutics.com/press-release/anthos_2024-08-27_release/"
+      ]
+    },
+    {
+      "id": "srsd107",
+      "name": "SRSD107",
+      "type": "Drug",
+      "category": "Stroke Prevention - FXI Inhibitors",
+      "stage": "Phase 2",
+      "mechanism": "Long-acting FXI siRNA",
+      "focus": "Thromboembolic disorders including AF stroke prevention",
+      "company": "Sirius Therapeutics / CRISPR Therapeutics",
+      "latest_update": "EMA authorization to initiate Phase 2 in July 2025",
+      "tags": ["FXI", "siRNA", "long-acting"],
+      "trials": [
+        {
+          "name": "SRSD107 Phase 2",
+          "phase": "Phase 2",
+          "status": "Authorized",
+          "readout": "TBD",
+          "readout_date": null,
+          "registry_id": null,
+          "note": "EU multi-country"
+        }
+      ],
+      "notes": "Next-generation FXI siRNA program with Phase 2 EU authorization; intended for thromboembolic disorders.",
+      "sources": ["https://www.siriusrna.com/html/companynews/81.html"]
+    },
+    {
+      "id": "apixaban",
+      "name": "Apixaban (Eliquis)",
+      "type": "Drug",
+      "category": "Stroke Prevention - Anticoagulants",
+      "stage": "Approved",
+      "mechanism": "Direct oral anticoagulant (Factor Xa inhibitor)",
+      "focus": "Stroke prevention in AF",
+      "company": "BMS / Pfizer",
+      "latest_update": "DOACs preferred over warfarin in most AF patients",
+      "tags": ["DOAC", "Factor Xa"],
+      "trials": [
+        {
+          "name": "Guideline recommendation",
+          "phase": "Guideline",
+          "status": "Preferred",
+          "readout": "2023 ACC/AHA/ACCP/HRS guideline",
+          "readout_date": "2023-11-30",
+          "registry_id": null,
+          "note": "Preferred over warfarin except mitral stenosis or mechanical valve"
+        }
+      ],
+      "notes": "Standard-of-care anticoagulant for non-valvular AF.",
+      "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
+    },
+    {
+      "id": "rivaroxaban",
+      "name": "Rivaroxaban (Xarelto)",
+      "type": "Drug",
+      "category": "Stroke Prevention - Anticoagulants",
+      "stage": "Approved",
+      "mechanism": "Direct oral anticoagulant (Factor Xa inhibitor)",
+      "focus": "Stroke prevention in AF",
+      "company": "Bayer / Janssen",
+      "latest_update": "DOACs preferred over warfarin in most AF patients",
+      "tags": ["DOAC", "Factor Xa"],
+      "trials": [
+        {
+          "name": "Guideline recommendation",
+          "phase": "Guideline",
+          "status": "Preferred",
+          "readout": "2023 ACC/AHA/ACCP/HRS guideline",
+          "readout_date": "2023-11-30",
+          "registry_id": null,
+          "note": "Preferred over warfarin except mitral stenosis or mechanical valve"
+        }
+      ],
+      "notes": "Standard-of-care anticoagulant for non-valvular AF.",
+      "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
+    },
+    {
+      "id": "dabigatran",
+      "name": "Dabigatran (Pradaxa)",
+      "type": "Drug",
+      "category": "Stroke Prevention - Anticoagulants",
+      "stage": "Approved",
+      "mechanism": "Direct oral anticoagulant (direct thrombin inhibitor)",
+      "focus": "Stroke prevention in AF",
+      "company": "Boehringer Ingelheim",
+      "latest_update": "DOACs preferred over warfarin in most AF patients",
+      "tags": ["DOAC", "thrombin"],
+      "trials": [
+        {
+          "name": "Guideline recommendation",
+          "phase": "Guideline",
+          "status": "Preferred",
+          "readout": "2023 ACC/AHA/ACCP/HRS guideline",
+          "readout_date": "2023-11-30",
+          "registry_id": null,
+          "note": "Preferred over warfarin except mitral stenosis or mechanical valve"
+        }
+      ],
+      "notes": "Standard-of-care anticoagulant for non-valvular AF.",
+      "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
+    },
+    {
+      "id": "edoxaban",
+      "name": "Edoxaban (Savaysa)",
+      "type": "Drug",
+      "category": "Stroke Prevention - Anticoagulants",
+      "stage": "Approved",
+      "mechanism": "Direct oral anticoagulant (Factor Xa inhibitor)",
+      "focus": "Stroke prevention in AF",
+      "company": "Daiichi Sankyo",
+      "latest_update": "DOACs preferred over warfarin in most AF patients",
+      "tags": ["DOAC", "Factor Xa"],
+      "trials": [
+        {
+          "name": "Guideline recommendation",
+          "phase": "Guideline",
+          "status": "Preferred",
+          "readout": "2023 ACC/AHA/ACCP/HRS guideline",
+          "readout_date": "2023-11-30",
+          "registry_id": null,
+          "note": "Preferred over warfarin except mitral stenosis or mechanical valve"
+        }
+      ],
+      "notes": "Standard-of-care anticoagulant for non-valvular AF.",
+      "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
+    },
+    {
+      "id": "warfarin",
+      "name": "Warfarin",
+      "type": "Drug",
+      "category": "Stroke Prevention - Anticoagulants",
+      "stage": "Approved",
+      "mechanism": "Vitamin K antagonist",
+      "focus": "Stroke prevention in AF",
+      "company": "Generic",
+      "latest_update": "Preferred in AF with moderate-severe mitral stenosis or mechanical valves",
+      "tags": ["VKA"],
+      "trials": [
+        {
+          "name": "Guideline recommendation",
+          "phase": "Guideline",
+          "status": "Indicated in specific populations",
+          "readout": "2023 ACC/AHA/ACCP/HRS guideline",
+          "readout_date": "2023-11-30",
+          "registry_id": null,
+          "note": "Used when DOACs are not appropriate"
+        }
+      ],
+      "notes": "Standard anticoagulant for valvular AF or mechanical valves.",
+      "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
+    },
+    {
+      "id": "amiodarone",
+      "name": "Amiodarone",
+      "type": "Drug",
+      "category": "Rhythm Control - Antiarrhythmic Drugs",
+      "stage": "Approved",
+      "mechanism": "Class III antiarrhythmic (multi-channel blocker)",
+      "focus": "Rhythm control in AF",
+      "company": "Generic",
+      "latest_update": "Standard antiarrhythmic option for rhythm control",
+      "tags": ["AAD", "Class III"],
+      "trials": [],
+      "notes": "Widely used rhythm control drug; requires monitoring for toxicities.",
+      "sources": []
+    },
+    {
+      "id": "dronedarone",
+      "name": "Dronedarone (Multaq)",
+      "type": "Drug",
+      "category": "Rhythm Control - Antiarrhythmic Drugs",
+      "stage": "Approved",
+      "mechanism": "Class III antiarrhythmic",
+      "focus": "Rhythm control in AF",
+      "company": "Sanofi",
+      "latest_update": "Standard antiarrhythmic option for rhythm control",
+      "tags": ["AAD", "Class III"],
+      "trials": [],
+      "notes": "Rhythm control option for selected patients.",
+      "sources": []
+    },
+    {
+      "id": "dofetilide",
+      "name": "Dofetilide",
+      "type": "Drug",
+      "category": "Rhythm Control - Antiarrhythmic Drugs",
+      "stage": "Approved",
+      "mechanism": "Class III antiarrhythmic",
+      "focus": "Rhythm control in AF",
+      "company": "Generic",
+      "latest_update": "Standard antiarrhythmic option for rhythm control",
+      "tags": ["AAD", "Class III"],
+      "trials": [],
+      "notes": "Initiation requires monitoring due to QT prolongation risk.",
+      "sources": []
+    },
+    {
+      "id": "sotalol",
+      "name": "Sotalol",
+      "type": "Drug",
+      "category": "Rhythm Control - Antiarrhythmic Drugs",
+      "stage": "Approved",
+      "mechanism": "Class III antiarrhythmic with beta-blocking",
+      "focus": "Rhythm control in AF",
+      "company": "Generic",
+      "latest_update": "Standard antiarrhythmic option for rhythm control",
+      "tags": ["AAD", "Class III", "beta blocker"],
+      "trials": [],
+      "notes": "Requires monitoring for QT prolongation and renal dosing.",
+      "sources": []
+    },
+    {
+      "id": "flecainide",
+      "name": "Flecainide",
+      "type": "Drug",
+      "category": "Rhythm Control - Antiarrhythmic Drugs",
+      "stage": "Approved",
+      "mechanism": "Class Ic antiarrhythmic",
+      "focus": "Rhythm control in AF",
+      "company": "Generic",
+      "latest_update": "Standard antiarrhythmic option for rhythm control",
+      "tags": ["AAD", "Class Ic"],
+      "trials": [],
+      "notes": "Used in structurally normal hearts; avoid in structural heart disease.",
+      "sources": []
+    },
+    {
+      "id": "propafenone",
+      "name": "Propafenone",
+      "type": "Drug",
+      "category": "Rhythm Control - Antiarrhythmic Drugs",
+      "stage": "Approved",
+      "mechanism": "Class Ic antiarrhythmic",
+      "focus": "Rhythm control in AF",
+      "company": "Generic",
+      "latest_update": "Standard antiarrhythmic option for rhythm control",
+      "tags": ["AAD", "Class Ic"],
+      "trials": [],
+      "notes": "Used in selected patients; avoid in structural heart disease.",
+      "sources": []
+    },
+    {
+      "id": "metoprolol",
+      "name": "Metoprolol",
+      "type": "Drug",
+      "category": "Rate Control",
+      "stage": "Approved",
+      "mechanism": "Beta blocker",
+      "focus": "Rate control in AF",
+      "company": "Generic",
+      "latest_update": "Standard rate control therapy",
+      "tags": ["beta blocker"],
+      "trials": [],
+      "notes": "First-line rate control agent.",
+      "sources": []
+    },
+    {
+      "id": "diltiazem",
+      "name": "Diltiazem",
+      "type": "Drug",
+      "category": "Rate Control",
+      "stage": "Approved",
+      "mechanism": "Non-dihydropyridine calcium channel blocker",
+      "focus": "Rate control in AF",
+      "company": "Generic",
+      "latest_update": "Standard rate control therapy",
+      "tags": ["CCB"],
+      "trials": [],
+      "notes": "Common option for rate control.",
+      "sources": []
+    },
+    {
+      "id": "verapamil",
+      "name": "Verapamil",
+      "type": "Drug",
+      "category": "Rate Control",
+      "stage": "Approved",
+      "mechanism": "Non-dihydropyridine calcium channel blocker",
+      "focus": "Rate control in AF",
+      "company": "Generic",
+      "latest_update": "Standard rate control therapy",
+      "tags": ["CCB"],
+      "trials": [],
+      "notes": "Common option for rate control.",
+      "sources": []
+    },
+    {
+      "id": "digoxin",
+      "name": "Digoxin",
+      "type": "Drug",
+      "category": "Rate Control",
+      "stage": "Approved",
+      "mechanism": "Cardiac glycoside",
+      "focus": "Rate control in AF",
+      "company": "Generic",
+      "latest_update": "Adjunctive rate control therapy",
+      "tags": ["glycoside"],
+      "trials": [],
+      "notes": "Often used when additional rate control is needed.",
+      "sources": []
+    },
+    {
+      "id": "watchman-flx",
+      "name": "WATCHMAN FLX",
+      "type": "Device",
+      "category": "LAA Occlusion Devices",
+      "stage": "FDA Approved",
+      "mechanism": "Left atrial appendage closure device",
+      "focus": "Stroke prevention in non-valvular AF",
+      "company": "Boston Scientific",
+      "latest_update": "FDA approval for next-generation WATCHMAN FLX in 2020",
+      "tags": ["LAAO", "implant"],
+      "trials": [
+        {
+          "name": "PINNACLE FLX",
+          "phase": "Pivotal",
+          "status": "Completed",
+          "readout": "Supported FDA approval",
+          "readout_date": "2020-07-23",
+          "registry_id": null,
+          "note": "LAAC performance"
+        }
+      ],
+      "notes": "Indicated to reduce stroke risk in NVAF patients who need an alternative to oral anticoagulation.",
+      "sources": ["https://www.acc.org/Latest-in-Cardiology/Articles/2020/07/23/14/14/Next-Generation-WATCHMAN-FLX-LAAC-Device-Gains-FDA-Approval"]
+    },
+    {
+      "id": "amulet",
+      "name": "Amplatzer Amulet",
+      "type": "Device",
+      "category": "LAA Occlusion Devices",
+      "stage": "FDA Approved",
+      "mechanism": "Left atrial appendage occluder",
+      "focus": "Stroke prevention in AF",
+      "company": "Abbott",
+      "latest_update": "FDA approval in 2021",
+      "tags": ["LAAO", "implant"],
+      "trials": [
+        {
+          "name": "Amulet IDE",
+          "phase": "Pivotal",
+          "status": "Completed",
+          "readout": "Supported FDA approval",
+          "readout_date": "2021-08-16",
+          "registry_id": null,
+          "note": "LAAC vs WATCHMAN"
+        }
+      ],
+      "notes": "FDA-approved LAA occluder for AF patients at risk of stroke.",
+      "sources": ["https://abbott.mediaroom.com/2021-08-16-Abbotts-Amplatzer-TM-Amulet-TM-Device-Approved-by-FDA-to-Treat-People-With-Atrial-Fibrillation-at-Risk-of-Stroke"]
+    },
+    {
+      "id": "farapulse",
+      "name": "FARAPULSE PFA System",
+      "type": "Device",
+      "category": "Catheter Ablation - PFA",
+      "stage": "FDA Approved",
+      "mechanism": "Pulsed field ablation",
+      "focus": "Paroxysmal and persistent AF ablation",
+      "company": "Boston Scientific",
+      "latest_update": "FDA approval in Jan 2024; expanded label for persistent AF in July 2025",
+      "tags": ["PFA", "ablation"],
+      "trials": [
+        {
+          "name": "ADVENT",
+          "phase": "Pivotal",
+          "status": "Completed",
+          "readout": "Supported FDA approval",
+          "readout_date": "2024-01-31",
+          "registry_id": null,
+          "note": "PFA vs thermal ablation"
+        },
+        {
+          "name": "ADVANTAGE AF",
+          "phase": "Phase 2",
+          "status": "Met endpoints",
+          "readout": "Supported expanded labeling",
+          "readout_date": "2025-07-07",
+          "registry_id": null,
+          "note": "Persistent AF"
+        }
+      ],
+      "notes": "PFA system FDA-approved for paroxysmal AF; expanded labeling to persistent AF in 2025.",
+      "sources": [
+        "https://news.bostonscientific.com/2024-01-31-Boston-Scientific-Receives-FDA-Approval-for-FARAPULSE-TM-Pulsed-Field-Ablation-System",
+        "https://news.bostonscientific.com/2025-07-07-Boston-Scientific-receives-FDA-approval-for-expanded-labeling-of-FARAPULSE-TM-Pulsed-Field-Ablation-System"
+      ]
+    },
+    {
+      "id": "pulseselect",
+      "name": "PulseSelect PFA System",
+      "type": "Device",
+      "category": "Catheter Ablation - PFA",
+      "stage": "FDA Approved",
+      "mechanism": "Pulsed field ablation",
+      "focus": "Paroxysmal and persistent AF ablation",
+      "company": "Medtronic",
+      "latest_update": "FDA approval in Dec 2023",
+      "tags": ["PFA", "ablation"],
+      "trials": [
+        {
+          "name": "PulseSelect IDE",
+          "phase": "Pivotal",
+          "status": "Completed",
+          "readout": "Supported FDA approval",
+          "readout_date": "2023-12-13",
+          "registry_id": null,
+          "note": "Paroxysmal and persistent AF"
+        }
+      ],
+      "notes": "First PFA system to receive FDA approval.",
+      "sources": ["https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation"]
+    },
+    {
+      "id": "varipulse",
+      "name": "VARIPULSE Platform",
+      "type": "Device",
+      "category": "Catheter Ablation - PFA",
+      "stage": "FDA Approved",
+      "mechanism": "Pulsed field ablation",
+      "focus": "Paroxysmal AF ablation",
+      "company": "Johnson & Johnson MedTech",
+      "latest_update": "FDA approval in Nov 2024; U.S. sales paused due to reported neurovascular events",
+      "tags": ["PFA", "ablation"],
+      "trials": [
+        {
+          "name": "admIRE",
+          "phase": "Pivotal",
+          "status": "Completed",
+          "readout": "Supported FDA approval",
+          "readout_date": "2024-11-07",
+          "registry_id": null,
+          "note": "Paroxysmal AF"
+        }
+      ],
+      "notes": "FDA approval for paroxysmal AF; reports of neurovascular events prompted a U.S. sales pause in 2025.",
+      "sources": [
+        "https://www.jnj.com/media-center/press-releases/johnson-johnson-medtech-receives-fda-approval-for-the-varipulse-pulsed-field-ablation-platform-for-the-treatment-of-atrial-fibrillation",
+        "https://www.wsj.com/health/healthcare/j-js-high-hopes-for-heart-rhythm-device-grounded-by-safety-concerns-8ea63120"
+      ]
+    },
+    {
+      "id": "volt",
+      "name": "Volt PFA System",
+      "type": "Device",
+      "category": "Catheter Ablation - PFA",
+      "stage": "FDA Approved",
+      "mechanism": "Pulsed field ablation",
+      "focus": "AF ablation",
+      "company": "Abbott",
+      "latest_update": "FDA approval in Dec 2025",
+      "tags": ["PFA", "ablation"],
+      "trials": [
+        {
+          "name": "VOLT-AF IDE",
+          "phase": "Pivotal",
+          "status": "Completed",
+          "readout": "Supported FDA approval",
+          "readout_date": "2025-12-22",
+          "registry_id": null,
+          "note": "PFA system"
+        }
+      ],
+      "notes": "Abbott received FDA approval for the Volt PFA System for AF.",
+      "sources": ["https://abbott.mediaroom.com/2025-12-22-Abbotts-Volt-TM-Pulsed-Field-Ablation-System-Receives-FDA-Approval-to-Treat-Patients-with-Atrial-Fibrillation"]
+    }
+  ]
+}

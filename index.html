@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AFib Intelligence Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-noise"></div>
+    <header class="hero">
+      <div class="hero-left">
+        <div class="eyebrow">AFib Competitive Intelligence</div>
+        <h1>Atrial Fibrillation Treatment Landscape</h1>
+        <p>
+          A living dashboard that compares drugs, devices, trials, and readouts.
+          Updated from a watchlist so you can track weekly changes.
+        </p>
+        <div class="meta">
+          <div class="meta-card">
+            <div class="meta-label">As Of</div>
+            <div id="asOf" class="meta-value">—</div>
+          </div>
+          <div class="meta-card">
+            <div class="meta-label">Items</div>
+            <div id="itemCount" class="meta-value">—</div>
+          </div>
+          <div class="meta-card">
+            <div class="meta-label">Upcoming Readouts</div>
+            <div id="readoutCount" class="meta-value">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="pulse-panel">
+          <div class="pulse-title">Readout Radar</div>
+          <div id="readoutList" class="pulse-list"></div>
+          <div class="pulse-footer">Powered by your watchlist + trial tracker</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls">
+        <div class="search-wrap">
+          <input id="search" type="search" placeholder="Search drug, device, trial, company, mechanism" />
+        </div>
+        <div class="filters">
+          <div class="filter-group">
+            <span class="filter-label">Category</span>
+            <div id="categoryFilters" class="filter-chips"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">Stage</span>
+            <div id="stageFilters" class="filter-chips"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">Type</span>
+            <div id="typeFilters" class="filter-chips"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid" id="cardGrid"></section>
+    </main>
+
+    <footer class="footer">
+      <div>Data: curated + auto-updated from the watchlist.</div>
+      <div>Run <span class="mono">python3 scripts/update.py</span> weekly.</div>
+    </footer>
+
+    <template id="cardTemplate">
+      <article class="card">
+        <div class="card-head">
+          <div>
+            <div class="card-title"></div>
+            <div class="card-sub"></div>
+          </div>
+          <div class="pill"></div>
+        </div>
+        <div class="card-body">
+          <div class="card-row">
+            <span class="label">Mechanism</span>
+            <span class="value mechanism"></span>
+          </div>
+          <div class="card-row">
+            <span class="label">Focus</span>
+            <span class="value focus"></span>
+          </div>
+          <div class="card-row">
+            <span class="label">Latest Update</span>
+            <span class="value latest"></span>
+          </div>
+          <div class="card-row">
+            <span class="label">Trials</span>
+            <span class="value trials"></span>
+          </div>
+          <div class="tags"></div>
+        </div>
+        <div class="card-footer">
+          <div class="company"></div>
+          <button class="details">Details</button>
+        </div>
+        <div class="drawer">
+          <div class="drawer-content"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>

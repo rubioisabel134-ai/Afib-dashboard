@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-02-07",
+  "clinical_trials": [
+    {
+      "item_id": "milvexian",
+      "trial_name": "LIBREXIA AF",
+      "nct_id": "NCT05757869",
+      "note": "Milvexian vs apixaban in AF"
+    },
+    {
+      "item_id": "milvexian",
+      "trial_name": "LIBREXIA STROKE",
+      "nct_id": "NCT05702034",
+      "note": "Milvexian after ischemic stroke or high-risk TIA"
+    },
+    {
+      "item_id": "asundexian",
+      "trial_name": "OCEANIC-STROKE",
+      "nct_id": "NCT05686070",
+      "note": "Asundexian after non-cardioembolic stroke or high-risk TIA"
+    }
+  ],
+  "press_releases": [
+    {
+      "item_id": "milvexian",
+      "label": "BMS Librexia ACS update",
+      "url": "https://investors.bms.com/iframes/press-releases/press-release-details/2025/Update-on-Phase-3-Librexia-ACS-Trial/default.aspx"
+    },
+    {
+      "item_id": "asundexian",
+      "label": "Bayer OCEANIC-AF stop",
+      "url": "https://www.bayer.com/media/en-us/oceanic-af-study-stopped-early-due-to-lack-of-efficacy/"
+    },
+    {
+      "item_id": "asundexian",
+      "label": "Bayer OCEANIC-STROKE ISC 2026",
+      "url": "https://www.bayer.com/media/en-us/bayers-asundexian-demonstrated-a-substantial-26-percent-reduction-in-stroke-after-a-non-cardioembolic-ischemic-stroke-or-high-risk-transient-ischemic-attack-with-no-increase-in-isth-major-bleeding-versus-placebo/"
+    }
+  ]
+}

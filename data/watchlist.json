@@ -18,6 +18,132 @@
       "trial_name": "OCEANIC-STROKE",
       "nct_id": "NCT05686070",
       "note": "Asundexian after non-cardioembolic stroke or high-risk TIA"
+    },
+    {
+      "item_id": "ap31969",
+      "trial_name": "AP31969 Phase 2",
+      "nct_id": "NCT07267949",
+      "note": "SK ion channel inhibitor in AF"
+    },
+    {
+      "item_id": "sphere-360",
+      "trial_name": "Sphere-360 European study",
+      "nct_id": "NCT05115214",
+      "note": "Affera PFA system European study"
+    },
+    {
+      "item_id": "cellfx-nspfa-360",
+      "trial_name": "CellFX nsPFA 360 feasibility",
+      "nct_id": "NCT06696170",
+      "note": "Pulse Biosciences nsPFA cardiac catheter system"
+    },
+    {
+      "item_id": "cellfx-nspfa-surgery",
+      "trial_name": "NANOCLAMP AF",
+      "nct_id": "NCT06959121",
+      "note": "Pulse Biosciences nsPFA surgical clamp system"
+    },
+    {
+      "item_id": "iclas",
+      "trial_name": "iCLAS U.S. IDE",
+      "nct_id": "NCT04061603",
+      "note": "Adagio iCLAS ULTC cryoablation system in persistent AF"
+    },
+    {
+      "item_id": "episense",
+      "trial_name": "CONVERGE",
+      "nct_id": "NCT01984346",
+      "note": "Hybrid convergent AF ablation"
+    },
+    {
+      "item_id": "insightpfa-lotospfa",
+      "trial_name": "InsightPFA",
+      "nct_id": "NCT06014996",
+      "note": "Nanosecond PFA vs RFA randomized trial"
+    },
+    {
+      "item_id": "spherepvi",
+      "trial_name": "SpherePVI",
+      "nct_id": "NCT05144503",
+      "note": "SpherePVI safety and performance study"
+    },
+    {
+      "item_id": "thrv-1268",
+      "trial_name": "THRV-1268 Phase 1",
+      "nct_id": "NCT06507839",
+      "note": "Thryv Therapeutics SGK1 inhibitor Phase 1"
+    },
+    {
+      "item_id": "ap30663",
+      "trial_name": "AP30663 Phase 2",
+      "nct_id": "NCT04571385",
+      "note": "Acesion SK channel inhibitor cardioversion in AF"
+    },
+    {
+      "item_id": "hbi-3000",
+      "trial_name": "HBI-3000-402",
+      "nct_id": "NCT04680026",
+      "note": "Sulcardine derivative IV cardioversion study"
+    },
+    {
+      "item_id": "regn7508",
+      "trial_name": "ROXI-ATLAS",
+      "nct_id": "NCT07175428",
+      "note": "Regeneron FXI antibodies AF safety trial"
+    },
+    {
+      "item_id": "regn9933",
+      "trial_name": "ROXI-ATLAS",
+      "nct_id": "NCT07175428",
+      "note": "Regeneron FXI antibodies AF safety trial"
+    },
+    {
+      "item_id": "ciraparantag",
+      "trial_name": "Ciraparantag edoxaban reversal",
+      "nct_id": "NCT01826266",
+      "note": "Phase 2 healthy volunteer reversal study"
+    },
+    {
+      "item_id": "conformal-claas",
+      "trial_name": "CONFORM Pivotal",
+      "nct_id": "NCT05147792",
+      "note": "Conformal CLAAS pivotal IDE trial"
+    },
+    {
+      "item_id": "seala-laac",
+      "trial_name": "SeaLA study",
+      "nct_id": "NCT05911685",
+      "note": "SeaLA LAAC prospective multicenter study"
+    },
+    {
+      "item_id": "pkn605",
+      "trial_name": "CPKN605A12201",
+      "nct_id": "NCT07217067",
+      "note": "Novartis Phase 2 AF burden study"
+    },
+    {
+      "item_id": "sepiola-laac",
+      "trial_name": "Sepiola safety and performance study",
+      "nct_id": "NCT06099106",
+      "note": "Endomatic Sepiola LAA closure device study"
+    },
+    {
+      "item_id": "cala-neuromod",
+      "trial_name": "AFIB-01",
+      "nct_id": "NCT05653583",
+      "note": "Cala wearable neuromodulation feasibility study"
+    },
+    {
+      "item_id": "botox-poaf",
+      "trial_name": "NOVA",
+      "nct_id": "NCT03779841",
+      "note": "Botulinum toxin type A for POAF prevention"
+    },
+    {
+      "item_id": "maxwell-srt",
+      "trial_name": "SR-TheAF / SRT first-in-human",
+      "nct_id": "NCT05461612",
+      "note": "MaxWell SRT first-in-human study"
     }
   ],
   "press_releases": [

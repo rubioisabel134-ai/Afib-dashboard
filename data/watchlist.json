@@ -122,6 +122,12 @@
       "note": "Novartis Phase 2 AF burden study"
     },
     {
+      "item_id": "shr-2004",
+      "trial_name": "SHR-2004-102",
+      "nct_id": "NCT06280768",
+      "note": "Hengrui FXI antibody Phase 1b in AF"
+    },
+    {
       "item_id": "sepiola-laac",
       "trial_name": "Sepiola safety and performance study",
       "nct_id": "NCT06099106",

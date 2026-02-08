@@ -112,6 +112,34 @@
       ]
     },
     {
+      "id": "shr-2004",
+      "name": "SHR-2004",
+      "type": "Drug",
+      "category": "Stroke Prevention - FXI Inhibitors",
+      "stage": "Phase 1b",
+      "mechanism": "Humanized monoclonal antibody targeting Factor XI",
+      "focus": "Anticoagulation in AF with reduced bleeding risk",
+      "company": "Jiangsu Hengrui",
+      "latest_update": "Phase 1b AF study (SHR-2004-102) completed; EHJ 2025 abstract reported PK/PD and safety",
+      "tags": ["FXI", "mAb", "AF"],
+      "trials": [
+        {
+          "name": "SHR-2004-102",
+          "phase": "Phase 1b",
+          "status": "Completed (estimated)",
+          "readout": "EHJ 2025 abstract",
+          "readout_date": "2025-11-05",
+          "registry_id": "NCT06280768",
+          "note": "Multiple SC injections in AF"
+        }
+      ],
+      "notes": "Phase 1b AF study evaluated safety, tolerability, PK/PD; presented at ESC 2025 (EHJ supplement).",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT06280768",
+        "https://academic.oup.com/eurheartj/article/46/Supplement_1/ehaf784.4260/8310619"
+      ]
+    },
+    {
       "id": "regn7508",
       "name": "REGN7508",
       "type": "Drug",
@@ -240,6 +268,34 @@
       "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
     },
     {
+      "id": "bay-3670549",
+      "name": "BAY 3670549",
+      "type": "Drug",
+      "category": "Rhythm Control - Antiarrhythmic Drugs",
+      "stage": "Phase 1",
+      "mechanism": "Selective GIRK4 inhibitor",
+      "focus": "Rapid pharmacologic cardioversion in AF",
+      "company": "Bayer",
+      "latest_update": "Phase 1 first‑in‑human study initiated (May 2025)",
+      "tags": ["GIRK4", "cardioversion", "acute"],
+      "trials": [
+        {
+          "name": "BAY 3670549 Phase 1",
+          "phase": "Phase 1",
+          "status": "Initiated",
+          "readout": "TBD",
+          "readout_date": null,
+          "registry_id": null,
+          "note": "Healthy participants dose escalation"
+        }
+      ],
+      "notes": "Investigational GIRK4 inhibitor aimed at rapid cardioversion without anesthesia or electrical shock.",
+      "sources": [
+        "https://www.bayer.com/media/en-us/bayer-starts-phase-i-study-with-girk4-inhibitor-for-treatment-of-patients-with-atrial-fibrillation/",
+        "https://www.bayer.com/en/us/news-stories/rapid-cardioversion"
+      ]
+    },
+    {
       "id": "rivaroxaban",
       "name": "Rivaroxaban (Xarelto)",
       "type": "Drug",
@@ -340,6 +396,35 @@
       "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
     },
     {
+      "id": "tecarfarin",
+      "name": "Tecarfarin",
+      "type": "Drug",
+      "category": "Stroke Prevention - Anticoagulants",
+      "stage": "Late-stage (ESKD + AF planned trial)",
+      "mechanism": "Vitamin K antagonist (VKA)",
+      "focus": "Anticoagulation in ESKD + AF; stroke/systemic thromboembolism prevention",
+      "company": "Cadrenal Therapeutics",
+      "latest_update": "Clinical trial initiation plans announced for ESKD patients transitioning to dialysis; FDA Fast Track and ODD for ESKD+AF",
+      "tags": ["VKA", "ESKD", "AF"],
+      "trials": [
+        {
+          "name": "ESKD transitioning to dialysis trial",
+          "phase": "Late-stage",
+          "status": "Planned",
+          "readout": "TBD",
+          "readout_date": null,
+          "registry_id": null,
+          "note": "Includes patients with and without AF"
+        }
+      ],
+      "notes": "Cadrenal plans an ESKD trial (including AF) and holds FDA Fast Track and orphan designations for ESKD+AF.",
+      "sources": [
+        "https://www.businesswire.com/news/home/20250805824561/en/Cadrenal-Therapeutics-Announces-Clinical-Trial-Initiation-Plans-for-Tecarfarin-in-Patients-with-End-Stage-Kidney-Disease-ESKD-Transitioning-to-Dialysis",
+        "https://www.prnewswire.com/news-releases/cadrenal-therapeutics-nasdaq-cvkd-granted-fda-fast-track-designation-for-tecarfarin-for-prevention-of-systemic-thromboembolism-of-cardiac-origin-in-patients-with-end-stage-renal-disease-and-atrial-fibrillation-301727778.html",
+        "https://www.businesswire.com/news/home/20250811315782/en/Cadrenal-Therapeutics-Reports-Second-Quarter-2025-Financial-Results-and-Provides-Corporate-Update"
+      ]
+    },
+    {
       "id": "adx-626",
       "name": "ADX-626",
       "type": "Drug",
@@ -353,6 +438,54 @@
       "trials": [],
       "notes": "ADX-626 is an siRNA program targeting Factor XI with AF, stroke, and thrombotic diseases listed among intended indications.",
       "sources": ["https://www.adarx.com/pipeline/"]
+    },
+    {
+      "id": "procase-ab002",
+      "name": "proCase (AB002)",
+      "type": "Drug",
+      "category": "Stroke Prevention - Novel Antithrombotics",
+      "stage": "Phase 2",
+      "mechanism": "Thrombin analog (protein C pathway activator)",
+      "focus": "Acute cardiovascular thrombosis; potential anticoagulation applications",
+      "company": "Aronora (royalties held by XOMA)",
+      "latest_update": "Aronora lists AB002 as Phase 2 with FDA Fast Track designation",
+      "tags": ["thrombin analog", "protein C", "antithrombotic"],
+      "trials": [],
+      "notes": "Aronora pipeline lists AB002 (proCase) in Phase 2 with FDA Fast Track; XOMA reports royalty interest.",
+      "sources": [
+        "https://aronorabio.com/pipeline/",
+        "https://investors.xoma.com/news-events/press-releases/detail/350/xoma-acquires-royalty-rights-to-five-hematology-candidates"
+      ]
+    },
+    {
+      "id": "compound-006",
+      "name": "Compound-006",
+      "type": "Drug",
+      "category": "Stroke Prevention - Novel Antithrombotics",
+      "stage": "Preclinical",
+      "mechanism": "NMMHC IIA inhibitor",
+      "focus": "Arterial thrombosis (preclinical)",
+      "company": "Protheragen",
+      "latest_update": "Preclinical efficacy reported in arterial thrombosis models",
+      "tags": ["NMMHC IIA", "preclinical"],
+      "trials": [],
+      "notes": "Protheragen reports preclinical efficacy of NMMHC IIA inhibitors in thrombosis models.",
+      "sources": ["https://www.protheragen.com/available-projects/small-molecule-nmmhc-iia-inhibitors/"]
+    },
+    {
+      "id": "compound-011",
+      "name": "Compound-011",
+      "type": "Drug",
+      "category": "Stroke Prevention - Novel Antithrombotics",
+      "stage": "Preclinical",
+      "mechanism": "NMMHC IIA inhibitor",
+      "focus": "Venous thrombosis (preclinical)",
+      "company": "Protheragen",
+      "latest_update": "Preclinical efficacy reported in DVT models",
+      "tags": ["NMMHC IIA", "preclinical"],
+      "trials": [],
+      "notes": "Protheragen reports preclinical efficacy of NMMHC IIA inhibitors in thrombosis models.",
+      "sources": ["https://www.protheragen.com/available-projects/small-molecule-nmmhc-iia-inhibitors/"]
     },
     {
       "id": "pkn605",
@@ -721,6 +854,57 @@
       ]
     },
     {
+      "id": "lqt-1213",
+      "name": "LQT-1213 (Islasertib)",
+      "type": "Drug",
+      "category": "Rhythm Control - Antiarrhythmic Drugs",
+      "stage": "Preclinical",
+      "mechanism": "Oral small-molecule antiarrhythmic (mechanism not publicly detailed)",
+      "focus": "Long QT syndrome and arrhythmia risk; potential AF relevance under evaluation",
+      "company": "Thryv Therapeutics",
+      "latest_update": "Wave I proof‑of‑concept completed for LQT‑1213 (Islasertib)",
+      "tags": ["preclinical", "arrhythmia", "LQT"],
+      "trials": [],
+      "notes": "Thryv reports proof‑of‑concept for LQT‑1213 (Islasertib); AF indication not yet specified.",
+      "sources": [
+        "https://thryvtrx.com/news/wavei-proof-of-concept-lqt1213"
+      ]
+    },
+    {
+      "id": "at-6616",
+      "name": "AT6616",
+      "type": "Drug",
+      "category": "Disease Modification - AF Remodeling",
+      "stage": "Preclinical",
+      "mechanism": "Undisclosed",
+      "focus": "Atrial fibrillation",
+      "company": "Abelian Pharmaceutical (pipeline in HKEX listing draft)",
+      "latest_update": "Listed as preclinical AFib program in 2025 HKEX listing draft",
+      "tags": ["preclinical", "AF"],
+      "trials": [],
+      "notes": "Program listed as an undisclosed AFib asset in preclinical stage.",
+      "sources": [
+        "https://www1.hkexnews.hk/app/sehk/2025/107685/a125609/sehk25091501547.pdf"
+      ]
+    },
+    {
+      "id": "ctp-amio",
+      "name": "CTP‑Amio",
+      "type": "Drug",
+      "category": "Rhythm Control - Antiarrhythmic Drugs",
+      "stage": "Preclinical / grant-funded",
+      "mechanism": "Cardiac targeting peptide conjugated to amiodarone",
+      "focus": "AF treatment with reduced systemic toxicity",
+      "company": "Vivasc Therapeutics / University of Pittsburgh",
+      "latest_update": "NIH PHI STTR award reported for CTP‑Amio development (2022)",
+      "tags": ["amiodarone", "targeted delivery", "preclinical"],
+      "trials": [],
+      "notes": "CTP‑Amio aims to deliver amiodarone to cardiomyocytes to reduce systemic toxicity; reported in NIH STTR award news.",
+      "sources": [
+        "https://innovationpartnership.net/vivasc-therapeutics-awarded-nih-phi-sttr/"
+      ]
+    },
+    {
       "id": "ap30663",
       "name": "AP30663",
       "type": "Drug",
@@ -837,6 +1021,35 @@
       "trials": [],
       "notes": "First-line rate control agent.",
       "sources": []
+    },
+    {
+      "id": "rapiblyk-landiolol",
+      "name": "Rapiblyk (landiolol)",
+      "type": "Drug",
+      "category": "Rate Control - Acute AFib/AFlutter",
+      "stage": "FDA Approved (Nov 22, 2024)",
+      "mechanism": "Ultra-short-acting beta-1 selective blocker (IV)",
+      "focus": "Short-term ventricular rate control in AF and atrial flutter (critical care)",
+      "company": "AOP Health (U.S. commercial partner: Eagle Pharmaceuticals)",
+      "latest_update": "FDA approval Nov 22, 2024; U.S. commercial availability announced July 21, 2025",
+      "tags": ["beta blocker", "acute care", "IV"],
+      "trials": [
+        {
+          "name": "SVT randomized trials",
+          "phase": "Pivotal",
+          "status": "Completed",
+          "readout": "Supported FDA approval",
+          "readout_date": "2024-11-27",
+          "registry_id": null,
+          "note": "AF/AFlutter in critical care"
+        }
+      ],
+      "notes": "Indicated for short-term reduction of ventricular rate in SVT including AF and atrial flutter; not for chronic arrhythmia management.",
+      "sources": [
+        "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-rapiblyk",
+        "https://www.aop-health.com/us_en/press/press-releases/aop-health-announces-us-availability-of-rapiblyk/",
+        "https://www.aop-health.com/us_en/press/press-releases/us-fda-approves-rapiblyk/"
+      ]
     },
     {
       "id": "diltiazem",
@@ -2152,6 +2365,23 @@
       "notes": "FieldForce system is a focal, contact-sensing PFA catheter designed for rapid point-by-point ablation.",
       "sources": [
         "https://www.prnewswire.com/news-releases/field-medical-presents-late-breaking-field-pulse-trial-data-at-af-symposium-2026-302680633.html"
+      ]
+    },
+    {
+      "id": "easy-pulz",
+      "name": "Easy Pulz",
+      "type": "Device",
+      "category": "Catheter Ablation - PFA",
+      "stage": "Preclinical / early development",
+      "mechanism": "Pulsed field ablation system",
+      "focus": "AF ablation",
+      "company": "BTL",
+      "latest_update": "Company describes Easy Pulz as an emerging PFA program",
+      "tags": ["PFA", "early"],
+      "trials": [],
+      "notes": "BTL describes Easy Pulz as a PFA program aimed at AF treatment; clinical details not yet public.",
+      "sources": [
+        "https://www.btlnet.com/news/a-new-hope-for-atrial-fibrillation-patients"
       ]
     },
     {

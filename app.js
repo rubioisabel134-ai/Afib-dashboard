@@ -11,7 +11,8 @@ const state = {
 const asOfEl = document.getElementById("asOf");
 const itemCountEl = document.getElementById("itemCount");
 const readoutCountEl = document.getElementById("readoutCount");
-const readoutListEl = document.getElementById("readoutList");
+const deviceUpdateListEl = document.getElementById("deviceUpdateList");
+const drugUpdateListEl = document.getElementById("drugUpdateList");
 const cardGridEl = document.getElementById("cardGrid");
 const searchEl = document.getElementById("search");
 const categoryFiltersEl = document.getElementById("categoryFilters");
@@ -70,42 +71,40 @@ function buildChips(container, values, filterKey) {
   });
 }
 
-function getUpcomingReadouts(items) {
-  const readouts = [];
-  items.forEach((item) => {
-    item.trials.forEach((trial) => {
-      if (!trial.readout) return;
-      readouts.push({
-        item: item.name,
-        trial: trial.name,
-        readout: trial.readout,
-        readout_date: trial.readout_date,
-      });
-    });
+function has2026Update(item) {
+  if (item.latest_update && item.latest_update.includes("2026")) return true;
+  return item.trials.some((trial) => {
+    if (trial.readout && trial.readout.includes("2026")) return true;
+    return trial.readout_date ? new Date(trial.readout_date).getFullYear() === 2026 : false;
   });
-
-  readouts.sort((a, b) => {
-    const dateA = parseDate(a.readout_date);
-    const dateB = parseDate(b.readout_date);
-    if (dateA && dateB) return dateA - dateB;
-    if (dateA) return -1;
-    if (dateB) return 1;
-    return a.readout.localeCompare(b.readout);
-  });
-
-  return readouts.slice(0, 6);
 }
 
-function renderReadouts(items) {
-  const readouts = getUpcomingReadouts(items);
-  readoutListEl.innerHTML = "";
-  readouts.forEach((entry) => {
+function buildUpdateEntries(items) {
+  return items
+    .filter(has2026Update)
+    .map((item) => ({
+      name: item.name,
+      update: item.latest_update || "2026 update noted in trials",
+      type: item.type,
+    }))
+    .slice(0, 6);
+}
+
+function renderUpdateList(container, entries) {
+  container.innerHTML = "";
+  if (!entries.length) {
     const div = document.createElement("div");
     div.className = "pulse-item";
-    div.innerHTML = `<strong>${entry.item}</strong><br/>${entry.trial} — ${entry.readout}`;
-    readoutListEl.appendChild(div);
+    div.textContent = "No 2026 updates found.";
+    container.appendChild(div);
+    return;
+  }
+  entries.forEach((entry) => {
+    const div = document.createElement("div");
+    div.className = "pulse-item";
+    div.innerHTML = `<strong>${entry.name}</strong><br/>${entry.update}`;
+    container.appendChild(div);
   });
-  readoutCountEl.textContent = String(readouts.length);
 }
 
 function matchesFilters(item) {
@@ -202,7 +201,11 @@ async function init() {
 
   asOfEl.textContent = formatDate(data.as_of);
   buildFilters(data.items);
-  renderReadouts(data.items);
+  const deviceUpdates = buildUpdateEntries(data.items.filter((item) => item.type === "Device"));
+  const drugUpdates = buildUpdateEntries(data.items.filter((item) => item.type === "Drug"));
+  renderUpdateList(deviceUpdateListEl, deviceUpdates);
+  renderUpdateList(drugUpdateListEl, drugUpdates);
+  readoutCountEl.textContent = String(deviceUpdates.length + drugUpdates.length);
   renderCards();
 
   searchEl.addEventListener("input", (event) => {

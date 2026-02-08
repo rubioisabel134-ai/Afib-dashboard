@@ -39,6 +39,11 @@ body {
   padding: 56px 64px 32px;
 }
 
+.hero-right {
+  display: grid;
+  gap: 16px;
+}
+
 .hero-left h1 {
   font-family: "Sora", sans-serif;
   font-size: 40px;

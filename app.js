@@ -86,6 +86,7 @@ function buildUpdateEntries(items) {
       name: item.name,
       update: item.latest_update || "2026 update noted in trials",
       type: item.type,
+      press: Boolean(item.press_2026),
     }))
     .slice(0, 6);
 }
@@ -102,7 +103,9 @@ function renderUpdateList(container, entries) {
   entries.forEach((entry) => {
     const div = document.createElement("div");
     div.className = "pulse-item";
-    div.innerHTML = `<strong>${entry.name}</strong><br/>${entry.update}`;
+    div.innerHTML = `<strong>${entry.name}</strong><br/>${entry.update}${
+      entry.press ? '<div class="pulse-tag">Press Release</div>' : ""
+    }`;
     container.appendChild(div);
   });
 }

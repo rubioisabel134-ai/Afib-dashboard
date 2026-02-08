@@ -52,6 +52,7 @@
       "focus": "Secondary stroke prevention; AF program stopped",
       "company": "Bayer",
       "latest_update": "ClinicalTrials.gov update posted 2025-11-12",
+      "press_2026": true,
       "tags": [
         "FXI",
         "oral",
@@ -2691,6 +2692,7 @@
       "focus": "AF ablation",
       "company": "Abbott",
       "latest_update": "12-month Volt-AF IDE results presented at AF Symposium 2026 and published in JACC: Clinical Electrophysiology",
+      "press_2026": true,
       "tags": [
         "PFA",
         "ablation"
@@ -2721,7 +2723,8 @@
       "mechanism": "Single-shot PFA mapping and ablation catheter",
       "focus": "Paroxysmal AF ablation",
       "company": "Medtronic",
-      "latest_update": "ClinicalTrials.gov update posted 2025-08-05",
+      "latest_update": "CE Mark in Europe and first cases in Horizon 360 U.S. IDE pivotal trial (Jan 23, 2026)",
+      "press_2026": true,
       "tags": [
         "PFA",
         "Affera",
@@ -2763,6 +2766,7 @@
       "focus": "AF ablation; focal point-by-point",
       "company": "Field Medical",
       "latest_update": "Field PULSE first-in-human data presented as late-breaking clinical trial at AF Symposium 2026",
+      "press_2026": true,
       "tags": [
         "PFA",
         "focal",
@@ -2813,7 +2817,8 @@
       "mechanism": "Nanosecond pulsed field ablation (nsPFA)",
       "focus": "AF ablation; pulmonary vein isolation",
       "company": "Pulse Biosciences",
-      "latest_update": "ClinicalTrials.gov update posted 2026-01-12",
+      "latest_update": "Late-breaking AF Symposium 2026 data from first-in-human feasibility study",
+      "press_2026": true,
       "tags": [
         "nsPFA",
         "first-in-human",

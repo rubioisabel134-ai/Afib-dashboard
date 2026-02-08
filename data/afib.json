@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-02-07",
+  "as_of": "2026-02-08",
   "items": [
     {
       "id": "milvexian",
@@ -10,30 +10,37 @@
       "mechanism": "Oral Factor XIa inhibitor",
       "focus": "Stroke prevention in AF and secondary stroke prevention",
       "company": "BMS / Johnson & Johnson",
-      "latest_update": "Librexia AF and Librexia STROKE continue; topline data expected in 2026",
-      "tags": ["FXI", "oral", "SPAF", "secondary stroke"],
+      "latest_update": "ClinicalTrials.gov update posted 2026-01-16",
+      "tags": [
+        "FXI",
+        "oral",
+        "SPAF",
+        "secondary stroke"
+      ],
       "trials": [
         {
           "name": "LIBREXIA AF",
           "phase": "Phase 3",
-          "status": "Ongoing",
+          "status": "ACTIVE_NOT_RECRUITING",
           "readout": "Topline expected 2026",
-          "readout_date": null,
+          "readout_date": "2026-10-31",
           "registry_id": "NCT05757869",
           "note": "AF stroke prevention"
         },
         {
           "name": "LIBREXIA STROKE",
           "phase": "Phase 3",
-          "status": "Ongoing",
+          "status": "RECRUITING",
           "readout": "Topline expected 2026",
-          "readout_date": null,
+          "readout_date": "2026-11-11",
           "registry_id": "NCT05702034",
           "note": "Secondary stroke prevention"
         }
       ],
       "notes": "Librexia ACS was discontinued after interim analysis; AF and STROKE programs continue with 2026 readouts.",
-      "sources": ["https://news.bms.com/news/details/2025/Update-on-Phase-3-Librexia-ACS-Trial/default.aspx"]
+      "sources": [
+        "https://news.bms.com/news/details/2025/Update-on-Phase-3-Librexia-ACS-Trial/default.aspx"
+      ]
     },
     {
       "id": "asundexian",
@@ -44,8 +51,12 @@
       "mechanism": "Oral Factor XIa inhibitor",
       "focus": "Secondary stroke prevention; AF program stopped",
       "company": "Bayer",
-      "latest_update": "OCEANIC-AF stopped for lack of efficacy; OCEANIC-STROKE positive readout at ISC 2026",
-      "tags": ["FXI", "oral", "secondary stroke"],
+      "latest_update": "ClinicalTrials.gov update posted 2025-11-12",
+      "tags": [
+        "FXI",
+        "oral",
+        "secondary stroke"
+      ],
       "trials": [
         {
           "name": "OCEANIC-AF",
@@ -59,9 +70,9 @@
         {
           "name": "OCEANIC-STROKE",
           "phase": "Phase 3",
-          "status": "Readout",
+          "status": "COMPLETED",
           "readout": "ISC 2026 results (Feb 5, 2026)",
-          "readout_date": "2026-02-05",
+          "readout_date": "2025-10-23",
           "registry_id": "NCT05686070",
           "note": "Secondary stroke prevention"
         }
@@ -83,7 +94,11 @@
       "focus": "Stroke and systemic embolism prevention in AF",
       "company": "Novartis / Anthos Therapeutics",
       "latest_update": "Phase 3 development in AF; FDA Fast Track for AF stroke prevention",
-      "tags": ["FXI", "mAb", "monthly"],
+      "tags": [
+        "FXI",
+        "mAb",
+        "monthly"
+      ],
       "trials": [
         {
           "name": "AZALEA-TIMI 71",
@@ -120,15 +135,19 @@
       "mechanism": "Humanized monoclonal antibody targeting Factor XI",
       "focus": "Anticoagulation in AF with reduced bleeding risk",
       "company": "Jiangsu Hengrui",
-      "latest_update": "Phase 1b AF study (SHR-2004-102) completed; EHJ 2025 abstract reported PK/PD and safety",
-      "tags": ["FXI", "mAb", "AF"],
+      "latest_update": "ClinicalTrials.gov update posted 2024-02-28",
+      "tags": [
+        "FXI",
+        "mAb",
+        "AF"
+      ],
       "trials": [
         {
           "name": "SHR-2004-102",
           "phase": "Phase 1b",
-          "status": "Completed (estimated)",
+          "status": "NOT_YET_RECRUITING",
           "readout": "EHJ 2025 abstract",
-          "readout_date": "2025-11-05",
+          "readout_date": "2024-12-31",
           "registry_id": "NCT06280768",
           "note": "Multiple SC injections in AF"
         }
@@ -148,13 +167,18 @@
       "mechanism": "Monoclonal antibody targeting FXI catalytic domain",
       "focus": "Anticoagulation with reduced bleeding risk; AF stroke prevention program planned",
       "company": "Regeneron",
-      "latest_update": "ROXI-ATLAS Phase 2 AF safety trial initiated; Phase 3 AF program planned for 2026",
-      "tags": ["FXI", "mAb", "AF", "stroke prevention"],
+      "latest_update": "ClinicalTrials.gov update posted 2026-02-05",
+      "tags": [
+        "FXI",
+        "mAb",
+        "AF",
+        "stroke prevention"
+      ],
       "trials": [
         {
           "name": "ROXI-ATLAS",
           "phase": "Phase 2",
-          "status": "Ongoing",
+          "status": "RECRUITING",
           "readout": "Completion expected 2027",
           "readout_date": "2027-02-09",
           "registry_id": "NCT07175428",
@@ -167,10 +191,10 @@
           "readout": "Lancet 2025",
           "readout_date": "2025-11-08",
           "registry_id": "NCT06454630",
-          "note": "Post‑TKA VTE prevention"
+          "note": "Post\u2011TKA VTE prevention"
         }
       ],
-      "notes": "Factor XI catalytic‑domain antibody; Phase 2 VTE proof‑of‑concept published; AF safety trial ongoing and Phase 3 AF program planned.",
+      "notes": "Factor XI catalytic\u2011domain antibody; Phase 2 VTE proof\u2011of\u2011concept published; AF safety trial ongoing and Phase 3 AF program planned.",
       "sources": [
         "https://newsroom.regeneron.com/news-releases/news-release-details/regeneron-advance-two-factor-xi-antibodies-broad-phase-3-program",
         "https://fdaaa.trialstracker.net/trial/NCT07175428/",
@@ -187,13 +211,18 @@
       "mechanism": "Monoclonal antibody targeting FXI A2 domain",
       "focus": "Anticoagulation for patients with higher bleeding risk; AF safety program",
       "company": "Regeneron",
-      "latest_update": "ROXI-ATLAS Phase 2 AF safety trial ongoing; VTE Phase 2 published",
-      "tags": ["FXI", "mAb", "AF", "bleeding risk"],
+      "latest_update": "ClinicalTrials.gov update posted 2026-02-05",
+      "tags": [
+        "FXI",
+        "mAb",
+        "AF",
+        "bleeding risk"
+      ],
       "trials": [
         {
           "name": "ROXI-ATLAS",
           "phase": "Phase 2",
-          "status": "Ongoing",
+          "status": "RECRUITING",
           "readout": "Completion expected 2027",
           "readout_date": "2027-02-09",
           "registry_id": "NCT07175428",
@@ -206,10 +235,10 @@
           "readout": "Lancet 2025",
           "readout_date": "2025-11-08",
           "registry_id": "NCT05618808",
-          "note": "Post‑TKA VTE prevention"
+          "note": "Post\u2011TKA VTE prevention"
         }
       ],
-      "notes": "FXI A2‑domain antibody; Phase 2 VTE proof‑of‑concept published; AF safety trial ongoing alongside REGN7508.",
+      "notes": "FXI A2\u2011domain antibody; Phase 2 VTE proof\u2011of\u2011concept published; AF safety trial ongoing alongside REGN7508.",
       "sources": [
         "https://newsroom.regeneron.com/news-releases/news-release-details/regeneron-advance-two-factor-xi-antibodies-broad-phase-3-program",
         "https://fdaaa.trialstracker.net/trial/NCT07175428/",
@@ -227,7 +256,11 @@
       "focus": "Thromboembolic disorders including AF stroke prevention",
       "company": "Sirius Therapeutics / CRISPR Therapeutics",
       "latest_update": "EMA authorization to initiate Phase 2 in July 2025",
-      "tags": ["FXI", "siRNA", "long-acting"],
+      "tags": [
+        "FXI",
+        "siRNA",
+        "long-acting"
+      ],
       "trials": [
         {
           "name": "SRSD107 Phase 2",
@@ -240,7 +273,9 @@
         }
       ],
       "notes": "Next-generation FXI siRNA program with Phase 2 EU authorization; intended for thromboembolic disorders.",
-      "sources": ["https://www.siriusrna.com/html/companynews/81.html"]
+      "sources": [
+        "https://www.siriusrna.com/html/companynews/81.html"
+      ]
     },
     {
       "id": "apixaban",
@@ -252,7 +287,10 @@
       "focus": "Stroke prevention in AF",
       "company": "BMS / Pfizer",
       "latest_update": "DOACs preferred over warfarin in most AF patients",
-      "tags": ["DOAC", "Factor Xa"],
+      "tags": [
+        "DOAC",
+        "Factor Xa"
+      ],
       "trials": [
         {
           "name": "Guideline recommendation",
@@ -265,7 +303,9 @@
         }
       ],
       "notes": "Standard-of-care anticoagulant for non-valvular AF.",
-      "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
+      "sources": [
+        "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"
+      ]
     },
     {
       "id": "bay-3670549",
@@ -276,8 +316,12 @@
       "mechanism": "Selective GIRK4 inhibitor",
       "focus": "Rapid pharmacologic cardioversion in AF",
       "company": "Bayer",
-      "latest_update": "Phase 1 first‑in‑human study initiated (May 2025)",
-      "tags": ["GIRK4", "cardioversion", "acute"],
+      "latest_update": "Phase 1 first\u2011in\u2011human study initiated (May 2025)",
+      "tags": [
+        "GIRK4",
+        "cardioversion",
+        "acute"
+      ],
       "trials": [
         {
           "name": "BAY 3670549 Phase 1",
@@ -305,7 +349,10 @@
       "focus": "Stroke prevention in AF",
       "company": "Bayer / Janssen",
       "latest_update": "DOACs preferred over warfarin in most AF patients",
-      "tags": ["DOAC", "Factor Xa"],
+      "tags": [
+        "DOAC",
+        "Factor Xa"
+      ],
       "trials": [
         {
           "name": "Guideline recommendation",
@@ -318,7 +365,9 @@
         }
       ],
       "notes": "Standard-of-care anticoagulant for non-valvular AF.",
-      "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
+      "sources": [
+        "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"
+      ]
     },
     {
       "id": "dabigatran",
@@ -330,7 +379,10 @@
       "focus": "Stroke prevention in AF",
       "company": "Boehringer Ingelheim",
       "latest_update": "DOACs preferred over warfarin in most AF patients",
-      "tags": ["DOAC", "thrombin"],
+      "tags": [
+        "DOAC",
+        "thrombin"
+      ],
       "trials": [
         {
           "name": "Guideline recommendation",
@@ -343,7 +395,9 @@
         }
       ],
       "notes": "Standard-of-care anticoagulant for non-valvular AF.",
-      "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
+      "sources": [
+        "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"
+      ]
     },
     {
       "id": "edoxaban",
@@ -355,7 +409,10 @@
       "focus": "Stroke prevention in AF",
       "company": "Daiichi Sankyo",
       "latest_update": "DOACs preferred over warfarin in most AF patients",
-      "tags": ["DOAC", "Factor Xa"],
+      "tags": [
+        "DOAC",
+        "Factor Xa"
+      ],
       "trials": [
         {
           "name": "Guideline recommendation",
@@ -368,7 +425,9 @@
         }
       ],
       "notes": "Standard-of-care anticoagulant for non-valvular AF.",
-      "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
+      "sources": [
+        "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"
+      ]
     },
     {
       "id": "warfarin",
@@ -380,7 +439,9 @@
       "focus": "Stroke prevention in AF",
       "company": "Generic",
       "latest_update": "Preferred in AF with moderate-severe mitral stenosis or mechanical valves",
-      "tags": ["VKA"],
+      "tags": [
+        "VKA"
+      ],
       "trials": [
         {
           "name": "Guideline recommendation",
@@ -393,7 +454,9 @@
         }
       ],
       "notes": "Standard anticoagulant for valvular AF or mechanical valves.",
-      "sources": ["https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"]
+      "sources": [
+        "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"
+      ]
     },
     {
       "id": "tecarfarin",
@@ -405,7 +468,11 @@
       "focus": "Anticoagulation in ESKD + AF; stroke/systemic thromboembolism prevention",
       "company": "Cadrenal Therapeutics",
       "latest_update": "Clinical trial initiation plans announced for ESKD patients transitioning to dialysis; FDA Fast Track and ODD for ESKD+AF",
-      "tags": ["VKA", "ESKD", "AF"],
+      "tags": [
+        "VKA",
+        "ESKD",
+        "AF"
+      ],
       "trials": [
         {
           "name": "ESKD transitioning to dialysis trial",
@@ -434,10 +501,16 @@
       "focus": "Thrombotic diseases including AF stroke prevention",
       "company": "ADARx Pharmaceuticals",
       "latest_update": "Phase 1 ongoing; AF listed as target indication on pipeline",
-      "tags": ["FXI", "siRNA", "long-acting"],
+      "tags": [
+        "FXI",
+        "siRNA",
+        "long-acting"
+      ],
       "trials": [],
       "notes": "ADX-626 is an siRNA program targeting Factor XI with AF, stroke, and thrombotic diseases listed among intended indications.",
-      "sources": ["https://www.adarx.com/pipeline/"]
+      "sources": [
+        "https://www.adarx.com/pipeline/"
+      ]
     },
     {
       "id": "procase-ab002",
@@ -449,7 +522,11 @@
       "focus": "Acute cardiovascular thrombosis; potential anticoagulation applications",
       "company": "Aronora (royalties held by XOMA)",
       "latest_update": "Aronora lists AB002 as Phase 2 with FDA Fast Track designation",
-      "tags": ["thrombin analog", "protein C", "antithrombotic"],
+      "tags": [
+        "thrombin analog",
+        "protein C",
+        "antithrombotic"
+      ],
       "trials": [],
       "notes": "Aronora pipeline lists AB002 (proCase) in Phase 2 with FDA Fast Track; XOMA reports royalty interest.",
       "sources": [
@@ -467,10 +544,15 @@
       "focus": "Arterial thrombosis (preclinical)",
       "company": "Protheragen",
       "latest_update": "Preclinical efficacy reported in arterial thrombosis models",
-      "tags": ["NMMHC IIA", "preclinical"],
+      "tags": [
+        "NMMHC IIA",
+        "preclinical"
+      ],
       "trials": [],
       "notes": "Protheragen reports preclinical efficacy of NMMHC IIA inhibitors in thrombosis models.",
-      "sources": ["https://www.protheragen.com/available-projects/small-molecule-nmmhc-iia-inhibitors/"]
+      "sources": [
+        "https://www.protheragen.com/available-projects/small-molecule-nmmhc-iia-inhibitors/"
+      ]
     },
     {
       "id": "compound-011",
@@ -482,10 +564,15 @@
       "focus": "Venous thrombosis (preclinical)",
       "company": "Protheragen",
       "latest_update": "Preclinical efficacy reported in DVT models",
-      "tags": ["NMMHC IIA", "preclinical"],
+      "tags": [
+        "NMMHC IIA",
+        "preclinical"
+      ],
       "trials": [],
       "notes": "Protheragen reports preclinical efficacy of NMMHC IIA inhibitors in thrombosis models.",
-      "sources": ["https://www.protheragen.com/available-projects/small-molecule-nmmhc-iia-inhibitors/"]
+      "sources": [
+        "https://www.protheragen.com/available-projects/small-molecule-nmmhc-iia-inhibitors/"
+      ]
     },
     {
       "id": "pkn605",
@@ -496,15 +583,19 @@
       "mechanism": "Oral investigational therapy (mechanism not disclosed publicly)",
       "focus": "Reduction of AF burden; HDAC6 inhibitor licensed from Chong Kun Dang",
       "company": "Novartis (licensed from Chong Kun Dang)",
-      "latest_update": "Randomized, placebo-controlled Phase 2 study in AF (NCT07217067); likely same asset as CKD-510",
-      "tags": ["AF burden", "Phase 2", "HDAC6"],
+      "latest_update": "ClinicalTrials.gov update posted 2026-01-26",
+      "tags": [
+        "AF burden",
+        "Phase 2",
+        "HDAC6"
+      ],
       "trials": [
         {
           "name": "CPKN605A12201",
           "phase": "Phase 2",
-          "status": "Recruiting",
+          "status": "RECRUITING",
           "readout": "TBD",
-          "readout_date": null,
+          "readout_date": "2027-09-09",
           "registry_id": "NCT07217067",
           "note": "AF burden reduction"
         }
@@ -525,7 +616,11 @@
       "focus": "Stroke and heart attack prevention with reduced bleeding risk",
       "company": "Verseon",
       "latest_update": "Phase 1; preclinical efficacy published",
-      "tags": ["PROAC", "thrombin", "oral"],
+      "tags": [
+        "PROAC",
+        "thrombin",
+        "oral"
+      ],
       "trials": [],
       "notes": "Verseon PROAC candidate in Phase 1; preclinical thrombin inhibitor data published.",
       "sources": [
@@ -543,7 +638,11 @@
       "focus": "Stroke and heart attack prevention with reduced bleeding risk",
       "company": "Verseon",
       "latest_update": "Preclinical; second-generation PROAC candidate",
-      "tags": ["PROAC", "thrombin", "oral"],
+      "tags": [
+        "PROAC",
+        "thrombin",
+        "oral"
+      ],
       "trials": [],
       "notes": "Second-generation PROAC candidate listed as preclinical on Verseon pipeline.",
       "sources": [
@@ -561,7 +660,11 @@
       "focus": "Stroke prevention and thromboembolic disorders (apixaban reformulation)",
       "company": "TAHO Pharmaceuticals",
       "latest_update": "Pivotal bioequivalence study completed; NDA submitted Oct 2025",
-      "tags": ["apixaban", "ODF", "formulation"],
+      "tags": [
+        "apixaban",
+        "ODF",
+        "formulation"
+      ],
       "trials": [
         {
           "name": "Pivotal bioequivalence study",
@@ -589,10 +692,14 @@
       "mechanism": "Apixaban oral extended-release film",
       "focus": "Anticoagulation (apixaban reformulation)",
       "company": "TAHO Pharmaceuticals",
-      "latest_update": "Listed in company pipeline as apixaban oral extended‑release film",
-      "tags": ["apixaban", "ER", "formulation"],
+      "latest_update": "Listed in company pipeline as apixaban oral extended\u2011release film",
+      "tags": [
+        "apixaban",
+        "ER",
+        "formulation"
+      ],
       "trials": [],
-      "notes": "Pipeline reformulation of apixaban in extended‑release oral film format.",
+      "notes": "Pipeline reformulation of apixaban in extended\u2011release oral film format.",
       "sources": [
         "https://www.tahopharma.com/en/product/",
         "https://www.biodriven.taipei/en/GetDownloadFile.aspx/9b27598f-9c06-4fb3-8444-82ab6d8ba40a"
@@ -608,9 +715,13 @@
       "focus": "Antithrombotic therapy with reduced bleeding risk",
       "company": "KalVista Pharmaceuticals",
       "latest_update": "Preclinical FXIIa inhibitor described in KalVista scientific presentation",
-      "tags": ["FXII", "oral", "preclinical"],
+      "tags": [
+        "FXII",
+        "oral",
+        "preclinical"
+      ],
       "trials": [],
-      "notes": "Preclinical small‑molecule FXIIa inhibitor; development status beyond early research not publicly detailed.",
+      "notes": "Preclinical small\u2011molecule FXIIa inhibitor; development status beyond early research not publicly detailed.",
       "sources": [
         "https://www.kalvista.com/sites/default/files/Kinin2022_NIM_Zymogen_06-01_PRINT.pdf"
       ]
@@ -625,7 +736,10 @@
       "focus": "Antithrombotic therapy with reduced bleeding risk",
       "company": "Academic (University of Michigan / UBC)",
       "latest_update": "Preclinical reports show antithrombotic activity with reduced bleeding risk",
-      "tags": ["polyphosphate", "preclinical"],
+      "tags": [
+        "polyphosphate",
+        "preclinical"
+      ],
       "trials": [],
       "notes": "Academic preclinical candidate; not yet in clinical trials.",
       "sources": [
@@ -643,7 +757,10 @@
       "focus": "Rhythm control in AF",
       "company": "Generic",
       "latest_update": "Standard antiarrhythmic option for rhythm control",
-      "tags": ["AAD", "Class III"],
+      "tags": [
+        "AAD",
+        "Class III"
+      ],
       "trials": [],
       "notes": "Widely used rhythm control drug; requires monitoring for toxicities.",
       "sources": []
@@ -658,7 +775,10 @@
       "focus": "Rhythm control in AF",
       "company": "Sanofi",
       "latest_update": "Standard antiarrhythmic option for rhythm control",
-      "tags": ["AAD", "Class III"],
+      "tags": [
+        "AAD",
+        "Class III"
+      ],
       "trials": [],
       "notes": "Rhythm control option for selected patients.",
       "sources": []
@@ -672,15 +792,19 @@
       "mechanism": "Oral SK ion channel inhibitor",
       "focus": "Rhythm control in AF; reduction in AF burden",
       "company": "Acesion Pharma",
-      "latest_update": "Phase 2 trial enrolling; completion expected Q1 2027",
-      "tags": ["SK channel", "AAD", "first-in-class"],
+      "latest_update": "ClinicalTrials.gov update posted 2025-12-05",
+      "tags": [
+        "SK channel",
+        "AAD",
+        "first-in-class"
+      ],
       "trials": [
         {
           "name": "AP31969 Phase 2",
           "phase": "Phase 2",
-          "status": "Enrolling",
+          "status": "RECRUITING",
           "readout": "Completion expected Q1 2027",
-          "readout_date": null,
+          "readout_date": "2026-11",
           "registry_id": "NCT07267949",
           "note": "AF burden endpoint"
         }
@@ -701,7 +825,10 @@
       "focus": "Rhythm control in AF",
       "company": "Generic",
       "latest_update": "Standard antiarrhythmic option for rhythm control",
-      "tags": ["AAD", "Class III"],
+      "tags": [
+        "AAD",
+        "Class III"
+      ],
       "trials": [],
       "notes": "Initiation requires monitoring due to QT prolongation risk.",
       "sources": []
@@ -716,7 +843,11 @@
       "focus": "Rhythm control in AF",
       "company": "Generic",
       "latest_update": "Standard antiarrhythmic option for rhythm control",
-      "tags": ["AAD", "Class III", "beta blocker"],
+      "tags": [
+        "AAD",
+        "Class III",
+        "beta blocker"
+      ],
       "trials": [],
       "notes": "Requires monitoring for QT prolongation and renal dosing.",
       "sources": []
@@ -731,7 +862,10 @@
       "focus": "Rhythm control in AF",
       "company": "Generic",
       "latest_update": "Standard antiarrhythmic option for rhythm control",
-      "tags": ["AAD", "Class Ic"],
+      "tags": [
+        "AAD",
+        "Class Ic"
+      ],
       "trials": [],
       "notes": "Used in structurally normal hearts; avoid in structural heart disease.",
       "sources": []
@@ -746,7 +880,10 @@
       "focus": "Rhythm control in AF",
       "company": "Generic",
       "latest_update": "Standard antiarrhythmic option for rhythm control",
-      "tags": ["AAD", "Class Ic"],
+      "tags": [
+        "AAD",
+        "Class Ic"
+      ],
       "trials": [],
       "notes": "Used in selected patients; avoid in structural heart disease.",
       "sources": []
@@ -761,7 +898,11 @@
       "focus": "Acute treatment of AFib with rapid ventricular rate (AFib-RVR)",
       "company": "Milestone Pharmaceuticals",
       "latest_update": "Company states Phase 3 development for AFib-RVR in adults",
-      "tags": ["intranasal", "AFib-RVR", "acute care"],
+      "tags": [
+        "intranasal",
+        "AFib-RVR",
+        "acute care"
+      ],
       "trials": [
         {
           "name": "ReVeRA",
@@ -798,7 +939,11 @@
       "focus": "Rapid cardioversion of recent-onset paroxysmal AF",
       "company": "InCarda Therapeutics",
       "latest_update": "Phase 2 INSTANT results; optimal dose identified; company plans Phase 3",
-      "tags": ["flecainide", "inhaled", "pill-in-the-pocket"],
+      "tags": [
+        "flecainide",
+        "inhaled",
+        "pill-in-the-pocket"
+      ],
       "trials": [
         {
           "name": "INSTANT",
@@ -825,15 +970,19 @@
       "mechanism": "SGK1 inhibitor",
       "focus": "AF remodeling and cardiometabolic disease",
       "company": "Thryv Therapeutics",
-      "latest_update": "Phase 1 completed; FDA IND clearance to initiate AF and HF clinical programs; Phase 2 proof-of-efficacy planned in 2026",
-      "tags": ["SGK1", "remodeling", "preclinical AF"],
+      "latest_update": "ClinicalTrials.gov update posted 2025-05-13",
+      "tags": [
+        "SGK1",
+        "remodeling",
+        "preclinical AF"
+      ],
       "trials": [
         {
           "name": "THRV-1268 Phase 1",
           "phase": "Phase 1",
-          "status": "Completed",
+          "status": "COMPLETED",
           "readout": "Phase 1 completed; IND clearance for AF program",
-          "readout_date": "2025-09-08",
+          "readout_date": "2024-11-01",
           "registry_id": "NCT06507839",
           "note": "Healthy volunteers"
         },
@@ -862,10 +1011,14 @@
       "mechanism": "Oral small-molecule antiarrhythmic (mechanism not publicly detailed)",
       "focus": "Long QT syndrome and arrhythmia risk; potential AF relevance under evaluation",
       "company": "Thryv Therapeutics",
-      "latest_update": "Wave I proof‑of‑concept completed for LQT‑1213 (Islasertib)",
-      "tags": ["preclinical", "arrhythmia", "LQT"],
+      "latest_update": "Wave I proof\u2011of\u2011concept completed for LQT\u20111213 (Islasertib)",
+      "tags": [
+        "preclinical",
+        "arrhythmia",
+        "LQT"
+      ],
       "trials": [],
-      "notes": "Thryv reports proof‑of‑concept for LQT‑1213 (Islasertib); AF indication not yet specified.",
+      "notes": "Thryv reports proof\u2011of\u2011concept for LQT\u20111213 (Islasertib); AF indication not yet specified.",
       "sources": [
         "https://thryvtrx.com/news/wavei-proof-of-concept-lqt1213"
       ]
@@ -880,7 +1033,10 @@
       "focus": "Atrial fibrillation",
       "company": "Abelian Pharmaceutical (pipeline in HKEX listing draft)",
       "latest_update": "Listed as preclinical AFib program in 2025 HKEX listing draft",
-      "tags": ["preclinical", "AF"],
+      "tags": [
+        "preclinical",
+        "AF"
+      ],
       "trials": [],
       "notes": "Program listed as an undisclosed AFib asset in preclinical stage.",
       "sources": [
@@ -889,17 +1045,21 @@
     },
     {
       "id": "ctp-amio",
-      "name": "CTP‑Amio",
+      "name": "CTP\u2011Amio",
       "type": "Drug",
       "category": "Rhythm Control - Antiarrhythmic Drugs",
       "stage": "Preclinical / grant-funded",
       "mechanism": "Cardiac targeting peptide conjugated to amiodarone",
       "focus": "AF treatment with reduced systemic toxicity",
       "company": "Vivasc Therapeutics / University of Pittsburgh",
-      "latest_update": "NIH PHI STTR award reported for CTP‑Amio development (2022)",
-      "tags": ["amiodarone", "targeted delivery", "preclinical"],
+      "latest_update": "NIH PHI STTR award reported for CTP\u2011Amio development (2022)",
+      "tags": [
+        "amiodarone",
+        "targeted delivery",
+        "preclinical"
+      ],
       "trials": [],
-      "notes": "CTP‑Amio aims to deliver amiodarone to cardiomyocytes to reduce systemic toxicity; reported in NIH STTR award news.",
+      "notes": "CTP\u2011Amio aims to deliver amiodarone to cardiomyocytes to reduce systemic toxicity; reported in NIH STTR award news.",
       "sources": [
         "https://innovationpartnership.net/vivasc-therapeutics-awarded-nih-phi-sttr/"
       ]
@@ -913,17 +1073,21 @@
       "mechanism": "Intravenous SK (KCa2) ion channel inhibitor",
       "focus": "Pharmacologic cardioversion of recent-onset AF",
       "company": "Acesion Pharma",
-      "latest_update": "Phase 2 randomized trial published in Nature Medicine; demonstrated cardioversion efficacy vs placebo",
-      "tags": ["SK channel", "IV", "cardioversion"],
+      "latest_update": "ClinicalTrials.gov update posted 2024-05-06",
+      "tags": [
+        "SK channel",
+        "IV",
+        "cardioversion"
+      ],
       "trials": [
         {
           "name": "AP30663 Phase 2",
           "phase": "Phase 2",
-          "status": "Published",
+          "status": "COMPLETED",
           "readout": "Nature Medicine 2023",
-          "readout_date": "2023-12-13",
+          "readout_date": "2022-12-13",
           "registry_id": "NCT04571385",
-          "note": "Recent-onset AF (≤7 days)"
+          "note": "Recent-onset AF (\u22647 days)"
         }
       ],
       "notes": "Randomized Phase 2 showed superior cardioversion vs placebo; transient QTc prolongation reported.",
@@ -939,20 +1103,24 @@
       "type": "Drug",
       "category": "Rhythm Control - Antiarrhythmic Drugs",
       "stage": "Phase 2",
-      "mechanism": "Intravenous multi‑ion channel blocker (sulcardine derivative)",
-      "focus": "Pharmacologic cardioversion of recent‑onset AF",
+      "mechanism": "Intravenous multi\u2011ion channel blocker (sulcardine derivative)",
+      "focus": "Pharmacologic cardioversion of recent\u2011onset AF",
       "company": "HUYABIO International",
-      "latest_update": "Phase 2 HBI‑3000‑402 dose‑escalation study ongoing; Phase 1 data reported",
-      "tags": ["IV", "cardioversion", "multi-ion channel"],
+      "latest_update": "ClinicalTrials.gov update posted 2025-12-02",
+      "tags": [
+        "IV",
+        "cardioversion",
+        "multi-ion channel"
+      ],
       "trials": [
         {
           "name": "HBI-3000-402",
           "phase": "Phase 2",
-          "status": "Active, not recruiting",
+          "status": "ACTIVE_NOT_RECRUITING",
           "readout": "Initial findings reported 2024-2025",
-          "readout_date": "2024-11-16",
+          "readout_date": "2025-12-31",
           "registry_id": "NCT04680026",
-          "note": "Recent-onset AF (2–72 hours)"
+          "note": "Recent-onset AF (2\u201372 hours)"
         }
       ],
       "notes": "IV sulcardine derivative aimed at safer cardioversion; Phase 2 trial for acute AF conversion.",
@@ -969,14 +1137,19 @@
       "type": "Drug",
       "category": "Rhythm Control - Antiarrhythmic Drugs",
       "stage": "Preclinical / early clinical",
-      "mechanism": "Oral second‑generation sulcardine (multi‑ion channel blocker)",
+      "mechanism": "Oral second\u2011generation sulcardine (multi\u2011ion channel blocker)",
       "focus": "Chronic rhythm control in AF (oral formulation)",
       "company": "HUYABIO International",
-      "latest_update": "Company describes HBI‑3020 as a second‑generation oral form of HBI‑3000",
-      "tags": ["oral", "multi-ion channel"],
+      "latest_update": "Company describes HBI\u20113020 as a second\u2011generation oral form of HBI\u20113000",
+      "tags": [
+        "oral",
+        "multi-ion channel"
+      ],
       "trials": [],
-      "notes": "Oral follow‑on to HBI‑3000; positioned for chronic AF control.",
-      "sources": ["https://huyabio.com/huyabio-validates-protective-mechanism-for-antiarrhythmic-drug-hbi-3000-in-af-patients-paving-the-way-for-a-new-era-in-atrial-fibrillation-treatment/"]
+      "notes": "Oral follow\u2011on to HBI\u20113000; positioned for chronic AF control.",
+      "sources": [
+        "https://huyabio.com/huyabio-validates-protective-mechanism-for-antiarrhythmic-drug-hbi-3000-in-af-patients-paving-the-way-for-a-new-era-in-atrial-fibrillation-treatment/"
+      ]
     },
     {
       "id": "budiodarone",
@@ -988,7 +1161,11 @@
       "focus": "AF burden reduction in paroxysmal AF",
       "company": "Xyra / Lee's Pharmaceutical (prior: Armetheon)",
       "latest_update": "Phase 2 randomized trial demonstrated AF burden reduction; ongoing IP activity and development plans",
-      "tags": ["oral", "AF burden", "AAD"],
+      "tags": [
+        "oral",
+        "AF burden",
+        "AAD"
+      ],
       "trials": [
         {
           "name": "Budiodarone randomized Phase 2",
@@ -1000,7 +1177,7 @@
           "note": "Paroxysmal AF; pacemaker-monitored AT/AF burden"
         }
       ],
-      "notes": "Phase 2 randomized study showed dose‑dependent reduction in AF burden; newer sponsors cite ongoing development.",
+      "notes": "Phase 2 randomized study showed dose\u2011dependent reduction in AF burden; newer sponsors cite ongoing development.",
       "sources": [
         "https://pubmed.ncbi.nlm.nih.gov/22205496/",
         "https://www.prnewswire.com/news-releases/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040-302436581.html",
@@ -1017,7 +1194,9 @@
       "focus": "Rate control in AF",
       "company": "Generic",
       "latest_update": "Standard rate control therapy",
-      "tags": ["beta blocker"],
+      "tags": [
+        "beta blocker"
+      ],
       "trials": [],
       "notes": "First-line rate control agent.",
       "sources": []
@@ -1032,7 +1211,11 @@
       "focus": "Short-term ventricular rate control in AF and atrial flutter (critical care)",
       "company": "AOP Health (U.S. commercial partner: Eagle Pharmaceuticals)",
       "latest_update": "FDA approval Nov 22, 2024; U.S. commercial availability announced July 21, 2025",
-      "tags": ["beta blocker", "acute care", "IV"],
+      "tags": [
+        "beta blocker",
+        "acute care",
+        "IV"
+      ],
       "trials": [
         {
           "name": "SVT randomized trials",
@@ -1061,7 +1244,9 @@
       "focus": "Rate control in AF",
       "company": "Generic",
       "latest_update": "Standard rate control therapy",
-      "tags": ["CCB"],
+      "tags": [
+        "CCB"
+      ],
       "trials": [],
       "notes": "Common option for rate control.",
       "sources": []
@@ -1076,7 +1261,9 @@
       "focus": "Rate control in AF",
       "company": "Generic",
       "latest_update": "Standard rate control therapy",
-      "tags": ["CCB"],
+      "tags": [
+        "CCB"
+      ],
       "trials": [],
       "notes": "Common option for rate control.",
       "sources": []
@@ -1091,7 +1278,9 @@
       "focus": "Rate control in AF",
       "company": "Generic",
       "latest_update": "Adjunctive rate control therapy",
-      "tags": ["glycoside"],
+      "tags": [
+        "glycoside"
+      ],
       "trials": [],
       "notes": "Often used when additional rate control is needed.",
       "sources": []
@@ -1106,10 +1295,15 @@
       "focus": "Emergency reversal of dabigatran anticoagulation",
       "company": "Boehringer Ingelheim",
       "latest_update": "FDA-approved specific reversal agent for dabigatran",
-      "tags": ["reversal", "dabigatran"],
+      "tags": [
+        "reversal",
+        "dabigatran"
+      ],
       "trials": [],
       "notes": "Indicated for dabigatran reversal in emergencies or urgent procedures.",
-      "sources": ["https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761025s010lbl.pdf"]
+      "sources": [
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761025s010lbl.pdf"
+      ]
     },
     {
       "id": "andexxa",
@@ -1121,10 +1315,15 @@
       "focus": "Reversal of apixaban and rivaroxaban anticoagulation",
       "company": "AstraZeneca (Portola)",
       "latest_update": "U.S. sales stopped Dec 22, 2025 after FDA safety communication",
-      "tags": ["reversal", "FXa inhibitors"],
+      "tags": [
+        "reversal",
+        "FXa inhibitors"
+      ],
       "trials": [],
       "notes": "FDA issued safety communication on risk of thrombosis and mortality in 2025; manufacturer halted U.S. sales.",
-      "sources": ["https://www.fda.gov/drugs/drug-safety-and-availability/fda-announces-safety-concerns-with-andoexxa-andexanet-alfa-treatment-reversal-anticoagulation"]
+      "sources": [
+        "https://www.fda.gov/drugs/drug-safety-and-availability/fda-announces-safety-concerns-with-andoexxa-andexanet-alfa-treatment-reversal-anticoagulation"
+      ]
     },
     {
       "id": "ciraparantag",
@@ -1135,21 +1334,27 @@
       "mechanism": "Small-molecule anticoagulant reversal agent",
       "focus": "Reversal of DOACs and heparins",
       "company": "Perosphere (developer)",
-      "latest_update": "Phase 2 healthy volunteer studies published; development ongoing",
-      "tags": ["reversal", "DOACs", "broad-spectrum"],
+      "latest_update": "ClinicalTrials.gov update posted 2020-05-28",
+      "tags": [
+        "reversal",
+        "DOACs",
+        "broad-spectrum"
+      ],
       "trials": [
         {
           "name": "Ciraparantag edoxaban reversal",
           "phase": "Phase 2",
-          "status": "Published",
+          "status": "COMPLETED",
           "readout": "Reversal of anticoagulation in healthy volunteers",
-          "readout_date": "2019-06-01",
+          "readout_date": "2013-12",
           "registry_id": "NCT01826266",
           "note": "Healthy volunteers"
         }
       ],
       "notes": "Universal reversal agent candidate evaluated in Phase 2 studies with edoxaban and enoxaparin in healthy volunteers.",
-      "sources": ["https://pubmed.ncbi.nlm.nih.gov/31122798/"]
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31122798/"
+      ]
     },
     {
       "id": "bms-986341",
@@ -1161,7 +1366,11 @@
       "focus": "Reversal of milvexian anticoagulant activity",
       "company": "BMS / Johnson & Johnson",
       "latest_update": "Phase 1 trials in healthy participants reported; reversal of milvexian anticoagulant effect",
-      "tags": ["reversal", "milvexian", "FXI"],
+      "tags": [
+        "reversal",
+        "milvexian",
+        "FXI"
+      ],
       "trials": [
         {
           "name": "BMS-986341 Phase 1",
@@ -1189,7 +1398,10 @@
       "focus": "Hemostasis in bleeding disorders and surgery",
       "company": "Lee's Pharmaceutical",
       "latest_update": "Marketed hemostatic agent in China; limited AF-specific data",
-      "tags": ["hemostatic", "batroxobin"],
+      "tags": [
+        "hemostatic",
+        "batroxobin"
+      ],
       "trials": [],
       "notes": "Hemostatic agent not specific to AF anticoagulant reversal; included for watchlist context.",
       "sources": [
@@ -1206,8 +1418,11 @@
       "mechanism": "Small-molecule Factor Xa inhibitor reversal",
       "focus": "Reversal of FXa inhibitors in bleeding",
       "company": "VarmX",
-      "latest_update": "EquilibriX‑S Phase 3 study announced in 2025",
-      "tags": ["reversal", "FXa inhibitors"],
+      "latest_update": "EquilibriX\u2011S Phase 3 study announced in 2025",
+      "tags": [
+        "reversal",
+        "FXa inhibitors"
+      ],
       "trials": [
         {
           "name": "EquilibriX-S",
@@ -1220,7 +1435,9 @@
         }
       ],
       "notes": "Investigational reversal agent targeting FXa inhibitors; Phase 3 trial announced.",
-      "sources": ["https://varmx.com/press/vmx-announces-phase-3-trial-for-vmx-c001/"]
+      "sources": [
+        "https://varmx.com/press/vmx-announces-phase-3-trial-for-vmx-c001/"
+      ]
     },
     {
       "id": "okl-1111",
@@ -1232,10 +1449,15 @@
       "focus": "Reversal of direct thrombin and FXa inhibitors",
       "company": "Alveron",
       "latest_update": "Company stated Phase 1 was successful but subsequent data did not support progression",
-      "tags": ["reversal", "program status"],
+      "tags": [
+        "reversal",
+        "program status"
+      ],
       "trials": [],
       "notes": "Alveron reported Phase 1 success but later data did not support continued development.",
-      "sources": ["https://alveron.com/news/alveron-initiates-kgk-strategic-partnership-on-lex-033/"]
+      "sources": [
+        "https://alveron.com/news/alveron-initiates-kgk-strategic-partnership-on-lex-033/"
+      ]
     },
     {
       "id": "prothromplex-total",
@@ -1247,10 +1469,15 @@
       "focus": "Reversal of vitamin K antagonist anticoagulation",
       "company": "Takeda (Shire)",
       "latest_update": "Approved PCC for VKA reversal; SmPC maintained in UK",
-      "tags": ["PCC", "VKA reversal"],
+      "tags": [
+        "PCC",
+        "VKA reversal"
+      ],
       "trials": [],
       "notes": "Four-factor PCC indicated for rapid reversal of warfarin/VKA effects in major bleeding or urgent surgery.",
-      "sources": ["https://products.mhra.gov.uk/product/?product=PL40154/0022"]
+      "sources": [
+        "https://products.mhra.gov.uk/product/?product=PL40154/0022"
+      ]
     },
     {
       "id": "watchman-flx",
@@ -1262,7 +1489,10 @@
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
       "latest_update": "FDA approval for next-generation WATCHMAN FLX in 2020",
-      "tags": ["LAAO", "implant"],
+      "tags": [
+        "LAAO",
+        "implant"
+      ],
       "trials": [
         {
           "name": "PINNACLE FLX",
@@ -1275,7 +1505,9 @@
         }
       ],
       "notes": "Indicated to reduce stroke risk in NVAF patients who need an alternative to oral anticoagulation.",
-      "sources": ["https://www.acc.org/Latest-in-Cardiology/Articles/2020/07/23/14/14/Next-Generation-WATCHMAN-FLX-LAAC-Device-Gains-FDA-Approval"]
+      "sources": [
+        "https://www.acc.org/Latest-in-Cardiology/Articles/2020/07/23/14/14/Next-Generation-WATCHMAN-FLX-LAAC-Device-Gains-FDA-Approval"
+      ]
     },
     {
       "id": "amulet",
@@ -1287,7 +1519,10 @@
       "focus": "Stroke prevention in AF",
       "company": "Abbott",
       "latest_update": "FDA approval in 2021",
-      "tags": ["LAAO", "implant"],
+      "tags": [
+        "LAAO",
+        "implant"
+      ],
       "trials": [
         {
           "name": "Amulet IDE",
@@ -1300,7 +1535,9 @@
         }
       ],
       "notes": "FDA-approved LAA occluder for AF patients at risk of stroke.",
-      "sources": ["https://abbott.mediaroom.com/2021-08-16-Abbotts-Amplatzer-TM-Amulet-TM-Device-Approved-by-FDA-to-Treat-People-With-Atrial-Fibrillation-at-Risk-of-Stroke"]
+      "sources": [
+        "https://abbott.mediaroom.com/2021-08-16-Abbotts-Amplatzer-TM-Amulet-TM-Device-Approved-by-FDA-to-Treat-People-With-Atrial-Fibrillation-at-Risk-of-Stroke"
+      ]
     },
     {
       "id": "watchman-flx-pro",
@@ -1312,7 +1549,10 @@
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
       "latest_update": "FDA approval announced Feb 2024",
-      "tags": ["LAAO", "implant"],
+      "tags": [
+        "LAAO",
+        "implant"
+      ],
       "trials": [
         {
           "name": "PINNACLE FLX",
@@ -1337,10 +1577,14 @@
       "category": "LAA Occlusion Devices",
       "stage": "First-in-human study initiated",
       "mechanism": "Implant-free transcatheter LAA elimination (vacuum-based)",
-      "focus": "Stroke prevention in non‑valvular AF",
+      "focus": "Stroke prevention in non\u2011valvular AF",
       "company": "Append Medical",
       "latest_update": "Append Medical reported FIH study kickoff and earlier funding to support the Appligator FIH study",
-      "tags": ["LAAO", "implant-free", "FIH"],
+      "tags": [
+        "LAAO",
+        "implant-free",
+        "FIH"
+      ],
       "trials": [
         {
           "name": "Appligator First-in-Human",
@@ -1365,23 +1609,28 @@
       "category": "LAA Occlusion Devices",
       "stage": "Clinical study (safety and performance)",
       "mechanism": "LAA closure device",
-      "focus": "Stroke prevention in non‑valvular AF",
+      "focus": "Stroke prevention in non\u2011valvular AF",
       "company": "Endomatic",
-      "latest_update": "Clinical study listed on CenterWatch (NCT06099106)",
-      "tags": ["LAAO", "clinical study"],
+      "latest_update": "ClinicalTrials.gov update posted 2025-08-17",
+      "tags": [
+        "LAAO",
+        "clinical study"
+      ],
       "trials": [
         {
           "name": "Sepiola safety and performance study",
           "phase": "Clinical study",
-          "status": "Listed",
+          "status": "RECRUITING",
           "readout": "TBD",
-          "readout_date": null,
+          "readout_date": "2026-06",
           "registry_id": "NCT06099106",
           "note": "Safety and performance in LAA closure"
         }
       ],
       "notes": "CenterWatch lists a safety/performance clinical study for the Sepiola LAA closure device.",
-      "sources": ["https://www.centerwatch.com/clinical-trials/listings/NCT06099106/safety-and-performance-of-endomatic-sepiola-left-atrial-appendage-laa-closure-device"]
+      "sources": [
+        "https://www.centerwatch.com/clinical-trials/listings/NCT06099106/safety-and-performance-of-endomatic-sepiola-left-atrial-appendage-laa-closure-device"
+      ]
     },
     {
       "id": "wavecrest",
@@ -1393,7 +1642,10 @@
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Coherex Medical (Biosense Webster)",
       "latest_update": "WaveCrest IDE study continues in U.S.",
-      "tags": ["LAAO", "IDE"],
+      "tags": [
+        "LAAO",
+        "IDE"
+      ],
       "trials": [
         {
           "name": "WaveCrest IDE",
@@ -1406,7 +1658,9 @@
         }
       ],
       "notes": "Investigational device in U.S. IDE; designed for full LAA sealing with proximal occlusion.",
-      "sources": ["https://clinicaltrials.gov/study/NCT02813111"]
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT02813111"
+      ]
     },
     {
       "id": "conformal-claas",
@@ -1417,15 +1671,18 @@
       "mechanism": "Conformable foam-based LAA occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Conformal Medical",
-      "latest_update": "CONFORM pivotal IDE trial enrolling in U.S. and Europe",
-      "tags": ["LAAO", "foam"],
+      "latest_update": "ClinicalTrials.gov update posted 2026-02-03",
+      "tags": [
+        "LAAO",
+        "foam"
+      ],
       "trials": [
         {
           "name": "CONFORM Pivotal",
           "phase": "Pivotal IDE",
-          "status": "Enrolling",
+          "status": "RECRUITING",
           "readout": "TBD",
-          "readout_date": null,
+          "readout_date": "2028-06",
           "registry_id": "NCT05147792",
           "note": "Randomized vs approved LAAO devices"
         }
@@ -1442,11 +1699,15 @@
       "type": "Device",
       "category": "LAA Occlusion Devices",
       "stage": "Early clinical (GLACE)",
-      "mechanism": "Next‑gen conformable foam LAA occluder",
-      "focus": "Stroke prevention in non‑valvular AF",
+      "mechanism": "Next\u2011gen conformable foam LAA occluder",
+      "focus": "Stroke prevention in non\u2011valvular AF",
       "company": "Conformal Medical",
       "latest_update": "GLACE study launched in Europe; initial clinical use highlighted at AF Symposium 2025",
-      "tags": ["LAAO", "foam", "next-gen"],
+      "tags": [
+        "LAAO",
+        "foam",
+        "next-gen"
+      ],
       "trials": [
         {
           "name": "GLACE",
@@ -1458,7 +1719,7 @@
           "note": "European multicenter study with ICE guidance"
         }
       ],
-      "notes": "Next‑generation CLAAS LAA occluder with advanced foam structure and sealing.",
+      "notes": "Next\u2011generation CLAAS LAA occluder with advanced foam structure and sealing.",
       "sources": [
         "https://conformalmedical.com/company/news/conformal-medical-announces-launch-of-the-glace-study-with-next-gen-claas-acuform-left-atrial-appendage-occlusion-device",
         "https://conformalmedical.com/company/news/conformal-medical-announces-glace-study-to-be-highlighted-at-af-symposium"
@@ -1471,13 +1732,18 @@
       "category": "LAA Occlusion Devices",
       "stage": "FDA-approved investigator-initiated trial (US)",
       "mechanism": "Self-expanding LAA occluder with disc-and-lobe design",
-      "focus": "Stroke prevention in non‑valvular AF",
+      "focus": "Stroke prevention in non\u2011valvular AF",
       "company": "Lifetech Scientific",
-      "latest_update": "FDA-approved investigator-initiated pre‑market clinical trial in the U.S.",
-      "tags": ["LAAO", "disc-lobe"],
+      "latest_update": "FDA-approved investigator-initiated pre\u2011market clinical trial in the U.S.",
+      "tags": [
+        "LAAO",
+        "disc-lobe"
+      ],
       "trials": [],
       "notes": "Lifetech LAA occluder with CE Mark; used outside U.S.",
-      "sources": ["https://www.prnewswire.com/news-releases/fda-approved-investigator-initiated-pre-market-clinical-trial-of-lambre-plus-laa-closure-system-obtained-medical-insurance-coverage-in-the-us-301617667.html"]
+      "sources": [
+        "https://www.prnewswire.com/news-releases/fda-approved-investigator-initiated-pre-market-clinical-trial-of-lambre-plus-laa-closure-system-obtained-medical-insurance-coverage-in-the-us-301617667.html"
+      ]
     },
     {
       "id": "laminar-laax",
@@ -1486,10 +1752,14 @@
       "category": "LAA Occlusion Devices",
       "stage": "Pivotal IDE enrolling",
       "mechanism": "Rotational elimination of LAA (LAAX)",
-      "focus": "Stroke prevention in non‑valvular AF",
+      "focus": "Stroke prevention in non\u2011valvular AF",
       "company": "Johnson & Johnson MedTech (Biosense Webster)",
       "latest_update": "Pivotal IDE enrollment began Feb 2024 following J&J acquisition of Laminar",
-      "tags": ["LAAO", "LAAX", "pivotal"],
+      "tags": [
+        "LAAO",
+        "LAAX",
+        "pivotal"
+      ],
       "trials": [
         {
           "name": "Laminar LAAX Pivotal IDE",
@@ -1514,10 +1784,14 @@
       "category": "LAA Occlusion Devices",
       "stage": "NMPA Approved (China); EU MDR certified",
       "mechanism": "Semi-closed LAAC device with 3D folding anchors",
-      "focus": "Stroke prevention in non‑valvular AF",
+      "focus": "Stroke prevention in non\u2011valvular AF",
       "company": "MicroPort CardioFlow",
       "latest_update": "EU MDR approval (Mar 2025); NMPA approval in China (Jan 2024)",
-      "tags": ["LAAO", "China", "EU MDR"],
+      "tags": [
+        "LAAO",
+        "China",
+        "EU MDR"
+      ],
       "trials": [
         {
           "name": "SAFE PROTECT",
@@ -1543,23 +1817,28 @@
       "category": "LAA Occlusion Devices",
       "stage": "Clinical (China)",
       "mechanism": "Pacifier-like LAA occluder",
-      "focus": "Stroke prevention in non‑valvular AF",
+      "focus": "Stroke prevention in non\u2011valvular AF",
       "company": "DiNovA EP",
-      "latest_update": "Prospective multicenter study published with 12‑month outcomes (NCT05911685)",
-      "tags": ["LAAO", "China"],
+      "latest_update": "ClinicalTrials.gov update posted 2023-06-27",
+      "tags": [
+        "LAAO",
+        "China"
+      ],
       "trials": [
         {
           "name": "SeaLA study",
           "phase": "Prospective",
-          "status": "Published",
+          "status": "UNKNOWN",
           "readout": "12-month outcomes",
-          "readout_date": "2024-12-01",
+          "readout_date": "2021-01-21",
           "registry_id": "NCT05911685",
           "note": "Prospective multicenter NVAF study"
         }
       ],
       "notes": "Pacifier-like LAA occluder with published multicenter outcomes.",
-      "sources": ["https://pubmed.ncbi.nlm.nih.gov/38841867/"]
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38841867/"
+      ]
     },
     {
       "id": "omega-laao",
@@ -1568,10 +1847,13 @@
       "category": "LAA Occlusion Devices",
       "stage": "Early clinical",
       "mechanism": "Self-retaining inverted cup LAA occluder",
-      "focus": "Stroke prevention in non‑valvular AF",
+      "focus": "Stroke prevention in non\u2011valvular AF",
       "company": "Eclipse Medical",
       "latest_update": "First human data referenced in 2024 European Heart Journal review",
-      "tags": ["LAAO", "early clinical"],
+      "tags": [
+        "LAAO",
+        "early clinical"
+      ],
       "trials": [],
       "notes": "Device design emphasizes stability and malleability; early human data reported in literature.",
       "sources": [
@@ -1586,13 +1868,18 @@
       "category": "LAA Occlusion Devices",
       "stage": "First-in-human",
       "mechanism": "LAA occluder with independent anchors and repositionability",
-      "focus": "Stroke prevention in non‑valvular AF",
+      "focus": "Stroke prevention in non\u2011valvular AF",
       "company": "AuriGen Medical",
-      "latest_update": "First‑in‑human implantation announced",
-      "tags": ["LAAO", "FIH"],
+      "latest_update": "First\u2011in\u2011human implantation announced",
+      "tags": [
+        "LAAO",
+        "FIH"
+      ],
       "trials": [],
-      "notes": "First‑in‑human case reported by AuriGen.",
-      "sources": ["https://aurigenmedical.com/"]
+      "notes": "First\u2011in\u2011human case reported by AuriGen.",
+      "sources": [
+        "https://aurigenmedical.com/"
+      ]
     },
     {
       "id": "vine",
@@ -1604,13 +1891,17 @@
       "focus": "Stroke prevention in AF patients (LVO interception)",
       "company": "Javelin Medical",
       "latest_update": "CAPTURE and CAPTURE II completed; INTERCEPT randomized trial planned",
-      "tags": ["stroke prevention", "filter", "AF"],
+      "tags": [
+        "stroke prevention",
+        "filter",
+        "AF"
+      ],
       "trials": [
         {
           "name": "CAPTURE II",
           "phase": "Safety/performance",
           "status": "Completed",
-          "readout": "Long‑term follow‑up ongoing",
+          "readout": "Long\u2011term follow\u2011up ongoing",
           "readout_date": null,
           "registry_id": null,
           "note": "Feasibility and performance"
@@ -1626,7 +1917,9 @@
         }
       ],
       "notes": "Permanent carotid filter approach to stroke prevention in AF; investigational.",
-      "sources": ["https://www.javelinmed.com/"]
+      "sources": [
+        "https://www.javelinmed.com/"
+      ]
     },
     {
       "id": "watchman-nextgen",
@@ -1638,7 +1931,10 @@
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
       "latest_update": "Pivotal U.S. IDE trial planned to start in 2026; results expected early 2028",
-      "tags": ["LAAO", "pipeline"],
+      "tags": [
+        "LAAO",
+        "pipeline"
+      ],
       "trials": [
         {
           "name": "NG WATCHMAN IDE",
@@ -1651,7 +1947,9 @@
         }
       ],
       "notes": "Next-generation LAAO device designed for improved sealing across complex appendage anatomy.",
-      "sources": ["https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/left-atrial-appendage-closure/next-generation-watchman-enters-trial-2026-laao-volume-grows"]
+      "sources": [
+        "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/left-atrial-appendage-closure/next-generation-watchman-enters-trial-2026-laao-volume-grows"
+      ]
     },
     {
       "id": "farapulse",
@@ -1663,7 +1961,10 @@
       "focus": "Paroxysmal and persistent AF ablation",
       "company": "Boston Scientific",
       "latest_update": "FDA approval in Jan 2024; expanded label for persistent AF in July 2025",
-      "tags": ["PFA", "ablation"],
+      "tags": [
+        "PFA",
+        "ablation"
+      ],
       "trials": [
         {
           "name": "ADVENT",
@@ -1684,7 +1985,7 @@
           "note": "Persistent AF"
         }
       ],
-      "notes": "PFA system FDA-approved for paroxysmal AF; expanded labeling to persistent AF in 2025. Boston Scientific’s FARAFLEX is referenced by the company as part of its PFA portfolio.",
+      "notes": "PFA system FDA-approved for paroxysmal AF; expanded labeling to persistent AF in 2025. Boston Scientific\u2019s FARAFLEX is referenced by the company as part of its PFA portfolio.",
       "sources": [
         "https://news.bostonscientific.com/2024-01-31-Boston-Scientific-Receives-FDA-Approval-for-FARAPULSE-TM-Pulsed-Field-Ablation-System",
         "https://news.bostonscientific.com/2025-07-07-Boston-Scientific-receives-FDA-approval-for-expanded-labeling-of-FARAPULSE-TM-Pulsed-Field-Ablation-System"
@@ -1700,7 +2001,10 @@
       "focus": "Paroxysmal and persistent AF ablation",
       "company": "Medtronic",
       "latest_update": "FDA approval in Dec 2023",
-      "tags": ["PFA", "ablation"],
+      "tags": [
+        "PFA",
+        "ablation"
+      ],
       "trials": [
         {
           "name": "PulseSelect IDE",
@@ -1713,7 +2017,9 @@
         }
       ],
       "notes": "First PFA system to receive FDA approval.",
-      "sources": ["https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation"]
+      "sources": [
+        "https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation"
+      ]
     },
     {
       "id": "farawave",
@@ -1725,7 +2031,11 @@
       "focus": "Pulmonary vein isolation in AF",
       "company": "Boston Scientific",
       "latest_update": "FDA approval with FARAPULSE system supported by ADVENT pivotal trial",
-      "tags": ["PFA", "catheter", "single-shot"],
+      "tags": [
+        "PFA",
+        "catheter",
+        "single-shot"
+      ],
       "trials": [
         {
           "name": "ADVENT",
@@ -1752,15 +2062,18 @@
       "mechanism": "Ultra-low temperature cryoablation (ULTC)",
       "focus": "Persistent AF ablation",
       "company": "Adagio Medical",
-      "latest_update": "U.S. IDE trial for persistent AF (NCT04061603); CE Mark commercial in Europe",
-      "tags": ["cryoablation", "ULTC"],
+      "latest_update": "ClinicalTrials.gov update posted 2024-04-24",
+      "tags": [
+        "cryoablation",
+        "ULTC"
+      ],
       "trials": [
         {
           "name": "iCLAS U.S. IDE",
           "phase": "IDE",
-          "status": "Ongoing",
+          "status": "UNKNOWN",
           "readout": "TBD",
-          "readout_date": null,
+          "readout_date": "2023-08-30",
           "registry_id": "NCT04061603",
           "note": "Persistent AF"
         }
@@ -1781,7 +2094,11 @@
       "focus": "Persistent AF ablation",
       "company": "Adagio Medical",
       "latest_update": "PARALELL trial initiated; first patient enrolled",
-      "tags": ["PFA", "PFCA", "cryo"],
+      "tags": [
+        "PFA",
+        "PFCA",
+        "cryo"
+      ],
       "trials": [
         {
           "name": "PARALELL",
@@ -1794,7 +2111,9 @@
         }
       ],
       "notes": "Evaluates Adagio's CryoPulse catheter system using pulsed field ablation and pulsed field cryoablation.",
-      "sources": ["https://www.prnewswire.com/news-releases/adagio-medical-announces-initiation-and-first-patient-enrollment-in-paralell-trial-to-investigate-safety-and-performance-of-cryopulse-catheter-system-for-pulsed-field-ablation-and-pulsed-field-cryoablation-of-persistent-atrial-fi-301657139.html"]
+      "sources": [
+        "https://www.prnewswire.com/news-releases/adagio-medical-announces-initiation-and-first-patient-enrollment-in-paralell-trial-to-investigate-safety-and-performance-of-cryopulse-catheter-system-for-pulsed-field-ablation-and-pulsed-field-cryoablation-of-persistent-atrial-fi-301657139.html"
+      ]
     },
     {
       "id": "episense",
@@ -1805,15 +2124,19 @@
       "mechanism": "Epicardial RF ablation (hybrid convergent procedure)",
       "focus": "Persistent and long-standing persistent AF",
       "company": "AtriCure",
-      "latest_update": "FDA approval for long-standing persistent AF (CONVERGE trial)",
-      "tags": ["RF", "hybrid", "surgical"],
+      "latest_update": "ClinicalTrials.gov update posted 2023-11-13",
+      "tags": [
+        "RF",
+        "hybrid",
+        "surgical"
+      ],
       "trials": [
         {
           "name": "CONVERGE",
           "phase": "Pivotal",
-          "status": "Completed",
+          "status": "COMPLETED",
           "readout": "Superiority vs endocardial ablation alone",
-          "readout_date": "2021-04-29",
+          "readout_date": "2019-08",
           "registry_id": "NCT01984346",
           "note": "Hybrid AF therapy"
         }
@@ -1834,7 +2157,10 @@
       "focus": "Paroxysmal AF ablation",
       "company": "Biosense Webster (J&J MedTech)",
       "latest_update": "Omny-IRE clinical trial completed enrollment in Europe and Canada (2024)",
-      "tags": ["PFA", "focal"],
+      "tags": [
+        "PFA",
+        "focal"
+      ],
       "trials": [
         {
           "name": "Omny-IRE",
@@ -1847,7 +2173,9 @@
         }
       ],
       "notes": "Investigational focal PFA platform evaluated in Omny-IRE clinical trial.",
-      "sources": ["https://www.jnjmedtech.com/en-US/news-events/biosense-webster-completes-enrollment-omny-ire-clinical-trial-investigating-omnypulse"]
+      "sources": [
+        "https://www.jnjmedtech.com/en-US/news-events/biosense-webster-completes-enrollment-omny-ire-clinical-trial-investigating-omnypulse"
+      ]
     },
     {
       "id": "tactiflex",
@@ -1859,7 +2187,10 @@
       "focus": "Paroxysmal AF and typical atrial flutter",
       "company": "Abbott",
       "latest_update": "FDA approval (May 18, 2023)",
-      "tags": ["RF", "contact force"],
+      "tags": [
+        "RF",
+        "contact force"
+      ],
       "trials": [
         {
           "name": "TactiFlex PAF IDE",
@@ -1887,7 +2218,11 @@
       "focus": "Paroxysmal AF pulmonary vein isolation",
       "company": "Biosense Webster (J&J MedTech)",
       "latest_update": "STELLAR study data presented at AF Symposium 2023; CE Mark in EMEA",
-      "tags": ["RF", "balloon", "CARTO"],
+      "tags": [
+        "RF",
+        "balloon",
+        "CARTO"
+      ],
       "trials": [
         {
           "name": "STELLAR",
@@ -1925,7 +2260,11 @@
       "focus": "Paroxysmal AF ablation",
       "company": "Kardium",
       "latest_update": "FDA PMA approval announced Sept 3, 2025; PULSAR IDE 1-year results presented at HRS 2025",
-      "tags": ["PFA", "single-shot", "mapping"],
+      "tags": [
+        "PFA",
+        "single-shot",
+        "mapping"
+      ],
       "trials": [
         {
           "name": "PULSAR IDE",
@@ -1954,7 +2293,11 @@
       "focus": "Paroxysmal AF ablation",
       "company": "CardioFocus",
       "latest_update": "First patients treated; VISION AF clinical study underway",
-      "tags": ["PFA", "balloon", "single-shot"],
+      "tags": [
+        "PFA",
+        "balloon",
+        "single-shot"
+      ],
       "trials": [
         {
           "name": "VISION AF",
@@ -1981,7 +2324,10 @@
       "focus": "AF ablation (focal PFA)",
       "company": "CardioFocus (acquired Galvanize EP division)",
       "latest_update": "First enrollments in CE Mark clinical trial announced (Nov 2025)",
-      "tags": ["PFA", "focal"],
+      "tags": [
+        "PFA",
+        "focal"
+      ],
       "trials": [
         {
           "name": "QuickShot CE Mark study",
@@ -2009,7 +2355,10 @@
       "focus": "AF ablation",
       "company": "CardioFocus",
       "latest_update": "Expected to begin human trials in 2024 (per acquisition announcement)",
-      "tags": ["PFA", "balloon"],
+      "tags": [
+        "PFA",
+        "balloon"
+      ],
       "trials": [
         {
           "name": "HeartLight X4",
@@ -2022,7 +2371,9 @@
         }
       ],
       "notes": "PFA balloon program referenced in CardioFocus acquisition of Galvanize EP division.",
-      "sources": ["https://www.prnewswire.com/news-releases/cardiofocus-acquires-electrophysiology-division-of-galvanize-therapeutics-302031956.html"]
+      "sources": [
+        "https://www.prnewswire.com/news-releases/cardiofocus-acquires-electrophysiology-division-of-galvanize-therapeutics-302031956.html"
+      ]
     },
     {
       "id": "ablaview",
@@ -2034,7 +2385,10 @@
       "focus": "AF ablation",
       "company": "MedLumics",
       "latest_update": "FIM study completed; 3-month remapping data presented at AF Symposium 2025",
-      "tags": ["PFA", "optical guidance"],
+      "tags": [
+        "PFA",
+        "optical guidance"
+      ],
       "trials": [
         {
           "name": "AblaView FIM",
@@ -2047,7 +2401,9 @@
         }
       ],
       "notes": "Optically guided PFA system with real-time OCR feedback to confirm lesion creation.",
-      "sources": ["https://www.businesswire.com/news/home/20241219716668/en/MedLumics-is-Proud-to-Announce-the-Completion-of-the-FIM-Study-With-Successful-Remapping-at-3-Months-Demonstrating-the-Efficacy-of-the-AblaView-Optically-Guided-Pulsed-Field-Ablation-PFA-System-and-Presentation-at-the-AF-Symposium-2025"]
+      "sources": [
+        "https://www.businesswire.com/news/home/20241219716668/en/MedLumics-is-Proud-to-Announce-the-Completion-of-the-FIM-Study-With-Successful-Remapping-at-3-Months-Demonstrating-the-Efficacy-of-the-AblaView-Optically-Guided-Pulsed-Field-Ablation-PFA-System-and-Presentation-at-the-AF-Symposium-2025"
+      ]
     },
     {
       "id": "encompass-dual-energy",
@@ -2059,7 +2415,11 @@
       "focus": "Concomitant surgical AF ablation",
       "company": "AtriCure",
       "latest_update": "First patients treated with novel dual energy platform (Dec 2025)",
-      "tags": ["PFA", "RF", "surgical"],
+      "tags": [
+        "PFA",
+        "RF",
+        "surgical"
+      ],
       "trials": [
         {
           "name": "Dual Energy Platform",
@@ -2072,7 +2432,9 @@
         }
       ],
       "notes": "Builds on EnCompass clamp; combines advanced RF and PFA to reduce ablation time.",
-      "sources": ["https://www.businesswire.com/news/home/20251211833575/en/AtriCure-Announces-the-First-Patients-Treated-with-Novel-Dual-Energy-Platform"]
+      "sources": [
+        "https://www.businesswire.com/news/home/20251211833575/en/AtriCure-Announces-the-First-Patients-Treated-with-Novel-Dual-Energy-Platform"
+      ]
     },
     {
       "id": "cardiopulse-dinova",
@@ -2084,7 +2446,11 @@
       "focus": "Paroxysmal AF ablation (PVI)",
       "company": "Hangzhou DiNovA EP Technology",
       "latest_update": "PLEASE-AF study published with 12-month outcomes",
-      "tags": ["PFA", "hexaspline", "China"],
+      "tags": [
+        "PFA",
+        "hexaspline",
+        "China"
+      ],
       "trials": [
         {
           "name": "PLEASE-AF",
@@ -2097,7 +2463,9 @@
         }
       ],
       "notes": "Hexaspline PFA system evaluated in the PLEASE-AF study with favorable 12-month efficacy and safety.",
-      "sources": ["https://academic.oup.com/europace/article/26/7/euae174/7697849"]
+      "sources": [
+        "https://academic.oup.com/europace/article/26/7/euae174/7697849"
+      ]
     },
     {
       "id": "insightpfa-lotospfa",
@@ -2108,15 +2476,19 @@
       "mechanism": "Nanosecond biphasic PFA catheter",
       "focus": "Paroxysmal AF ablation (PVI)",
       "company": "Insight Medtech",
-      "latest_update": "InsightPFA randomized trial published (nsPFA vs AI-guided RFA)",
-      "tags": ["nsPFA", "PFA", "RCT"],
+      "latest_update": "ClinicalTrials.gov update posted 2025-08-17",
+      "tags": [
+        "nsPFA",
+        "PFA",
+        "RCT"
+      ],
       "trials": [
         {
           "name": "InsightPFA",
           "phase": "Randomized trial",
-          "status": "Published",
+          "status": "COMPLETED",
           "readout": "Noninferior vs RFA at 12 months",
-          "readout_date": "2025-01-01",
+          "readout_date": "2025-06-09",
           "registry_id": "NCT06014996",
           "note": "nsPFA vs RFA for PVI"
         }
@@ -2135,9 +2507,13 @@
       "stage": "IDE pivotal trial",
       "mechanism": "Coherent Sine-Burst Electroporation (CSE) pulsed field system",
       "focus": "Paroxysmal and persistent AF ablation",
-      "company": "Argá Medtech",
+      "company": "Arg\u00e1 Medtech",
       "latest_update": "COHERENT-AF IDE trial first enrollments announced (Sep 18, 2025)",
-      "tags": ["PFA", "IDE", "CSE"],
+      "tags": [
+        "PFA",
+        "IDE",
+        "CSE"
+      ],
       "trials": [
         {
           "name": "COHERENT-AF",
@@ -2150,7 +2526,9 @@
         }
       ],
       "notes": "Second-generation PFA system evaluated in a U.S. and EU IDE pivotal study.",
-      "sources": ["https://www.prnewswire.com/news-releases/arga-medtech-announces-first-enrollments-in-coherent-af-ide-clinical-trial-302561053.html"]
+      "sources": [
+        "https://www.prnewswire.com/news-releases/arga-medtech-announces-first-enrollments-in-coherent-af-ide-clinical-trial-302561053.html"
+      ]
     },
     {
       "id": "microport-pulsemagic",
@@ -2162,22 +2540,33 @@
       "focus": "AF ablation (multi-energy EP platform)",
       "company": "MicroPort EP",
       "latest_update": "NMPA approval and launch in China (Nov 2025)",
-      "tags": ["PFA", "China", "pressure sensing"],
+      "tags": [
+        "PFA",
+        "China",
+        "pressure sensing"
+      ],
       "trials": [],
       "notes": "Part of MicroPort's multi-energy platform integrating cryoablation, RF, and PFA.",
-      "sources": ["https://microport.com/news/microport-ep-launches-pressure-sensing-pulsed-field-ablation-catheter-expanding-its-multi-energy-platform"]
+      "sources": [
+        "https://microport.com/news/microport-ep-launches-pressure-sensing-pulsed-field-ablation-catheter-expanding-its-multi-energy-platform"
+      ]
     },
     {
       "id": "microport-multi-energy",
-      "name": "MicroPort EP Multi‑Energy Platform (RF + PFA)",
+      "name": "MicroPort EP Multi\u2011Energy Platform (RF + PFA)",
       "type": "Device",
       "category": "Catheter Ablation - Platform",
       "stage": "Commercial (China); expanding",
       "mechanism": "Integrated EP platform supporting RF, cryo, and PFA technologies",
       "focus": "AF ablation across energy modalities",
       "company": "MicroPort EP",
-      "latest_update": "Company highlights multi‑energy platform expansion with PFA and RF systems",
-      "tags": ["platform", "RF", "PFA", "cryo"],
+      "latest_update": "Company highlights multi\u2011energy platform expansion with PFA and RF systems",
+      "tags": [
+        "platform",
+        "RF",
+        "PFA",
+        "cryo"
+      ],
       "trials": [],
       "notes": "Platform integrates multiple ablation energy sources for AF; includes RF and PFA catheters in portfolio.",
       "sources": [
@@ -2194,15 +2583,19 @@
       "mechanism": "Expandable lattice PFA catheter with multiple configurations",
       "focus": "Paroxysmal AF ablation",
       "company": "Affera / Medtronic",
-      "latest_update": "SpherePVI clinical studies listed; investigational in U.S.",
-      "tags": ["PFA", "Affera", "single-shot"],
+      "latest_update": "ClinicalTrials.gov update posted 2025-08-05",
+      "tags": [
+        "PFA",
+        "Affera",
+        "single-shot"
+      ],
       "trials": [
         {
           "name": "SpherePVI",
           "phase": "Prospective",
-          "status": "Completed",
+          "status": "RECRUITING",
           "readout": "One-year outcomes published",
-          "readout_date": "2023-04-01",
+          "readout_date": "2027-03-15",
           "registry_id": "NCT05144503",
           "note": "Safety and performance"
         }
@@ -2223,10 +2616,16 @@
       "focus": "AF ablation",
       "company": "Sirona Medical Technologies",
       "latest_update": "Described in 2024 review of emerging ablation tools",
-      "tags": ["PFA", "RF", "multimodal"],
+      "tags": [
+        "PFA",
+        "RF",
+        "multimodal"
+      ],
       "trials": [],
       "notes": "Emerging multimodal SMT catheter with adjustable diameter and rotating mechanism for contiguous lesions.",
-      "sources": ["https://pubmed.ncbi.nlm.nih.gov/38304094/"]
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38304094/"
+      ]
     },
     {
       "id": "atrian-atrian",
@@ -2238,7 +2637,11 @@
       "focus": "AF (autonomic modulation)",
       "company": "Atrian Medical",
       "latest_update": "Preclinical and early clinical evidence for epicardial GP ablation; technology described in 2024 Bioengineering paper",
-      "tags": ["PFA", "epicardial", "GP ablation"],
+      "tags": [
+        "PFA",
+        "epicardial",
+        "GP ablation"
+      ],
       "trials": [],
       "notes": "Epicardial cardioneuroablation using PFA to target ganglionated plexi; early clinical experience reported.",
       "sources": [
@@ -2257,7 +2660,10 @@
       "focus": "Paroxysmal AF ablation",
       "company": "Johnson & Johnson MedTech",
       "latest_update": "FDA approval in Nov 2024; U.S. sales paused due to reported neurovascular events",
-      "tags": ["PFA", "ablation"],
+      "tags": [
+        "PFA",
+        "ablation"
+      ],
       "trials": [
         {
           "name": "admIRE",
@@ -2285,7 +2691,10 @@
       "focus": "AF ablation",
       "company": "Abbott",
       "latest_update": "12-month Volt-AF IDE results presented at AF Symposium 2026 and published in JACC: Clinical Electrophysiology",
-      "tags": ["PFA", "ablation"],
+      "tags": [
+        "PFA",
+        "ablation"
+      ],
       "trials": [
         {
           "name": "VOLT-AF IDE",
@@ -2312,8 +2721,12 @@
       "mechanism": "Single-shot PFA mapping and ablation catheter",
       "focus": "Paroxysmal AF ablation",
       "company": "Medtronic",
-      "latest_update": "CE Mark in Europe and first cases in Horizon 360 U.S. IDE pivotal trial (Jan 23, 2026)",
-      "tags": ["PFA", "Affera", "single-shot"],
+      "latest_update": "ClinicalTrials.gov update posted 2025-08-05",
+      "tags": [
+        "PFA",
+        "Affera",
+        "single-shot"
+      ],
       "trials": [
         {
           "name": "Horizon 360 IDE",
@@ -2327,9 +2740,9 @@
         {
           "name": "Sphere-360 European study",
           "phase": "Prospective",
-          "status": "Completed",
+          "status": "RECRUITING",
           "readout": "One-year results presented at HRS 2025",
-          "readout_date": "2025-04-26",
+          "readout_date": "2027-03-15",
           "registry_id": "NCT05115214",
           "note": "Single-arm European study"
         }
@@ -2350,7 +2763,11 @@
       "focus": "AF ablation; focal point-by-point",
       "company": "Field Medical",
       "latest_update": "Field PULSE first-in-human data presented as late-breaking clinical trial at AF Symposium 2026",
-      "tags": ["PFA", "focal", "first-in-human"],
+      "tags": [
+        "PFA",
+        "focal",
+        "first-in-human"
+      ],
       "trials": [
         {
           "name": "Field PULSE",
@@ -2377,7 +2794,10 @@
       "focus": "AF ablation",
       "company": "BTL",
       "latest_update": "Company describes Easy Pulz as an emerging PFA program",
-      "tags": ["PFA", "early"],
+      "tags": [
+        "PFA",
+        "early"
+      ],
       "trials": [],
       "notes": "BTL describes Easy Pulz as a PFA program aimed at AF treatment; clinical details not yet public.",
       "sources": [
@@ -2393,15 +2813,19 @@
       "mechanism": "Nanosecond pulsed field ablation (nsPFA)",
       "focus": "AF ablation; pulmonary vein isolation",
       "company": "Pulse Biosciences",
-      "latest_update": "Late-breaking AF Symposium 2026 data from first-in-human feasibility study",
-      "tags": ["nsPFA", "first-in-human", "PFA"],
+      "latest_update": "ClinicalTrials.gov update posted 2026-01-12",
+      "tags": [
+        "nsPFA",
+        "first-in-human",
+        "PFA"
+      ],
       "trials": [
         {
           "name": "CellFX nsPFA 360 feasibility",
           "phase": "First-in-human",
-          "status": "Ongoing",
+          "status": "RECRUITING",
           "readout": "AF Symposium 2026 late-breaking data",
-          "readout_date": "2026-02-05",
+          "readout_date": "2026-03-25",
           "registry_id": "NCT06696170",
           "note": "First-in-human feasibility study"
         }
@@ -2421,15 +2845,19 @@
       "mechanism": "Nanosecond PFA surgical clamp system",
       "focus": "Concomitant surgical AF ablation",
       "company": "Pulse Biosciences",
-      "latest_update": "FDA IDE approved for NANOCLAMP AF study (Sep 8, 2025)",
-      "tags": ["nsPFA", "surgical", "IDE"],
+      "latest_update": "ClinicalTrials.gov update posted 2026-01-12",
+      "tags": [
+        "nsPFA",
+        "surgical",
+        "IDE"
+      ],
       "trials": [
         {
           "name": "NANOCLAMP AF",
           "phase": "Not applicable",
-          "status": "IDE approved",
+          "status": "RECRUITING",
           "readout": "TBD",
-          "readout_date": null,
+          "readout_date": "2027-04",
           "registry_id": "NCT06959121",
           "note": "Concomitant cardiac surgery"
         }
@@ -2449,21 +2877,27 @@
       "mechanism": "Wrist- and ear-worn neuromodulation targeting peripheral nerves",
       "focus": "AF burden reduction",
       "company": "Cala Health",
-      "latest_update": "Feasibility study listed on ClinicalTrials.gov (NCT05653583)",
-      "tags": ["neuromodulation", "wearable", "AF burden"],
+      "latest_update": "ClinicalTrials.gov update posted 2023-02-08",
+      "tags": [
+        "neuromodulation",
+        "wearable",
+        "AF burden"
+      ],
       "trials": [
         {
           "name": "AFIB-01",
           "phase": "Not applicable",
-          "status": "Completed (estimated)",
+          "status": "UNKNOWN",
           "readout": "Results not posted",
-          "readout_date": "2023-12-01",
+          "readout_date": "2023-12",
           "registry_id": "NCT05653583",
           "note": "Wrist, ear, and sham devices"
         }
       ],
       "notes": "Randomized, sham-controlled feasibility study using wearable neuromodulation devices to reduce AF burden.",
-      "sources": ["https://clinicaltrials.gov/study/NCT05653583"]
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT05653583"
+      ]
     },
     {
       "id": "botox-poaf",
@@ -2474,15 +2908,19 @@
       "mechanism": "Injection into epicardial fat pads / ganglionated plexi",
       "focus": "Prevention of post-operative AF (POAF)",
       "company": "Allergan (AbbVie) / academic investigators",
-      "latest_update": "NOVA trial completed (NCT03779841)",
-      "tags": ["botulinum toxin", "POAF", "ganglionated plexi"],
+      "latest_update": "ClinicalTrials.gov update posted 2024-05-14",
+      "tags": [
+        "botulinum toxin",
+        "POAF",
+        "ganglionated plexi"
+      ],
       "trials": [
         {
           "name": "NOVA",
           "phase": "Phase 1/2/3/4",
-          "status": "Completed",
+          "status": "COMPLETED",
           "readout": "Trial completed; results status varies by registry",
-          "readout_date": null,
+          "readout_date": "2022-03-24",
           "registry_id": "NCT03779841",
           "note": "Open-chest cardiac surgery patients"
         }
@@ -2495,17 +2933,21 @@
     },
     {
       "id": "inomagen-gene",
-      "name": "Inomagen non‑viral gene therapy program",
+      "name": "Inomagen non\u2011viral gene therapy program",
       "type": "Drug",
       "category": "Gene Therapy",
-      "stage": "Preclinical / IND‑enabling",
-      "mechanism": "Non‑viral gene therapy targeting AF molecular mechanisms; electroporation‑assisted delivery",
+      "stage": "Preclinical / IND\u2011enabling",
+      "mechanism": "Non\u2011viral gene therapy targeting AF molecular mechanisms; electroporation\u2011assisted delivery",
       "focus": "Disease modification for atrial fibrillation",
       "company": "Inomagen Therapeutics",
-      "latest_update": "Preclinical success in large animal models; advancing into IND‑enabling studies",
-      "tags": ["gene therapy", "non‑viral", "IND‑enabling"],
+      "latest_update": "Preclinical success in large animal models; advancing into IND\u2011enabling studies",
+      "tags": [
+        "gene therapy",
+        "non\u2011viral",
+        "IND\u2011enabling"
+      ],
       "trials": [],
-      "notes": "Company reports preclinical efficacy in large animal models and readiness for IND‑enabling studies.",
+      "notes": "Company reports preclinical efficacy in large animal models and readiness for IND\u2011enabling studies.",
       "sources": [
         "https://inomagen.com/genetherapy",
         "https://inomagen.com/investors"
@@ -2521,7 +2963,11 @@
       "focus": "Arrhythmias including potential post-operative AF programs",
       "company": "Cardurion Pharmaceuticals",
       "latest_update": "Company cites CaMKII inhibition for arrhythmias including post-operative AF; Phase 1 ongoing in CPVT",
-      "tags": ["CaMKII", "arrhythmia", "disease modification"],
+      "tags": [
+        "CaMKII",
+        "arrhythmia",
+        "disease modification"
+      ],
       "trials": [],
       "notes": "Cardurion describes CaMKII inhibition as relevant to arrhythmias including post-operative AF; AF programs are planned beyond initial rare arrhythmia studies.",
       "sources": [
@@ -2539,7 +2985,11 @@
       "focus": "Arrhythmias with potential AF applications",
       "company": "Vasa (reported by BioWorld)",
       "latest_update": "Preclinical results reported for blocker-resistant arrhythmias",
-      "tags": ["CaMKII", "preclinical", "arrhythmia"],
+      "tags": [
+        "CaMKII",
+        "preclinical",
+        "arrhythmia"
+      ],
       "trials": [],
       "notes": "Preclinical CaMKII inhibitor reported for blocker-resistant arrhythmias; AF applicability not yet established.",
       "sources": [
@@ -2555,15 +3005,19 @@
       "mechanism": "Multi-site low-energy atrial pacing with Rhythm360 algorithm",
       "focus": "AF rhythm control and atrial function restoration",
       "company": "MaxWell Biomedical",
-      "latest_update": "Four abstracts accepted at EHRA 2026; company expanding clinical study for AF + HFpEF",
-      "tags": ["neuromodulation", "pacing", "AF-HFpEF"],
+      "latest_update": "ClinicalTrials.gov update posted 2022-07-18",
+      "tags": [
+        "neuromodulation",
+        "pacing",
+        "AF-HFpEF"
+      ],
       "trials": [
         {
           "name": "SR-TheAF / SRT first-in-human",
           "phase": "First-in-human",
-          "status": "Completed (enrollment)",
+          "status": "UNKNOWN",
           "readout": "Proof-of-concept termination of AF",
-          "readout_date": "2022-10-20",
+          "readout_date": "2023-06",
           "registry_id": "NCT05461612",
           "note": "Initial experience with SRT in AF patients"
         }
@@ -2583,10 +3037,14 @@
       "mechanism": "Ultra-low-energy defibrillation/cardioversion pulses",
       "focus": "AF and VT cardioversion",
       "company": "MaxWell Biomedical (Cardialen assets)",
-      "latest_update": "MaxWell acquired Cardialen’s assets; MPT described as low-energy cardioversion therapy",
-      "tags": ["neuromodulation", "cardioversion", "low-energy"],
+      "latest_update": "MaxWell acquired Cardialen\u2019s assets; MPT described as low-energy cardioversion therapy",
+      "tags": [
+        "neuromodulation",
+        "cardioversion",
+        "low-energy"
+      ],
       "trials": [],
-      "notes": "Cardialen’s MPT technology acquired by MaxWell; designed to restore rhythm using timed ultra-low-energy pulses.",
+      "notes": "Cardialen\u2019s MPT technology acquired by MaxWell; designed to restore rhythm using timed ultra-low-energy pulses.",
       "sources": [
         "https://www.maxwellbiomedical.com/cardialen-acquision",
         "https://www.prnewswire.com/news-releases/maxwell-biomedical-completes-acquisition-of-cardialens-assets-301702748.html"

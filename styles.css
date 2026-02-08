@@ -206,6 +206,7 @@ main {
   background: linear-gradient(130deg, rgba(228, 87, 46, 0.12), transparent 50%);
   opacity: 0;
   transition: opacity 0.3s ease;
+  pointer-events: none;
 }
 
 .card:hover::after {

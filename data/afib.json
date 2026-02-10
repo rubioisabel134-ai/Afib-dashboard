@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-02-08",
+  "as_of": "2026-02-10",
   "items": [
     {
       "id": "milvexian",
@@ -1672,7 +1672,7 @@
       "mechanism": "Conformable foam-based LAA occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Conformal Medical",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-03",
+      "latest_update": "ClinicalTrials.gov update posted 2026-02-10",
       "tags": [
         "LAAO",
         "foam"
@@ -2723,7 +2723,7 @@
       "mechanism": "Single-shot PFA mapping and ablation catheter",
       "focus": "Paroxysmal AF ablation",
       "company": "Medtronic",
-      "latest_update": "CE Mark in Europe and first cases in Horizon 360 U.S. IDE pivotal trial (Jan 23, 2026)",
+      "latest_update": "ClinicalTrials.gov update posted 2025-08-05",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -2817,7 +2817,7 @@
       "mechanism": "Nanosecond pulsed field ablation (nsPFA)",
       "focus": "AF ablation; pulmonary vein isolation",
       "company": "Pulse Biosciences",
-      "latest_update": "Late-breaking AF Symposium 2026 data from first-in-human feasibility study",
+      "latest_update": "ClinicalTrials.gov update posted 2026-01-12",
       "press_2026": true,
       "tags": [
         "nsPFA",

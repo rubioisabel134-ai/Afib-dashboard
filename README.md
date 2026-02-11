@@ -22,6 +22,16 @@ python3 scripts/update.py
 
 The script pulls trial status updates from ClinicalTrials.gov and refreshes `data/afib.json`.
 
+## One-click weekly update
+
+Run this from the repo root:
+
+```bash
+scripts/weekly.sh
+```
+
+It runs the updater, commits changes, and pushes to `origin/main`.
+
 ## Data model
 
 - `data/afib.json` is the dashboard data source.

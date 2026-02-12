@@ -7,6 +7,9 @@ cd "$ROOT_DIR"
 echo "Running trial update..."
 python3 scripts/update.py
 
+echo "Updating weekly intel..."
+python3 scripts/update_weekly.py
+
 if git diff --quiet; then
   echo "No data changes detected."
   exit 0

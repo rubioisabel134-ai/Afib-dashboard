@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-02-11",
+  "as_of": "2026-02-12",
   "items": [
     {
       "id": "milvexian",
@@ -3055,5 +3055,45 @@
         "https://www.prnewswire.com/news-releases/maxwell-biomedical-completes-acquisition-of-cardialens-assets-301702748.html"
       ]
     }
-  ]
+  ],
+  "weekly_updates": {
+    "safety_signals": [
+      {
+        "title": "Andexxa (andexanet alfa) \u2014 FDA safety communication on thrombotic risk",
+        "date": "2025-12-18",
+        "source": "FDA"
+      }
+    ],
+    "label_expansions": [
+      {
+        "title": "FARAPULSE PFA \u2014 expanded labeling for persistent AF",
+        "date": "2025-07-07",
+        "source": "Boston Scientific"
+      }
+    ],
+    "conference_abstracts": [
+      {
+        "title": "Volt PFA 12\u2011month data \u2014 AF Symposium 2026",
+        "date": "2026-02-06",
+        "source": "Abbott"
+      },
+      {
+        "title": "Field PULSE FIH data \u2014 AF Symposium 2026",
+        "date": "2026-02-05",
+        "source": "Field Medical"
+      },
+      {
+        "title": "CellFX nsPFA 360 FIH data \u2014 AF Symposium 2026",
+        "date": "2026-02-05",
+        "source": "Pulse Biosciences"
+      }
+    ],
+    "guideline_updates": [
+      {
+        "title": "2023 ACC/AHA/ACCP/HRS AF guideline (current US standard)",
+        "date": "2023-11-30",
+        "source": "ACC"
+      }
+    ]
+  }
 }

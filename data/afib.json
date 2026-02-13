@@ -3057,275 +3057,18 @@
     }
   ],
   "weekly_updates": {
-    "safety_signals": [
-      {
-        "title": "Andexxa (andexanet alfa) \u2014 FDA safety communication on thrombotic risk",
-        "date": "2025-12-18",
-        "source": "FDA"
-      },
-      {
-        "title": "Electronic Homecare Bed Correction: Medline Updates Use Instructions for Homecare Beds",
-        "date": "2026-02-13",
-        "source": "FDA MedWatch"
-      },
-      {
-        "title": "Emergency Response Safety Kit Recall: Airlife Removes Certain Broselow Pediatric Emergency Rainbow Tapes and Broselow ALS Organizers",
-        "date": "2026-02-11",
-        "source": "FDA MedWatch"
-      }
-    ],
     "label_expansions": [
-      {
-        "title": "FARAPULSE PFA \u2014 expanded labeling for persistent AF",
-        "date": "2025-07-07",
-        "source": "Boston Scientific"
-      },
-      {
-        "title": "Novel Drug Approvals for 2026",
-        "date": "2026-02-13",
-        "source": "FDA What's New: Drugs"
-      },
       {
         "title": "Generic Drug Facilities, Sites and Organization Lists",
         "date": "2026-02-13",
         "source": "FDA What's New: Drugs \u00b7 Match: Generic"
-      },
-      {
-        "title": "Drugs",
-        "date": "2026-02-13",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Consumer Updates",
-        "date": "2026-02-13",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Hormone Replacement Therapies Can Help Women with Bothersome Menopausal Symptoms",
-        "date": "2026-02-13",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Nutrishus Brands, Inc. - 612938 - 07/28/2021",
-        "date": "2026-02-13",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Complex Innovative Trial Design Meeting Program",
-        "date": "2026-02-13",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Drugs@FDA Data Files",
-        "date": "2026-02-13",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Completed PDUFA VI Deliverables",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "CDER Small Business and Industry Assistance (SBIA) Learn",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "CDER Small Business & Industry Assistance (SBIA)",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Expanded Access to Investigational Drugs for Treatment Use - Questions and Answers - 04/15/2026",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Antimicrobial Resistance",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "CDER Nitrosamine Impurity Acceptable Intake Limits",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "FDA Approves Labeling Changes to Menopausal Hormone Therapy Products",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Registered Outsourcing Facilities",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "FDA Requests Labeling Changes Related to Safety Information to Clarify the Benefit/Risk Considerations for Menopausal Hormone Therapies",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Menopausal Hormone Therapies with Updated Prescribing Information",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Untitled Letters",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
-      },
-      {
-        "title": "Scientific Public Private Partnerships and Consortia",
-        "date": "2026-02-12",
-        "source": "FDA What's New: Drugs"
       }
     ],
     "conference_abstracts": [
       {
-        "title": "Volt PFA 12\u2011month data \u2014 AF Symposium 2026",
-        "date": "2026-02-06",
-        "source": "Abbott"
-      },
-      {
-        "title": "Field PULSE FIH data \u2014 AF Symposium 2026",
-        "date": "2026-02-05",
-        "source": "Field Medical"
-      },
-      {
-        "title": "CellFX nsPFA 360 FIH data \u2014 AF Symposium 2026",
-        "date": "2026-02-05",
-        "source": "Pulse Biosciences"
-      },
-      {
-        "title": "5 things we now know about atrial fibrillation - Johnson & Johnson",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "What is atrial fibrillation and how is it treated? - AP News",
-        "date": "2026-02-08",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Heart Check: Spotting Atrial Fibrillation - Augusta Health",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "American Heart Month: How to spot atrial fibrillation - WHSV",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
         "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
         "date": "2026-02-06",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Registration still available for Atrial Fibrillation seminar in Wausau Wednesday - WSAW",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Splenic Infarction and Recurrent Pulmonary Embolism in Atrial Fibrillation Associated With Subtherapeutic Anticoagulation and Medication Nonadherence: A Case Report - Cureus",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "UChicago cardiologist rethinks devices used to prevent stroke in patients with AFib - UChicago Medicine",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Why Medicare must cover atrial fibrillation screening to prevent strokes - KevinMD.com",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Pulse Field Ablation reshapes AFib care in Rochester - Rochester Business Journal",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Rhythm AI\u2019s STAR Apollo system receives FDA clearance for atrial fibrillation - Pharmafile",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Smartphone-Sensor System Not Yet Ready to Detect Arrythmia in High Risk Patients - AZoSensors",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "From Monitoring to Prediction: How Cardiovascular Digital Twins Could Transform Arrhythmia Care - HMP Global Learning Network",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "More Questions Than Answers: A Narrative Review of the Epidemiology, Risk Factors, and Outcomes of Postoperative Atrial Fibrillation - Cureus",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Within-visit and short- and long-term between-visit blood pressure variability as predictors of cardiovascular events and mortality in elderly Chinese - Nature",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Noninvasive Predictors of LA Compliance Post TMVT - American College of Cardiology",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Study finds 90 minutes weekly activity after ablation linked to fewer atrial fibrillation relapses - MSN",
-        "date": "2026-02-06",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Study Finds Regular Exercise Cuts Atrial Fibrillation Recurrence by Nearly 50% Following Catheter Ablation - BIOENGINEER.ORG",
-        "date": "2026-02-06",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Volta Medical\u2019s RESTART trial provides \u201cpromising findings\u201d on AI solutions in recurrent AF - Cardiac Rhythm News",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Circulation Research: Study reveals new cellular mechanisms that allow the most common chronic cardiac arrhythmia to persist in the heart - cnic.es",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "How UC Davis Health meets the growing need for heart rhythm care - University of California - Davis Health",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Falls History Affects Outcomes in Atrial Fibrillation Patients - BIOENGINEER.ORG",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Atrial fibrillation: First of its kind therapy for 'debilitating' heart condition - BBC",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Boston EP Party: Medtech companies share new electrophysiology data at AF Symposium 2026 - Cardiovascular Business",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Optimizing Apixaban Monitoring in Elderly Atrial Fibrillation Patients - BIOENGINEER.ORG",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Effingham County man says smartwatch saved his life - WJCL",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
       },
       {
         "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
@@ -3333,59 +3076,9 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
       },
       {
-        "title": "Irregular heartbeat? Experts say early care can prevent serious complications - KSLTV.com",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Boston Sci\u2019s Farapulse better than thermal ablation at 4 years - BioWorld MedTech",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Did you know if you have palpitations, chest pain it may be atrial fibrillation? Heart surgeon explains its dangers | Health - Hindustan Times",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Atrial FDG Uptake on Cardiac PET Signals Higher Risk of Future Atrial Fibrillation: Study - Medical Dialogues",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Atrial Fibrillation Market to Rise at 6.55% CAGR (2025-2035) - - openPR.com",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Johnson & Johnson reports early pilot study results for atrial fibrillation device - StreetInsider",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
         "title": "Abbott announces late-breaking data from global VOLT-AF and FOCALFLEX studies - Cardiac Rhythm News",
         "date": "2026-02-12",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Johnson & Johnson Highlights Pipeline Breadth Across Cardiology, Oncology And Vision Care - Yahoo Finance",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Aspirus discusses option for AFib - Antigo Daily Journal",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Pulsed Field Ablation Market Size, Share, Growth | CAGR of 33.2% - Market.us",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Atrial fibrillation: Avoid smoking, caffeine and alcohol after treatment - The New Indian Express",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
       },
       {
         "title": "Pulse Biosciences presents latest data from first-in-human study evaluating nPulse cardiac catheter system - Cardiac Rhythm News",
@@ -3393,39 +3086,9 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
       },
       {
-        "title": "Atrial fibrillation: Diagnosis remains remarkably straightforward - The New Indian Express",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Atrial Fibrillation: When chaos takes over heart\u2019s rhythm - The New Indian Express",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
         "title": "J&J presents early outcomes from OMNY-AF pilot study alongside new Varipulse platform data - Cardiac Rhythm News",
         "date": "2026-02-10",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: VARIPULSE Platform"
-      },
-      {
-        "title": "Memorial Health shares how smart watch alerted patient to Afib - WTOC",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "For Some AFib Patients, Minimally Invasive Surgery Should Be Discussed - Conexiant",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Johnson And Johnson Cardiac Data Fuels Fresh Look At Valuation Upside - Yahoo Finance",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Vitamin K Antagonists May Not Worsen COPD Outcomes - Medscape",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
       },
       {
         "title": "Abbott initiates UK pilot of Volt PFA system - Medical Device Network",
@@ -3433,24 +3096,9 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
       },
       {
-        "title": "New Study Uncovers Cellular Mechanisms Behind Persistent Common Cardiac Arrhythmia - BIOENGINEER.ORG",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "To Your Good Health - miningjournal.net",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
         "title": "Arg\u00e1 Medtech reports 94% lesion durability and \u201cstrong safety profile\u201d with single-catheter PFA system - Cardiac Rhythm News",
         "date": "2026-02-11",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "The biggest cardiac tech news out of the 2026 AF Symposium - massdevice.com",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
       },
       {
         "title": "Abbott reports positive VERITAS study results for AFib - Medical Device Network",
@@ -3468,39 +3116,14 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
       },
       {
-        "title": "J&J experimental AFib therapy shows 90% success, no procedure events - Stock Titan",
-        "date": "2026-02-07",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Moderate exercise lowers atrial fibrillation recurrence after ablation - MSN",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Local patient's battle with AFib highlights need for awareness during Heart Month - WUWF",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
         "title": "Arg\u00e1 Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA System - Yahoo Finance",
         "date": "2026-02-09",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
       },
       {
-        "title": "4 takeaways from the 2026 AF Symposium - Yahoo Finance",
+        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
         "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "PLSE Shares Positive First-in-Human nPulse Cardiac Catheter Data - Yahoo Finance",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Three Small-Cap Movers: Pulse, BILL, And Envista Jump - Finimize",
-        "date": "2026-02-06",
-        "source": "Google News: atrial fibrillation (7d)"
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
       },
       {
         "title": "Pulse Biosciences Heart Device Data Fuels Stock Surge - Benzinga",
@@ -3508,19 +3131,9 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
       },
       {
-        "title": "Smart watch alerts local man to dangerous heart condition - Yahoo",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "How Smartwatches Are Detecting Silent Atrial Fibrillation\u2014and Why It Matters for Black Adults - BlackDoctor.org",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Johnson & Johnson Reports 90% AFib Freedom In Early Heart Device Study - Benzinga",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d)"
+        "title": "Johnson & Johnson MedTech has encouraging Omnypulse results, more data backs Varipulse - massdevice.com",
+        "date": "2026-02-07",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Johnson & Johnson MedTech"
       },
       {
         "title": "Arg\u00e1 Medtech Reports 94% Lesion Durability and Strong - GlobeNewswire",
@@ -3528,64 +3141,9 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
       },
       {
-        "title": "Understanding AFib and New Advances in Treatment with Pulsed Field Ablation - KNWA FOX24",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Oral Anticoagulant Discontinuation After AF Ablation: Review Sheds Light on Risks and Benefits - Medical Dialogues",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Johnson & Johnson (JNJ) Reports 100% Success in OMNY-AF Study - Yahoo Finance UK",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Arg\u00e1 Medtech reports 94% lesion durability and strong safety profile in PFA trial - Health Tech World",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Hospital to trial 'innovative treatment' for people with common heart condition - The Hunts Post",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Hospital to trial 'innovative treatment' for people with common heart condition - Peterborough Matters",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Abbott Reports Strong Results for Amulet 360 LAA Occlusion Device - Medical Product Outsourcing",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Left Atrial Appendage Devices Market to Reach USD 5.18 Billion - openPR.com",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Johnson & Johnson presents 12-month pilot-phase data from OMNY-AF study - TipRanks",
-        "date": "2026-02-07",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
         "title": "Abbott stock price: Insider buy and fresh AFib data put ABT back on watch for Monday - TechStock\u00b2",
         "date": "2026-02-08",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "From three hours to 30 minutes: New heart procedure in UAE cuts stroke risk by 25% - Khaleej Times",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Devon hospital to trial innovative treatment for people with heart condition - Rayo",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
       },
       {
         "title": "Abbott stock rises on AFib device data buzz as traders weigh FDA overhang - Bez Kabli",
@@ -3598,82 +3156,17 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
       },
       {
-        "title": "Leeds General Infirmary to trial new device to treat common heart condition | News - Hits Radio (West Yorkshire) - Rayo",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "NI hospital among the first trial new device to treat common heart condition - Belfast Live",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Widow exposes failings - Te Awamutu News",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d)"
-      },
-      {
-        "title": "Boston EP Party: Medtech companies share new electrophysiology data at AF Symposium 2026 - Cardiovascular Business",
-        "date": "2026-02-09",
-        "source": "Google News: AF Symposium (7d)"
-      },
-      {
-        "title": "The biggest cardiac tech news out of the 2026 AF Symposium - massdevice.com",
-        "date": "2026-02-10",
-        "source": "Google News: AF Symposium (7d)"
-      },
-      {
-        "title": "4 takeaways from the 2026 AF Symposium - Yahoo Finance",
-        "date": "2026-02-10",
-        "source": "Google News: AF Symposium (7d)"
-      },
-      {
         "title": "Field Medical presents late-breaking Field PULSE trial data at 2026 AF symposium - Cardiac Rhythm News",
         "date": "2026-02-11",
         "source": "Google News: AF Symposium (7d) \u00b7 Match: Field Medical"
       },
       {
-        "title": "J&J experimental AFib therapy shows 90% success, no procedure events - Stock Titan",
-        "date": "2026-02-07",
-        "source": "Google News: AF Symposium (7d)"
-      },
-      {
-        "title": "Atraverse Medical Highlights New HOTWIRE Data at AF Symposium 2026 - TipRanks",
-        "date": "2026-02-07",
-        "source": "Google News: AF Symposium (7d)"
-      },
-      {
-        "title": "Johnson & Johnson reports early pilot study results for atrial fibrillation device - StreetInsider",
-        "date": "2026-02-09",
-        "source": "Google News: AF Symposium (7d)"
-      },
-      {
         "title": "J&J presents early outcomes from OMNY-AF pilot study alongside new Varipulse platform data - Cardiac Rhythm News",
         "date": "2026-02-10",
         "source": "Google News: AF Symposium (7d) \u00b7 Match: VARIPULSE Platform"
-      },
-      {
-        "title": "Within-visit and short- and long-term between-visit blood pressure variability as predictors of cardiovascular events and mortality in elderly Chinese - Nature",
-        "date": "2026-02-13",
-        "source": "Google News: HRS (7d)"
-      },
-      {
-        "title": "Body believed to be Lil Jon's son is found dead in pond near Atlanta - The Derrick",
-        "date": "2026-02-06",
-        "source": "Google News: HRS (7d)"
-      },
-      {
-        "title": "Immigrant whose skull was broken in eight places during ICE arrest says beating was unprovoked - The Derrick",
-        "date": "2026-02-07",
-        "source": "Google News: HRS (7d)"
       }
     ],
-    "guideline_updates": [
-      {
-        "title": "2023 ACC/AHA/ACCP/HRS AF guideline (current US standard)",
-        "date": "2023-11-30",
-        "source": "ACC"
-      }
-    ]
+    "safety_signals": [],
+    "guideline_updates": []
   }
 }

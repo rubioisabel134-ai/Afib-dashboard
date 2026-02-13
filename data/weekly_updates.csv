@@ -1,307 +1,85 @@
 category,title,date,source
-safety_signals,Andexxa (andexanet alfa) — FDA safety communication on thrombotic risk,2025-12-18,FDA
-label_expansions,FARAPULSE PFA — expanded labeling for persistent AF,2025-07-07,Boston Scientific
-guideline_updates,2023 ACC/AHA/ACCP/HRS AF guideline (current US standard),2023-11-30,ACC
-conference_abstracts,Volt PFA 12‑month data — AF Symposium 2026,2026-02-06,Abbott
-conference_abstracts,Field PULSE FIH data — AF Symposium 2026,2026-02-05,Field Medical
-conference_abstracts,CellFX nsPFA 360 FIH data — AF Symposium 2026,2026-02-05,Pulse Biosciences
-press_pipeline,EMA News & Press feed enabled (auto-tracked),,EMA
-safety_signals,Electronic Homecare Bed Correction: Medline Updates Use Instructions for Homecare Beds,2026-02-13,FDA MedWatch
-safety_signals,Emergency Response Safety Kit Recall: Airlife Removes Certain Broselow Pediatric Emergency Rainbow Tapes and Broselow ALS Organizers,2026-02-11,FDA MedWatch
-press_pipeline,FDA Approves Labeling Changes to Menopausal Hormone Therapy Products,2026-02-12,FDA Press Releases
-press_pipeline,FDA Approves First-of-Its-Kind Device to Treat Pancreatic Cancer,2026-02-12,FDA Press Releases
-press_pipeline,"FDA Launches Assessment of BHA, a Common Food Chemical Preservative",2026-02-10,FDA Press Releases
-press_pipeline,FDA Intends to Take Action Against Non-FDA-Approved GLP-1 Drugs,2026-02-06,FDA Press Releases
-label_expansions,Novel Drug Approvals for 2026,2026-02-13,FDA What's New: Drugs
 label_expansions,"Generic Drug Facilities, Sites and Organization Lists",2026-02-13,FDA What's New: Drugs · Match: Generic
-label_expansions,Drugs,2026-02-13,FDA What's New: Drugs
-label_expansions,Consumer Updates,2026-02-13,FDA What's New: Drugs
-label_expansions,Hormone Replacement Therapies Can Help Women with Bothersome Menopausal Symptoms,2026-02-13,FDA What's New: Drugs
-label_expansions,"Nutrishus Brands, Inc. - 612938 - 07/28/2021",2026-02-13,FDA What's New: Drugs
-label_expansions,Complex Innovative Trial Design Meeting Program,2026-02-13,FDA What's New: Drugs
-label_expansions,Drugs@FDA Data Files,2026-02-13,FDA What's New: Drugs
-label_expansions,Completed PDUFA VI Deliverables,2026-02-12,FDA What's New: Drugs
-label_expansions,CDER Small Business and Industry Assistance (SBIA) Learn,2026-02-12,FDA What's New: Drugs
-label_expansions,CDER Small Business & Industry Assistance (SBIA),2026-02-12,FDA What's New: Drugs
-label_expansions,Expanded Access to Investigational Drugs for Treatment Use - Questions and Answers - 04/15/2026,2026-02-12,FDA What's New: Drugs
-label_expansions,Antimicrobial Resistance,2026-02-12,FDA What's New: Drugs
-label_expansions,CDER Nitrosamine Impurity Acceptable Intake Limits,2026-02-12,FDA What's New: Drugs
-label_expansions,FDA Approves Labeling Changes to Menopausal Hormone Therapy Products,2026-02-12,FDA What's New: Drugs
-label_expansions,Registered Outsourcing Facilities,2026-02-12,FDA What's New: Drugs
-label_expansions,FDA Requests Labeling Changes Related to Safety Information to Clarify the Benefit/Risk Considerations for Menopausal Hormone Therapies,2026-02-12,FDA What's New: Drugs
-label_expansions,Menopausal Hormone Therapies with Updated Prescribing Information,2026-02-12,FDA What's New: Drugs
-label_expansions,Untitled Letters,2026-02-12,FDA What's New: Drugs
-label_expansions,Scientific Public Private Partnerships and Consortia,2026-02-12,FDA What's New: Drugs
-press_pipeline,Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 10-12 February 2026,2026-02-13,EMA News & Press
-press_pipeline,Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 9 - 12 February 2026,2026-02-13,EMA News & Press
-press_pipeline,EMA recommends withdrawal of marketing authorisations for levamisole medicines,2026-02-13,EMA News & Press
-press_pipeline,Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 10-12 February 2026,2026-02-13,EMA What's New
-press_pipeline,"Summary of opinion: Bluevac BTV (previously Bluevac BTV8), 12/02/2026 Positive",2026-02-13,EMA What's New
-press_pipeline,"Summary of opinion: Suvaxyn PRRS MLV, 12/02/2026 Positive",2026-02-13,EMA What's New
-press_pipeline,"Veterinary medicines European public assessment report (EPAR): Emepax, maropitant, Status: Opinion",2026-02-13,EMA What's New
-press_pipeline,Concept paper for the revision of the guideline on veterinary good pharmacovigilance practices (VGVP) Module: Signal Management (EMA/522332/2021),2026-02-13,EMA What's New
-press_pipeline,Highlights - 6th EMA-AESGP bilateral meeting,2026-02-13,EMA What's New
-press_pipeline,Medicinal products for human use: monthly figures - January 2026,2026-02-13,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris, emtricitabine,rilpivirine,tenofovir alafenamide, Date of authorisation: 19/08/2025, Status: Authorised",2026-02-13,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Xerava, eravacycline, Date of authorisation: 20/09/2018, Revision: 10, Status: Authorised",2026-02-13,EMA What's New
-press_pipeline,Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 9 - 12 February 2026,2026-02-13,EMA What's New
-press_pipeline,"Referral: Levamisole-containing medicinal products, levamisole, associated names: Decaris,Levamisol Arena Article 31 referrals Recommendation provided by Pharmacovigilance Risk Assessment Committee, 13/02/2026",2026-02-13,EMA What's New
-press_pipeline,EMA recommends withdrawal of marketing authorisations for levamisole medicines,2026-02-13,EMA What's New
-press_pipeline,Medicine shortage communications (MSC),2026-02-13,EMA What's New
-press_pipeline,"Medicine shortage communication (MSC): Natpar (parathyroid hormone) (25, 50, 75 and 100 micrograms/dose powder and solvent for solution for injection)",2026-02-13,EMA What's New
-press_pipeline,Ifosfamide,2026-02-13,EMA What's New
-press_pipeline,Clinical investigation of medicinal products in the treatment of Myasthenia Gravis,2026-02-13,EMA What's New
-press_pipeline,Concept paper on the need of a guideline on clinical investigation of medicinal products in the treatment of Myasthenia Gravis,2026-02-13,EMA What's New
-press_pipeline,Paediatric investigation plans: questions and answers,2026-02-12,EMA What's New
-press_pipeline,Review of the stepwise paediatric investigation plan (sPIP) pilot: Outcomes and future perspectives,2026-02-12,EMA What's New
-press_pipeline,Paediatric investigation plans,2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Vantavo (previously Alendronate sodium and colecalciferol, MSD), alendronic acid,colecalciferol, Date of authorisation: 16/10/2009, Revision: 22, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Palforzia, defatted powder of Arachis hypogaea L., semen (peanuts), Date of authorisation: 17/12/2020, Revision: 11, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,"Quarterly System Demo - Q1 2026, Online, European Medicines Agency, Amsterdam, the Netherlands, Broadcast, from 26 March 2026, 09:00 (CET) to 26 March 2026, 12:45 (CET)",2026-02-12,EMA What's New
-press_pipeline,PSUSA/00002076/202506,2026-02-12,EMA What's New
-press_pipeline,PSUSA/00000812/202506,2026-02-12,EMA What's New
-press_pipeline,PSUSA/00002639/202507,2026-02-12,EMA What's New
-press_pipeline,"Q&A clinic on Substance, Organisation, Referentials Management Services - March 2026, Online, European Medicines Agency, Amsterdam, the Netherlands, from 10 March 2026, 11:00 (CET) to 10 March 2026, 12:00 (CET)",2026-02-12,EMA What's New
-press_pipeline,Guidance for applicants for the preparation of the precise scope section of the variation application form,2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Infanrix Hexa, diphtheria (D), tetanus (T), pertussis (acellular, component) (Pa), hepatitis B (rDNA) (HBV), poliomyelitis (inactivated) (IPV) and Haemophilus influenzae type-b (Hib) conjugate vaccine (adsorbed), Date of authorisation: 23/10/2000, Revision: 49, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Retsevmo, selpercatinib, Date of authorisation: 11/02/2021, Revision: 20, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Adrovance, alendronic acid,colecalciferol, Date of authorisation: 04/01/2007, Revision: 29, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,PSUSA/00001516/202506,2026-02-12,EMA What's New
-press_pipeline,PSUSA/00010291/202506,2026-02-12,EMA What's New
-press_pipeline,PSUSA/00001499/202502,2026-02-12,EMA What's New
-press_pipeline,"Q&A clinic on eXtended EudraVigilance Medicinal Product Dictionary (XEVMPD) service - March 2026, Online, European Medicines Agency, Amsterdam, the Netherlands, from 12 March 2026, 15:00 (CET) to 12 March 2026, 16:00 (CET)",2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Glyxambi, empagliflozin,linagliptin, Date of authorisation: 11/11/2016, Revision: 22, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Jentadueto, linagliptin,metformin hydrochloride, Date of authorisation: 19/07/2012, Revision: 25, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,CVMP recommendations on limited market classification and eligibility for authorisation under Article 23,2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Trajenta, linagliptin, Date of authorisation: 23/08/2011, Revision: 23, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,"16th Industry Standing Group (ISG) meeting, Online, European Medicines Agency, Amsterdam, the Netherlands, from 31 March 2026, 13:00 (CEST) to 31 March 2026, 17:30 (CEST)",2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Foscan, temoporfin, Date of authorisation: 24/10/2001, Revision: 18, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Fosavance, alendronic acid,colecalciferol, Date of authorisation: 24/08/2005, Revision: 31, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Kyinsu, insulin icodec,semaglutide, Date of authorisation: 24/11/2025, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,Minutes of the PRAC meeting 24 - 27 November 2025,2026-02-12,EMA What's New
-press_pipeline,"SPOR and XEVMPD status update webinar - Q1 2026, Online, European Medicines Agency, Amsterdam, the Netherlands, Broadcast, from 28 January 2026, 10:00 (CET) to 28 January 2026, 12:30 (CET)",2026-02-12,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Kapruvia, difelikefalin, Date of authorisation: 25/04/2022, Revision: 4, Status: Authorised",2026-02-12,EMA What's New
-press_pipeline,Antimicrobial Sales and Use (ASU) Platform: Release notes,2026-02-12,EMA What's New
-press_pipeline,Organisation chart: Human Medicines,2026-02-12,EMA What's New
-press_pipeline,PSUSA/00002908/202412,2026-02-12,EMA What's New
-press_pipeline,"Committee for Medicinal Products for Human Use (CHMP): 21-24 July 2025, European Medicines Agency, Amsterdam, the Netherlands, from 21 July 2025 to 24 July 2025",2026-02-11,EMA What's New
-press_pipeline,Annex to 21-24 July 2025 CHMP Minutes,2026-02-11,EMA What's New
-press_pipeline,Minutes of the CHMP meeting 21-24 July 2025,2026-02-11,EMA What's New
-press_pipeline,"Meeting of the Medicine Shortages Single Point of Contact (SPOC) Working Party, Online, from 9 December 2025, 09:30 (CET) to 9 December 2025, 13:30 (CET)",2026-02-11,EMA What's New
-press_pipeline,Minutes - 2025 annual internal meeting of the members and Coordinating Group of the European network of paediatric research at the EMA (EnprEMA),2026-02-11,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Siklos, hydroxycarbamide, Date of authorisation: 29/06/2007, Revision: 29, Status: Authorised",2026-02-11,EMA What's New
-press_pipeline,PSUSA/00000662/202503,2026-02-11,EMA What's New
-press_pipeline,"Herbal medicinal product: Oenotherae oleum, Oenothera biennis L.; Oenothera lamarckiana L., C: ongoing call for scientific data",2026-02-11,EMA What's New
-press_pipeline,"Herbal medicinal product: Cimicifugae rhizoma, Cimicifuga racemosa (L.) Nutt., C: ongoing call for scientific data",2026-02-11,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Imjudo, tremelimumab, Date of authorisation: 20/02/2023, Revision: 9, Status: Authorised",2026-02-11,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Steglatro, ertugliflozin, Date of authorisation: 21/03/2018, Revision: 12, Status: Authorised",2026-02-11,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Sephience, sepiapterin, Date of authorisation: 19/06/2025, Revision: 2, Status: Authorised",2026-02-11,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Romvimza, vimseltinib, Date of authorisation: 17/09/2025, Revision: 1, Status: Authorised",2026-02-11,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Qinlock, ripretinib, Date of authorisation: 18/11/2021, Revision: 8, Status: Authorised",2026-02-11,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Lumark, lutetium (177Lu) chloride, Date of authorisation: 18/06/2015, Revision: 9, Status: Withdrawn",2026-02-11,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): HyQvia, human normal immunoglobulin, Date of authorisation: 16/05/2013, Revision: 25, Status: Authorised",2026-02-11,EMA What's New
-press_pipeline,Extended EudraVigilance medicinal product dictionary (XEVMPD) training,2026-02-11,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Plegridy, peginterferon beta-1a, Date of authorisation: 18/07/2014, Revision: 29, Status: Authorised",2026-02-11,EMA What's New
-press_pipeline,Norditropin FlexPro / Norditropin NordiFlex,2026-02-11,EMA What's New
-press_pipeline,ICH M15 guideline on general principles for model-informed drug development - Scientific guideline,2026-02-11,EMA What's New
-press_pipeline,ICH M15 Guideline on general principles for model-informed drug development - Step 5,2026-02-11,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Adenuric, febuxostat, Date of authorisation: 21/04/2008, Revision: 24, Status: Authorised",2026-02-10,EMA What's New
-press_pipeline,"Healthcare Professionals' Working Party (HCPWP) plenary meeting February 2026, Online, European Medicines Agency, Amsterdam, the Netherlands, 3 February 2026",2026-02-10,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Qaialdo, spironolactone, Date of authorisation: 26/05/2023, Revision: 3, Status: Authorised",2026-02-10,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Elucirem, gadopiclenol, Date of authorisation: 07/12/2023, Revision: 4, Status: Authorised",2026-02-10,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Vueway, gadopiclenol, Date of authorisation: 07/12/2023, Revision: 4, Status: Authorised",2026-02-10,EMA What's New
-press_pipeline,Aliskiren product-specific bioequivalence guidance,2026-02-10,EMA What's New
-press_pipeline,PhV non-compliance notification contact points at National Competent Authority (NCA) level,2026-02-10,EMA What's New
-press_pipeline,Agenda of the CVMP meeting 10-12 February 2026,2026-02-10,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Winlevi, clascoterone, Date of authorisation: 17/10/2025, Status: Authorised",2026-02-10,EMA What's New
-press_pipeline,Annex to 16-19 June 2025 CHMP Minutes,2026-02-10,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Imfinzi, durvalumab, Date of authorisation: 21/09/2018, Revision: 26, Status: Authorised",2026-02-10,EMA What's New
-press_pipeline,Minutes of the CHMP meeting 16-19 June 2025,2026-02-10,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Carvykti, ciltacabtagene autoleucel, Date of authorisation: 25/05/2022, Revision: 16, Status: Authorised",2026-02-10,EMA What's New
-press_pipeline,Article 57 product data,2026-02-10,EMA What's New
-press_pipeline,List of eligible industry stakeholder organisations,2026-02-10,EMA What's New
-press_pipeline,Members of the Coordinating group of European network of paediatric research at the European Medicines Agency (Enpr-EMA),2026-02-10,EMA What's New
-press_pipeline,Ledipasvir/sofosbuvir product-specific bioequivalence guidance,2026-02-10,EMA What's New
-press_pipeline,"Patients' and Consumers' (PCWP) and Healthcare Professionals' (HCPWP) Working Parties joint meeting, European Medicines Agency, Amsterdam, the Netherlands, from 3 February 2026 to 4 February 2026",2026-02-10,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Piasky, crovalimab, Date of authorisation: 22/08/2024, Revision: 3, Status: Authorised",2026-02-10,EMA What's New
-press_pipeline,Validation checklist for Type II quality variations,2026-02-10,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Datroway, datopotamab deruxtecan, Date of authorisation: 04/04/2025, Revision: 4, Status: Authorised",2026-02-09,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Lytenava, bevacizumab, Date of authorisation: 27/05/2024, Revision: 3, Status: Authorised",2026-02-09,EMA What's New
-press_pipeline,Agenda of the PRAC meeting 9-12 February 2026,2026-02-09,EMA What's New
-press_pipeline,Plasma master file certificates,2026-02-09,EMA What's New
-press_pipeline,Arixtra,2026-02-09,EMA What's New
-press_pipeline,Tresiba,2026-02-09,EMA What's New
-press_pipeline,Minutes of the COMP meeting 2-3 December 2025,2026-02-09,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Zypadhera, olanzapine, Date of authorisation: 19/11/2008, Revision: 25, Status: Authorised",2026-02-09,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Azopt, brinzolamide, Date of authorisation: 09/03/2000, Revision: 30, Status: Authorised",2026-02-09,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Xadago, safinamide, Date of authorisation: 23/02/2015, Revision: 16, Status: Authorised",2026-02-09,EMA What's New
-press_pipeline,"Third European Medicines Agency (EMA) and IPFA - PPTA global bilateral meeting, European Medicines Agency, Amsterdam, the Netherlands, from 9 February 2026, 13:00 (CET) to 9 February 2026, 15:00 (CET)",2026-02-09,EMA What's New
-press_pipeline,PRAC recommendations on signals adopted at the 12-15 January 2026 PRAC meeting,2026-02-09,EMA What's New
-press_pipeline,New product information wording: extracts from PRAC recommendations on signals adopted at the 12-15 January 2026 PRAC,2026-02-09,EMA What's New
-press_pipeline,Concept paper on the revision of the guidelines on Good Manufacturing Practice for medicinal products - Annex 15 - Qualification and validation,2026-02-09,EMA What's New
-press_pipeline,List of signals discussed at PRAC since September 2012,2026-02-09,EMA What's New
-press_pipeline,"Human medicines European public assessment report (EPAR): Uptravi, selexipag, Date of authorisation: 12/05/2016, Revision: 19, Status: Authorised",2026-02-09,EMA What's New
-conference_abstracts,5 things we now know about atrial fibrillation - Johnson & Johnson,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,What is atrial fibrillation and how is it treated? - AP News,2026-02-08,Google News: atrial fibrillation (7d)
-conference_abstracts,Heart Check: Spotting Atrial Fibrillation - Augusta Health,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,American Heart Month: How to spot atrial fibrillation - WHSV,2026-02-11,Google News: atrial fibrillation (7d)
 conference_abstracts,"Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",2026-02-06,Google News: atrial fibrillation (7d) · Match: Abbott
-conference_abstracts,Registration still available for Atrial Fibrillation seminar in Wausau Wednesday - WSAW,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,Splenic Infarction and Recurrent Pulmonary Embolism in Atrial Fibrillation Associated With Subtherapeutic Anticoagulation and Medication Nonadherence: A Case Report - Cureus,2026-02-09,Google News: atrial fibrillation (7d)
-conference_abstracts,UChicago cardiologist rethinks devices used to prevent stroke in patients with AFib - UChicago Medicine,2026-02-13,Google News: atrial fibrillation (7d)
-conference_abstracts,Why Medicare must cover atrial fibrillation screening to prevent strokes - KevinMD.com,2026-02-10,Google News: atrial fibrillation (7d)
-conference_abstracts,Pulse Field Ablation reshapes AFib care in Rochester - Rochester Business Journal,2026-02-10,Google News: atrial fibrillation (7d)
-conference_abstracts,Rhythm AI’s STAR Apollo system receives FDA clearance for atrial fibrillation - Pharmafile,2026-02-12,Google News: atrial fibrillation (7d)
-conference_abstracts,Smartphone-Sensor System Not Yet Ready to Detect Arrythmia in High Risk Patients - AZoSensors,2026-02-12,Google News: atrial fibrillation (7d)
-conference_abstracts,From Monitoring to Prediction: How Cardiovascular Digital Twins Could Transform Arrhythmia Care - HMP Global Learning Network,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,"More Questions Than Answers: A Narrative Review of the Epidemiology, Risk Factors, and Outcomes of Postoperative Atrial Fibrillation - Cureus",2026-02-09,Google News: atrial fibrillation (7d)
-conference_abstracts,Within-visit and short- and long-term between-visit blood pressure variability as predictors of cardiovascular events and mortality in elderly Chinese - Nature,2026-02-13,Google News: atrial fibrillation (7d)
-conference_abstracts,Noninvasive Predictors of LA Compliance Post TMVT - American College of Cardiology,2026-02-09,Google News: atrial fibrillation (7d)
-conference_abstracts,Study finds 90 minutes weekly activity after ablation linked to fewer atrial fibrillation relapses - MSN,2026-02-06,Google News: atrial fibrillation (7d)
-conference_abstracts,Study Finds Regular Exercise Cuts Atrial Fibrillation Recurrence by Nearly 50% Following Catheter Ablation - BIOENGINEER.ORG,2026-02-06,Google News: atrial fibrillation (7d)
-conference_abstracts,Volta Medical’s RESTART trial provides “promising findings” on AI solutions in recurrent AF - Cardiac Rhythm News,2026-02-09,Google News: atrial fibrillation (7d)
-conference_abstracts,Circulation Research: Study reveals new cellular mechanisms that allow the most common chronic cardiac arrhythmia to persist in the heart - cnic.es,2026-02-10,Google News: atrial fibrillation (7d)
-conference_abstracts,How UC Davis Health meets the growing need for heart rhythm care - University of California - Davis Health,2026-02-12,Google News: atrial fibrillation (7d)
-conference_abstracts,Falls History Affects Outcomes in Atrial Fibrillation Patients - BIOENGINEER.ORG,2026-02-13,Google News: atrial fibrillation (7d)
-conference_abstracts,Atrial fibrillation: First of its kind therapy for 'debilitating' heart condition - BBC,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,Boston EP Party: Medtech companies share new electrophysiology data at AF Symposium 2026 - Cardiovascular Business,2026-02-09,Google News: atrial fibrillation (7d)
-conference_abstracts,Optimizing Apixaban Monitoring in Elderly Atrial Fibrillation Patients - BIOENGINEER.ORG,2026-02-12,Google News: atrial fibrillation (7d)
-conference_abstracts,Effingham County man says smartwatch saved his life - WJCL,2026-02-11,Google News: atrial fibrillation (7d)
 conference_abstracts,Argá Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology,2026-02-09,Google News: atrial fibrillation (7d) · Match: Argá Medtech
-conference_abstracts,Irregular heartbeat? Experts say early care can prevent serious complications - KSLTV.com,2026-02-13,Google News: atrial fibrillation (7d)
-conference_abstracts,Boston Sci’s Farapulse better than thermal ablation at 4 years - BioWorld MedTech,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,"Did you know if you have palpitations, chest pain it may be atrial fibrillation? Heart surgeon explains its dangers | Health - Hindustan Times",2026-02-12,Google News: atrial fibrillation (7d)
-conference_abstracts,Atrial FDG Uptake on Cardiac PET Signals Higher Risk of Future Atrial Fibrillation: Study - Medical Dialogues,2026-02-09,Google News: atrial fibrillation (7d)
-conference_abstracts,Atrial Fibrillation Market to Rise at 6.55% CAGR (2025-2035) - - openPR.com,2026-02-12,Google News: atrial fibrillation (7d)
-conference_abstracts,Johnson & Johnson reports early pilot study results for atrial fibrillation device - StreetInsider,2026-02-09,Google News: atrial fibrillation (7d)
 conference_abstracts,Abbott announces late-breaking data from global VOLT-AF and FOCALFLEX studies - Cardiac Rhythm News,2026-02-12,Google News: atrial fibrillation (7d) · Match: Abbott
-conference_abstracts,"Johnson & Johnson Highlights Pipeline Breadth Across Cardiology, Oncology And Vision Care - Yahoo Finance",2026-02-10,Google News: atrial fibrillation (7d)
-conference_abstracts,Aspirus discusses option for AFib - Antigo Daily Journal,2026-02-13,Google News: atrial fibrillation (7d)
-conference_abstracts,"Pulsed Field Ablation Market Size, Share, Growth | CAGR of 33.2% - Market.us",2026-02-09,Google News: atrial fibrillation (7d)
-conference_abstracts,"Atrial fibrillation: Avoid smoking, caffeine and alcohol after treatment - The New Indian Express",2026-02-09,Google News: atrial fibrillation (7d)
 conference_abstracts,Pulse Biosciences presents latest data from first-in-human study evaluating nPulse cardiac catheter system - Cardiac Rhythm News,2026-02-13,Google News: atrial fibrillation (7d) · Match: Pulse Biosciences
-conference_abstracts,Atrial fibrillation: Diagnosis remains remarkably straightforward - The New Indian Express,2026-02-09,Google News: atrial fibrillation (7d)
-conference_abstracts,Atrial Fibrillation: When chaos takes over heart’s rhythm - The New Indian Express,2026-02-09,Google News: atrial fibrillation (7d)
 conference_abstracts,J&J presents early outcomes from OMNY-AF pilot study alongside new Varipulse platform data - Cardiac Rhythm News,2026-02-10,Google News: atrial fibrillation (7d) · Match: VARIPULSE Platform
-conference_abstracts,Memorial Health shares how smart watch alerted patient to Afib - WTOC,2026-02-10,Google News: atrial fibrillation (7d)
-conference_abstracts,"For Some AFib Patients, Minimally Invasive Surgery Should Be Discussed - Conexiant",2026-02-10,Google News: atrial fibrillation (7d)
-conference_abstracts,Johnson And Johnson Cardiac Data Fuels Fresh Look At Valuation Upside - Yahoo Finance,2026-02-12,Google News: atrial fibrillation (7d)
-conference_abstracts,Vitamin K Antagonists May Not Worsen COPD Outcomes - Medscape,2026-02-10,Google News: atrial fibrillation (7d)
 conference_abstracts,Abbott initiates UK pilot of Volt PFA system - Medical Device Network,2026-02-12,Google News: atrial fibrillation (7d) · Match: Abbott
-conference_abstracts,New Study Uncovers Cellular Mechanisms Behind Persistent Common Cardiac Arrhythmia - BIOENGINEER.ORG,2026-02-12,Google News: atrial fibrillation (7d)
-conference_abstracts,To Your Good Health - miningjournal.net,2026-02-13,Google News: atrial fibrillation (7d)
 conference_abstracts,Argá Medtech reports 94% lesion durability and “strong safety profile” with single-catheter PFA system - Cardiac Rhythm News,2026-02-11,Google News: atrial fibrillation (7d) · Match: Argá Medtech
-conference_abstracts,The biggest cardiac tech news out of the 2026 AF Symposium - massdevice.com,2026-02-10,Google News: atrial fibrillation (7d)
 conference_abstracts,Abbott reports positive VERITAS study results for AFib - Medical Device Network,2026-02-09,Google News: atrial fibrillation (7d) · Match: Abbott
 conference_abstracts,Field Medical presents late-breaking Field PULSE trial data at 2026 AF symposium - Cardiac Rhythm News,2026-02-11,Google News: atrial fibrillation (7d) · Match: Field Medical
 conference_abstracts,Pulse Biosciences Highlights Strong AF Outcomes From NPulse Feasibility Study - Nasdaq,2026-02-09,Google News: atrial fibrillation (7d) · Match: Pulse Biosciences
-conference_abstracts,"J&J experimental AFib therapy shows 90% success, no procedure events - Stock Titan",2026-02-07,Google News: atrial fibrillation (7d)
-conference_abstracts,Moderate exercise lowers atrial fibrillation recurrence after ablation - MSN,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,Local patient's battle with AFib highlights need for awareness during Heart Month - WUWF,2026-02-10,Google News: atrial fibrillation (7d)
 conference_abstracts,Argá Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA System - Yahoo Finance,2026-02-09,Google News: atrial fibrillation (7d) · Match: Argá Medtech
-conference_abstracts,4 takeaways from the 2026 AF Symposium - Yahoo Finance,2026-02-10,Google News: atrial fibrillation (7d)
-conference_abstracts,PLSE Shares Positive First-in-Human nPulse Cardiac Catheter Data - Yahoo Finance,2026-02-09,Google News: atrial fibrillation (7d)
-conference_abstracts,"Three Small-Cap Movers: Pulse, BILL, And Envista Jump - Finimize",2026-02-06,Google News: atrial fibrillation (7d)
+conference_abstracts,Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com,2026-02-10,Google News: atrial fibrillation (7d) · Match: Boston Scientific
 conference_abstracts,Pulse Biosciences Heart Device Data Fuels Stock Surge - Benzinga,2026-02-06,Google News: atrial fibrillation (7d) · Match: Pulse Biosciences
-conference_abstracts,Smart watch alerts local man to dangerous heart condition - Yahoo,2026-02-10,Google News: atrial fibrillation (7d)
-conference_abstracts,How Smartwatches Are Detecting Silent Atrial Fibrillation—and Why It Matters for Black Adults - BlackDoctor.org,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,Johnson & Johnson Reports 90% AFib Freedom In Early Heart Device Study - Benzinga,2026-02-09,Google News: atrial fibrillation (7d)
+conference_abstracts,"Johnson & Johnson MedTech has encouraging Omnypulse results, more data backs Varipulse - massdevice.com",2026-02-07,Google News: atrial fibrillation (7d) · Match: Johnson & Johnson MedTech
 conference_abstracts,Argá Medtech Reports 94% Lesion Durability and Strong - GlobeNewswire,2026-02-09,Google News: atrial fibrillation (7d) · Match: Argá Medtech
-conference_abstracts,Understanding AFib and New Advances in Treatment with Pulsed Field Ablation - KNWA FOX24,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,Oral Anticoagulant Discontinuation After AF Ablation: Review Sheds Light on Risks and Benefits - Medical Dialogues,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,Johnson & Johnson (JNJ) Reports 100% Success in OMNY-AF Study - Yahoo Finance UK,2026-02-13,Google News: atrial fibrillation (7d)
-conference_abstracts,Argá Medtech reports 94% lesion durability and strong safety profile in PFA trial - Health Tech World,2026-02-12,Google News: atrial fibrillation (7d) · Match: Argá Medtech
-conference_abstracts,Hospital to trial 'innovative treatment' for people with common heart condition - The Hunts Post,2026-02-13,Google News: atrial fibrillation (7d)
-conference_abstracts,Hospital to trial 'innovative treatment' for people with common heart condition - Peterborough Matters,2026-02-13,Google News: atrial fibrillation (7d)
-conference_abstracts,Abbott Reports Strong Results for Amulet 360 LAA Occlusion Device - Medical Product Outsourcing,2026-02-09,Google News: atrial fibrillation (7d) · Match: Abbott
-conference_abstracts,Left Atrial Appendage Devices Market to Reach USD 5.18 Billion - openPR.com,2026-02-13,Google News: atrial fibrillation (7d)
-conference_abstracts,Johnson & Johnson presents 12-month pilot-phase data from OMNY-AF study - TipRanks,2026-02-07,Google News: atrial fibrillation (7d)
 conference_abstracts,Abbott stock price: Insider buy and fresh AFib data put ABT back on watch for Monday - TechStock²,2026-02-08,Google News: atrial fibrillation (7d) · Match: Abbott
-conference_abstracts,From three hours to 30 minutes: New heart procedure in UAE cuts stroke risk by 25% - Khaleej Times,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,Devon hospital to trial innovative treatment for people with heart condition - Rayo,2026-02-12,Google News: atrial fibrillation (7d)
 conference_abstracts,Abbott stock rises on AFib device data buzz as traders weigh FDA overhang - Bez Kabli,2026-02-10,Google News: atrial fibrillation (7d) · Match: Abbott
 conference_abstracts,Pulse Biosciences Reports Groundbreaking Clinical Trial Data for Heart Treatment Technology - AD HOC NEWS,2026-02-10,Google News: atrial fibrillation (7d) · Match: Pulse Biosciences
-conference_abstracts,Leeds General Infirmary to trial new device to treat common heart condition | News - Hits Radio (West Yorkshire) - Rayo,2026-02-12,Google News: atrial fibrillation (7d)
-conference_abstracts,NI hospital among the first trial new device to treat common heart condition - Belfast Live,2026-02-12,Google News: atrial fibrillation (7d)
-conference_abstracts,Widow exposes failings - Te Awamutu News,2026-02-11,Google News: atrial fibrillation (7d)
-conference_abstracts,Boston EP Party: Medtech companies share new electrophysiology data at AF Symposium 2026 - Cardiovascular Business,2026-02-09,Google News: AF Symposium (7d)
-conference_abstracts,The biggest cardiac tech news out of the 2026 AF Symposium - massdevice.com,2026-02-10,Google News: AF Symposium (7d)
-conference_abstracts,4 takeaways from the 2026 AF Symposium - Yahoo Finance,2026-02-10,Google News: AF Symposium (7d)
 conference_abstracts,Field Medical presents late-breaking Field PULSE trial data at 2026 AF symposium - Cardiac Rhythm News,2026-02-11,Google News: AF Symposium (7d) · Match: Field Medical
-conference_abstracts,"J&J experimental AFib therapy shows 90% success, no procedure events - Stock Titan",2026-02-07,Google News: AF Symposium (7d)
-conference_abstracts,Atraverse Medical Highlights New HOTWIRE Data at AF Symposium 2026 - TipRanks,2026-02-07,Google News: AF Symposium (7d)
-conference_abstracts,Johnson & Johnson reports early pilot study results for atrial fibrillation device - StreetInsider,2026-02-09,Google News: AF Symposium (7d)
 conference_abstracts,J&J presents early outcomes from OMNY-AF pilot study alongside new Varipulse platform data - Cardiac Rhythm News,2026-02-10,Google News: AF Symposium (7d) · Match: VARIPULSE Platform
-conference_abstracts,Within-visit and short- and long-term between-visit blood pressure variability as predictors of cardiovascular events and mortality in elderly Chinese - Nature,2026-02-13,Google News: HRS (7d)
-conference_abstracts,Body believed to be Lil Jon's son is found dead in pond near Atlanta - The Derrick,2026-02-06,Google News: HRS (7d)
-conference_abstracts,Immigrant whose skull was broken in eight places during ICE arrest says beating was unprovoked - The Derrick,2026-02-07,Google News: HRS (7d)
 press_pipeline,Boston Scientific to participate in TD Cowen's 46th Annual Health Care Conference - PR Newswire,2026-02-13,Google News: AFib watchlist 8 · Match: Boston Scientific
 press_pipeline,Abbott breaks with Trump over president’s call to nationalize elections - Houston Public Media,2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
+press_pipeline,From Abbott Elementary to New Girl: 11 Hilarious Valentine's Day Episodes You Should Watch - Television Academy,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Greg Abbott is the only credible choice in GOP primary for Texas governor - San Antonio Express-News,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Abbott’s primary isn’t where Texas’ future will be decided | Editorial - statesman.com,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Gina Hinojosa draws statistically even in new poll - El Paso Times,2026-02-12,Google News: AFib watchlist 8
+press_pipeline,Does Boston Scientific’s 2026 Double-Digit Sales Outlook and Leadership Shift Change The Bull Case For BSX? - simplywall.st,2026-02-13,Google News: AFib watchlist 8 · Match: Boston Scientific
+press_pipeline,Abbott’s primary isn’t where Texas’ future will be decided | Editorial - Austin American-Statesman,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
+press_pipeline,Gov. Abbott targets 'out-of-control' property taxes with new five-point tax relief plan - FOX 26 Houston,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Governor Abbott, Secretary Rollins Take Action To Protect Agriculture In South Texas - Office of the Texas Governor (.gov)",2026-02-09,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Paxton, Abbott set to make Tyler stops - Tyler Morning Telegraph",2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Greg Abbott Announces $4.16 Million Boost For Arm’s Austin Semiconductor Lab - Yahoo Finance,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Gov. Abbott targets 'out-of-control' property taxes with new five-point tax relief plan - FOX 26 Houston,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
+press_pipeline,Governor Abbott Announces Texas Semiconductor Innovation Fund Grant to Arm Inc. - texasinsider,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Adam Silver doesn't face the media often - TrueHoop | Henry Abbott,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Greg Abbott launches rural TV ad targeting Crockett and out-of-state Democrats - Houston Chronicle,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Gov. Abbott bans SHEIN, other websites affiliated with China - The Daily Texan",2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Abbott Laboratories $ABT Shares Purchased by Public Sector Pension Investment Board - MarketBeat,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Texas labor unions are increasingly divided on which candidate to endorse for governor - The Texas Tribune,2026-02-11,Google News: AFib watchlist 8
-press_pipeline,Texas Gov. Greg Abbott scores endorsement from 800 Texas music venues - Dallas News,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,When Does ‘Abbott Elementary’ Return With New Episodes on ABC? - Decider,2026-02-11,Google News: AFib watchlist 8 · Match: Abbott
+press_pipeline,Greg Abbott launches rural TV ad targeting Crockett and out-of-state Democrats - Houston Chronicle,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Krilogy Financial LLC Acquires Shares of 9,560 Abbott Laboratories $ABT - MarketBeat",2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
+press_pipeline,When Does ‘Abbott Elementary’ Return With New Episodes on ABC? - Decider,2026-02-11,Google News: AFib watchlist 8 · Match: Abbott
+press_pipeline,Texas Gov. Greg Abbott scores endorsement from 800 Texas music venues - Dallas News,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Freemont Management S.A. Trims Holdings in Abbott Laboratories $ABT - MarketBeat,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Freemont Management S.A. Lowers Position in Boston Scientific Corporation $BSX - MarketBeat,2026-02-13,Google News: AFib watchlist 8 · Match: Boston Scientific
-press_pipeline,"BSX Posts Q4 Earnings: Should You Buy, Sell or Hold the Stock? - TradingView",2026-02-13,Google News: AFib watchlist 8
 press_pipeline,Gov. Greg Abbott campaign sounds alarm on Texas blue wave - El Paso Times,2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Texas Democrat in Striking Distance of Beating Greg Abbott—Internal Poll - Newsweek,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Greg Abbott’s Chances of Losing Texas Governor Election: New Poll - Newsweek,2026-02-11,Google News: AFib watchlist 8 · Match: Abbott
+press_pipeline,Texas Democrat in Striking Distance of Beating Greg Abbott—Internal Poll - Newsweek,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"‘Abbott Elementary’ Fans React to Extended February Break: ‘Quinta, Why?’ - Parade",2026-02-11,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Boston Scientific Corp (NYSE:BSX) Emerges as a Prime GARP Candidate - ChartMill,2026-02-13,Google News: AFib watchlist 8 · Match: Boston Scientific
 press_pipeline,Abbott outlines five-point property tax reform plan - The Black Chronicle,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Texas denuncia la «hipocresía» de los demócratas al defender los derechos de los estados en Minnesota Biden - Fox News,2026-02-13,Google News: AFib watchlist 8
 press_pipeline,Credibility of state agriculture agency at center of Abbott endorsement - The Center Square,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Who’s leading in Texas’ 2026 election? New poll offers clues - KHOU,2026-02-11,Google News: AFib watchlist 8
 press_pipeline,NHS hospitals pilot Abbott Volt PFA system - Med-Tech Insights,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com,2026-02-09,Google News: AFib watchlist 8 · Match: Boston Scientific
-press_pipeline,Abbott Labs Just Extended Its Dividend Aristocrat Status: What Comes Next? - 24/7 Wall St.,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Governor Abbott Cuts Ribbon At Element3 Lithium Extraction Facility - Office of the Texas Governor (.gov),2026-02-06,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Abbott announces late-breaking data from global VOLT-AF and FOCALFLEX studies - Cardiac Rhythm News,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,More North Texas Students Walk Out as Abbott Threatens Consequences - Dallas Observer,2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
+press_pipeline,Abbott Labs Just Extended Its Dividend Aristocrat Status: What Comes Next? - 24/7 Wall St.,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,ABT.SW Abbott Laboratories (SIX) volume spike 40x avg: watch CHF100.00 support - Meyka,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,United States: Texas Governor Abbott Announces Texas Semiconductor Innovation Fund Grant to Arm Inc. - The St Kitts Nevis Observer,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Despite Abbott endorsement, Sheets trails incumbent Miller in Agriculture Commissioner race - KXAN Austin",2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,"Abbott TV Ads In Rural Texas Target Crockett, Other Democrats - 710 KURV",2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Texas Medicaid director outlines what office can do to prevent fraud after governor’s letter - KERA News,2026-02-12,Google News: AFib watchlist 8
 press_pipeline,"Texas Agriculture Commissioner Sid Miller reacts to Gov. Abbott's endorsement of his challenger: ""I wasn't surprised."" - CBS News",2026-02-08,Google News: AFib watchlist 8 · Match: Abbott
+press_pipeline,"Abbott TV Ads In Rural Texas Target Crockett, Other Democrats - 710 KURV",2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Abbott Labs: The Healthcare Dividend Stock I'd Happily Hold Forever - The Motley Fool,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,The Top 5 Analyst Questions From Boston Scientific’s Q4 Earnings Call - TradingView,2026-02-11,Google News: AFib watchlist 8 · Match: Boston Scientific
 press_pipeline,"Why There's No New Abbott Elementary Tonight (Feb 11) & When Season 5, Episode 17 Releases - Screen Rant",2026-02-11,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Tony Abbott issues Taylor a warning on what not to become - Australian Broadcasting Corporation,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Abbott awards $21.8M grant to Davie Defense for Galveston shipbuilding | Local News | The Daily News - galvnews.com,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Sandra Lou Abbott Obituary February 10, 2026 - Yoder-Culp Funeral Home",2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Abbott initiates UK pilot of Volt PFA system - Medical Device Network,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
+press_pipeline,The Top 5 Analyst Questions From Boston Scientific's Q4 Earnings Call - Finviz,2026-02-11,Google News: AFib watchlist 8 · Match: Boston Scientific
+press_pipeline,Tony Abbott issues Taylor a warning on what not to become - Australian Broadcasting Corporation,2026-02-13,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Rollins, Abbott open sterile fly facility in Texas - The Fence Post",2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"After a 15% Drop, Is Abbott Stock Set Up for a Comeback in 2026? - TIKR.com",2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,MJ Abbott - Golf Course Architecture Magazine,2026-02-09,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Abbott proposes five-point plan targeting Texas property taxes - Audacy,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,"“We are ready”: Ag Secretary Brooke Rollins says U.S., Texas ready to fight parasitic fly - The Texas Tribune",2026-02-09,Google News: AFib watchlist 8
-press_pipeline,"Abbott Laboratories (ABT): Short-Term Headwinds, Strategic Pipeline Strength, and UBS Buy Rating - Yahoo Finance",2026-02-08,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Boston Scientific tests make-or-break support after steep decline - FXStreet,2026-02-11,Google News: AFib watchlist 8 · Match: Boston Scientific
+press_pipeline,"Abbott Laboratories (ABT): Short-Term Headwinds, Strategic Pipeline Strength, and UBS Buy Rating - Yahoo Finance",2026-02-08,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Gov. Greg Abbott, Sec. Rollins, USDA announces significant step to combat New World Screwworm - KXXV",2026-02-09,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Trade Tracker: Monolithic Power, Astera Labs, Genpact, Pinnacle Financial, First Citizens Bank, HealthEquity, Boston Scientific and the XBI - CNBC",2026-02-11,Google News: AFib watchlist 8 · Match: Boston Scientific
 press_pipeline,"Booker T. Students Protest ICE, Abbott - D Magazine",2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Felda Abbott - Index-Journal,2026-02-11,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Borderland residents speak out against ICE detention center in Socorro - El Paso Times,2026-02-12,Google News: AFib watchlist 8
 press_pipeline,Cibc World Market Inc. Reduces Stock Holdings in Abbott Laboratories $ABT - MarketBeat,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Dallas students walk out to protest immigration crackdown amid threats from Abbott, TEA - Dallas News",2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Despite Pressure From Abbott, AISD Students Keep Up Anti-ICE Protests - The Austin Chronicle",2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Wealthfront Advisers LLC Reduces Stock Position in Abbott Laboratories $ABT - MarketBeat,2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Gov. Abbott, US Agriculture Secretary Rollins to deliver remarks in Edinburg - ValleyCentral.com",2026-02-09,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Abbott holds round table discussion in Mission to talk strategies to get Mexico to fulfill water deal - KRGV,2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,Americans stopped believing in fairness when they got rid of DEI - Houston Chronicle,2026-02-10,Google News: AFib watchlist 8
 press_pipeline,Abbott's Frozen Custard closes in Atascocita - Community Impact | News,2026-02-09,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,Abbott’s Freeze on H-1B Visas Raises Concerns for Public Universities - The Austin Chronicle,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,DexCom earnings up next: Can G7 rollout offset Abbott competition? By Investing.com - Investing.com Nigeria,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
@@ -310,112 +88,5 @@ press_pipeline,Abbott Labs: The Healthcare Dividend Stock I'd Happily Hold Forev
 press_pipeline,Our limit is pain - TrueHoop | Henry Abbott,2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,"Lauren Abbott, E-P win one for coach Chris Brown at Princeton - Shaw Local",2026-02-10,Google News: AFib watchlist 8 · Match: Abbott
 press_pipeline,The Top 5 Analyst Questions From Boston Scientific’s Q4 Earnings Call - The Globe and Mail,2026-02-10,Google News: AFib watchlist 8 · Match: Boston Scientific
-press_pipeline,Dallas FRSO: Texas labor movement should not support Governor Abbott - Fight Back! News,2026-02-09,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,"‘Time to Buy,’ Says Options Trader Following Abbott’s (ABT) Earnings Implosion - TipRanks",2026-02-12,Google News: AFib watchlist 8 · Match: Abbott
-press_pipeline,"Denis Johnson’s Desperate, Poetic Horrors - The New Republic",2026-02-11,Google News: AFib watchlist 10
-press_pipeline,Democrats’ tariff gambit sparks new headaches for Mike Johnson - The Hill,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,"Iowa Lakes OF Carter Johnson died in bus crash, police say - ESPN",2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Breezy Johnson gets engaged at the Winter Olympics - CNN,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Mike Johnson chides DOJ for tracking lawmakers’ perusal of unredacted Epstein files - Politico,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Scientists Figured Out the Problem With Johnson & Johnson’s COVID Vaccine - The Atlantic,2026-02-11,Google News: AFib watchlist 10
-press_pipeline,Sen. Ron Johnson tells Minnesota elected official ‘you disgust me’ in heated hearing on ICE - WPR,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Breezy Johnson adds engagement to gold medal in a memorable Olympic week - The Athletic - The New York Times,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Obituary information for Craig Johnson - Gunderson Funeral Home and Cremation Services,2026-02-11,Google News: AFib watchlist 10
-press_pipeline,Giants’ chairman Greg Johnson on rival Dodgers: ‘Baseball is baseball. We can beat ‘em’ - San Francisco Chronicle,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Breezy JOHNSON - Milano Cortina 2026,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Breezy Johnson gets engaged at Winter Olympics after boyfriend proposes at finish line - NBC News,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"Speaker Mike Johnson abruptly canceled the official delegation of dozens of House members to the Munich Security Conference, Europe's biggest annual security summit, amid a funding battle that is expected to shutter the DHS this weekend. - Facebook",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,"Ex-Jackson police officer Marcus Johnson guilty of gun, ax murder of nurse - The Clarion-Ledger",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Taylor Swift congratulates Breezy Johnson on engagement - NBC Olympics,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Officials identify Iowa Lakes baseball player killed in bus crash - KCCI,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,‘Huge relief’: Locked-in Jimmie Johnson aims for more Daytona 500 memories - NASCAR.com,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"Remembering Carter Johnson: teammate, friend, and community member - Dakota News Now",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,"For $1M, you can pay Bryan Johnson (or BryanAI?) to teach you how to live longer - TechCrunch",2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Mercury's Johnson Has Her Best College Season - Sports Illustrated,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Taylor Swift Reacts to Olympian Breezy Johnson’s Engagement With Her Lyrics - E! News,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,"Winter Olympics 2026: Taylor Swift weighs in, congratulating USA gold medallist Breezy Johnson on her engagement - Milano Cortina 2026",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,"Ex-Jackson police officer testifies to axe attack, fatal shooting of nurse - The Clarion-Ledger",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Speaker Johnson: Not ‘appropriate’ for DOJ to track members’ Epstein files searches - The Hill,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,FAMU President Johnson relocation deal raises pay - Tallahassee Democrat,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Shannon Johnson retiring from Ashland County Board of Elections after 28 years - Ashland Source,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Gold Medalist Breezy Johnson and Connor Watkins Share the Love Story Behind Their Olympics Engagement - Vogue,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Skier Breezy Johnson gets engaged after Olympic race - NBC News,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Taylor Swift Congratulates Olympian Breezy Johnson on Her Engagement With Sweet Song Lyric - TODAY.com,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"Gold medal in the bag, Breezy Johnson gets more hardware: An engagement ring - The Washington Post",2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"Former Jackson police officer sentenced to life for gun, ax murder of nurse - The Clarion-Ledger",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,19-year-old Carter Johnson identified as Iowa Lakes bus crash victim - The Des Moines Register,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"Carter Johnson, 19, identified as player killed in Iowa Lakes bus crash - USA Today",2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"At the Olympics, skier Breezy Johnson won a gold medal — and an engagement ring, too - NPR",2026-02-12,Google News: AFib watchlist 10
-press_pipeline,U.S. Olympic skier Breezy Johnson has plans for her broken and repaired gold medal - CBS News,2026-02-11,Google News: AFib watchlist 10
-press_pipeline,Winter Olympics 2026: Breezy Johnson gets engaged at finish line following super-G crash - Yahoo Sports,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Taylor Swift Shares Cheeky Nod to Her Lyrics as She Congratulates Breezy Johnson on Her Olympics Engagement - People.com,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Ken Johnson - Rochester Business Journal,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,"Johnson Controls International Insiders Sell US$35m Of Stock, Possibly Signalling Caution - Yahoo Finance",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,"LSU’s Jay Johnson studied old sports dynasties, and now he knows how to build his own - NOLA.com",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,"Johnson family releases statement in wake of the loss of their daughter, Halley Tobler - St. Cloud Live",2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Gold medalist Breezy Johnson’s latest Olympic bling? A sapphire engagement ring - AP News,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"Sen. Johnson blames Minnesota AG for deaths of Good, Pretti in heated exchange - The Hill",2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Breezy Johnson knits as fast as she skis. See gold medalist's designs - USA Today,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Dakota Johnson Co-Signs a New Sensible Shoe for Spring 2026 - Vogue,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Mayor Brandon Johnson faces budget scrutiny as council launches accountability coalition - FOX 32 Chicago,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,American Olympic gold medalist Breezy Johnson gets engaged during Winter Games - Fox News,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Taylor Swift celebrates Olympian Breezy Johnson’s engagement with fitting comment - Page Six,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Obituary for Karen (Johnson) Conway - Austin & Barnes Funeral Home,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Taylor Swift Left Breezy Johnson the Perfect Comment to Cap Off Her Boyfriend’s Olympics Proposal - ELLE,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,The Republican who Mike Johnson can't ever count on - Axios,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Ewing Returns! What to Know About Griffin Johnson’s 3-Year-Old Racehorse - americasbestracing.net,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Johnson says 6 Democrats should be indicted after grand jury rebuke - The Hill,2026-02-11,Google News: AFib watchlist 10
-press_pipeline,"19-year-old baseball player killed in Northern Iowa bus crash, 32 more injured - KCRG",2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Breezy Johnson gets engaged at Olympics after boyfriend proposes at finish line - NBC10 Philadelphia,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Bisexual skier Breezy Johnson gets engaged after winning gold at the Winter Olympics - Yahoo Sports,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"Wes Johnson, Georgia baseball outline expectations ahead of Opening Day - The Red & Black",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Olympian Breezy Johnson gets engaged after race - cbs19.tv,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,"Known as Showtime, Heat’s Johnson ready to produce All-Star dunk drama - Sun Sentinel",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Taylor Swift Congratulates Breezy Johnson on Her Engagement - TODAY.com,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Lloyd Johnson - minotdailynews.com,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Breezy Johnson gets engaged after crashing out of women's Super-G race at Winter Games - CBS News,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"At Season's Midpoint, Mitch Johnson the Man Responsible for Spurs' Success - Sports Illustrated",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Johnson County Sheriff unexpectedly resigns Thursday night - 5newsonline.com,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Mike Johnson Finally Rebukes Trump Over Bondi’s Snooping Scandal - The Daily Beast,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Shariaportfolio Inc. Has $3.27 Million Stock Position in Johnson & Johnson $JNJ - MarketBeat,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,A proposal and a Taylor Swift reply: Olympian Breezy Johnson’s perfect day - USA Today,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,EXCLUSIVE: Olympian Breezy Johnson Joins TODAY Just After Boyfriend's Magical Finish Line Proposal - TODAY.com,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Three reasons the latest failure for Trump and Mike Johnson was ‘seismic’ - MS NOW,2026-02-11,Google News: AFib watchlist 10
-press_pipeline,Highlights From The Closers 2026 Toasts in Atlanta - Time Magazine,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Why the NCAA cleared Louisville G League signee London Johnson but not Alabama's Bediako - WDRB,2026-02-11,Google News: AFib watchlist 10
-press_pipeline,Magic Johnson Shares What He Considers When Investing In Founders - afrotech.com,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,An Iowa community college mourns baseball player killed in bus crash - Iowa Public Radio,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Johnson's 23 lead Denver past South Dakota State 79-61 - CBS Sports,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Magic Johnson calls me in. Says I didn’t improve all … - HoopsHype,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Meridian community remembers Donna Jill Johnson - Meridian Star,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,"Dakota Graham, Rayshawn Hamilton are Feb. 2-8 Akron-Area Athletes of Week - Akron Beacon Journal",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Latest mock draft suggested best Lane Johnson replacement for Eagles yet - Inside the Iggles,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Breezy Johnson Gets Engaged After Boyfriend Proposes at Olympics Finish Line - People.com,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"David William Johnson Obituary February 9, 2026 - Mankato Mortuary",2026-02-09,Google News: AFib watchlist 10
-press_pipeline,Alpine skiing: Breezy Johnson crashes out of the women's super-G! - The New York Times,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Olympic champion Breezy Johnson crashes out of super-G then gets engaged at end of course - The Guardian,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Taylor Swift reacts to Breezy Johnson's Olympic engagement shoutout - NBC4 Washington,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,'Heartbroken' Minnesota gov candidate Jeff Johnson speaks out after 22-year-old daughter's vicious slaying - New York Post,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"Joseph Johnson Obituary (2026) - Goochland, VA - Richmond Times-Dispatch - Legacy | Obituary",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Breezy Johnson adds engagement ring to Olympic gold after fiance proposes - USA Today,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Woody Johnson's latest embarrassment reinforces harsh truth about Jets culture - The Jet Press,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Metis Global Partners LLC Has $25.15 Million Holdings in Johnson & Johnson $JNJ - MarketBeat,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Public Sector Pension Investment Board Has $53.09 Million Holdings in Johnson & Johnson $JNJ - MarketBeat,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Zips Host UMass; Honor Isaiah Johnson on Friday - University of Akron Athletics,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"Breezy Johnson wins gold in women’s downhill, first U.S. medal of Olympics - The Athletic - The New York Times",2026-02-08,Google News: AFib watchlist 10
-press_pipeline,Breezy Johnson misses Super G gold — gets engaged at the finish line - OutSports,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Chicago Board of Education Members Allege ‘Sabotage’ From Mayor Brandon Johnson in Ongoing CPS CEO Search - WTTW,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,Breezy Johnson Gets Engaged to Connor Watkins at Olympics 2026 Finish Line - E! News,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"North Charleston Police charge brother, sister in alleged mutual assault - Live 5 News",2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Johnson & Johnson Stock On A Winning Streak: Time To Get In Or Book Profits? - Trefis,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Kendra Johnson Lind - Western News,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Sentencing Friday for former Jackson police officer convicted of murder - WAPT,2026-02-13,Google News: AFib watchlist 10
-press_pipeline,Who is Breezy Johnson's fiancé? US gold medal skier engaged at Winter Olympics - USA Today,2026-02-12,Google News: AFib watchlist 10
-press_pipeline,"Garfield Heights retires Marcus Johnson’s jersey, as No. 11 scores 40 points in senior night win - Cleveland.com",2026-02-13,Google News: AFib watchlist 10
 press_pipeline,J&J presents early outcomes from OMNY-AF pilot study alongside new Varipulse platform data - Cardiac Rhythm News,2026-02-10,Google News: AFib watchlist 14 · Match: VARIPULSE Platform
-press_pipeline,Johnson & Johnson Presents Early Outcomes from the OMNY-AF Pilot Study at 2026 AF Symposium - The AI Journal,2026-02-07,Google News: AFib watchlist 14
-press_pipeline,Johnson & Johnson reports early pilot study results for atrial fibrillation device - StreetInsider,2026-02-09,Google News: AFib watchlist 14
 press_pipeline,Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients,2026-02-06,Abbott MediaRoom (Press Releases) · Match: Abbott
-press_pipeline,Bristol Myers Squibb to be Inaugural Partner for Life Science Cares National Campaign to Advance Health Equity and Fight Food Insecurity,2026-02-12,Bristol Myers Squibb (Press Releases)
-press_pipeline,Johnson & Johnson to Participate in the Barclays 28th Annual Global Healthcare Conference,2026-02-09,Johnson & Johnson (Press Releases)
-press_pipeline,Johnson & Johnson Presents Early Outcomes from the OMNY-AF Pilot Study at 2026 AF Symposium,2026-02-07,Johnson & Johnson (Press Releases)

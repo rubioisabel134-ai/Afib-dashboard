@@ -137,6 +137,7 @@ def build_google_news_sources(terms: List[str]) -> List[Dict[str, str]]:
                 "name": f"Google News: AFib watchlist {idx // chunk_size + 1}",
                 "category": "press_pipeline",
                 "url": GOOGLE_NEWS_BASE.format(query=query.replace(" ", "%20")),
+                "require_match": True,
             }
         )
     return sources
@@ -202,6 +203,7 @@ def main() -> int:
         category = source.get("category")
         url = source.get("url")
         name = source.get("name")
+        require_match = source.get("require_match", True)
         if category not in CATEGORIES or not url or not name:
             continue
 
@@ -219,6 +221,8 @@ def main() -> int:
                 continue
             date_str = dt.date().isoformat() if dt else ""
             match = find_match(title, terms)
+            if require_match and not match:
+                continue
             source_label = name if not match else f"{name} · Match: {match}"
             row = {
                 "category": category,

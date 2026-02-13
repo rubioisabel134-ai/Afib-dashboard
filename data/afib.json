@@ -3074,6 +3074,13 @@
         "source": "Pulse Biosciences"
       }
     ],
+    "guideline_updates": [
+      {
+        "title": "2023 ACC/AHA/ACCP/HRS AF guideline (current US standard)",
+        "date": "2023-11-30",
+        "source": "ACC"
+      }
+    ],
     "safety_signals": [
       {
         "title": "Andexxa (andexanet alfa) \u2014 FDA safety communication on thrombotic risk",
@@ -3086,13 +3093,6 @@
         "title": "FARAPULSE PFA \u2014 expanded labeling for persistent AF",
         "date": "2025-07-07",
         "source": "Boston Scientific"
-      }
-    ],
-    "guideline_updates": [
-      {
-        "title": "2023 ACC/AHA/ACCP/HRS AF guideline (current US standard)",
-        "date": "2023-11-30",
-        "source": "ACC"
       }
     ]
   }

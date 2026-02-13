@@ -18,6 +18,11 @@ const searchEl = document.getElementById("search");
 const categoryFiltersEl = document.getElementById("categoryFilters");
 const stageFiltersEl = document.getElementById("stageFilters");
 const typeFiltersEl = document.getElementById("typeFilters");
+const weeklySafetyEl = document.getElementById("weeklySafety");
+const weeklyLabelEl = document.getElementById("weeklyLabel");
+const weeklyGuidelineEl = document.getElementById("weeklyGuideline");
+const weeklyConferenceEl = document.getElementById("weeklyConference");
+const weeklyPressEl = document.getElementById("weeklyPress");
 const cardTemplate = document.getElementById("cardTemplate");
 
 const uniq = (arr) => Array.from(new Set(arr)).sort((a, b) => a.localeCompare(b));
@@ -197,6 +202,34 @@ function renderCards() {
   itemCountEl.textContent = String(items.length);
 }
 
+function renderWeeklyList(container, entries) {
+  container.innerHTML = "";
+  if (!entries || !entries.length) {
+    const div = document.createElement("div");
+    div.className = "weekly-item";
+    div.textContent = "No updates logged.";
+    container.appendChild(div);
+    return;
+  }
+  entries.forEach((entry) => {
+    const div = document.createElement("div");
+    div.className = "weekly-item";
+    div.innerHTML = `<strong>${entry.title}</strong><span>${entry.date || "Date TBD"} · ${
+      entry.source || "Source TBD"
+    }</span>`;
+    container.appendChild(div);
+  });
+}
+
+function renderWeeklyIntel(weekly) {
+  if (!weekly) return;
+  renderWeeklyList(weeklySafetyEl, weekly.safety_signals);
+  renderWeeklyList(weeklyLabelEl, weekly.label_expansions);
+  renderWeeklyList(weeklyGuidelineEl, weekly.guideline_updates);
+  renderWeeklyList(weeklyConferenceEl, weekly.conference_abstracts);
+  renderWeeklyList(weeklyPressEl, weekly.press_pipeline);
+}
+
 async function init() {
   const response = await fetch("data/afib.json");
   const data = await response.json();
@@ -209,6 +242,7 @@ async function init() {
   renderUpdateList(deviceUpdateListEl, deviceUpdates);
   renderUpdateList(drugUpdateListEl, drugUpdates);
   readoutCountEl.textContent = String(deviceUpdates.length + drugUpdates.length);
+  renderWeeklyIntel(data.weekly_updates);
   renderCards();
 
   searchEl.addEventListener("input", (event) => {

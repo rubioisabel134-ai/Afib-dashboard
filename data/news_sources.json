@@ -1,0 +1,52 @@
+[
+  {
+    "name": "FDA MedWatch",
+    "category": "safety_signals",
+    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml"
+  },
+  {
+    "name": "FDA Press Releases",
+    "category": "press_pipeline",
+    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"
+  },
+  {
+    "name": "FDA What's New: Drugs",
+    "category": "label_expansions",
+    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml"
+  },
+  {
+    "name": "EMA News & Press",
+    "category": "press_pipeline",
+    "url": "https://www.ema.europa.eu/en/news.xml"
+  },
+  {
+    "name": "EMA What's New",
+    "category": "press_pipeline",
+    "url": "https://www.ema.europa.eu/en/whats-new.xml"
+  },
+  {
+    "name": "Google News: atrial fibrillation (7d)",
+    "category": "conference_abstracts",
+    "url": "https://news.google.com/rss/search?q=atrial%20fibrillation%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "Google News: AF guideline (7d)",
+    "category": "guideline_updates",
+    "url": "https://news.google.com/rss/search?q=atrial%20fibrillation%20guideline%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "Google News: AF Symposium (7d)",
+    "category": "conference_abstracts",
+    "url": "https://news.google.com/rss/search?q=AF%20Symposium%20atrial%20fibrillation%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "Google News: EHRA (7d)",
+    "category": "conference_abstracts",
+    "url": "https://news.google.com/rss/search?q=EHRA%20atrial%20fibrillation%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "Google News: HRS (7d)",
+    "category": "conference_abstracts",
+    "url": "https://news.google.com/rss/search?q=HRS%20atrial%20fibrillation%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  }
+]

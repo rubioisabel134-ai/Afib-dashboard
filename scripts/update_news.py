@@ -12,6 +12,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 CSV_PATH = ROOT / "data" / "weekly_updates.csv"
 SOURCES_PATH = ROOT / "data" / "news_sources.json"
+AFIB_PATH = ROOT / "data" / "afib.json"
 
 CATEGORIES = {
     "safety_signals",
@@ -20,6 +21,8 @@ CATEGORIES = {
     "conference_abstracts",
     "press_pipeline",
 }
+
+GOOGLE_NEWS_BASE = "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
 
 
 def fetch_xml(url: str) -> bytes:
@@ -95,12 +98,56 @@ def write_rows(rows: List[Dict[str, str]]) -> None:
         writer.writerows(rows)
 
 
+def load_terms() -> List[str]:
+    if not AFIB_PATH.exists():
+        return []
+    data = json.loads(AFIB_PATH.read_text())
+    terms = []
+    for item in data.get("items", []):
+        name = (item.get("name") or "").strip()
+        company = (item.get("company") or "").strip()
+        if name:
+            terms.append(name)
+        if company:
+            terms.append(company)
+    # De-duplicate while preserving order
+    seen = set()
+    cleaned = []
+    for term in terms:
+        term = term.replace("(", "").replace(")", "").replace("\"", "").strip()
+        if not term or term in seen:
+            continue
+        seen.add(term)
+        cleaned.append(term)
+    return cleaned
+
+
+def build_google_news_sources(terms: List[str]) -> List[Dict[str, str]]:
+    if not terms:
+        return []
+    sources = []
+    chunk_size = 12
+    for idx in range(0, len(terms), chunk_size):
+        chunk = terms[idx : idx + chunk_size]
+        query_terms = " OR ".join(f'\"{term}\"' for term in chunk)
+        query = f"({query_terms}) (atrial fibrillation OR AFib) when:7d"
+        sources.append(
+            {
+                "name": f"Google News: AFib watchlist {idx // chunk_size + 1}",
+                "category": "press_pipeline",
+                "url": GOOGLE_NEWS_BASE.format(query=query.replace(" ", "%20")),
+            }
+        )
+    return sources
+
+
 def main() -> int:
     if not SOURCES_PATH.exists():
         print("Missing data/news_sources.json")
         return 1
 
     sources = json.loads(SOURCES_PATH.read_text())
+    sources += build_google_news_sources(load_terms())
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(days=7)
 

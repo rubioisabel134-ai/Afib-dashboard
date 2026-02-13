@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CSV_PATH = ROOT / "data" / "weekly_updates.csv"
 SOURCES_PATH = ROOT / "data" / "news_sources.json"
 AFIB_PATH = ROOT / "data" / "afib.json"
+COMPANY_PRESS_PATH = ROOT / "data" / "company_press.json"
 
 CATEGORIES = {
     "safety_signals",
@@ -141,13 +142,46 @@ def build_google_news_sources(terms: List[str]) -> List[Dict[str, str]]:
     return sources
 
 
+def load_company_press_sources() -> List[Dict[str, str]]:
+    if not COMPANY_PRESS_PATH.exists():
+        return []
+    try:
+        data = json.loads(COMPANY_PRESS_PATH.read_text())
+    except Exception:
+        return []
+    sources = []
+    for entry in data:
+        name = (entry.get("name") or "").strip()
+        url = (entry.get("url") or "").strip()
+        if not name or not url:
+            continue
+        sources.append(
+            {
+                "name": name,
+                "category": "press_pipeline",
+                "url": url,
+            }
+        )
+    return sources
+
+
+def find_match(title: str, terms: List[str]) -> str:
+    title_lower = title.lower()
+    for term in terms:
+        if term.lower() in title_lower:
+            return term
+    return ""
+
+
 def main() -> int:
     if not SOURCES_PATH.exists():
         print("Missing data/news_sources.json")
         return 1
 
+    terms = load_terms()
     sources = json.loads(SOURCES_PATH.read_text())
-    sources += build_google_news_sources(load_terms())
+    sources += build_google_news_sources(terms)
+    sources += load_company_press_sources()
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(days=7)
 
@@ -184,11 +218,13 @@ def main() -> int:
             if dt and dt < cutoff:
                 continue
             date_str = dt.date().isoformat() if dt else ""
+            match = find_match(title, terms)
+            source_label = name if not match else f"{name} · Match: {match}"
             row = {
                 "category": category,
                 "title": title,
                 "date": date_str,
-                "source": name,
+                "source": source_label,
             }
             key = (row["category"], row["title"], row["date"], row["source"])
             if key in seen:

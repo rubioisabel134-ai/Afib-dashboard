@@ -32,6 +32,34 @@ scripts/weekly.sh
 
 It runs the updater, commits changes, and pushes to `origin/main`.
 
+## Weekly intel (safety, labels, guidelines, abstracts)
+
+Edit `data/weekly_updates.csv` and run:
+
+```bash
+python3 scripts/update_weekly.py
+```
+
+This refreshes the `weekly_updates` block in `data/afib.json`.
+
+## Auto news + company press feeds
+
+Weekly news pulls from FDA/EMA + Google News and adds items to `data/weekly_updates.csv`:
+
+```bash
+python3 scripts/update_news.py
+```
+
+To include company press RSS feeds, add them to `data/company_press.json`:
+
+```json
+[
+  { "name": "Boston Scientific Press", "url": "https://news.bostonscientific.com/rss" }
+]
+```
+
+The updater will tag items with a matched drug/device/company when possible.
+
 ## Data model
 
 - `data/afib.json` is the dashboard data source.

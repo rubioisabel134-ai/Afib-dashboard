@@ -27,6 +27,53 @@ const cardTemplate = document.getElementById("cardTemplate");
 
 const uniq = (arr) => Array.from(new Set(arr)).sort((a, b) => a.localeCompare(b));
 
+const CATEGORY_ORDER = [
+  "Rate Control",
+  "Rhythm Control",
+  "PFA Ablation",
+  "Thermal Ablation",
+  "Stroke Prevention",
+];
+
+const STAGE_ORDER = [
+  "Preclinical",
+  "Phase I",
+  "Phase II",
+  "Phase III",
+  "Pivotal",
+  "Approved",
+  "Pre-registered",
+];
+
+function mapCategory(item) {
+  const category = (item.category || "").toLowerCase();
+  if (category.includes("rate control")) return "Rate Control";
+  if (category.includes("rhythm control") || category.includes("antiarrhythmic")) return "Rhythm Control";
+  if (category.includes("pfa")) return "PFA Ablation";
+  if (category.includes("rf") || category.includes("cryo") || category.includes("thermal")) return "Thermal Ablation";
+  if (
+    category.includes("stroke prevention") ||
+    category.includes("anticoagulant") ||
+    category.includes("fxi") ||
+    category.includes("laa")
+  )
+    return "Stroke Prevention";
+  return null;
+}
+
+function mapStage(item) {
+  const stage = (item.stage || "").toLowerCase();
+  if (stage.includes("preclinical") || stage.includes("ind")) return "Preclinical";
+  if (stage.includes("phase 1") || stage.includes("phase i")) return "Phase I";
+  if (stage.includes("phase 2") || stage.includes("phase ii")) return "Phase II";
+  if (stage.includes("phase 3") || stage.includes("phase iii")) return "Phase III";
+  if (stage.includes("pivotal")) return "Pivotal";
+  if (stage.includes("approved") || stage.includes("fda") || stage.includes("ce mark") || stage.includes("nmpa"))
+    return "Approved";
+  if (stage.includes("pre-registered") || stage.includes("planned") || stage.includes("ide")) return "Pre-registered";
+  return null;
+}
+
 const normalize = (value) => value.toLowerCase();
 
 const textIncludes = (haystack, needle) =>
@@ -46,18 +93,21 @@ function formatDate(dateStr) {
 }
 
 function buildFilters(items) {
-  const categories = uniq(items.map((item) => item.category));
-  const stages = uniq(items.map((item) => item.stage));
+  const categories = uniq(items.map(mapCategory).filter(Boolean));
+  const stages = uniq(items.map(mapStage).filter(Boolean));
   const types = uniq(items.map((item) => item.type));
 
-  buildChips(categoryFiltersEl, categories, "category");
-  buildChips(stageFiltersEl, stages, "stage");
+  buildChips(categoryFiltersEl, categories, "category", CATEGORY_ORDER);
+  buildChips(stageFiltersEl, stages, "stage", STAGE_ORDER);
   buildChips(typeFiltersEl, types, "type");
 }
 
-function buildChips(container, values, filterKey) {
+function buildChips(container, values, filterKey, preferredOrder = null) {
   container.innerHTML = "";
-  values.forEach((value) => {
+  const orderedValues = preferredOrder
+    ? preferredOrder.filter((value) => values.includes(value))
+    : values;
+  orderedValues.forEach((value) => {
     const chip = document.createElement("button");
     chip.className = "chip";
     chip.textContent = value;
@@ -117,8 +167,10 @@ function renderUpdateList(container, entries) {
 
 function matchesFilters(item) {
   const { category, stage, type } = state.filters;
-  if (category.size && !category.has(item.category)) return false;
-  if (stage.size && !stage.has(item.stage)) return false;
+  const mappedCategory = mapCategory(item);
+  const mappedStage = mapStage(item);
+  if (category.size && !category.has(mappedCategory)) return false;
+  if (stage.size && !stage.has(mappedStage)) return false;
   if (type.size && !type.has(item.type)) return false;
   if (!state.search) return true;
 

@@ -7,6 +7,7 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from urllib.request import Request, urlopen
+import urllib.parse
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -132,11 +133,12 @@ def build_google_news_sources(terms: List[str]) -> List[Dict[str, str]]:
         chunk = terms[idx : idx + chunk_size]
         query_terms = " OR ".join(f'\"{term}\"' for term in chunk)
         query = f"({query_terms}) (atrial fibrillation OR AFib) when:7d"
+        safe_query = urllib.parse.quote(query, safe="")
         sources.append(
             {
                 "name": f"Google News: AFib watchlist {idx // chunk_size + 1}",
                 "category": "press_pipeline",
-                "url": GOOGLE_NEWS_BASE.format(query=query.replace(" ", "%20")),
+                "url": GOOGLE_NEWS_BASE.format(query=safe_query),
                 "require_match": True,
             }
         )

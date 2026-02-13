@@ -3057,13 +3057,20 @@
     }
   ],
   "weekly_updates": {
+    "safety_signals": [],
     "label_expansions": [
       {
         "title": "Generic Drug Facilities, Sites and Organization Lists",
         "date": "2026-02-13",
         "source": "FDA What's New: Drugs \u00b7 Match: Generic"
+      },
+      {
+        "title": "Generic Drug User Fee Amendments",
+        "date": "2026-02-13",
+        "source": "FDA What's New: Drugs \u00b7 Match: Generic"
       }
     ],
+    "guideline_updates": [],
     "conference_abstracts": [
       {
         "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
@@ -3164,9 +3171,12 @@
         "title": "J&J presents early outcomes from OMNY-AF pilot study alongside new Varipulse platform data - Cardiac Rhythm News",
         "date": "2026-02-10",
         "source": "Google News: AF Symposium (7d) \u00b7 Match: VARIPULSE Platform"
+      },
+      {
+        "title": "Arg\u00e1 Medtech reports 94% lesion durability and strong safety profile in PFA trial - Health Tech World",
+        "date": "2026-02-12",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
       }
-    ],
-    "safety_signals": [],
-    "guideline_updates": []
+    ]
   }
 }

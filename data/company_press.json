@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "name": "Abbott MediaRoom (Press Releases)",
+    "url": "https://abbott.mediaroom.com/press-releases?pagetemplate=rss"
+  },
+  {
+    "name": "Bristol Myers Squibb (Press Releases)",
+    "url": "https://news.bms.com/rss/pressrelease.aspx"
+  },
+  {
+    "name": "Johnson & Johnson (Press Releases)",
+    "url": "https://www.jnj.com/rss-feed/all"
+  }
+]

@@ -2509,7 +2509,7 @@
       "mechanism": "Coherent Sine-Burst Electroporation (CSE) pulsed field system",
       "focus": "Paroxysmal and persistent AF ablation",
       "company": "Arg\u00e1 Medtech",
-      "latest_update": "COHERENT-AF IDE trial first enrollments announced (Sep 18, 2025)",
+      "latest_update": "AF Symposium 2026: BURST-AF FIH showed 94% lesion durability and strong safety; COHERENT-AF IDE reached 50% enrollment",
       "tags": [
         "PFA",
         "IDE",
@@ -2517,12 +2517,21 @@
       ],
       "trials": [
         {
+          "name": "BURST-AF",
+          "phase": "First-in-human",
+          "status": "Readout",
+          "readout": "AF Symposium 2026 clinical results",
+          "readout_date": "2026-02-09",
+          "registry_id": "NCT05572047",
+          "note": "Paroxysmal + persistent AF; single catheter"
+        },
+        {
           "name": "COHERENT-AF",
           "phase": "IDE pivotal",
           "status": "Enrolling",
           "readout": "TBD",
           "readout_date": null,
-          "registry_id": null,
+          "registry_id": "NCT06784466",
           "note": "Paroxysmal and persistent AF"
         }
       ],

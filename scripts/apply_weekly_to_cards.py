@@ -3,13 +3,14 @@ import csv
 import json
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
 
 ROOT = Path(__file__).resolve().parents[1]
 AFIB_PATH = ROOT / "data" / "afib.json"
 CSV_PATH = ROOT / "data" / "weekly_updates.csv"
 
 
-def parse_date(raw: str) -> datetime | None:
+def parse_date(raw: str) -> Optional[datetime]:
     raw = (raw or "").strip()
     if not raw:
         return None

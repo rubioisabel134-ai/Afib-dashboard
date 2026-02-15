@@ -60,6 +60,16 @@ To include company press RSS feeds, add them to `data/company_press.json`:
 
 The updater will tag items with a matched drug/device/company when possible.
 
+## Apply weekly news to cards
+
+After fetching news and updating `weekly_updates.csv`, run:
+
+```bash
+python3 scripts/apply_weekly_to_cards.py
+```
+
+This updates `latest_update` on matched assets and appends the news link to `sources` when available.
+
 ## Data model
 
 - `data/afib.json` is the dashboard data source.

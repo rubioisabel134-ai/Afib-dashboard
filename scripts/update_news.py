@@ -95,7 +95,7 @@ def read_existing() -> List[Dict[str, str]]:
 
 def write_rows(rows: List[Dict[str, str]]) -> None:
     with CSV_PATH.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["category", "title", "date", "source"])
+        writer = csv.DictWriter(handle, fieldnames=["category", "title", "date", "source", "link"])
         writer.writeheader()
         writer.writerows(rows)
 
@@ -231,6 +231,7 @@ def main() -> int:
                 "title": title,
                 "date": date_str,
                 "source": source_label,
+                "link": link,
             }
             key = (row["category"], row["title"], row["date"], row["source"])
             if key in seen:

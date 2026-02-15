@@ -2537,7 +2537,8 @@
       ],
       "notes": "Second-generation PFA system evaluated in a U.S. and EU IDE pivotal study.",
       "sources": [
-        "https://www.prnewswire.com/news-releases/arga-medtech-announces-first-enrollments-in-coherent-af-ide-clinical-trial-302561053.html"
+        "https://www.prnewswire.com/news-releases/arga-medtech-announces-first-enrollments-in-coherent-af-ide-clinical-trial-302561053.html",
+        "https://cardiacrhythmnews.com/arga-medtech-reports-94-lesion-durability-and-strong-safety-profile-with-single-catheter-pfa-system/"
       ]
     },
     {
@@ -3066,7 +3067,6 @@
     }
   ],
   "weekly_updates": {
-    "safety_signals": [],
     "guideline_updates": [],
     "conference_abstracts": [
       {
@@ -3183,6 +3183,16 @@
         "title": "Arg\u00e1 Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA System - The Manila Times",
         "date": "2026-02-09",
         "source": "Google News: AF Symposium (7d) \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Abbott\u2019s Volt PFA System Enters U.K. Pilot Amid Expanding Atrial Fibrillation Market - TipRanks",
+        "date": "2026-02-15",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market - TipRanks",
+        "date": "2026-02-15",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
       }
     ],
     "label_expansions": [
@@ -3196,6 +3206,7 @@
         "date": "2026-02-13",
         "source": "FDA What's New: Drugs \u00b7 Match: Generic"
       }
-    ]
+    ],
+    "safety_signals": []
   }
 }

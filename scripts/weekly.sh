@@ -13,6 +13,9 @@ python3 scripts/update_news.py
 echo "Updating weekly intel..."
 python3 scripts/update_weekly.py
 
+echo "Applying weekly updates to cards..."
+python3 scripts/apply_weekly_to_cards.py
+
 if git diff --quiet; then
   echo "No data changes detected."
   exit 0

@@ -1,0 +1,5 @@
+.DS_Store
+.venv/
+.playwright-profile/
+reports/ci_daily_automation.log
+data/ci_scan_cache.json

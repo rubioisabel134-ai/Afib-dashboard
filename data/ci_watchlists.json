@@ -1,0 +1,567 @@
+{
+  "press_rooms": [
+    {
+      "name": "Abbott",
+      "url": "https://abbott.mediaroom.com/",
+      "priority": 1
+    },
+    {
+      "name": "Acesion",
+      "url": "https://acesionpharma.com/news/",
+      "priority": 1
+    },
+    {
+      "name": "Advanz/Correvio",
+      "url": "https://www.advanzpharma.com/news",
+      "priority": 1
+    },
+    {
+      "name": "Aetas",
+      "url": "http://www.aetaspharma.com/news/",
+      "priority": 1
+    },
+    {
+      "name": "Arga Medtech",
+      "url": "https://argamedtech.com/news",
+      "priority": 1
+    },
+    {
+      "name": "Aronora",
+      "url": "https://aronorabio.com/news-media/",
+      "priority": 1
+    },
+    {
+      "name": "AtriCure",
+      "url": "https://www.atricure.com/about-atricure/news",
+      "priority": 1
+    },
+    {
+      "name": "Attgeno",
+      "url": "https://attgeno.com/about-us/news/",
+      "priority": 1
+    },
+    {
+      "name": "Basking Bioscience",
+      "url": "https://baskingbiosciences.com/latest-news/#press-releases",
+      "priority": 1
+    },
+    {
+      "name": "Bayer",
+      "url": "https://www.bayer.com/en/media",
+      "priority": 1
+    },
+    {
+      "name": "Bayer (Japan)",
+      "url": "https://www.bayer.jp/en/news/newslist-2023",
+      "priority": 1
+    },
+    {
+      "name": "Bioxodes",
+      "url": "http://www.bioxodes.com/newsroom/press-releases",
+      "priority": 1
+    },
+    {
+      "name": "BMS",
+      "url": "https://www.bms.com/media.html",
+      "priority": 1
+    },
+    {
+      "name": "Boehringer Ingelheim",
+      "url": "https://www.boehringer-ingelheim.com/press-release-overview",
+      "priority": 1
+    },
+    {
+      "name": "Boston Scientific",
+      "url": "https://news.bostonscientific.com/news-releases",
+      "priority": 1
+    },
+    {
+      "name": "Cadrenal",
+      "url": "https://www.cadrenal.com/press-releases/",
+      "priority": 1
+    },
+    {
+      "name": "CardioFocus",
+      "url": "https://cardiofocus.com/about",
+      "priority": 1
+    },
+    {
+      "name": "Cereno Scientific",
+      "url": "https://cerenoscientific.com/press/",
+      "priority": 1
+    },
+    {
+      "name": "Conformal Medical",
+      "url": "https://conformalmedical.com/company/news",
+      "priority": 1
+    },
+    {
+      "name": "Azurity",
+      "url": "https://azurity.com/news/",
+      "priority": 1
+    },
+    {
+      "name": "AMAG (legacy)",
+      "url": "http://www.amagpharma.com/newsroom/",
+      "priority": 1
+    },
+    {
+      "name": "CSL",
+      "url": "https://newsroom.csl.com/",
+      "priority": 1
+    },
+    {
+      "name": "eXithera (Cadrenal legacy)",
+      "url": "https://www.exithera.com/news/",
+      "priority": 1
+    },
+    {
+      "name": "Hengrui",
+      "url": "https://www.hengrui.com/en/media/index.html",
+      "priority": 1
+    },
+    {
+      "name": "HUYABIO",
+      "url": "https://www.huyabio.com/news/press-releases/",
+      "priority": 1
+    },
+    {
+      "name": "InCarda",
+      "url": "https://www.incardatherapeutics.com/#company",
+      "priority": 1
+    },
+    {
+      "name": "Inomagen",
+      "url": "https://inomagen.com/",
+      "priority": 1
+    },
+    {
+      "name": "Ionis",
+      "url": "https://ir.ionis.com/newsroom/press-releases",
+      "priority": 1
+    },
+    {
+      "name": "iRhythm",
+      "url": "https://www.irhythmtech.com/us/en/who-we-are/news-events",
+      "priority": 1
+    },
+    {
+      "name": "Janssen",
+      "url": "https://www.janssen.com/news/news-releases",
+      "priority": 1
+    },
+    {
+      "name": "J&J Media Center",
+      "url": "https://www.jnj.com/media-center",
+      "priority": 1
+    },
+    {
+      "name": "J&J MedTech",
+      "url": "https://www.jnjmedtech.com/en-US/news-and-events",
+      "priority": 1
+    },
+    {
+      "name": "Corxel",
+      "url": "https://www.corxelbio.com/en/press-releases/",
+      "priority": 1
+    },
+    {
+      "name": "KalVista",
+      "url": "https://ir.kalvista.com/news-releases",
+      "priority": 1
+    },
+    {
+      "name": "Kardium",
+      "url": "https://kardium.com/kardium-news/",
+      "priority": 1
+    },
+    {
+      "name": "Klus",
+      "url": "https://www.kluspharma.com/media",
+      "priority": 1
+    },
+    {
+      "name": "Lunac",
+      "url": "https://www.lunactherapeutics.com/press-releases",
+      "priority": 1
+    },
+    {
+      "name": "Maxwell Biomedical",
+      "url": "https://www.maxwellbiomedical.com/news",
+      "priority": 1
+    },
+    {
+      "name": "MDI Therapeutics",
+      "url": "https://mditherapeutics.com/#news",
+      "priority": 1
+    },
+    {
+      "name": "Medtronic",
+      "url": "https://news.medtronic.com/press-releases",
+      "priority": 1
+    },
+    {
+      "name": "Milestone",
+      "url": "https://investors.milestonepharma.com/press-releases",
+      "priority": 1
+    },
+    {
+      "name": "Novartis",
+      "url": "https://www.novartis.com/news/news-archive",
+      "priority": 1
+    },
+    {
+      "name": "Novartis IR",
+      "url": "https://www.novartis.com/investors",
+      "priority": 1
+    },
+    {
+      "name": "Pfizer",
+      "url": "https://www.pfizer.com/news/press-release/press-releases-archive",
+      "priority": 1
+    },
+    {
+      "name": "Quercis",
+      "url": "https://www.quercis.com/#media",
+      "priority": 1
+    },
+    {
+      "name": "Regeneron",
+      "url": "https://investor.regeneron.com/news/press-releases",
+      "priority": 1
+    },
+    {
+      "name": "Ribocure",
+      "url": "https://ribocure.com/news/",
+      "priority": 1
+    },
+    {
+      "name": "Sirnaomics",
+      "url": "https://sirnaomics.com/",
+      "priority": 1
+    },
+    {
+      "name": "Sirius",
+      "url": "https://www.siriusrna.com/companynews/",
+      "priority": 1
+    },
+    {
+      "name": "Thryv Therapeutics",
+      "url": "https://thryvtrx.com/news",
+      "priority": 1
+    },
+    {
+      "name": "VarmX",
+      "url": "https://varmx.com/news-events/",
+      "priority": 1
+    },
+    {
+      "name": "Verseon",
+      "url": "https://www.verseon.com/news.html",
+      "priority": 1
+    },
+    {
+      "name": "Xyra",
+      "url": "https://xyra.us/news/",
+      "priority": 1
+    },
+    {
+      "name": "Cardiac Rhythm News",
+      "url": "https://cardiacrhythmnews.com/",
+      "priority": 3
+    },
+    {
+      "name": "MedTech Dive",
+      "url": "https://www.medtechdive.com/",
+      "priority": 3
+    },
+    {
+      "name": "MassDevice",
+      "url": "https://www.massdevice.com/",
+      "priority": 3
+    },
+    {
+      "name": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/",
+      "priority": 3
+    },
+    {
+      "name": "Seeking Alpha News",
+      "url": "https://seekingalpha.com/news",
+      "priority": 3
+    },
+    {
+      "name": "Seeking Alpha Transcripts",
+      "url": "https://seekingalpha.com/earnings/earnings-call-transcripts",
+      "priority": 3
+    },
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/",
+      "priority": 3
+    },
+    {
+      "name": "STS News",
+      "url": "https://www.sts.org/news",
+      "priority": 3
+    },
+    {
+      "name": "TCTMD",
+      "url": "https://www.tctmd.com/news",
+      "priority": 2
+    },
+    {
+      "name": "Cardiovascular Business",
+      "url": "https://cardiovascularbusiness.com/"
+    }
+  ],
+  "pipelines": [
+    {
+      "name": "BMS",
+      "url": "https://www.bms.com/researchers-and-partners/in-the-pipeline.html"
+    },
+    {
+      "name": "Acesion",
+      "url": "https://www.acesionpharma.com/pipeline"
+    },
+    {
+      "name": "Aetas",
+      "url": "https://www.aetaspharma.com/pipeline/"
+    },
+    {
+      "name": "Aronora",
+      "url": "http://aronorabio.com/site/pipeline/"
+    },
+    {
+      "name": "Attgeno",
+      "url": "https://attgeno.com/pipeline/"
+    },
+    {
+      "name": "Basking Bioscience",
+      "url": "https://baskingbiosciences.com/pipeline/"
+    },
+    {
+      "name": "Bayer",
+      "url": "https://pharma.bayer.com/development-pipeline"
+    },
+    {
+      "name": "Bioxodes",
+      "url": "https://bioxodes.com/product/pipeline"
+    },
+    {
+      "name": "Boehringer Ingelheim",
+      "url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline"
+    },
+    {
+      "name": "Boston Scientific (interventional cardiology)",
+      "url": "https://www.bostonscientific.com/en-US/medical-specialties/interventional-cardiology/products.html"
+    },
+    {
+      "name": "Boston Scientific (electrophysiology)",
+      "url": "https://www.bostonscientific.com/en-US/medical-specialties/electrophysiology/products.html"
+    },
+    {
+      "name": "Cadrenal",
+      "url": "https://www.cadrenal.com/pipeline/"
+    },
+    {
+      "name": "Conformal Medical",
+      "url": "https://conformalmedical.com/company/claas"
+    },
+    {
+      "name": "CSL",
+      "url": "https://www.csl.com/research-and-development/product-pipeline"
+    },
+    {
+      "name": "eXithera (Cadrenal)",
+      "url": "https://www.exithera.com/science/#pipeline"
+    },
+    {
+      "name": "Hengrui",
+      "url": "https://www.hengrui.com/en/pipeline.html"
+    },
+    {
+      "name": "HUYABIO",
+      "url": "https://www.huyabio.com/pipeline/"
+    },
+    {
+      "name": "InCarda",
+      "url": "https://incardatherapeutics.com/our-pipeline/pipeline-overview/"
+    },
+    {
+      "name": "Ionis",
+      "url": "https://www.ionis.com/science-and-innovation/pipeline"
+    },
+    {
+      "name": "iRhythm",
+      "url": "https://investors.irhythmtech.com/overview/default.aspx"
+    },
+    {
+      "name": "J&J",
+      "url": "https://www.investor.jnj.com/pharmaceutical-pipeline"
+    },
+    {
+      "name": "J&J MedTech (Biosense Webster)",
+      "url": "https://www.jnjmedtech.com/en-US/companies/biosensewebster"
+    },
+    {
+      "name": "Corxel",
+      "url": "https://www.corxelbio.com/en/pipeline-science/"
+    },
+    {
+      "name": "KalVista",
+      "url": "https://www.kalvista.com/pipeline/"
+    },
+    {
+      "name": "Kardium",
+      "url": "https://kardium.com/globe-system/"
+    },
+    {
+      "name": "Klus",
+      "url": "https://www.kluspharma.com/pipeline"
+    },
+    {
+      "name": "Lunac",
+      "url": "https://www.lunactherapeutics.com/our-science"
+    },
+    {
+      "name": "MDI Therapeutics",
+      "url": "https://mditherapeutics.com/#science"
+    },
+    {
+      "name": "Milestone",
+      "url": "https://milestonepharma.com/research-development/"
+    },
+    {
+      "name": "Novartis",
+      "url": "https://www.novartis.com/our-science/novartis-global-pipeline?field_pipeline_therapeutic_area[0]=2121&field_pipeline_filing_date=All"
+    },
+    {
+      "name": "Pfizer",
+      "url": "https://www.pfizer.com/science/drug-product-pipeline"
+    },
+    {
+      "name": "Quercis",
+      "url": "https://www.quercis.com/drug-development/"
+    },
+    {
+      "name": "Regeneron",
+      "url": "https://www.regeneron.com/science/investigational-pipeline"
+    },
+    {
+      "name": "Ribocure / Ribolia",
+      "url": "https://www.ribolia.com/En/pipeline"
+    },
+    {
+      "name": "Sirius",
+      "url": "https://www.siriusrna.com/pipeline/index.html"
+    },
+    {
+      "name": "Thryv Therapeutics",
+      "url": "https://thryvtrx.com/pipeline"
+    },
+    {
+      "name": "VarmX",
+      "url": "https://varmx.com/our-portfolio/"
+    },
+    {
+      "name": "Verseon",
+      "url": "https://www.verseon.com/pipeline.html"
+    },
+    {
+      "name": "Xyra",
+      "url": "https://xyra.us/science/budiodarone/"
+    }
+  ],
+  "regulatory": [
+    {
+      "name": "FDA Drug Safety Communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    },
+    {
+      "name": "FDA Device Recalls",
+      "url": "https://www.fda.gov/medical-devices/medical-device-recalls"
+    },
+    {
+      "name": "FDA Device Safety Communications",
+      "url": "https://www.fda.gov/medical-devices/safety-communications"
+    },
+    {
+      "name": "Drugs@FDA",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    },
+    {
+      "name": "FDA 510(k)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm"
+    },
+    {
+      "name": "FDA PMA",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm"
+    },
+    {
+      "name": "EMA News",
+      "url": "https://www.ema.europa.eu/en/news-and-events/news-and-press-releases"
+    },
+    {
+      "name": "EMA EPAR Search",
+      "url": "https://www.ema.europa.eu/en/medicines"
+    },
+    {
+      "name": "EMA PRAC",
+      "url": "https://www.ema.europa.eu/en/committees/prac/prac-agendas-minutes-highlights"
+    },
+    {
+      "name": "SEC EDGAR Company Search",
+      "url": "https://www.sec.gov/edgar/searchedgar/companysearch"
+    },
+    {
+      "name": "SEC EDGAR Latest Filings",
+      "url": "https://www.sec.gov/edgar/searchedgar/old-landing-page"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "ACC Scientific Session planner",
+      "url": "https://cattendee.abstractsonline.com/meeting/21230/pages/Planner"
+    },
+    {
+      "name": "AHA Scientific Sessions",
+      "url": "https://professional.heart.org/en/meetings/scientific-sessions"
+    },
+    {
+      "name": "Heart Rhythm Society Meetings",
+      "url": "https://www.hrsonline.org/meetings"
+    },
+    {
+      "name": "ESC Congress",
+      "url": "https://www.escardio.org/Congresses-&-Events/ESC-Congress"
+    },
+    {
+      "name": "EHRA Congress",
+      "url": "https://www.escardio.org/Congresses-&-Events/EHRA-Congress"
+    },
+    {
+      "name": "TCT Meetings",
+      "url": "https://www.tctmd.com/meetings"
+    },
+    {
+      "name": "AF Symposium",
+      "url": "https://www.afsymposium.com/"
+    },
+    {
+      "name": "ACC Scientific Session",
+      "url": "https://accscientificsession.acc.org/"
+    }
+  ],
+  "media_domains": [
+    "cardiacrhythmnews.com",
+    "medtechdive.com",
+    "massdevice.com",
+    "tctmd.com",
+    "cardiovascularbusiness.com",
+    "prnewswire.com",
+    "globenewswire.com",
+    "seekingalpha.com",
+    "sts.org"
+  ]
+}

@@ -222,6 +222,44 @@ def find_match(title: str, terms: List[str]) -> str:
     return ""
 
 
+def is_af_relevant(title: str, link: str) -> bool:
+    haystack = f"{title} {link}".lower()
+
+    include_terms = [
+        "atrial fibrillation",
+        "afib",
+        "atrial flutter",
+        "left atrial appendage",
+        "laao",
+        "laac",
+        "pfa",
+        "pulsed field ablation",
+        "catheter ablation",
+        "pulmonary vein",
+        "watchman",
+        "amulet",
+        "rhythm control",
+        "rate control",
+        "stroke prevention",
+        "anticoagul",
+        "arrhythm",
+    ]
+    if not any(term in haystack for term in include_terms):
+        return False
+
+    # Hard-exclude high-frequency false positives.
+    exclude_terms = [
+        "governor abbott",
+        "greg abbott",
+        "tony abbott",
+        "abbott elementary",
+        "texas workforce commission",
+    ]
+    if any(term in haystack for term in exclude_terms):
+        return False
+    return True
+
+
 def main() -> int:
     if not SOURCES_PATH.exists():
         print("Missing data/news_sources.json")
@@ -234,7 +272,8 @@ def main() -> int:
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(days=7)
 
-    existing = dedupe_rows(read_existing())
+    existing = [row for row in read_existing() if is_af_relevant(row.get("title", ""), row.get("link", ""))]
+    existing = dedupe_rows(existing)
     seen = set(
         (
             row.get("category", ""),
@@ -265,6 +304,8 @@ def main() -> int:
             if not title:
                 continue
             if dt and dt < cutoff:
+                continue
+            if not is_af_relevant(title, link):
                 continue
             date_str = dt.date().isoformat() if dt else ""
             match = find_match(title, terms)

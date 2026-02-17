@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import csv
 import json
-import sys
+import re
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -100,6 +100,52 @@ def write_rows(rows: List[Dict[str, str]]) -> None:
         writer.writerows(rows)
 
 
+def normalize_title(title: str) -> str:
+    # Drop common trailing publisher suffixes so the same story title dedupes.
+    base = re.split(r"\s[-|\u2014]\s", title, maxsplit=1)[0]
+    base = base.lower()
+    base = re.sub(r"[^a-z0-9\s]", " ", base)
+    base = re.sub(r"\s+", " ", base).strip()
+    return base
+
+
+def source_priority(source: str) -> int:
+    value = source.lower()
+    if "fda" in value or "ema" in value:
+        return 1
+    if "mediaroom" in value or "press" in value:
+        return 2
+    if "google news" in value:
+        return 4
+    return 3
+
+
+def dedupe_rows(rows: List[Dict[str, str]]) -> List[Dict[str, str]]:
+    # Deduplicate within each category by normalized title + date.
+    best = {}
+    for row in rows:
+        title = (row.get("title") or "").strip()
+        if not title:
+            continue
+        key = (
+            (row.get("category") or "").strip(),
+            normalize_title(title),
+            (row.get("date") or "").strip(),
+        )
+        current = best.get(key)
+        if current is None:
+            best[key] = row
+            continue
+        score_new = source_priority(row.get("source", ""))
+        score_old = source_priority(current.get("source", ""))
+        # Prefer higher-trust source and longer title detail when tied.
+        if score_new < score_old or (
+            score_new == score_old and len(row.get("title", "")) > len(current.get("title", ""))
+        ):
+            best[key] = row
+    return list(best.values())
+
+
 def load_terms() -> List[str]:
     if not AFIB_PATH.exists():
         return []
@@ -188,13 +234,12 @@ def main() -> int:
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(days=7)
 
-    existing = read_existing()
+    existing = dedupe_rows(read_existing())
     seen = set(
         (
             row.get("category", ""),
-            row.get("title", ""),
+            normalize_title(row.get("title", "")),
             row.get("date", ""),
-            row.get("source", ""),
         )
         for row in existing
     )
@@ -233,13 +278,13 @@ def main() -> int:
                 "source": source_label,
                 "link": link,
             }
-            key = (row["category"], row["title"], row["date"], row["source"])
+            key = (row["category"], normalize_title(row["title"]), row["date"])
             if key in seen:
                 continue
             seen.add(key)
             new_rows.append(row)
 
-    combined = existing + new_rows
+    combined = dedupe_rows(existing + new_rows)
     write_rows(combined)
     print(f"Added {len(new_rows)} new weekly updates.")
     return 0

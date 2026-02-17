@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-02-16",
+  "as_of": "2026-02-17",
   "items": [
     {
       "id": "milvexian",
@@ -439,7 +439,7 @@
       "mechanism": "Vitamin K antagonist",
       "focus": "Stroke prevention in AF",
       "company": "Generic",
-      "latest_update": "2026-02-13: Generic Drug Facilities, Sites and Organization Lists",
+      "latest_update": "2026-02-17: Competitive Generic Therapy Approvals",
       "tags": [
         "VKA"
       ],
@@ -456,7 +456,8 @@
       ],
       "notes": "Standard anticoagulant for valvular AF or mechanical valves.",
       "sources": [
-        "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"
+        "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af",
+        "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals"
       ]
     },
     {
@@ -757,14 +758,16 @@
       "mechanism": "Class III antiarrhythmic (multi-channel blocker)",
       "focus": "Rhythm control in AF",
       "company": "Generic",
-      "latest_update": "2026-02-13: Generic Drug Facilities, Sites and Organization Lists",
+      "latest_update": "2026-02-17: Competitive Generic Therapy Approvals",
       "tags": [
         "AAD",
         "Class III"
       ],
       "trials": [],
       "notes": "Widely used rhythm control drug; requires monitoring for toxicities.",
-      "sources": []
+      "sources": [
+        "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals"
+      ]
     },
     {
       "id": "dronedarone",
@@ -825,14 +828,16 @@
       "mechanism": "Class III antiarrhythmic",
       "focus": "Rhythm control in AF",
       "company": "Generic",
-      "latest_update": "2026-02-13: Generic Drug Facilities, Sites and Organization Lists",
+      "latest_update": "2026-02-17: Competitive Generic Therapy Approvals",
       "tags": [
         "AAD",
         "Class III"
       ],
       "trials": [],
       "notes": "Initiation requires monitoring due to QT prolongation risk.",
-      "sources": []
+      "sources": [
+        "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals"
+      ]
     },
     {
       "id": "sotalol",
@@ -843,7 +848,7 @@
       "mechanism": "Class III antiarrhythmic with beta-blocking",
       "focus": "Rhythm control in AF",
       "company": "Generic",
-      "latest_update": "2026-02-13: Generic Drug Facilities, Sites and Organization Lists",
+      "latest_update": "2026-02-17: Competitive Generic Therapy Approvals",
       "tags": [
         "AAD",
         "Class III",
@@ -851,7 +856,9 @@
       ],
       "trials": [],
       "notes": "Requires monitoring for QT prolongation and renal dosing.",
-      "sources": []
+      "sources": [
+        "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals"
+      ]
     },
     {
       "id": "flecainide",
@@ -862,14 +869,16 @@
       "mechanism": "Class Ic antiarrhythmic",
       "focus": "Rhythm control in AF",
       "company": "Generic",
-      "latest_update": "2026-02-13: Generic Drug Facilities, Sites and Organization Lists",
+      "latest_update": "2026-02-17: Competitive Generic Therapy Approvals",
       "tags": [
         "AAD",
         "Class Ic"
       ],
       "trials": [],
       "notes": "Used in structurally normal hearts; avoid in structural heart disease.",
-      "sources": []
+      "sources": [
+        "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals"
+      ]
     },
     {
       "id": "propafenone",
@@ -880,14 +889,16 @@
       "mechanism": "Class Ic antiarrhythmic",
       "focus": "Rhythm control in AF",
       "company": "Generic",
-      "latest_update": "2026-02-13: Generic Drug Facilities, Sites and Organization Lists",
+      "latest_update": "2026-02-17: Competitive Generic Therapy Approvals",
       "tags": [
         "AAD",
         "Class Ic"
       ],
       "trials": [],
       "notes": "Used in selected patients; avoid in structural heart disease.",
-      "sources": []
+      "sources": [
+        "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals"
+      ]
     },
     {
       "id": "etripamil",
@@ -1194,13 +1205,15 @@
       "mechanism": "Beta blocker",
       "focus": "Rate control in AF",
       "company": "Generic",
-      "latest_update": "2026-02-13: Generic Drug Facilities, Sites and Organization Lists",
+      "latest_update": "2026-02-17: Competitive Generic Therapy Approvals",
       "tags": [
         "beta blocker"
       ],
       "trials": [],
       "notes": "First-line rate control agent.",
-      "sources": []
+      "sources": [
+        "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals"
+      ]
     },
     {
       "id": "rapiblyk-landiolol",
@@ -1244,13 +1257,15 @@
       "mechanism": "Non-dihydropyridine calcium channel blocker",
       "focus": "Rate control in AF",
       "company": "Generic",
-      "latest_update": "2026-02-13: Generic Drug Facilities, Sites and Organization Lists",
+      "latest_update": "2026-02-17: Competitive Generic Therapy Approvals",
       "tags": [
         "CCB"
       ],
       "trials": [],
       "notes": "Common option for rate control.",
-      "sources": []
+      "sources": [
+        "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals"
+      ]
     },
     {
       "id": "verapamil",
@@ -1261,13 +1276,15 @@
       "mechanism": "Non-dihydropyridine calcium channel blocker",
       "focus": "Rate control in AF",
       "company": "Generic",
-      "latest_update": "2026-02-13: Generic Drug Facilities, Sites and Organization Lists",
+      "latest_update": "2026-02-17: Competitive Generic Therapy Approvals",
       "tags": [
         "CCB"
       ],
       "trials": [],
       "notes": "Common option for rate control.",
-      "sources": []
+      "sources": [
+        "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals"
+      ]
     },
     {
       "id": "digoxin",
@@ -1278,13 +1295,15 @@
       "mechanism": "Cardiac glycoside",
       "focus": "Rate control in AF",
       "company": "Generic",
-      "latest_update": "2026-02-13: Generic Drug Facilities, Sites and Organization Lists",
+      "latest_update": "2026-02-17: Competitive Generic Therapy Approvals",
       "tags": [
         "glycoside"
       ],
       "trials": [],
       "notes": "Often used when additional rate control is needed.",
-      "sources": []
+      "sources": [
+        "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals"
+      ]
     },
     {
       "id": "praxbind",
@@ -1489,7 +1508,7 @@
       "mechanism": "Left atrial appendage closure device",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-02-16: Vanguard Group Inc. Buys 1,115,337 Shares of Boston Scientific Corporation $BSX - MarketBeat",
+      "latest_update": "2026-02-17: GSA Capital Partners LLP Has $1.86 Million Stake in Boston Scientific Corporation $BSX - MarketBeat",
       "tags": [
         "LAAO",
         "implant"
@@ -1509,7 +1528,8 @@
       "sources": [
         "https://www.acc.org/Latest-in-Cardiology/Articles/2020/07/23/14/14/Next-Generation-WATCHMAN-FLX-LAAC-Device-Gains-FDA-Approval",
         "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5"
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5"
       ],
       "press_2026": true
     },
@@ -1522,7 +1542,7 @@
       "mechanism": "Left atrial appendage occluder",
       "focus": "Stroke prevention in AF",
       "company": "Abbott",
-      "latest_update": "2026-02-16: Abbott deploying wildfire resources; Xcel Energy prepping for safety shutoffs - KCBD",
+      "latest_update": "2026-02-17: Texas Students Protest ICE Despite Gov. Greg Abbott\u2019s Threats - The New York Times",
       "tags": [
         "LAAO",
         "implant"
@@ -1542,7 +1562,8 @@
       "sources": [
         "https://abbott.mediaroom.com/2021-08-16-Abbotts-Amplatzer-TM-Amulet-TM-Device-Approved-by-FDA-to-Treat-People-With-Atrial-Fibrillation-at-Risk-of-Stroke",
         "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ0Vva1N5QVd4UkdfYy1uaEtzWkJhd2VIN0VQVkh6aXFEZEp6TE42N0NDcUJncWtxcHNVbUZnUmFaNVVXTmJPQ1hWaGgzejJfa3hYVm5FbXMwWU1VYnlGOHNoMXFSVWlsWGtiRTc4QXpsZTQ1WVIxblIwLTY4MU1EOW9xdGR3SU5oQUZ3Z0xDQkJ2UlhuQ1ZZNE5LNFlibl9RQUhXWGJVX1N2UlN1ZXY2Ukc0dkFkNmptZVB2WkdFRG83OHhrZG5ZOGRB?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lWYXdRem5fUG1aalk5bllkRnF4cU1VaEJWT2JVOEhIWWJNV21xcUUxRElxd2c3eURWV19YRWY0M0lXMll2czgzc3MxU0k1OFBqWWN2UXc1MEtyV0pfZnprN3dlMnVHZjI5MzNmbm8xelRoLUp5Q1NQQTZTZG1sdUxLR1RsN2lYTTlNQ2EybzdScVZLVWhMNjJ3Rll4NDl0OWJkNUdtSXhKV0tJbUhJNQ?oc=5"
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lWYXdRem5fUG1aalk5bllkRnF4cU1VaEJWT2JVOEhIWWJNV21xcUUxRElxd2c3eURWV19YRWY0M0lXMll2czgzc3MxU0k1OFBqWWN2UXc1MEtyV0pfZnprN3dlMnVHZjI5MzNmbm8xelRoLUp5Q1NQQTZTZG1sdUxLR1RsN2lYTTlNQ2EybzdScVZLVWhMNjJ3Rll4NDl0OWJkNUdtSXhKV0tJbUhJNQ?oc=5",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWkM4X0tWU1ZOeXh1bXYwc1JVc1IxdjVVblNNZEhraUM0a0pLSVA2OFVkX1JWWnJKalFLaEkzcENMZlQwWjRyeS1wREotQWZhYi1td1lYQ1dIWjM4MlkxaEQxQ095VnVJQ3RPbWloRHJLSDI2eU53REhmYXBpc3ZtUlZJbDA?oc=5"
       ],
       "press_2026": true
     },
@@ -1555,7 +1576,7 @@
       "mechanism": "Next-generation LAA closure device with extended sizes and enhanced sealing",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-02-16: Vanguard Group Inc. Buys 1,115,337 Shares of Boston Scientific Corporation $BSX - MarketBeat",
+      "latest_update": "2026-02-17: GSA Capital Partners LLP Has $1.86 Million Stake in Boston Scientific Corporation $BSX - MarketBeat",
       "tags": [
         "LAAO",
         "implant"
@@ -1576,7 +1597,8 @@
         "https://news.bostonscientific.com/2024-02-06-Boston-Scientific-Receives-FDA-Approval-for-WATCHMAN-FLX-Pro-LAA-Closure-Device",
         "https://www.bostonscientific.com/en-US/products/laac-system/watchman-flx-pro.html",
         "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5"
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5"
       ],
       "press_2026": true
     },
@@ -1940,7 +1962,7 @@
       "mechanism": "Left atrial appendage closure device",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-02-16: Vanguard Group Inc. Buys 1,115,337 Shares of Boston Scientific Corporation $BSX - MarketBeat",
+      "latest_update": "2026-02-17: GSA Capital Partners LLP Has $1.86 Million Stake in Boston Scientific Corporation $BSX - MarketBeat",
       "tags": [
         "LAAO",
         "pipeline"
@@ -1960,7 +1982,8 @@
       "sources": [
         "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/left-atrial-appendage-closure/next-generation-watchman-enters-trial-2026-laao-volume-grows",
         "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5"
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5"
       ],
       "press_2026": true
     },
@@ -1973,7 +1996,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal and persistent AF ablation",
       "company": "Boston Scientific",
-      "latest_update": "2026-02-16: Vanguard Group Inc. Buys 1,115,337 Shares of Boston Scientific Corporation $BSX - MarketBeat",
+      "latest_update": "2026-02-17: GSA Capital Partners LLP Has $1.86 Million Stake in Boston Scientific Corporation $BSX - MarketBeat",
       "tags": [
         "PFA",
         "ablation"
@@ -2003,7 +2026,8 @@
         "https://news.bostonscientific.com/2024-01-31-Boston-Scientific-Receives-FDA-Approval-for-FARAPULSE-TM-Pulsed-Field-Ablation-System",
         "https://news.bostonscientific.com/2025-07-07-Boston-Scientific-receives-FDA-approval-for-expanded-labeling-of-FARAPULSE-TM-Pulsed-Field-Ablation-System",
         "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5"
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5"
       ],
       "press_2026": true
     },
@@ -2046,7 +2070,7 @@
       "mechanism": "Single-shot multielectrode PFA catheter (basket/flower shapes)",
       "focus": "Pulmonary vein isolation in AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-02-16: Vanguard Group Inc. Buys 1,115,337 Shares of Boston Scientific Corporation $BSX - MarketBeat",
+      "latest_update": "2026-02-17: GSA Capital Partners LLP Has $1.86 Million Stake in Boston Scientific Corporation $BSX - MarketBeat",
       "tags": [
         "PFA",
         "catheter",
@@ -2068,7 +2092,8 @@
         "https://news.bostonscientific.com/2024-01-31-Boston-Scientific-Receives-FDA-Approval-for-FARAPULSE-TM-Pulsed-Field-Ablation-System",
         "https://www.acc.org/latest-in-cardiology/articles/2024/01/31/17/59/fda-update-agency-approves-farapulse-pulsed-field-ablation-system",
         "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5"
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5"
       ],
       "press_2026": true
     },
@@ -2205,7 +2230,7 @@
       "mechanism": "Contact-force RF ablation catheter with flexible tip",
       "focus": "Paroxysmal AF and typical atrial flutter",
       "company": "Abbott",
-      "latest_update": "2026-02-16: Abbott deploying wildfire resources; Xcel Energy prepping for safety shutoffs - KCBD",
+      "latest_update": "2026-02-17: Texas Students Protest ICE Despite Gov. Greg Abbott\u2019s Threats - The New York Times",
       "tags": [
         "RF",
         "contact force"
@@ -2226,7 +2251,8 @@
         "https://www.fda.gov/medical-devices/recently-approved-devices/tactiflex-ablation-catheter-sensor-enabled-p220013",
         "https://abbott.mediaroom.com/2023-05-19-Abbott-Receives-FDA-Approval-for-TactiFlex-TM-Ablation-Catheter-for-Treatment-of-Abnormal-Heart-Rhythm",
         "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ0Vva1N5QVd4UkdfYy1uaEtzWkJhd2VIN0VQVkh6aXFEZEp6TE42N0NDcUJncWtxcHNVbUZnUmFaNVVXTmJPQ1hWaGgzejJfa3hYVm5FbXMwWU1VYnlGOHNoMXFSVWlsWGtiRTc4QXpsZTQ1WVIxblIwLTY4MU1EOW9xdGR3SU5oQUZ3Z0xDQkJ2UlhuQ1ZZNE5LNFlibl9RQUhXWGJVX1N2UlN1ZXY2Ukc0dkFkNmptZVB2WkdFRG83OHhrZG5ZOGRB?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lWYXdRem5fUG1aalk5bllkRnF4cU1VaEJWT2JVOEhIWWJNV21xcUUxRElxd2c3eURWV19YRWY0M0lXMll2czgzc3MxU0k1OFBqWWN2UXc1MEtyV0pfZnprN3dlMnVHZjI5MzNmbm8xelRoLUp5Q1NQQTZTZG1sdUxLR1RsN2lYTTlNQ2EybzdScVZLVWhMNjJ3Rll4NDl0OWJkNUdtSXhKV0tJbUhJNQ?oc=5"
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lWYXdRem5fUG1aalk5bllkRnF4cU1VaEJWT2JVOEhIWWJNV21xcUUxRElxd2c3eURWV19YRWY0M0lXMll2czgzc3MxU0k1OFBqWWN2UXc1MEtyV0pfZnprN3dlMnVHZjI5MzNmbm8xelRoLUp5Q1NQQTZTZG1sdUxLR1RsN2lYTTlNQ2EybzdScVZLVWhMNjJ3Rll4NDl0OWJkNUdtSXhKV0tJbUhJNQ?oc=5",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWkM4X0tWU1ZOeXh1bXYwc1JVc1IxdjVVblNNZEhraUM0a0pLSVA2OFVkX1JWWnJKalFLaEkzcENMZlQwWjRyeS1wREotQWZhYi1td1lYQ1dIWjM4MlkxaEQxQ095VnVJQ3RPbWloRHJLSDI2eU53REhmYXBpc3ZtUlZJbDA?oc=5"
       ],
       "press_2026": true
     },
@@ -2722,7 +2748,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "AF ablation",
       "company": "Abbott",
-      "latest_update": "2026-02-16: Abbott deploying wildfire resources; Xcel Energy prepping for safety shutoffs - KCBD",
+      "latest_update": "2026-02-17: Texas Students Protest ICE Despite Gov. Greg Abbott\u2019s Threats - The New York Times",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -2744,7 +2770,8 @@
         "https://abbott.mediaroom.com/2025-12-22-Abbotts-Volt-TM-Pulsed-Field-Ablation-System-Receives-FDA-Approval-to-Treat-Patients-with-Atrial-Fibrillation",
         "https://abbott.mediaroom.com/2026-02-06-Late-breaking-data-presentations-showcase-the-safety-and-efficacy-of-Abbotts-ablation-catheters-to-treat-people-with-atrial-fibrillation",
         "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ0Vva1N5QVd4UkdfYy1uaEtzWkJhd2VIN0VQVkh6aXFEZEp6TE42N0NDcUJncWtxcHNVbUZnUmFaNVVXTmJPQ1hWaGgzejJfa3hYVm5FbXMwWU1VYnlGOHNoMXFSVWlsWGtiRTc4QXpsZTQ1WVIxblIwLTY4MU1EOW9xdGR3SU5oQUZ3Z0xDQkJ2UlhuQ1ZZNE5LNFlibl9RQUhXWGJVX1N2UlN1ZXY2Ukc0dkFkNmptZVB2WkdFRG83OHhrZG5ZOGRB?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lWYXdRem5fUG1aalk5bllkRnF4cU1VaEJWT2JVOEhIWWJNV21xcUUxRElxd2c3eURWV19YRWY0M0lXMll2czgzc3MxU0k1OFBqWWN2UXc1MEtyV0pfZnprN3dlMnVHZjI5MzNmbm8xelRoLUp5Q1NQQTZTZG1sdUxLR1RsN2lYTTlNQ2EybzdScVZLVWhMNjJ3Rll4NDl0OWJkNUdtSXhKV0tJbUhJNQ?oc=5"
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lWYXdRem5fUG1aalk5bllkRnF4cU1VaEJWT2JVOEhIWWJNV21xcUUxRElxd2c3eURWV19YRWY0M0lXMll2czgzc3MxU0k1OFBqWWN2UXc1MEtyV0pfZnprN3dlMnVHZjI5MzNmbm8xelRoLUp5Q1NQQTZTZG1sdUxLR1RsN2lYTTlNQ2EybzdScVZLVWhMNjJ3Rll4NDl0OWJkNUdtSXhKV0tJbUhJNQ?oc=5",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWkM4X0tWU1ZOeXh1bXYwc1JVc1IxdjVVblNNZEhraUM0a0pLSVA2OFVkX1JWWnJKalFLaEkzcENMZlQwWjRyeS1wREotQWZhYi1td1lYQ1dIWjM4MlkxaEQxQ095VnVJQ3RPbWloRHJLSDI2eU53REhmYXBpc3ZtUlZJbDA?oc=5"
       ]
     },
     {
@@ -3090,20 +3117,7 @@
     }
   ],
   "weekly_updates": {
-    "guideline_updates": [],
     "safety_signals": [],
-    "label_expansions": [
-      {
-        "title": "Generic Drug Facilities, Sites and Organization Lists",
-        "date": "2026-02-13",
-        "source": "FDA What's New: Drugs \u00b7 Match: Generic"
-      },
-      {
-        "title": "Generic Drug User Fee Amendments",
-        "date": "2026-02-13",
-        "source": "FDA What's New: Drugs \u00b7 Match: Generic"
-      }
-    ],
     "conference_abstracts": [
       {
         "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
@@ -3254,6 +3268,29 @@
         "title": "Abbott stock rises on AFib device data buzz as traders weigh FDA overhang - Bez Kabli",
         "date": "2026-02-10",
         "source": "Google News: AF Symposium (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Abbott announces late-breaking data from global VOLT-AF and FOCALFLEX studies - Cardiac Rhythm News",
+        "date": "2026-02-12",
+        "source": "Google News: AF Symposium (7d) \u00b7 Match: Abbott"
+      }
+    ],
+    "guideline_updates": [],
+    "label_expansions": [
+      {
+        "title": "Generic Drug Facilities, Sites and Organization Lists",
+        "date": "2026-02-13",
+        "source": "FDA What's New: Drugs \u00b7 Match: Generic"
+      },
+      {
+        "title": "Generic Drug User Fee Amendments",
+        "date": "2026-02-13",
+        "source": "FDA What's New: Drugs \u00b7 Match: Generic"
+      },
+      {
+        "title": "Competitive Generic Therapy Approvals",
+        "date": "2026-02-17",
+        "source": "FDA What's New: Drugs \u00b7 Match: Generic"
       }
     ]
   }

@@ -1,0 +1,338 @@
+# AFib CI Manual Scan (2026-02-17)
+
+Run time: 2026-02-17T15:01:05.248540+00:00
+
+## Top Items
+- Regular Exercise Reduces Atrial Fibrillation Recurrence by Nearly 50% After Catheter Ablation, Study Shows (match: Keyword-only)
+- https://news.google.com/read/CBMirgFBVV95cUxPaUNjc2RXQnpvZHZGamlsd2pYWTBGazMtLUxkNUpsU3F1MnRwV2UzODV2SHZXeTd5OFpWUENaTGFsa3lOYTcxQUxIbC1mN0VnSTVnNzZRa05Rb2dSdkk0Y01KMUVsaWtqT1RVV2hzaDNtUWZRLUZ5Njl4dF9OZFoxUFc4RGxJNlRzX19QOGRnRmZWMnFmMVE2MGdvRS14bmpmS0JmQlNOMkhnSk1EUmfSAb4BQVVfeXFMTk9OODF1TUxlSGdqcDFtczVrekdsUXd3dnVWVGItVXhhTDU4MUU4ZFhySzdXR3RyMmdpc1BQcGl1eklxbFFPTjFYMXdDTk9pQU8xak9sNHI1a00zS1h6N3kxMk9Rb0dnNkdkQUpZMlRMZHQzVjY2NGlFdHp0akk2S2NOSTJMLVJtbExvcG9pQlZ6aFNwQlBuSjBxTGNuNXhWY0JkLU1ZaldCeDhNN1pjdUQ3NGVUNkNYMDk5YzF4UQ?hl=en-US&gl=US&ceid=US%3Aen
+- Improving Outcomes for People with Atrial Fibrillation (match: Keyword-only)
+- https://news.google.com/read/CBMiigFBVV95cUxPMFR2TURTRGVjdGFnRzdscWRjTUJkUVYtTUdKMHpFNE9iaDlLUlVKNkowSVIxdS15TkVQa2tnTHItSVFWaTdtMG1FeFZaVTdia05BVTJNMFFQVWF0dWFXN0pHWVFZLWx1cVdDdHh5M3hlM1ZqcUwwMEhLRXRBZ0ZfNHpKaTdYSVR5OHc?hl=en-US&gl=US&ceid=US%3Aen
+- UChicago cardiologist rethinks devices used to prevent stroke in patients with AFib (match: Keyword-only)
+- https://news.google.com/read/CBMi6gFBVV95cUxQNzJRdnU4b1BCUnNvc3ZIekFjdFBvV0RiaHphTmxkYkZ3c1FmWUFhV0twdFFFX3lVbTVYQnZpbmFZZl9zREtDa0lSMXRCYzc5WWFtWkVqdnlyZ3NMSHI2eFpzelh1aFo4R1lhRDlvdzZxcXVNTW5BZC1GelB1Q0tLb282SFpHSU5wZ1FFdlk0aEM0ZlBKb0p2VmU3RWF1MDRUZU1VNFJQNUZFN1BPVkNWMi1TZTEteWpyYTZGc2Y1bWJKemNtYV9QWFZqcFhkUzBnOVB3MkJkaUMxRkxNTkIwZENPTmNVQzVDbkE?hl=en-US&gl=US&ceid=US%3Aen
+- Pulse Field Ablation reshapes AFib care in Rochester (match: Keyword-only)
+- https://news.google.com/read/CBMid0FVX3lxTE8wNFhyYVNkWWd6TlRzN3BxQi16dGUxaHFOQzZuaFJ0SjFWN0ZLSE1pdVFoYWxMMGlJLXhWQTlHamEwX1lJZnJKT3VadktkZEdWR0l2THV4THlYMkx0ZnJMWUQyNFZXNUdPM0h3SUhONmxkRTFXUTJV?hl=en-US&gl=US&ceid=US%3Aen
+- New technology at UVA Health offers safer treatment for atrial fibrillation (match: Keyword-only)
+- https://news.google.com/read/CBMi7AFBVV95cUxPTEZaRUczeG1WTWRYaDdscUlYN1liTmxaNXJRMDd5dmx6ZjUtMVNuU0laemt2VGI3bHQza1B0OUswbnE2T3VycWxGQm1iZWJjN0JMeEpLcWYtQlRZN1F3aDdEUVV4QzdlNmVaeG9vY2NnNlVfMzJNektoNUFZNEF2NGtEN2xaUUZfb1BydDNzaXFzVk96YWsxdy1yWXdpNzFIR3FSQXpGbjFFa2JyX3VPUUU5VmtZaUd5bVFpektwOGJnQlhIRXl2WGdNZGtCMmE3VXBvYTFCX3JpdFdaZXVGUXhBejZjNnQyN2ZZdA?hl=en-US&gl=US&ceid=US%3Aen
+- Abbott initiates UK pilot of Volt PFA system (match: Abbott)
+- https://news.google.com/read/CBMikgFBVV95cUxOSlYtYXppNjlkSGYzNWN0dHJqMGRFNnluU1UtVUZxVExCWkdjWEFRd1dzREt1OVgtanU4cUNzUG5TbS1wVFlPcHVrWC05UldVMXhpTjhVRUR2LTdrYlFjV1JpREk0Sy1GTlI5dDdkNGJkWnM2LS1zLXVnbW0tU2ZiN2kwRHRId2p0OTBZNlFBNGNyQQ?hl=en-US&gl=US&ceid=US%3Aen
+- Atrial fibrillation rising among young adults, new depression treatments, and Friday the 13th fears: Daily Dose (match: Keyword-only)
+- https://news.google.com/read/CBMivwJBVV95cUxObVV5d3ZzVFFQWlZtU19GcFp6TGxZdEsxMmdMM1dIb2tJcUdscHZsaGJUa0FEd1p5SnJiNzFKZ1dYV05zOXhoVU5OeW1FTElwSEVrYjJjUnVENlhDeEhId3MyN2ZqNEFWZTdTdWZPNVJxMERIYVM1RkdUemU2dkNPcHBKNlltNThFcTU4RVVQeTdOTW5kR1A0NVVid3NKZmZfQUdxMXVoU3VjMDRXSVVaWXY0aFhMUjViTnc0WjhuTVFIVUVpcThtS1pXZXRIdDcwelZscHBKN2hXQTQzSVNxREtOOTNIamVHQ3hHc3RYeDk5c0ZFbllfTGlFS3ZpdjN0Ui1DX1pWV0RVZmtoVmlNZU9RSmJpbFdxLWxURFM3RVFldDQtUmR5eV9ja1VDbzFIMXNDeHQ2T2tkSm1BSUpR?hl=en-US&gl=US&ceid=US%3Aen
+- Early Findings on Implantable Device Look Promising (match: Keyword-only)
+- https://news.google.com/read/CBMipwFBVV95cUxOZTMydmViZkhURGxhQzI0eks0R0VLalEwcWNZYU5ZRG41Sng3aEo5enlKQVNKMlB3Qks0SGp0d2RNNnFSeTVIdkNwaW9ONUtLNTlRYXIzWHRXYkxETm16SC01OHpWdFRDc1BHTXNsZHhLbGcwajZZSlB1aVpUQ2Z1d1VjYno3Uk9OY3MzYm1aVmg0bzdHYjA2bG5UZVVjR0RWOWtNa21GMA?hl=en-US&gl=US&ceid=US%3Aen
+- Clinical trials may pave way for some AFib patients to safely get off blood thinners (match: Keyword-only)
+- https://news.google.com/read/CBMiuwFBVV95cUxPMUF3RjJnMlBVZENRSUJ5VWdjZXM0RUJSYUVPbVdlYzRDbXF4ZVh5aUctN2RRSnY3Y2M3R05tM2VnajhWc1l1RnNRN0VSQXkxY1Exa0VZRnZkMEFIQjR2NXl1R1pmOVd6UHQwd1MzOTEwRk9odWZ5Nk5RYy1zY2M5VWxoT01kaWQ0ZElQY0ZmeXgyRFp6c0I1blBYMzNtNnBZdTJDUmhSLWdUSHJfUEdrMnNrVFdVeHBMN05R?hl=en-US&gl=US&ceid=US%3Aen
+- Understanding AFib and New Advances in Treatment with Pulsed Field Ablation (match: Keyword-only)
+- https://news.google.com/read/CBMitwFBVV95cUxPdkNZZTlRSTBOenhwYzhoM1lpdE5XZmQ2akpYRTdaUU9HeHlrX1plV1VIeEc3VmVxdlFYYmlBQVNJMmFnN3JibW9tMENEVFpTWWk4eURSNHhRVVNhdjVmTG1kZnhjc3Z0cklQemI4c1FCVWJjd1NQT1V5RENZaDdITjdqUDgweW9oeXVINlpxdG5lb0tvVTJfQ3Q1STdTeVd0bVUzTEhxMy1wODNPY2piWkNJZEJKVlnSAbwBQVVfeXFMUHFsRi1SNjFKOGpCV0lUSkpSZ2ZPV1JNVE9kV2YtdTd5WTFmNk5sUkZxdWo2Mk9VTXhydkl0NzhNRW94dU1TbDNONm5ZSHNweTlMQWFmbGU5dGZQbTdLNUdLRVlrcUttbmpfdGVJV29CaUI1ekdKUFFlR1Z4SURhUGlLLTNTdkZFUUZ6cVJIc2V5V3pUMDRLZGpPYnJ1dU1CR1pNZWU5MW84WEZWd2dRbUdJeGN5UFBsMWVuTXM?hl=en-US&gl=US&ceid=US%3Aen
+- The biggest cardiac tech news out of the 2026 AF Symposium (match: Keyword-only)
+- https://news.google.com/read/CBMidEFVX3lxTE5qT2tDb2F4WmZEN3ZpREVJTmpGaEhBRzJjRW93aF9LX3l4d21NYTlMSUVkbDFlYWllZExXdVBlUFlhYk9oYXNZQV95eDdNaURfMnhmZzRla25KZERpWlQxUHF5LVY1V1NOa3Q2M2tRandoY2tV?hl=en-US&gl=US&ceid=US%3Aen
+- Aspirus discusses option for AFib (match: Keyword-only)
+- https://news.google.com/read/CBMiugFBVV95cUxPYm96NHV1ZU1YWEEtMlZkbzRZc0o4MG9KbmZlb0pKVzhEeDZiLURoLXE2a0RlRURPZ1VESzZvMlk0QThMYXB2R0h5M3gzNnNxcEpTRFg5TjhqM2p3akg5MjhDalpRc3ZTSUswU1Jpc2preWMybEg1a3FKS2F3R3VydlR5b2JTQWRSNlpsSWdXb19mc3RmTzFuSTZwWkRWazVYUW5NeDZ0c2dyRzhXNW1LRTAzRUFWY21OVUE?hl=en-US&gl=US&ceid=US%3Aen
+- 2025's top 10 clinical trial flops (match: Keyword-only)
+- https://news.google.com/read/CBMie0FVX3lxTE56ZW4wOThDQmJaMVYwN3F0NG9Mcm9JdkNkZFhBcjF1SnVEMWllYUNmUHlsLVJYeTRvZllPaDNVNmZ0QWtTOXdhdHJnM1dXN3Zfd3BodkV1dG82SEtNdWhNbFFUX1dhMzJtLUpXNVZCeHhvM3ZrVFlWcDF2MA?hl=en-US&gl=US&ceid=US%3Aen
+- Non-contractile heart cells help sustain persistent atrial fibrillation, study reveals (match: Keyword-only)
+- https://news.google.com/read/CBMijwFBVV95cUxOM1lpOWRBaWJNbzU3RFpMa0NmUTE5akF4ejVoQ2RudWZFOElYS2o2QjNIWFNTVlpnWkRFQ3pHajVEakdRSTJuRE5HWVQ5R1ZsNjdlY0NraW5OVEp1dDEtYm0tN2VGRW5EeW84ZlJjU0VuYzRMTUUtVzVzYkZCVTZwNmRHdUpPZWNNc0lRSk96NA?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Sci’s Farapulse better than thermal ablation at 4 years (match: Keyword-only)
+- https://news.google.com/read/CBMipAFBVV95cUxPc0dyYl9kWC1oanduS3BzUnBFV1E5bENjLVlmWDVxRlBTc3NLMDRJQ2lsdUpfb1VMbjYtdUd0TnVTUF9JdXZ6cVA1aVBVa3RsaWI2N1dwTkFhZ2h6alZCYm80VS1nSm9RcFJnTWk2cWJvUWdMX3NFQ0l6eEFVY3hDSWEwT2ljNWhYLWpMU19jRDlTSjJJRHJNMTc0OXVxanRNaVpyOQ?hl=en-US&gl=US&ceid=US%3Aen
+
+## By Drug/Device
+- Abbott
+- Abbott initiates UK pilot of Volt PFA system
+- https://news.google.com/read/CBMikgFBVV95cUxOSlYtYXppNjlkSGYzNWN0dHJqMGRFNnluU1UtVUZxVExCWkdjWEFRd1dzREt1OVgtanU4cUNzUG5TbS1wVFlPcHVrWC05UldVMXhpTjhVRUR2LTdrYlFjV1JpREk0Sy1GTlI5dDdkNGJkWnM2LS1zLXVnbW0tU2ZiN2kwRHRId2p0OTBZNlFBNGNyQQ?hl=en-US&gl=US&ceid=US%3Aen
+- Abbott reports positive VERITAS study results for AFib
+- https://news.google.com/read/CBMihwFBVV95cUxNY29aemp5NnhaQXIxVWR6dzdvZ0E2c1V3a1luSnJNcGd6N0VvZjNXQXVqRXVSdDRGVzNBSFZWTVVqWUtmSWNvRXpXT0YtbVpIVTlYUXVtYjcwRlZUYzZGVjJvdEhBbEstejRCZTc2U3hXUlVpNlBJMFkwS0tlQUlVaXJkX3Q1TlU?hl=en-US&gl=US&ceid=US%3Aen
+- Abbott details Volt, TactiFlex data; Pulse Biosciences’ results shine
+- https://news.google.com/read/CBMikwFBVV95cUxNNUlJa1hLb09YanZ6Nk53Vk9DMVlrcTF4TGlGTGdmSFBnaERQSjk2RHQ3QnJjMkpReXNINHZHTnlrcmF3bUdfdjgteFdYMU9leGRtVWNCRm4ya244MDlxMVdlaGRVODItMzNBT0c0S2FSODBUTGdEYWJyam5JLWI4c0xjQThkbV9PanRBLXp6eTNrbVE?hl=en-US&gl=US&ceid=US%3Aen
+- NHS hospitals pilot Abbott Volt PFA system
+- https://news.google.com/read/CBMiiwFBVV95cUxOY0pVUzdmYk0wSC0yeXZEOHVmRVNCUVU4MjJmQnZQaHlIMUVTQlpwdERrV3NVR2Npc2Jka3RJRWtGNjJNN3BmRG1nWktWRTdjeFNPcjVCaF8zbGkza1VaWm9LczFMYjVJekZvZXQyNGpnSU9EdkJodkhNZTlZZ2NyaGpPMEJmU25VT3ZF?hl=en-US&gl=US&ceid=US%3Aen
+- Abbott Reports Strong Results for Amulet 360 LAA Occlusion Device
+- https://news.google.com/read/CBMipwFBVV95cUxQSkhqVS1vaDdfNUVEUjl2ZXZvSTdiUmdNMkVMTnZZZDNIR2hLZ1BrMmhnMjF1RTJaWmxZY0NNTDVkWVVnSHFoLW1ldUlLbnFEOUljRDZPM1Fiem1HRTVtMzZmaFZkYXZsNnVXUm1rRXRLeGxzdXR5Vzg2b2lPZFh5S1dmUlk2RU9VMnprOHF1d09aNHdrMlBnN0NqX0k3RjNUTzV5ZWVIOA?hl=en-US&gl=US&ceid=US%3Aen
+- Abbott stock price: Insider buy and fresh AFib data put ABT back on watch for Monday
+- https://news.google.com/read/CBMipwFBVV95cUxNXy1VSkcyeUxQYnJCcE9VNlk3X1VaMVlhMGZzQTZzM0ZHUmR3STBvaVpIOWo5aTFtVXpHb1lVcUNzX2p0d3JIRW9iVU56SHRsSWpYVkVfaENtTUxtTWZiWExWU1JIQVNLYk1XQ283ekN0cG9KdXlxaGRweXdwYTVXZC15dS1RY21IY2VMTFFFdjJxZVhWQ2lmTEFrWnZVNnFaRmR0SmkwNA?hl=en-US&gl=US&ceid=US%3Aen
+- Abbott stock rises on AFib device data buzz as traders weigh FDA overhang
+- https://news.google.com/read/CBMioAFBVV95cUxNVkhpWmM4cGczR3h0YnZyNGFPSDBGaVFkNmNIV1VHSWRKOGJ1bER3S25WSThMYVpJV0FqVzY3VXZjYXVLWU92WmYxdXZiQy1La0E4MlFpbXYwVWFLSGQ4OFJzTmd2eFpiZ2diZ0dOX3BjRDhyc3FQbUswUExXQVRKNkZzQ3gyZUFISlVjMVRveVFKNDdoZ0ZxQjRWM0NCdG90?hl=en-US&gl=US&ceid=US%3Aen
+- Abbott announces late-breaking data from global VOLT-AF and FOCALFLEX studies
+- https://news.google.com/read/CBMirAFBVV95cUxObU9mUVd6Y0RFTEJ2QjdXSFJ1dllvVHVDbXBLLWhnRFNUVXdZNE05TWhjY19sOG9KQXZKekdkRm5NVEFScXlrMDlDYk5JLTUwbEF3M21nM2RTVGQwSS1CUzhBX2E1YUlOYkw5TG9aSmpiQk9xa2JoVGJKX1pmbVEtcDN1ZzctdnYyOUtaTzZkbzdET3MzVVQ4dkdvQkM2RWRlMzY0bEFVbmJpbGhJ?hl=en-US&gl=US&ceid=US%3Aen
+- Abbott’s Volt PFA System Enters U.K. Pilot Amid Expanding Atrial Fibrillation Market
+- https://news.google.com/read/CBMiygFBVV95cUxQQ0Vva1N5QVd4UkdfYy1uaEtzWkJhd2VIN0VQVkh6aXFEZEp6TE42N0NDcUJncWtxcHNVbUZnUmFaNVVXTmJPQ1hWaGgzejJfa3hYVm5FbXMwWU1VYnlGOHNoMXFSVWlsWGtiRTc4QXpsZTQ1WVIxblIwLTY4MU1EOW9xdGR3SU5oQUZ3Z0xDQkJ2UlhuQ1ZZNE5LNFlibl9RQUhXWGJVX1N2UlN1ZXY2Ukc0dkFkNmptZVB2WkdFRG83OHhrZG5ZOGRB?hl=en-US&gl=US&ceid=US%3Aen
+- Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market
+- https://news.google.com/read/CBMizAFBVV95cUxOaVdneHpVbzlGSDJrak5zdldSMHhnYmRCZVJoMlljbDZqYnlSMk5QeXViWm1UWHNud1RrVDAwd3gyX0dfZ3QtRDdieG54bV9nNVpqbU5XdHhPZUhGcm93bUpfc25sNHlvQWFnV3pscTkyM180Wng0dmdwa0VNZzRER1hDUlk5YUtEWFVKV0dOX0thWVVfZWFISVd1aTFQcUZGSmtLSGdYeDg5ZzFhVXZkQW0wcEFoRGw0NXREZEd4VDNfeW1MekpSNVgyNVk?hl=en-US&gl=US&ceid=US%3Aen
+- Get News Alerts by Email
+- https://abbott.mediaroom.com/alerts?type=1
+- Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients
+- https://abbott.mediaroom.com/press-releases?item=124733
+- Abbott initiates medical device correction for certain FreeStyle Libre® 3 and FreeStyle Libre 3 Plus sensors in the U.S.
+- https://abbott.mediaroom.com/press-releases?item=124718
+
+- Acesion Pharma
+- Acesion Pharma announces Nature Medicine publication of clinical results in Atrial Fibrillation
+- https://acesionpharma.com/acesion-pharma-announces-nature-medicine-publication-of-clinical-results-in-atrial-fibrillation/
+- Acesion Pharma Announces Positive Results for Novel Drug Targeting Atrial Fibrillation
+- https://acesionpharma.com/acesion-pharma-announces-positive-results-for-novel-drug-targeting-atrial-fibrillation/
+
+- AP31969
+- Acesion Pharma starts Phase 2 trial of AP31969 in patients with atrial fibrillation
+- https://acesionpharma.com/acesion-pharma-announces-initiation-of-phase2-trial/
+
+- Argá Medtech
+- Argá Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System
+- https://news.google.com/read/CBMixwFBVV95cUxPUXkyNTRfb2tra255QWc3VGdFbGtOMWRQV3RTdWdWSnRwNUdBNHY1ejJPQkItSDhJNGV6ZHlBWkZUOWZYamRBbE1wZGowenlOM1J6TE9FWDlJR2diUTI3UmFzZlpESHVibWt4M1JmR010YjZMMlNkd19rUEUyQ2VNaERDVXYtLUtiZVpwTkg3bVB5Y3RNclNzZHNHYjVOWFVWdi1qN3hsSWx0ZTREQXZuTlluZTE2WEUzRzkyTUVnSm04cVFFREVz?hl=en-US&gl=US&ceid=US%3Aen
+- Argá Medtech reports 94% lesion durability and “strong safety profile” with single-catheter PFA system
+- https://news.google.com/read/CBMiygFBVV95cUxNeFVzZ1Q2RlBMQWpqVmVGb2V6N1ZyajFUcHBqa2xYeFlkcGNJYXdTZlVLN0FWRU5fUjFvRmUzcnpJWG5WMFJNQ0swSzBzam91MzRLMXpPRzF5c05PUzVNSXZOUTRBcXl1U1VSbUpNOFB4MnZFN2YzYVB2M2NFWFFLZERuNkYyb0lMemZXNlNEQlRtMnZkSXFJWWxJTUFQUmJtXzhRb2xWSWU1UDNRaFZNQlpCa1lhdVdzNjkzaGlhbXhqbzZ1bkFTd2F3?hl=en-US&gl=US&ceid=US%3Aen
+- Argá Medtech Reports 94% Lesion Durability and Strong
+- https://news.google.com/read/CBMisAJBVV95cUxPaGd0NUlGZUQySmlENEhucWdNNGJ1VzVKRkdxbmNsbWd3ajZvOVpHbkFGdVZZaEhWbmZKZC0xNm42Z252X0tBUENvbGlCQ2RVQ19GMHZiRll3RTJVWEdPOEZoVk02YU9zdkRiQVJFek5XcVM3djFLckFpcFFSZlhOT0tKY3owZnRfcjVNTnV2V29YMXczeWJvTVhmQXZMaE1kUEYzLUtWRHBjcHlpbmdCNEFmQzJFY2F4MXppNWJuU1JPQVNCcWN0SFZ0dW9DQ2p6VjhEOWJuYVZLLXVJV3BraDBxck45RmgtT1hPS1dfcU5JSVhXdkFiYVE3Z3RsSUFEeDNHSDJGY3FRaGVrWWNzRUtNTUZjb3ZsSUtCMXlhLW1ud0VFVlcwZTNOWFNWOXMw?hl=en-US&gl=US&ceid=US%3Aen
+- February 10, 2026Argá Medtech Reports 87.6% Freedom from AF/AFL/AT at 12 MonthsArgá Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA SystemContinue Reading
+- https://argamedtech.com/news/f/press-release-arg%C3%A1-medtech-reports-94%25-lesion-durability
+- April 24, 2025HRS PFA Summit Live CaseEarlier today [Thursday, April 24] at #HRS2025, Dr. Ante Anic performed a live case during the PFA Summit featuring Argá Medtech's Coherent Sine Burst Electroporation (CSE) System. The system features pulsed field energy...Continue Reading
+- https://argamedtech.com/news/f/hrs-pfa-summit-live-case
+- April 8, 2025Argá Medtech Presented BURST-AF Case Study at EHRA 2025At the recent EHRA 2025 Congress in Vienna, Dr. Ivan Sikiric presented a case study using the Coherent Sine-Burst (CSE) Ablation System in the BURST-AF study. The case highlights advancements in procedural efficiency and...Continue Reading
+- https://argamedtech.com/news/f/arg%C3%A1-medtech-presented-burst-af-case-study-at-ehra-2025
+- October 29, 2024Argá Medtech presents at SCRN 2024Dr Sabine Ernst presented today at SCRN2024 the latest feasibility data for ventricular pulsed field ablation (PFA) in an in vivo healthy swine model using coherent sine-burst electroporation (CSE) . The data shows that ...Continue Reading
+- https://argamedtech.com/news/f/arg%C3%A1-medtech-presents-at-scrn-2024
+- February 27, 2024Argá Medtech SA closes Oversubscribed Series BPulsed Field Ablation Innovator Argá Medtech Announces €54 Million Oversubscribed Series B Capital RaiseContinue Reading
+- https://argamedtech.com/news/f/arg%C3%A1-medtech-sa-closes-oversubscribed-series-b
+
+- Asundexian
+- OCEANIC-STROKE: Asundexian Prevents Recurrent Strokes, With No Added Bleeding
+- https://news.google.com/read/CBMingFBVV95cUxOSnEwZlUxYllFSXZRVThLdTFQejVUaFBvVUt0SDVSV0JmR291SXlEeUtzQzE2Wlp6UmUtTkJ3TGZLZDZPNnRhbjdheXVTZnZDeE1MR0pVTGwzdVV4cS1IMkswcWlGMVBVRFV1Y3g2X0tBV3hZQjFobGlRNTY5UFRrczlXLVEwWXJOUVQ0cVZMSGdWQzN6RW1vQVNsdmRaZw?hl=en-US&gl=US&ceid=US%3Aen
+
+- AtriCure
+- Concomitant Surgical Ablation Therapy »
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation
+- Ablation Sensing Unit & Switch Matrix
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/ablation-sensing-unit-switch-matrix
+- Coolrail® Linear Pen
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/coolrail-linear-pen
+- cryoFORM® Cryoablation Probe
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/cryoform-cryoablation-probe
+- cryoICE® Cryoablation Probes
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/cryoice-cryoablation-probes
+- Isolator® Linear Pen
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/isolator-linear-pen
+- Isolator® Synergy™ Clamps (OLL2/OSL2)
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/isolator-synergy-clamps-OLL2-OSL2
+- Isolator® Synergy™ EnCompass® Clamp
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/isolator-synergy-encompass-clamp
+- Isolator® Transpolar Pen (MAX1)
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/isolator-transpolar-pen
+- Lumitip™ Dissection System
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/lumitip-dissection-system
+- Multifunctional Ablation Generator (MAG)
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/multifunctional-ablation-generator
+- EPi-Ease™ Epicardial Access Device
+- https://www.atricure.com/healthcare-professionals/therapies/epicardial-access/epi-ease-epicardial-access-device
+- Isolator® Transpolar Pen (MAX5)
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation/isolator-transpolar-pen
+- Left Atrial Appendage Management »
+- https://www.atricure.com/healthcare-professionals/therapies/LAAM
+- AtriClip PRO-Mini® Device
+- https://www.atricure.com/healthcare-professionals/therapies/LAAM/atriclip-exclusion-system/atriclip-pro-mini-device
+- AtriClip FLEX-Mini® Device
+- https://www.atricure.com/healthcare-professionals/therapies/LAAM/atriclip-exclusion-system/atriclip-flex-mini-device
+- AtriClip® FLEX•V® Device
+- https://www.atricure.com/healthcare-professionals/therapies/LAAM/atriclip-exclusion-system/atriclip-flex-v-device
+- AtriClip® FLEX™ Device
+- https://www.atricure.com/healthcare-professionals/therapies/LAAM/atriclip-exclusion-system/atriclip-flex-device
+- AtriClip PRO•V® Device
+- https://www.atricure.com/healthcare-professionals/therapies/LAAM/atriclip-exclusion-system/atriclip-pro-v-device
+- AtriClip PRO2® Device
+- https://www.atricure.com/healthcare-professionals/therapies/LAAM/atriclip-exclusion-system/atriclip-pro2-device
+- AtriClip PRO® Device
+- https://www.atricure.com/healthcare-professionals/therapies/LAAM/atriclip-exclusion-system/atriclip-pro-device
+- Atrial Lift System
+- https://www.atricure.com/healthcare-professionals/therapies/minimally-invasive-surgical-instruments/atrial-lift-system
+- Active Clinical Trials
+- https://www.atricure.com/healthcare-professionals/clinical-evidence/active-clinical-trials
+- Trials with Results
+- https://www.atricure.com/healthcare-professionals/clinical-evidence/trials-results
+- Atrial Fibrillation »
+- https://www.atricure.com/patients-caregivers/atrial-fibrillation
+- Symptoms, Risk Factors and Triggers
+- https://www.atricure.com/patients-caregivers/atrial-fibrillation/symptoms-risk-factors-and-triggers-atrial-fibrillation
+- Importance of Treatment »
+- https://www.atricure.com/patients-caregivers/atrial-fibrillation/importance-of-treatment
+- How Do I Find Treatment
+- https://www.atricure.com/patients-caregivers/atrial-fibrillation/importance-of-treatment/how-to-find-treatment
+- Diagnosis and Treatment Options »
+- https://www.atricure.com/patients-caregivers/atrial-fibrillation/diagnosis-and-treatment-options
+- Diagnosing Atrial Fibrillation
+- https://www.atricure.com/patients-caregivers/atrial-fibrillation/diagnosis-and-treatment-options/diagnosing-atrial-fibrillation
+- Frequently Asked Questions
+- https://www.atricure.com/patients-caregivers/atrial-fibrillation/frequently-asked-questions
+- Active Clinical Trials
+- https://www.atricure.com/patients-caregivers/clinical-evidence/active-clinical-trials
+- Trials with Results
+- https://www.atricure.com/patients-caregivers/clinical-evidence/trials-results
+- AtriCure Announces the First Patient Treated in the BoxX-NoAF Clinical Trial
+- https://ir.atricure.com/news-releases/news-release-details/atricure-announces-first-patient-treated-boxx-noaf-clinical
+- AtriCure Announces the Launch of the cryoXT™ Device for Post-Operative Pain Management Following Amputation
+- https://ir.atricure.com/news-releases/news-release-details/atricure-announces-launch-cryoxttm-device-post-operative-pain
+- AtriCure Completes Enrollment in LeAAPS Clinical Trial for Stroke Prevention
+- https://ir.atricure.com/news-releases/news-release-details/atricure-completes-enrollment-leaaps-clinical-trial-stroke
+- Concomitant Surgical Ablation Therapy
+- https://www.atricure.com/healthcare-professionals/therapies/concomitant-surgical-ablation
+- Left Atrial Appendage Management
+- https://www.atricure.com/healthcare-professionals/therapies/LAAM
+- Atrial Fibrillation
+- https://www.atricure.com/patients-caregivers/atrial-fibrillation
+- Importance of Treatment
+- https://www.atricure.com/patients-caregivers/atrial-fibrillation/importance-of-treatment
+- Diagnosis and Treatment Options
+- https://www.atricure.com/patients-caregivers/atrial-fibrillation/diagnosis-and-treatment-options
+
+- Boston Scientific
+- Boston Scientific (BSX) stock price edges up after selloff; Farapulse data and March 28 CHAMPION-AF readout in focus
+- https://news.google.com/read/CBMizwFBVV95cUxPTWpvUjR3Y3NHeDZBZTY3OUx3MkhQd21TRVRpSmJPRHNEQ19GVWZGeC1naUgzMkx1bVpOaXBKTl9nVUpYTUt4RGxpTVpXZTBhTU1FRzN5MWlRd2RfcnllNmhRV1lKc0RtbFFhdHpJcDRLZi04a2thZVBrRmZRdVl5RjVEY3FpN1U3V1k2WEpDWjlpMmVjdXRzUHpySjctV0twZVhSYTVtSWViLVlrRFY3b1pYcXI4ZUFfU3pacjFVWUE2WGJSaW52djA4RTlmMXc?hl=en-US&gl=US&ceid=US%3Aen
+
+- BTL
+- Oral Anticoagulant Discontinuation After AF Ablation: Review Sheds Light on Risks and Benefits
+- https://news.google.com/read/CBMi4wFBVV95cUxQQktoYkVicGZTNjZVWTFBTzJBN1puMUphMXJ6WmkzcmZXSFc2UUxjT3JwZ1J6eDRGRlIxNExyYi1PLThVSElnTGlUM2pLUFRZMWdEVEZCdGZtbE5oWWFGUWRqelhZbXlZQnVUclJoUHZDNlZuWDd1LTVTMUpCc0M2UmI1X1dHeFRveE91amhlNDYxQ3QxanVVendoRjFndjk0ZlpSM3JWbUVwSExXcVhHSkZYeUxNd2xnMU1PMGJWbXJkZ0VyaXJxa2FacWZtUmdILURSVGhURFZmWkZ6ZkNNaWhKTdIB6AFBVV95cUxNSDNCOURYcXhYYUx3YVpxdGZPdjY1UUlsMFA5Ukd4SHdUNV9zanplX3ZZT0dKN3BOVk1TVS05eHM0Z0xYZVZVVUN0RC0yVGZ2dk1KVmhCalpaS2otaUdnTkplMlc0dnFLU0I3TVFwRTR2WGFDS0ppZjFXWEd2bTg1UzZ4amRUc0ctMEYyZ0hjWWJTRHljb3dtNi1BRzdCc1BWOWVob0RHZk9KUGJ6WjNObTlaRkEtbFRBc3VpV2dpeUZkWnUtVWdPbFNFdWJ3eVI1MEpWWjJIWTh2YjZkdHRJV3YyUWVSTlZF?hl=en-US&gl=US&ceid=US%3Aen
+
+- Field Medical
+- Field Medical presents late-breaking Field PULSE trial data at 2026 AF symposium
+- https://news.google.com/read/CBMisAFBVV95cUxPYXFYU3kxMTlYbC1FUmU3XzRHSUIxSlhud2NmSEtVVmdRUXNRNWtJNnRKbHRkY0FhMlZIVXg4Tkp3Mm1TUGpvV3pxSWNlMVhyQmNuMnVqdHJHOGlMQnV1d3V3aHZMV1Byd19qTHo5ekhRc0JrTktqcE9jelNXRXVvWWRqT2RrX1Zja01DTTZjWHN2OF8xY3NLSUNmWjI3V3FIZktkWmR0YWh3VmhlU3NrNg?hl=en-US&gl=US&ceid=US%3Aen
+
+- Keyword-only
+- Regular Exercise Reduces Atrial Fibrillation Recurrence by Nearly 50% After Catheter Ablation, Study Shows
+- https://news.google.com/read/CBMirgFBVV95cUxPaUNjc2RXQnpvZHZGamlsd2pYWTBGazMtLUxkNUpsU3F1MnRwV2UzODV2SHZXeTd5OFpWUENaTGFsa3lOYTcxQUxIbC1mN0VnSTVnNzZRa05Rb2dSdkk0Y01KMUVsaWtqT1RVV2hzaDNtUWZRLUZ5Njl4dF9OZFoxUFc4RGxJNlRzX19QOGRnRmZWMnFmMVE2MGdvRS14bmpmS0JmQlNOMkhnSk1EUmfSAb4BQVVfeXFMTk9OODF1TUxlSGdqcDFtczVrekdsUXd3dnVWVGItVXhhTDU4MUU4ZFhySzdXR3RyMmdpc1BQcGl1eklxbFFPTjFYMXdDTk9pQU8xak9sNHI1a00zS1h6N3kxMk9Rb0dnNkdkQUpZMlRMZHQzVjY2NGlFdHp0akk2S2NOSTJMLVJtbExvcG9pQlZ6aFNwQlBuSjBxTGNuNXhWY0JkLU1ZaldCeDhNN1pjdUQ3NGVUNkNYMDk5YzF4UQ?hl=en-US&gl=US&ceid=US%3Aen
+- Improving Outcomes for People with Atrial Fibrillation
+- https://news.google.com/read/CBMiigFBVV95cUxPMFR2TURTRGVjdGFnRzdscWRjTUJkUVYtTUdKMHpFNE9iaDlLUlVKNkowSVIxdS15TkVQa2tnTHItSVFWaTdtMG1FeFZaVTdia05BVTJNMFFQVWF0dWFXN0pHWVFZLWx1cVdDdHh5M3hlM1ZqcUwwMEhLRXRBZ0ZfNHpKaTdYSVR5OHc?hl=en-US&gl=US&ceid=US%3Aen
+- UChicago cardiologist rethinks devices used to prevent stroke in patients with AFib
+- https://news.google.com/read/CBMi6gFBVV95cUxQNzJRdnU4b1BCUnNvc3ZIekFjdFBvV0RiaHphTmxkYkZ3c1FmWUFhV0twdFFFX3lVbTVYQnZpbmFZZl9zREtDa0lSMXRCYzc5WWFtWkVqdnlyZ3NMSHI2eFpzelh1aFo4R1lhRDlvdzZxcXVNTW5BZC1GelB1Q0tLb282SFpHSU5wZ1FFdlk0aEM0ZlBKb0p2VmU3RWF1MDRUZU1VNFJQNUZFN1BPVkNWMi1TZTEteWpyYTZGc2Y1bWJKemNtYV9QWFZqcFhkUzBnOVB3MkJkaUMxRkxNTkIwZENPTmNVQzVDbkE?hl=en-US&gl=US&ceid=US%3Aen
+- Pulse Field Ablation reshapes AFib care in Rochester
+- https://news.google.com/read/CBMid0FVX3lxTE8wNFhyYVNkWWd6TlRzN3BxQi16dGUxaHFOQzZuaFJ0SjFWN0ZLSE1pdVFoYWxMMGlJLXhWQTlHamEwX1lJZnJKT3VadktkZEdWR0l2THV4THlYMkx0ZnJMWUQyNFZXNUdPM0h3SUhONmxkRTFXUTJV?hl=en-US&gl=US&ceid=US%3Aen
+- New technology at UVA Health offers safer treatment for atrial fibrillation
+- https://news.google.com/read/CBMi7AFBVV95cUxPTEZaRUczeG1WTWRYaDdscUlYN1liTmxaNXJRMDd5dmx6ZjUtMVNuU0laemt2VGI3bHQza1B0OUswbnE2T3VycWxGQm1iZWJjN0JMeEpLcWYtQlRZN1F3aDdEUVV4QzdlNmVaeG9vY2NnNlVfMzJNektoNUFZNEF2NGtEN2xaUUZfb1BydDNzaXFzVk96YWsxdy1yWXdpNzFIR3FSQXpGbjFFa2JyX3VPUUU5VmtZaUd5bVFpektwOGJnQlhIRXl2WGdNZGtCMmE3VXBvYTFCX3JpdFdaZXVGUXhBejZjNnQyN2ZZdA?hl=en-US&gl=US&ceid=US%3Aen
+- Atrial fibrillation rising among young adults, new depression treatments, and Friday the 13th fears: Daily Dose
+- https://news.google.com/read/CBMivwJBVV95cUxObVV5d3ZzVFFQWlZtU19GcFp6TGxZdEsxMmdMM1dIb2tJcUdscHZsaGJUa0FEd1p5SnJiNzFKZ1dYV05zOXhoVU5OeW1FTElwSEVrYjJjUnVENlhDeEhId3MyN2ZqNEFWZTdTdWZPNVJxMERIYVM1RkdUemU2dkNPcHBKNlltNThFcTU4RVVQeTdOTW5kR1A0NVVid3NKZmZfQUdxMXVoU3VjMDRXSVVaWXY0aFhMUjViTnc0WjhuTVFIVUVpcThtS1pXZXRIdDcwelZscHBKN2hXQTQzSVNxREtOOTNIamVHQ3hHc3RYeDk5c0ZFbllfTGlFS3ZpdjN0Ui1DX1pWV0RVZmtoVmlNZU9RSmJpbFdxLWxURFM3RVFldDQtUmR5eV9ja1VDbzFIMXNDeHQ2T2tkSm1BSUpR?hl=en-US&gl=US&ceid=US%3Aen
+- Early Findings on Implantable Device Look Promising
+- https://news.google.com/read/CBMipwFBVV95cUxOZTMydmViZkhURGxhQzI0eks0R0VLalEwcWNZYU5ZRG41Sng3aEo5enlKQVNKMlB3Qks0SGp0d2RNNnFSeTVIdkNwaW9ONUtLNTlRYXIzWHRXYkxETm16SC01OHpWdFRDc1BHTXNsZHhLbGcwajZZSlB1aVpUQ2Z1d1VjYno3Uk9OY3MzYm1aVmg0bzdHYjA2bG5UZVVjR0RWOWtNa21GMA?hl=en-US&gl=US&ceid=US%3Aen
+- Clinical trials may pave way for some AFib patients to safely get off blood thinners
+- https://news.google.com/read/CBMiuwFBVV95cUxPMUF3RjJnMlBVZENRSUJ5VWdjZXM0RUJSYUVPbVdlYzRDbXF4ZVh5aUctN2RRSnY3Y2M3R05tM2VnajhWc1l1RnNRN0VSQXkxY1Exa0VZRnZkMEFIQjR2NXl1R1pmOVd6UHQwd1MzOTEwRk9odWZ5Nk5RYy1zY2M5VWxoT01kaWQ0ZElQY0ZmeXgyRFp6c0I1blBYMzNtNnBZdTJDUmhSLWdUSHJfUEdrMnNrVFdVeHBMN05R?hl=en-US&gl=US&ceid=US%3Aen
+- Understanding AFib and New Advances in Treatment with Pulsed Field Ablation
+- https://news.google.com/read/CBMitwFBVV95cUxPdkNZZTlRSTBOenhwYzhoM1lpdE5XZmQ2akpYRTdaUU9HeHlrX1plV1VIeEc3VmVxdlFYYmlBQVNJMmFnN3JibW9tMENEVFpTWWk4eURSNHhRVVNhdjVmTG1kZnhjc3Z0cklQemI4c1FCVWJjd1NQT1V5RENZaDdITjdqUDgweW9oeXVINlpxdG5lb0tvVTJfQ3Q1STdTeVd0bVUzTEhxMy1wODNPY2piWkNJZEJKVlnSAbwBQVVfeXFMUHFsRi1SNjFKOGpCV0lUSkpSZ2ZPV1JNVE9kV2YtdTd5WTFmNk5sUkZxdWo2Mk9VTXhydkl0NzhNRW94dU1TbDNONm5ZSHNweTlMQWFmbGU5dGZQbTdLNUdLRVlrcUttbmpfdGVJV29CaUI1ekdKUFFlR1Z4SURhUGlLLTNTdkZFUUZ6cVJIc2V5V3pUMDRLZGpPYnJ1dU1CR1pNZWU5MW84WEZWd2dRbUdJeGN5UFBsMWVuTXM?hl=en-US&gl=US&ceid=US%3Aen
+- The biggest cardiac tech news out of the 2026 AF Symposium
+- https://news.google.com/read/CBMidEFVX3lxTE5qT2tDb2F4WmZEN3ZpREVJTmpGaEhBRzJjRW93aF9LX3l4d21NYTlMSUVkbDFlYWllZExXdVBlUFlhYk9oYXNZQV95eDdNaURfMnhmZzRla25KZERpWlQxUHF5LVY1V1NOa3Q2M2tRandoY2tV?hl=en-US&gl=US&ceid=US%3Aen
+- Aspirus discusses option for AFib
+- https://news.google.com/read/CBMiugFBVV95cUxPYm96NHV1ZU1YWEEtMlZkbzRZc0o4MG9KbmZlb0pKVzhEeDZiLURoLXE2a0RlRURPZ1VESzZvMlk0QThMYXB2R0h5M3gzNnNxcEpTRFg5TjhqM2p3akg5MjhDalpRc3ZTSUswU1Jpc2preWMybEg1a3FKS2F3R3VydlR5b2JTQWRSNlpsSWdXb19mc3RmTzFuSTZwWkRWazVYUW5NeDZ0c2dyRzhXNW1LRTAzRUFWY21OVUE?hl=en-US&gl=US&ceid=US%3Aen
+- 2025's top 10 clinical trial flops
+- https://news.google.com/read/CBMie0FVX3lxTE56ZW4wOThDQmJaMVYwN3F0NG9Mcm9JdkNkZFhBcjF1SnVEMWllYUNmUHlsLVJYeTRvZllPaDNVNmZ0QWtTOXdhdHJnM1dXN3Zfd3BodkV1dG82SEtNdWhNbFFUX1dhMzJtLUpXNVZCeHhvM3ZrVFlWcDF2MA?hl=en-US&gl=US&ceid=US%3Aen
+- Non-contractile heart cells help sustain persistent atrial fibrillation, study reveals
+- https://news.google.com/read/CBMijwFBVV95cUxOM1lpOWRBaWJNbzU3RFpMa0NmUTE5akF4ejVoQ2RudWZFOElYS2o2QjNIWFNTVlpnWkRFQ3pHajVEakdRSTJuRE5HWVQ5R1ZsNjdlY0NraW5OVEp1dDEtYm0tN2VGRW5EeW84ZlJjU0VuYzRMTUUtVzVzYkZCVTZwNmRHdUpPZWNNc0lRSk96NA?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Sci’s Farapulse better than thermal ablation at 4 years
+- https://news.google.com/read/CBMipAFBVV95cUxPc0dyYl9kWC1oanduS3BzUnBFV1E5bENjLVlmWDVxRlBTc3NLMDRJQ2lsdUpfb1VMbjYtdUd0TnVTUF9JdXZ6cVA1aVBVa3RsaWI2N1dwTkFhZ2h6alZCYm80VS1nSm9RcFJnTWk2cWJvUWdMX3NFQ0l6eEFVY3hDSWEwT2ljNWhYLWpMU19jRDlTSjJJRHJNMTc0OXVxanRNaVpyOQ?hl=en-US&gl=US&ceid=US%3Aen
+- Johnson & Johnson reports early pilot study results for atrial fibrillation device
+- https://news.google.com/read/CBMi2wFBVV95cUxOSzJqT3k3WjQwcldNS3ZBc2RTUGN1RjJnZGxzLURRQ1kzaDR3VjNrX2ZDRmZ5Qkh6Ulh0N0IxY2ptRnBKclNnTnVoRkpGbXZkNENPSF9sb2s4ZzRSQ0U1TjhXSXFzUGpjeUd5ZWZoMEFSeXhyaXl6bFpnQ054djM3UDRYQ21KTDYzVTRMRWVQY3JLUDBFUmNzR0lsejVkcmpJT0s3cXBpNXc5ZmZFZld3Y184dFo5TEh0U3BsQ0Frc25QOGprQzBENHlJLXNXMGxHekg3MUhDZ1YzczA?hl=en-US&gl=US&ceid=US%3Aen
+- Kadlec now offers stroke-preventing WATCHMAN device in Tri-Cities
+- https://news.google.com/read/CBMi4gFBVV95cUxPUlgxZXM1ZHdaTGRialhOOW5qdWx5a3hYS21xbktjLVlobmQ4SEExNkdRaDJucXd0NHhJSkZYU2NOSi1oR0RiWGdhUGoxdGpwcDVjdlhCNENKQlBPUVBRMVpoQ080Y2g5c1JCRENkY0xwVV9ub2xiTHhfTWtGTnJDMHFLa29CUmdUVkdSZndFQ19YaHdxY2tuakZBRkw4RTUyTFpTSEFSaVJGc2dsUDFZQ3RUT0daT25kMEVMT3pZOU90eWl2NUhPWjFnNUpvZ0RHblFEY0QwOFpLSVBZTUQ3RHVR?hl=en-US&gl=US&ceid=US%3Aen
+- Pulsed Field Ablation Market Size, Share, Growth | CAGR of 33.2%
+- https://news.google.com/read/CBMiZEFVX3lxTE9DX3lZc21fZk03YUN3bTEwWm1rdzVSb05iRURjUWxIcDdiejQxa0JqNnpoRTl6aUFLTWNVUGp1QVJRN3ExM2RnWmV6eXplaHhyZ2VhVk1qM0YzQUt3VmhnYm5USVA?hl=en-US&gl=US&ceid=US%3Aen
+- BIOTRONIK Expands Cardiac Rhythm Care by Launching World's First CRT-D Systems Approved for Conduction System Pacing
+- https://news.google.com/read/CBMi1wFBVV95cUxQLVR2N2xqZXZrVjBkdVBQUy1LNkFiNEhaMldkVGszYUpJWFIyZE5YU2ZPcTFjWjRUdHBfZ0Y3ZGQxUXNUMnUyUDMwNmtEZ1E2eldaR3ZZN2RkcEpBSUdiT1dhVXFPYzdhNnNuaG9YRWI2NG5wUW50RVNmN0dnWjFPZ1RCU3puUTJqa2QzSGdPWW1TM0Z3Q182VU1OeVFPODNGRmVIUFB6SGRmUHhvUkZkN0IySURuSnNkSUdySzBRQm1STks5VUlpVzFCMEttSDc0RlVvVjBHdw?hl=en-US&gl=US&ceid=US%3Aen
+- What is atrial fibrillation and how is it treated?
+- https://news.google.com/read/CBMicEFVX3lxTE1zaWRpT19GMFg3dEh0bDIwbGxYRzdSQTJjNWxxV01jQnp0aC1iY3k0dWstaGJTWm1PbmJQTU5vSHFxMXJVSGRDYXFjTUdZSEgwSEg5OVkwT0VnQ3hMSUdOXzQzRnFMXzBRdTJnQjI5NVQ?hl=en-US&gl=US&ceid=US%3Aen
+- Atrial fibrillation: First of its kind therapy for 'debilitating' heart condition
+- https://news.google.com/read/CBMiXEFVX3lxTE43OUo3cVBOZS1yTnc3UVQySElEdnA2UTM2aDR6UUJsWkstS3Z1YlVwbi1FbkJUaUxGcXFYZG9aNTFfTy1nZDIwT2lybFB0ZUhkdlVhZXFGS0xNZkpZ?hl=en-US&gl=US&ceid=US%3Aen
+- PLSE Shares Positive First-in-Human nPulse Cardiac Catheter Data
+- https://news.google.com/read/CBMivAFBVV95cUxNMmFUQTNBbTIxMGdCRWNoZXdMdWFSc1F4VWpSOWVITFAyNlZyMzBnajdDZGtoaDVPOXA3Q0ZtTDFhRmtiOGhydmVlVnpyU0EyOHVCbkpYU093a0RxdXJtNVk1SGljUXpKbWtvUUFkNkFMb19kV1E5Wnpwd1ZqZlFIby1QUXEwT2YzbnA2ZWV6WWlWekZMd1B2MXVQMUIwYXJFVEpwR0k1eE9pNHVEc0tTR05BNzdMdTFuQUJBRQ?hl=en-US&gl=US&ceid=US%3Aen
+- Moderate exercise lowers atrial fibrillation recurrence after ablation
+- https://news.google.com/read/CBMi0wJBVV95cUxPRC1jc1dxenpUZW1wX0Fid282RTFCUDhoZnZTTjgyY2hWZWF2Z3JEa2lmY1Y1d25USkc2TGlLSVkxVm4wMk8xd3RXTzdqa2VHcGYxSzkwbzdXWVNjazFQUFBVdk9PMTZaMnhXdVFleE1MWVhvcVQtNWM0VldMSjlaOTloSVhUd0JFMlVacFU5aEQ4a1BidHRCY1RUNk1qRFZaa09naWpKdmF6NjZNYnFxaE9scmF6bklsUFNPVFdXZlg0bkFrSHZOMW54WDJHdHlmN3liYmRLalN3X2pLd3RnTmNmWkxzOUFIZkoxNFo5bVpDN09PcVpyTDJKZ21xV0FIX0NXWWhZUHNnVFhYLUQxdWxrT21ZdzUzWC1FQjdVclFSN0l5LUdGV2xWLUh6TE4yU2dubnV5cHpYdHpkWEQweDFlT1JmUUlneVhrempDYjNyRXc?hl=en-US&gl=US&ceid=US%3Aen
+- Hospital Trust among first in UK to trial novel procedure to treat heart rhythm conditions
+- https://news.google.com/read/CBMi1AFBVV95cUxQbDZVTmxXSDN1ZlE5OHcxclpYV3FtWmphUjAtVHBIWGNoblFqRC1INE5xdzdkdjIxMXdiY0VkSmhnWllYWnlBUUdHWHM2TWw2d1lyRFN2YkVGS0l1RnkyS0owc0ItaDN2RjRtbHdWYWpWc3FJbkFtMFQtR2hUTThTZ3N1cjJ1Zk1iZzM4LWNRU1NTSkVFWk1UblpQS25BUXFQdlpldnFKbGZTcFJ0bDE1dmQtTDdicFN4VFpDQUNvamU1akRJLS1fYWV3TWMwMUp1T2V5Zw?hl=en-US&gl=US&ceid=US%3Aen
+- Johnson & Johnson stock price: What to watch after talc-case law firm ouster and new AFib data
+- https://news.google.com/read/CBMisgFBVV95cUxNQWxtTXcxR0FQNVBUMm1oNkprcXpHXzBwX0xoNnNIaEstUkViQWVid0phbFdyMmd3dkRxTlhpWmNVaTI5NTBGbVV2Z1EyZ2QxRUhpZDYzVWpnRnota2VCM0RrTFcxQW9kWWg2bWJKM3BnZlFlTThPRFVaSDNmZ0hFUGttbC12RkVnMDJSdm83NjhsVWtfMlI1NWVXT2x0MFBTSHo5TzNFV0xoRWlFeTdiRUJn?hl=en-US&gl=US&ceid=US%3Aen
+- Hospital to trial 'innovative treatment' for people with common heart condition
+- https://news.google.com/read/CBMirgFBVV95cUxNamVRQXBsWTVaNDhYSmlPQWVoNGVaVnlYdF9zc21KRktGZ2U2QmZseGFyUGxCYW45UDdZaDRObzlRbW1VNHlDUTM1SzFPVUh2TXdCWnAzNzFvYzExcnR6eXZWQXF3OEhIRFRLTnEwdTQxYU1wZHJmYjVIazA2cXNCR0t0TE5BOGIwUFJjVF84b2pQaWxmNHVFVkV4VVhPS2tYYmw0REV2UDRwUUl1WFE?hl=en-US&gl=US&ceid=US%3Aen
+- Atrial fibrillation: Diagnosis remains remarkably straightforward
+- https://news.google.com/read/CBMitwFBVV95cUxNcS1tTGFJYTJ4cE5sV1JOZmJ4dlh4REtodk9XQU9JdmpULXpjMXFfMGJIaDBuWFRmWnRFOFFoVDduNmw3Q0xpY1VsVV9qcU9GV0lreUV3dlpZR096ME12TjJXXzhPYVEwVHRkWXdzWkNIaTRPU0VwakUtZ2lhanRiNi1LVzhvNHRqM2o3VWhCRGVOSk5Mdmdjbmt0aVlPbWNQbHpUYjc4YkVvZkZCdDc2ZTNUeGxkOGfSAcQBQVVfeXFMUGlHbEhtcXlueXM1TlFpMVQyRnpoaTJSVjVoVkRBZWNPV2tmVlY0X1NMaXBUOFdvUWVtNEtLOG80Qnh6ZlJRMk9HTWwxRHYwLWJRRFprMFJ0YktYSzdKZlB3aDRWYjBleXBBVnVPNkZZcnhRTWtYWUo1aG13a0tkM214bE13VzAtVl85TjdIOHBGcVhVZGpPYWRFX09DOFlJNUNFZlIwSUtleXVPRW5sQ2J3VVYxeE1EM2xON1lHV0gzVDBSZA?hl=en-US&gl=US&ceid=US%3Aen
+- Hospital to trial 'innovative treatment' for people with common heart condition
+- https://news.google.com/read/CBMioAFBVV95cUxOMFNieVV0TWY4em4yaEVuVEFvU2w1N3RySnVTZ01pY1NrelhocldUQVJwbTdPeXZLQlZYSTRLZ1hLMEJOT3hNdERxbkpNVDJLS3Z1aUVlbERMN1R0NDVucTJ0dWltUE5faS15RlpUUUdERXFsaExRd3J1LWtLSU1aTExMRFlrUnh4eHpFMnQxR2tFSzNvM05ocDNIODFRMEJn?hl=en-US&gl=US&ceid=US%3Aen
+- Johnson & Johnson stock price: JNJ near 52-week high as talc ruling, heart-device data set up Monday
+- https://news.google.com/read/CBMiuAFBVV95cUxQZFdITUc4RmQwMVppOVpUYUxrbWIybmVOZHhRNHpLVVZBTzZtOUQwWkthcGE1ZnRJdUZLM1BIN0p0VUlBb3hFdzhPc2pjSTNHelBQbUhqNndERGxyVTlqZnJWSnFFd2prOXRZWl9nU2hzNmlxQThscWFvRGd5UWUxcVlFWHB6Y2JpckZZUDdpTVZXYS1MOC0tQzhiT19zVjVmXzR1T1VCTS1LOUlBMnBrdFhtWENoWGZ1?hl=en-US&gl=US&ceid=US%3Aen
+- Devon hospital to trial innovative treatment for people with heart condition
+- https://news.google.com/read/CBMirwFBVV95cUxNTDVWblRFSlFVcm10QmVKSUNYcHVPNmJld3pESlVpaEU3UDhHR21WMC1hc0Vnd0EwaEtYbFdOdm1zNG56b0NFa25CUS01c004R3cwcms5V3B6SjdJQ0RrSE0xWEdpYk52eExFakR0WXhpZ3hFM0V3SnpXMG1pTU91cldZRFd0OC1xN0I1eUw0TXM0SGZJa3FFQmRuZ3JFajNWMG9tNHRuX2dCYTdWcFVR?hl=en-US&gl=US&ceid=US%3Aen
+- NI hospital among the first trial new device to treat common heart condition
+- https://news.google.com/read/CBMihwFBVV95cUxPOUtMWWd3R2Q5MmF0Q1ExZEh6ZWp0cU9ITkxxYkZfWFoyOGFJWUZLcndMMkhFM1FoVTdiWkIzc2RsQkQ1U1I5bFd4eDNtMXdaUE0yb2Z2RzZDUy1ETDJVZm5tNFJDVXhqRllyWVFyeTdWNDl3cU9rRTI3TndqUUFucERpX1NzRm8?hl=en-US&gl=US&ceid=US%3Aen
+- Did you know if you have palpitations, chest pain it may be atrial fibrillation? Heart surgeon explains its dangers
+- https://news.google.com/read/CBMi_wFBVV95cUxNUHR1RDA2RkcwRUVRWGh3QXRPX2dDZlNvMXB5VU9MdzZHUkxkX0ozS1RSV3lJU0owTG1RZ1YzeEVoTnhKcnRGai1nSnViaEZvQUtnRHR5eUMxWU9UUHBoVDBFbVZkOFZYU29wNVJCNTNGOEkwcDExM29QZHlRVGIteFdaSGQzLUNtOHpsTlpNbFZXX0NHMXVqWnBhRW9qdXc1MHg4RFBCaVBKM0ZOTW1vQWllX01oLVpwaFFkN19EbmxDbjdDREpBbW9kQ2hkR0ZVN2t3YXEtYlpLTDBOWUJYQ0FZT3dUdjV0VDB3aFhtYWNqLS1lRWJ3el9vUlF6bHM?hl=en-US&gl=US&ceid=US%3Aen
+- New Studies Affirm Apple Watch's Efficacy in Early Atrial Fibrillation Detection, Bolstering Stroke Prevention Efforts
+- https://news.google.com/read/CBMi3wFBVV95cUxQOUdfbnhWREtpbkw5TzlqcXhNTy1fSDAzN3R0Tm9PdzNPRjNOc2x4bUxnbTZSVXdGMTljekJueUQ2RGt5STFudkp5Znl2RjRUTl9uQUJZVGFLY0l6cGo1QVlpeUVzaUpyaEktM3g4R09UNUFlT3RISUpvOHdSRW9HQnBWMF9LYjg3aHlsLTE2UE04b1pkNzdhRmZvY01tNEJJQjl2V1FSRFBZLWtFRmhKRDNOZzg4dks1dWx5LWphR2prNEdIQVg4NVg5dnZaQXJjSXBrX0pjcEtNSVo3Ukk4?hl=en-US&gl=US&ceid=US%3Aen
+- Technical Aspects of Lead Extraction Symposium: Interview With Program Director Robert Schaller, MD, on What’s Ahead in Lead Extraction
+- https://news.google.com/read/CBMi1wFBVV95cUxQc0dUaDlGMC0yak5vTzRIWm91ZFUzVld4NzRnUGxBWndZTU5sdlUwNmp4UjBNLXpwOWd1MjVkTmpJeVA5WGpzVVZ2N0pWOXZMNE1tdnE5a1pCMXZaVzVRQzNsRGpLZnpmaTdxZGVPRmp6Z2N1dWE0RENVMVMxTURDMXhxSFl4eXV3QWt3TlhoY3Y1NkhKYUU3V0JiWXhoUlFLUWhiNGlJYzNFejhYaWpLOVZiOHFOeklfM1JVakNrUlh6THg2cFJ2WU9YMThMb1VOREZHeFRKZw?hl=en-US&gl=US&ceid=US%3Aen
+- Within-visit and short- and long-term between-visit blood pressure variability as predictors of cardiovascular events and mortality in elderly Chinese
+- https://news.google.com/read/CBMiX0FVX3lxTE9pZjJHbUdIamUtR01FT2tCZVJkRWZucFo5Z0pFaGtteHJ4SEpGOHZmZkhFOXBrYmNWb3ktUDVaMTVMZmtMSUhrVVduRTc1a1FWYWxmYXhCWFRQdks2Rmk4?hl=en-US&gl=US&ceid=US%3Aen
+- Johnson & Johnson (JNJ) Reports 100% Success in OMNY-AF Study
+- https://news.google.com/read/CBMikAFBVV95cUxQUk1ubk9teWpaSm1jRWlsWHl2VlhEcVBRekVFcnQ5LXFTRDBLV3FTdzUyZElPbWVFSGNwSVRnLV9Hd2FDSlJVQWVKNFcxMG5ubDF3bjV3Z29CRTJjUXB3ZDlIVmVPV29XQXVzZ2ZNUTZ1SnY0V2Q5S0NTOFRiTVZjVHR1b2ZTOTVBU0N6YmxKRE4?hl=en-US&gl=US&ceid=US%3Aen
+- Edgewise Therapeutics Teases Phase 3 Sevasemten Readout, HCM Data Update at Guggenheim Conference
+- https://news.google.com/read/CBMi5AFBVV95cUxOMVNVSGdFRl9JV3BQMG54bUtsX0hHQU9fRnRYQlNlbThTSFg3V0FsNDRULW1hclAyM3UtbUp1d2I2Tklkdm9Na05FbkZOQUJZRUpSV1ZyQ2hJTF9MejlBdUQ5XzVMYVBibWROUnVYUGViWEpsVmFtTF9RZHFHb3R5OEhadEtSY2hnMWplQVFZNk0wd0RQdHI4V0FOZXVsOXpTUUpNOThINHFybkJLZDNKemZMUHppRXNfVUxPZEYxbjlZc2h3MnM3WEdaTjl2ZTNLSlV2QjNNX1Y1X2dhY1FBbnYtdEw?hl=en-US&gl=US&ceid=US%3Aen
+- Hospital to trial 'innovative treatment' for people with common heart condition
+- https://news.google.com/read/CBMiqAFBVV95cUxQOG9KZWpxa1hySVRZRDRtMzhLQWU1aWZZMF8ycVVBRDJvVk9KanlHLVJUV0RaVDJNZTh0V1Z2UWNZX1Bza3NPakhoSC1QQklaM2ZwMmwtdWRCU0c4QWFfM0dIZm1ySmJ4Vl9BZWtmOWxUMFBTN3p0dXhLODAzVzJBVFZTLUw5LWwzQ0tFUjZlQ1hwWWNxY29OSktGaHBiUWJUbVBqNFNJQzU?hl=en-US&gl=US&ceid=US%3Aen
+- Volta Medical’s RESTART trial provides “promising findings” on AI solutions in recurrent AF
+- https://news.google.com/read/CBMiuwFBVV95cUxPcjJ4d3RYamNXM2JWQ1R1UzNzemt0bFpIaGJ6bnM3RW9OOEFfSURuTDdIM3hJUTI0MF96SUZkVnZLX3dXOXk5eS1TcjdBTGJ3eWFTMTVXQ0JPc1hHd2YyWnp0c3huNmw4VXZDVENNVFRidHR5QndpUmFxZDJ2d0lOQWlxTWIwd1pUNnhyekZ3WFQ3OGdPZkYwTDllZTFzUGdHaUhGU1lyb2FQS1ktM2pBb2dRdkxQOHROR3FV?hl=en-US&gl=US&ceid=US%3Aen
+- Biotronik launches “world’s first” CRT-D devices approved for conduction system pacing
+- https://news.google.com/read/CBMitAFBVV95cUxNTWtOSm1penRQVm04cnVRVTUyYkZqYWpxNGk4dWJ3LTUzUVhqWnpwWjFQSnFSbnd1bXhxTS1tVjkwSXZoNFcwUmluTXlKTklRSVpGaHQwU1l5OXFhRWtHVjlaUUpYR2FicjgxWVp0cmgtTm5jWFQ3bUdvYWIyZFl3RzVHdHREbW9FQjRPU05OUXlmekhRaFZ6ZUFPdjA3UDExRXMxZ2RjTGlEYVQ1VGx1c3l1aFY?hl=en-US&gl=US&ceid=US%3Aen
+- Clinical Trials
+- https://news.google.com/read/CBMiX0FVX3lxTE9xSmUyd0U0MnlNVlBCaG55ZF9kVzVqZ0FJbE91Zlh1Zml2TmE5SGp6UnNLTXVHZGJsYVFQcXdBYkZrVm81cEFVM1d2ZENaUzg4clluTVMwN0tnM2tuOUFn?hl=en-US&gl=US&ceid=US%3Aen
+- Medical Device News
+- https://news.google.com/read/CBMiX0FVX3lxTE11TXg2eXFMbDlpTVZjYV9NT3RhTU5LdlhMcVA0c2Vjc0hhZFdTZWJlZzV2dzdzOFozWlU0TzVIT214dW1lYXNFMHRWeWluNDZ6LXJiZGZ0cDBzcVJtWVZv?hl=en-US&gl=US&ceid=US%3Aen
+- Latest Medical Device News on MassDevice
+- https://news.google.com/read/CBMibkFVX3lxTFAzZTMtRFZSNWs1TGdpWmRmeTMtbWxPejE0bmxIR0dhcnNsM3VYTXBkak1id1RvWHNtd1J3ekJ4UWYxS1d0NjdOc0ViYmxzOGpsYml0ZWsxNkl1ZnI1LTVhWWRSSVRiV2dsREJ4LTJn?hl=en-US&gl=US&ceid=US%3Aen
+- Today on MassDevice
+- https://news.google.com/read/CBMiQEFVX3lxTE9NOWVkOFZWLTd1R0JIdF9qRHJrbjZNcFVRS2czam9lVTdyM0FDTUpaOVY3Mnk5dktZd0JUNEdKemc?hl=en-US&gl=US&ceid=US%3Aen
+- A safety update for cardiologists | AF Symposium 2026 | Catheters recalled | Nasal spray for PSVT | Key FDA approvals
+- https://news.google.com/read/CBMi7AFBVV95cUxPaUFGdzJmaG9SenZiYUNKR1BKUkhXX0ZfSkZwZktuNjZRUWNrZm5Ub1F6UDhxZnZMcm5iMzYwQkZydkkyUGhsLS11RUJFUHdnT3l3VHJJMjJQNUVUZ2N4eU5XTXU3TDltOXc2TWI5TDFINEEwN3JFTTNSUWxBVE1UeTJXSEhjSGFtQWF0NHhWeVlPbUUtQkoxbm93N2Y2U2Y2NTg5VXNUVW9SaHV2alJxRm9xdGVQVHpxLXNSTmozczdnZDNvOFYzSUt0QThVM1RfazdqOWJKTlFGUFJVQlQ1MjlOVmFUM0d3eWxoVQ?hl=en-US&gl=US&ceid=US%3Aen
+- Positive phase 2 data from Atrial Fibrillation clinical trial – primary endpoint met
+- https://acesionpharma.com/positive-phase-2-data-from-atrial-fibrillation-clinical-trial-primary-endpoint-met/
+- Atrial Fibrillation
+- https://acesionpharma.com/atrial-fibrillation/
+- September 19, 2025First Enrollments in COHERENT-AF IDE Clinical TrialSecond generation pulsed field ablation system will be evaluated in paroxysmal and persistent atrial fibrillation patients to gain FDA approvalContinue Reading
+- https://argamedtech.com/news/f/first-enrollments-in-coherent-af-ide-clinical-trial
+- April 27, 2025Initial Results of the BURST-AF StudySine Wave Electroporation in Patients with Atrial Fibrillation – Initial Results of the BURST-AF StudyContinue Reading
+- https://argamedtech.com/news/f/initial-results-of-the-burst-af-study
+- January 10, 2025AF Symposium 2025Argá CSE PFA system preliminary results will be presented at AF symposium in Boston on January 16th at 8.30AM during the Spotlight Session – New and Emerging Technologies in Arrhythmia Management. Dr Ante Anic from KBC S...Continue Reading
+- https://argamedtech.com/news/f/af-symposium-2025
+- Thrombopoietin inhibition abrogates JAK2V617F clonal expansion in a murine model of myeloproliferative neoplasm
+- https://meetings-api.hematology.org/api/abstract/vmpreview/302346
+- Evaluating reversal strategies for long-acting factor XI antibodies: NovoSeven®, FEIBA®, Kcentra®, novel FXI mutants, and an anti-idiotypic antibody
+- https://meetings-api.hematology.org/api/abstract/vmpreview/302867
+- Safety and tolerability of the protein C activator AB002 in end-stage renal disease patients on hemodialysis: a randomized phase 2 trial
+- https://www.nature.com/articles/s43856-024-00575-y
+- Factor XI Inhibition for the Prevention of Catheter-Associated Thrombosis in Patients With Cancer Undergoing Central Line Placement: A Phase 2 Clinical Trial
+- https://www.ahajournals.org/doi/10.1161/ATVBAHA.123.319692
+- Contact Activation Inhibitor, AB023, in Heparin-Free Hemodialysis: Results of a Randomized Phase 2 Clinical Trial
+- https://ashpublications.org/blood/article/138/22/2173/476071/The-contact-activation-inhibitor-AB023-in-heparin
+- A mechanism for hereditary angioedema with normal C1 inhibitor: an inhibitory regulatory role for the factor XII heavy chain
+- https://ashpublications.org/blood/article/133/10/1152/272753/A-mechanism-for-hereditary-angioedema-with-normal
+- Contact Activation Inhibitor and Factor XI Antibody, AB023, Produces Safe, Dose-Dependent Anticoagulation in a Phase 1 First-In-Human Trial
+- https://www.ahajournals.org/doi/10.1161/ATVBAHA.118.312328
+- David Gailani, M.D. Professor of Pathology & Microbiology & Immunology, Vanderbilt University Professor of Medicine, Division of Hematology Oncology, Vanderbilt University Director, Clinical Coagulation Laboratory at Vanderbilt University Hospital Ernest W. Goodpasture Chair in Experimental Pathology for Translational Research, Vanderbilt University
+- https://www.aronora.com/#david-gailani-m-d-13
+- Scott D. Berkowitz, M.D., FAHA, FACC Research Professor of Medicine, Cardiology and Hematology, University of Colorado Clinician-Scientist at CPC Clinical Research
+- https://www.aronora.com/#scott-d-berkowitz-m-d-faha-facc-15
+- Aronora Appoints Industry Leaders to Drive Next Phase of Growth January 8, 2026
+- https://www.aronora.com/press-release/aronora-appoints-industry-leaders-to-drive-next-phase-of-growth/
+- Aronora Reports Positive Topline Data from Phase 2 Study of AB023 in Hemodialysis Patients July 19, 2021
+- https://www.prnewswire.com/news-releases/aronora-reports-positive-topline-data-from-phase-2-study-of-ab023-in-hemodialysis-patients-301336200.html
+- Aronora Announces Clinical Data to be Presented at the 62nd American Society of Hematology Annual Meeting December 2, 2020
+- https://www.prnewswire.com/news-releases/aronora-announces-clinical-data-to-be-presented-at-the-62nd-american-society-of-hematology-annual-meeting-301183158.html
+- Wall Street Journal Mar 21, 2024 New Blood Thinners Will Prevent Blood Clots Without Causing Bleeding
+- https://www.wsj.com/health/pharma/blood-thinners-prevent-clots-bleeding-abd9fdae?gaa_at=eafs&gaa_n=AWEtsqe2KjlRmyh9iE1YaG9iGmZUE-UGRkzfMpUG8KSWcODMGzH2Kch3vD7T-nb46w0%3D&gaa_ts=6928a345&gaa_sig=Ly91chzVDQT9QqwQI5RiiKDi9u2zXg_j6YDKxlwe7y55NDdyD2Ur1QjQN-HoigF_jbO2zsDkwcBC5Nsh6FfCRw%3D%3D
+
+- Medtronic
+- Barclays says Medtronic sees strong heart device growth
+- https://news.google.com/read/CBMisgFBVV95cUxOclBTYnNhNlctZDdwVXVQY0U4RDlhU3cwUzZTZFdjLThTWndWNmZkaVhqNjBBTzFXWGQ5bzd4bEMteTQyS1BGcURMaERzZFIwMGw5NTN6akZ0U1B2WEhpRm1QSVdCYmhZZUpLRUtQYU1naDBPYnRoR2ZpRkxReU9QblIzS0pOd0V3OTZoTHJlOUZVa0d6NW9SR2doRHVpUmRzVnBTemhaV0lxeWR4eHAyLXBn?hl=en-US&gl=US&ceid=US%3Aen
+- Medtronic U.S. cardiac ablations business more than doubled in Q3
+- https://news.google.com/read/CBMilwFBVV95cUxQMmF2STZLa2doMU1SeVM4dHgybUluSlQtR0M5dnFrWmlHOGJQVVE4enZRT2w4aDc3TVFaX1RtZUN4QzlsQkV4VmszRWxZTnR6V2hfcDdnWTFHdjRNMDJsZmxqUGdmcTBYRVJXdXFRdFN3bDRsY3Z1bk1yaVNsWDRkR1JHZnBvdktPdDZadHdDRXBiVmZ1Z3Jn?hl=en-US&gl=US&ceid=US%3Aen
+- Medtronic stock gets a ratings boost on new products
+- https://news.google.com/read/CBMihwFBVV95cUxNOHQ5V2VUNzhXQUg0ZEc0bS1KZy1ZNU5EaHZSNkFuLVFKLUo1MloySmc0ZExaZmlBT2ZTLXRFcEx5cXBKR2l4dmxWMFpmSHF5UlRZcDBWMWVIdjNvSmd5aTd4MjhlNnV3YUtUMWhVLV8tSXV5bG5EREhDbERWbHJQSm9QZGpEM1k?hl=en-US&gl=US&ceid=US%3Aen
+
+- Pulse Biosciences
+- Pulse Biosciences Highlights Strong AF Outcomes From NPulse Feasibility Study
+- https://news.google.com/read/CBMipwFBVV95cUxPSm1la0ZYYWlsQzA1U1BEOVQyc1A3OWVuV0gwMkpPRURNMjZTb2Rub3ItaWFDVnJKMThQRjJXdHg0VndpVWZ3UTZqcFptbXFGM0VzSmxXRUNGVlN6am11ZkctU3RPMmgtTlBSMjFMV2dRMzlHYVNpN1Q1WjlSeGJMcGZNc1VmUGZFbTBOcjdmTldVdHJBRVVRYnZqTjVaRE10Ulp6d3EtQQ?hl=en-US&gl=US&ceid=US%3Aen
+- Pulse Biosciences presents latest data from first-in-human study evaluating nPulse cardiac catheter system
+- https://news.google.com/read/CBMi0wFBVV95cUxQaUxSM3VwakNlRnJYM0xIYnJ2cWVOVTFCVUxzd2tlLVBDajNib2F1VjNHemJZU2R4dGt4SGNKTE00VHZ4WEppSGUxdHBzWUthc2ZVb3BIcU43aC1NQXY5UXM0b1lERXc0TEZ5a0RvLXRwTzVKVGZDRDgzOXNyMzJVODBlclZYMEhuanp4WnBxTGlxYXRfWUZUdTNBYmxiWGdTVDQyTGxfVURZZ3dTSHM5NkFDR2F4LVRCYzZYN214Q0JyZkVHc1F3VWowWEZxc1lLb0FZ?hl=en-US&gl=US&ceid=US%3Aen
+- Pulse Biosciences (PLSE) Is Up 70.4% After Strong First-in-Human nPulse AF Data Release – Has The Bull Case Changed?
+- https://news.google.com/read/CBMi1AFBVV95cUxNTDBLNC1ZQkR2Smhudjl0bTVvOUFEbThJeFR4V0k5RDVvdTN3aUllTEJiNDZOSGxDRGNRY0dsV1llMTFnZG5oVmkyckUwYlg3QVQ5dzZfMnFEdDZhb0JTTk5PbFBjNzRocVVwbFp3QVVuNWhQMGNTUW9UV3ZneWZvcktXbEROdG01cU1iVGFOZTE5V25IdHNwUkJ1aEEyTnVkc294YVVQNFdnVWNGNFhfUEJTdkJNLWF1czdlbDg2ZWpUU1Rrd3FMWEtEZTBaS0lhV3VIaw?hl=en-US&gl=US&ceid=US%3Aen
+
+- VARIPULSE Platform
+- J&J presents early outcomes from OMNY-AF pilot study alongside new Varipulse platform data
+- https://news.google.com/read/CBMivAFBVV95cUxOR1BneEMtZXROSkVpTUpaT3lndDZVV25mRzN3MjZjc3hJTC1id0RBaWY3TldLemFhQVVxRGtPTVV2RWxoUVQ4VDRZVnBJX0lteVBoME9PQzVWRWNZejlETjNERGE1aXhocjl6QVBpMU9qT2xvaS1fdG51UWpDZER1NDItX3VnZ00ySHFmdVFKZ203NG1odFNPRmtnRkNVRlREcS1ZZEdWZzFjWUdXM21VTHBLMzZFTGFpYW8tTg?hl=en-US&gl=US&ceid=US%3Aen

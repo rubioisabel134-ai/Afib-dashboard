@@ -1,6 +1,6 @@
 # AFib CI Manual Scan (2026-02-17)
 
-Run time: 2026-02-17T15:01:05.248540+00:00
+Run time: 2026-02-17T15:13:55.104428+00:00
 
 ## Top Items
 - Regular Exercise Reduces Atrial Fibrillation Recurrence by Nearly 50% After Catheter Ablation, Study Shows (match: Keyword-only)

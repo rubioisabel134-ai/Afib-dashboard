@@ -127,6 +127,7 @@ function buildChips(container, values, filterKey, preferredOrder = null) {
 }
 
 function has2026Update(item) {
+  if (item.bubble_exclude) return false;
   if (item.latest_update && item.latest_update.includes("2026")) return true;
   return item.trials.some((trial) => {
     if (trial.readout && trial.readout.includes("2026")) return true;
@@ -134,15 +135,32 @@ function has2026Update(item) {
   });
 }
 
+function stagePriority(stage) {
+  const value = (stage || "").toLowerCase();
+  if (value.includes("phase 3") || value.includes("phase iii")) return 1;
+  if (value.includes("phase 2") || value.includes("phase ii")) return 2;
+  if (value.includes("phase 1") || value.includes("phase i")) return 3;
+  if (value.includes("pivotal")) return 4;
+  if (value.includes("preclinical")) return 5;
+  if (value.includes("approved") || value.includes("fda") || value.includes("ce mark")) return 9;
+  return 6;
+}
+
 function buildUpdateEntries(items) {
   return items
+    .filter((item) => !(item.type === "Drug" && /generic/i.test(item.company || "")))
     .filter(has2026Update)
     .map((item) => ({
       name: item.name,
       update: item.latest_update || "2026 update noted in trials",
       type: item.type,
       press: Boolean(item.press_2026),
+      stage: item.stage || "",
     }))
+    .sort((a, b) => {
+      if (a.press !== b.press) return a.press ? -1 : 1;
+      return stagePriority(a.stage) - stagePriority(b.stage);
+    })
     .slice(0, 6);
 }
 

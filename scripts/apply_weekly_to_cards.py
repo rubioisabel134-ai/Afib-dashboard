@@ -86,6 +86,10 @@ def main() -> int:
         key = item.get("id")
         if not key or key not in updates_by_item:
             continue
+        if item.get("auto_news") is False:
+            continue
+        if item.get("type") == "Drug" and "generic" in (item.get("company") or "").lower():
+            continue
         update = updates_by_item[key]
         date_prefix = f"{update['date_str']}: " if update["date_str"] else ""
         item["latest_update"] = f"{date_prefix}{update['title']}"

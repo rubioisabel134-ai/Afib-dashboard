@@ -798,7 +798,7 @@
       "mechanism": "Oral SK ion channel inhibitor",
       "focus": "Rhythm control in AF; reduction in AF burden",
       "company": "Acesion Pharma",
-      "latest_update": "2026-01-06: Acesion announced initiation of Phase 2 AP31969 trial in AF",
+      "latest_update": "ClinicalTrials.gov update posted 2025-12-05",
       "press_2026": true,
       "tags": [
         "SK channel",
@@ -2044,7 +2044,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal and persistent AF ablation",
       "company": "Medtronic",
-      "latest_update": "FDA approval in Dec 2023",
+      "latest_update": "2026-02-17: Tariffs are still a thing, and they\u2019re hitting Medtronic\u2019s profit - Star Tribune",
       "tags": [
         "PFA",
         "ablation"
@@ -2062,7 +2062,8 @@
       ],
       "notes": "First PFA system to receive FDA approval.",
       "sources": [
-        "https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation"
+        "https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQajlDcVNKYWxkSERpS21Nb0tqZHVoY0MxT3RaMUZJRG5ZNzdORi0xYmI4M0ZTRnhORkNjdW5GRVVlX193bXJ4QkxSdWNVcEZUODZScndXOFlBSkR5aWthZFozMXhqUFhCM21KV0l1OUdsMDU5NzEyNFZDXzJrMkN6NjhrdGpxZm8zVEN0blBtdnZIXzNjNWpPQ2JZRlZBXzRwTnBwZ09CYzZkOVJ4ejE4TWMwSHZJdHd5ZHc?oc=5"
       ]
     },
     {
@@ -2787,7 +2788,7 @@
       "mechanism": "Single-shot PFA mapping and ablation catheter",
       "focus": "Paroxysmal AF ablation",
       "company": "Medtronic",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-13",
+      "latest_update": "2026-02-17: Tariffs are still a thing, and they\u2019re hitting Medtronic\u2019s profit - Star Tribune",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -2817,7 +2818,8 @@
       "notes": "Rotation-free single-shot PFA catheter integrated with the Affera mapping and ablation system.",
       "sources": [
         "https://news.medtronic.com/2026-01-23-Affera-TM-momentum-continues-as-Medtronic-announces-CE-Mark-in-Europe-and-U-S-IDE-first-cases-for-Sphere-360-TM-PFA-catheter-to-treat-paroxysmal-atrial-fibrillation",
-        "https://www.medtronic.com/en-us/e/healthcare-professionals/cardiac-ablation/sphere-360-clinical-evidence.html"
+        "https://www.medtronic.com/en-us/e/healthcare-professionals/cardiac-ablation/sphere-360-clinical-evidence.html",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQajlDcVNKYWxkSERpS21Nb0tqZHVoY0MxT3RaMUZJRG5ZNzdORi0xYmI4M0ZTRnhORkNjdW5GRVVlX193bXJ4QkxSdWNVcEZUODZScndXOFlBSkR5aWthZFozMXhqUFhCM21KV0l1OUdsMDU5NzEyNFZDXzJrMkN6NjhrdGpxZm8zVEN0blBtdnZIXzNjNWpPQ2JZRlZBXzRwTnBwZ09CYzZkOVJ4ejE4TWMwSHZJdHd5ZHc?oc=5"
       ]
     },
     {
@@ -3121,6 +3123,122 @@
     }
   ],
   "weekly_updates": {
+    "conference_abstracts": [
+      {
+        "title": "Tariffs are still a thing, and they\u2019re hitting Medtronic\u2019s profit - Star Tribune",
+        "date": "2026-02-17",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Medtronic"
+      },
+      {
+        "title": "Boston Scientific\u2019s OPTION-EMEA Trial Targets One-Stop AF and Stroke Protection - TipRanks",
+        "date": "2026-02-17",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Abbott\u2019s Volt PFA System Enters U.K. Pilot Amid Expanding Atrial Fibrillation Market - TipRanks",
+        "date": "2026-02-15",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Pulse Biosciences presents latest data from first-in-human study evaluating nPulse cardiac catheter system - Cardiac Rhythm News",
+        "date": "2026-02-13",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
+      },
+      {
+        "title": "NHS hospitals pilot Abbott Volt PFA system - Med-Tech Insights",
+        "date": "2026-02-13",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Abbott announces late-breaking data from global VOLT-AF and FOCALFLEX studies - Cardiac Rhythm News",
+        "date": "2026-02-12",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Arg\u00e1 Medtech reports 94% lesion durability and strong safety profile in PFA trial - Health Tech World",
+        "date": "2026-02-12",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Arg\u00e1 Medtech reports 94% lesion durability and \u201cstrong safety profile\u201d with single-catheter PFA system - Cardiac Rhythm News",
+        "date": "2026-02-11",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Field Medical presents late-breaking Field PULSE trial data at 2026 AF symposium - Cardiac Rhythm News",
+        "date": "2026-02-11",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Field Medical"
+      },
+      {
+        "title": "J&J presents early outcomes from OMNY-AF pilot study alongside new Varipulse platform data - Cardiac Rhythm News",
+        "date": "2026-02-10",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: VARIPULSE Platform"
+      },
+      {
+        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
+        "date": "2026-02-10",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Abbott stock rises on AFib device data buzz as traders weigh FDA overhang - Bez Kabli",
+        "date": "2026-02-10",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Pulse Biosciences Reports Groundbreaking Clinical Trial Data for Heart Treatment Technology - AD HOC NEWS",
+        "date": "2026-02-10",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
+      },
+      {
+        "title": "Arg\u00e1 Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA System - The Manila Times",
+        "date": "2026-02-09",
+        "source": "Google News: AF Symposium (7d) \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Abbott Reports Strong Results for Amulet 360 LAA Occlusion Device - Medical Product Outsourcing",
+        "date": "2026-02-09",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Pulse Biosciences Highlights Strong AF Outcomes From NPulse Feasibility Study - Nasdaq",
+        "date": "2026-02-09",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
+      },
+      {
+        "title": "Abbott stock price: Insider buy and fresh AFib data put ABT back on watch for Monday - TechStock\u00b2",
+        "date": "2026-02-08",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Johnson & Johnson MedTech has encouraging Omnypulse results, more data backs Varipulse - massdevice.com",
+        "date": "2026-02-07",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Johnson & Johnson MedTech"
+      },
+      {
+        "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
+        "date": "2026-02-06",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Pulse Biosciences Heart Device Data Fuels Stock Surge - Benzinga",
+        "date": "2026-02-06",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
+      }
+    ],
+    "guideline_updates": [],
+    "safety_signals": [],
+    "label_expansions": [
+      {
+        "title": "Competitive Generic Therapy Approvals",
+        "date": "2026-02-17",
+        "source": "FDA What's New: Drugs \u00b7 Match: Generic"
+      },
+      {
+        "title": "Generic Drug Facilities, Sites and Organization Lists",
+        "date": "2026-02-13",
+        "source": "FDA What's New: Drugs \u00b7 Match: Generic"
+      }
+    ],
     "press_pipeline": [
       {
         "title": "Carl Abbott\u2019s \u201cHouse of Columns\u201d Brings Sarasota School Modernism to the Market on Longboat Key - Bluefield Daily Telegraph",
@@ -3232,122 +3350,6 @@
         "date": "2026-02-06",
         "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
       }
-    ],
-    "safety_signals": [],
-    "conference_abstracts": [
-      {
-        "title": "Tariffs are still a thing, and they\u2019re hitting Medtronic\u2019s profit - Star Tribune",
-        "date": "2026-02-17",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Medtronic"
-      },
-      {
-        "title": "Boston Scientific\u2019s OPTION-EMEA Trial Targets One-Stop AF and Stroke Protection - TipRanks",
-        "date": "2026-02-17",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Abbott\u2019s Volt PFA System Enters U.K. Pilot Amid Expanding Atrial Fibrillation Market - TipRanks",
-        "date": "2026-02-15",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Pulse Biosciences presents latest data from first-in-human study evaluating nPulse cardiac catheter system - Cardiac Rhythm News",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
-      },
-      {
-        "title": "NHS hospitals pilot Abbott Volt PFA system - Med-Tech Insights",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Abbott announces late-breaking data from global VOLT-AF and FOCALFLEX studies - Cardiac Rhythm News",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Arg\u00e1 Medtech reports 94% lesion durability and strong safety profile in PFA trial - Health Tech World",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Arg\u00e1 Medtech reports 94% lesion durability and \u201cstrong safety profile\u201d with single-catheter PFA system - Cardiac Rhythm News",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Field Medical presents late-breaking Field PULSE trial data at 2026 AF symposium - Cardiac Rhythm News",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Field Medical"
-      },
-      {
-        "title": "J&J presents early outcomes from OMNY-AF pilot study alongside new Varipulse platform data - Cardiac Rhythm News",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: VARIPULSE Platform"
-      },
-      {
-        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Abbott stock rises on AFib device data buzz as traders weigh FDA overhang - Bez Kabli",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Pulse Biosciences Reports Groundbreaking Clinical Trial Data for Heart Treatment Technology - AD HOC NEWS",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
-      },
-      {
-        "title": "Arg\u00e1 Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA System - The Manila Times",
-        "date": "2026-02-09",
-        "source": "Google News: AF Symposium (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Abbott Reports Strong Results for Amulet 360 LAA Occlusion Device - Medical Product Outsourcing",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Pulse Biosciences Highlights Strong AF Outcomes From NPulse Feasibility Study - Nasdaq",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
-      },
-      {
-        "title": "Abbott stock price: Insider buy and fresh AFib data put ABT back on watch for Monday - TechStock\u00b2",
-        "date": "2026-02-08",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Johnson & Johnson MedTech has encouraging Omnypulse results, more data backs Varipulse - massdevice.com",
-        "date": "2026-02-07",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Johnson & Johnson MedTech"
-      },
-      {
-        "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
-        "date": "2026-02-06",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Pulse Biosciences Heart Device Data Fuels Stock Surge - Benzinga",
-        "date": "2026-02-06",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
-      }
-    ],
-    "label_expansions": [
-      {
-        "title": "Competitive Generic Therapy Approvals",
-        "date": "2026-02-17",
-        "source": "FDA What's New: Drugs \u00b7 Match: Generic"
-      },
-      {
-        "title": "Generic Drug Facilities, Sites and Organization Lists",
-        "date": "2026-02-13",
-        "source": "FDA What's New: Drugs \u00b7 Match: Generic"
-      }
-    ],
-    "guideline_updates": []
+    ]
   }
 }

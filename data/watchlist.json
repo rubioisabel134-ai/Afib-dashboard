@@ -128,6 +128,12 @@
       "note": "Hengrui FXI antibody Phase 1b in AF"
     },
     {
+      "item_id": "lambre-ii",
+      "trial_name": "LAMBRE II clinical study",
+      "nct_id": "NCT07385599",
+      "note": "Lifetech LAMBRE II next-generation LAAC study"
+    },
+    {
       "item_id": "sepiola-laac",
       "trial_name": "Sepiola safety and performance study",
       "nct_id": "NCT06099106",

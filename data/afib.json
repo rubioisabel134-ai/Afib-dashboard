@@ -1176,7 +1176,7 @@
       "mechanism": "Oral antiarrhythmic related to amiodarone",
       "focus": "AF burden reduction in paroxysmal AF",
       "company": "Xyra / Lee's Pharmaceutical (prior: Armetheon)",
-      "latest_update": "Phase 2 randomized trial demonstrated AF burden reduction; ongoing IP activity and development plans",
+      "latest_update": "2025-08-30: Budiodarone HARBOR-AF trial design presented at ESC 2025 (first 100-patient data expected soon)",
       "tags": [
         "oral",
         "AF burden",
@@ -1191,11 +1191,21 @@
           "readout_date": "2012-01-03",
           "registry_id": null,
           "note": "Paroxysmal AF; pacemaker-monitored AT/AF burden"
+        },
+        {
+          "name": "HARBOR-AF",
+          "phase": "Phase 2",
+          "status": "Design published",
+          "readout": "First 100-patient data expected soon",
+          "readout_date": null,
+          "registry_id": null,
+          "note": "Trial design abstract at ESC 2025"
         }
       ],
-      "notes": "Phase 2 randomized study showed dose\u2011dependent reduction in AF burden; newer sponsors cite ongoing development.",
+      "notes": "Phase 2 randomized study showed dose-dependent AF burden reduction; HARBOR-AF design was presented in ESC 2025 (EHJ supplement).",
       "sources": [
         "https://pubmed.ncbi.nlm.nih.gov/22205496/",
+        "https://academic.oup.com/eurheartj/article/46/Supplement_1/ehaf784.782/8309289",
         "https://www.prnewswire.com/news-releases/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040-302436581.html",
         "https://www.prnewswire.com/news-releases/armetheon-announces-issuance-of-a-new-us-patent-for-its-phase-2-clinical-stage-novel-oral-anti-arrhythmic-budiodarone-300406058.html"
       ]
@@ -1781,6 +1791,37 @@
       "notes": "Lifetech LAA occluder with CE Mark; used outside U.S.",
       "sources": [
         "https://www.prnewswire.com/news-releases/fda-approved-investigator-initiated-pre-market-clinical-trial-of-lambre-plus-laa-closure-system-obtained-medical-insurance-coverage-in-the-us-301617667.html"
+      ]
+    },
+    {
+      "id": "lambre-ii",
+      "name": "LAMBRE II LAA Occluder",
+      "type": "Device",
+      "category": "LAA Occlusion Devices",
+      "stage": "Pre-registered",
+      "mechanism": "Second-generation transcatheter left atrial appendage occluder",
+      "focus": "Stroke prevention in non-valvular AF",
+      "company": "Lifetech Scientific",
+      "latest_update": "NCT07385599 posted for a LAMBRE II clinical study in NVAF",
+      "tags": [
+        "LAAO",
+        "next-gen",
+        "NVAF"
+      ],
+      "trials": [
+        {
+          "name": "LAMBRE II clinical study",
+          "phase": "Clinical",
+          "status": "Pre-registered",
+          "readout": "TBD",
+          "readout_date": null,
+          "registry_id": "NCT07385599",
+          "note": "Second-generation LAAC device study"
+        }
+      ],
+      "notes": "LAMBRE II is tracked separately from LAMBRE Plus as a next-generation device program.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07385599"
       ]
     },
     {
@@ -3129,46 +3170,6 @@
     }
   ],
   "weekly_updates": {
-    "safety_signals": [],
-    "label_expansions": [],
-    "press_pipeline": [
-      {
-        "title": "NewEdge Wealth LLC Has $6.20 Million Stake in Abbott Laboratories $ABT - MarketBeat",
-        "date": "2026-02-20",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Gov. Abbott secures $149 million for EMP site, cybersecurity at TTU - KLBK",
-        "date": "2026-02-18",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market - TipRanks",
-        "date": "2026-02-15",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Arg\u00e1 Medtech data supports single-catheter PFA system - massdevice.com",
-        "date": "2026-02-10",
-        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
-        "date": "2026-02-09",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
-        "date": "2026-02-09",
-        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
-      }
-    ],
-    "guideline_updates": [],
     "conference_abstracts": [
       {
         "title": "UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
@@ -3229,7 +3230,57 @@
         "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
         "date": "2026-02-06",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Budiodarone HARBOR-AF trial design presented at ESC 2025 (first 100-patient data expected soon)",
+        "date": "2025-08-30",
+        "source": "ESC / EHJ Supplement"
       }
-    ]
+    ],
+    "label_expansions": [],
+    "safety_signals": [],
+    "press_pipeline": [
+      {
+        "title": "NewEdge Wealth LLC Has $6.20 Million Stake in Abbott Laboratories $ABT - MarketBeat",
+        "date": "2026-02-20",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
+      },
+      {
+        "title": "LAMBRE II clinical study posted on ClinicalTrials.gov (NCT07385599)",
+        "date": "2026-02-20",
+        "source": "ClinicalTrials.gov"
+      },
+      {
+        "title": "Gov. Abbott secures $149 million for EMP site, cybersecurity at TTU - KLBK",
+        "date": "2026-02-18",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market - TipRanks",
+        "date": "2026-02-15",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Arg\u00e1 Medtech data supports single-catheter PFA system - massdevice.com",
+        "date": "2026-02-10",
+        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
+        "date": "2026-02-09",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
+        "date": "2026-02-09",
+        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
+      }
+    ],
+    "guideline_updates": []
   }
 }

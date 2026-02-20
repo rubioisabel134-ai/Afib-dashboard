@@ -1172,7 +1172,7 @@
       "name": "Budiodarone",
       "type": "Drug",
       "category": "Rhythm Control - Antiarrhythmic Drugs",
-      "stage": "Phase 2",
+      "stage": "Phase 3",
       "mechanism": "Oral antiarrhythmic related to amiodarone",
       "focus": "AF burden reduction in paroxysmal AF",
       "company": "Xyra / Lee's Pharmaceutical (prior: Armetheon)",
@@ -1194,7 +1194,7 @@
         },
         {
           "name": "HARBOR-AF",
-          "phase": "Phase 2",
+          "phase": "Phase 3",
           "status": "Design published",
           "readout": "First 100-patient data expected soon",
           "readout_date": null,
@@ -1798,7 +1798,7 @@
       "name": "LAMBRE II LAA Occluder",
       "type": "Device",
       "category": "LAA Occlusion Devices",
-      "stage": "Pre-registered",
+      "stage": "First-in-human (FIH)",
       "mechanism": "Second-generation transcatheter left atrial appendage occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Lifetech Scientific",
@@ -1811,8 +1811,8 @@
       "trials": [
         {
           "name": "LAMBRE II clinical study",
-          "phase": "Clinical",
-          "status": "Pre-registered",
+          "phase": "First-in-human",
+          "status": "First-in-human",
           "readout": "TBD",
           "readout_date": null,
           "registry_id": "NCT07385599",

@@ -1719,7 +1719,7 @@
       "mechanism": "Conformable foam-based LAA occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Conformal Medical",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-10",
+      "latest_update": "2026-02-19: Gore completed acquisition of Conformal Medical (CLAAS AcuForm platform)",
       "tags": [
         "LAAO",
         "foam"
@@ -1738,8 +1738,10 @@
       "notes": "Conformable foam-based device; pivotal trial evaluating safety and efficacy vs approved LAAO devices.",
       "sources": [
         "https://www.conformtrial.com/conform-trial",
-        "https://conformalmedical.com/company/news/conformal-medical-achieves-enrollment-milestone-in-the-conform-ide-trial"
-      ]
+        "https://conformalmedical.com/company/news/conformal-medical-achieves-enrollment-milestone-in-the-conform-ide-trial",
+        "https://www.gore.com/news-events/gore-completes-acquisition-conformal-medical"
+      ],
+      "press_2026": true
     },
     {
       "id": "conformal-acuform",
@@ -1749,8 +1751,9 @@
       "stage": "Early clinical (GLACE)",
       "mechanism": "Next\u2011gen conformable foam LAA occluder",
       "focus": "Stroke prevention in non\u2011valvular AF",
-      "company": "Conformal Medical",
-      "latest_update": "GLACE study launched in Europe; initial clinical use highlighted at AF Symposium 2025",
+      "company": "Conformal Medical (Gore subsidiary)",
+      "latest_update": "2026-02-19: Gore completed acquisition of Conformal Medical; CLAAS AcuForm remains investigational with planned studies continuing",
+      "press_2026": true,
       "tags": [
         "LAAO",
         "foam",
@@ -1769,6 +1772,8 @@
       ],
       "notes": "Next\u2011generation CLAAS LAA occluder with advanced foam structure and sealing.",
       "sources": [
+        "https://www.gore.com/news-events/gore-completes-acquisition-conformal-medical",
+        "https://cardiovascularbusiness.com/topics/clinical/interventional-cardiology/gore-completes-acquisition-medtech-company-behind-next-gen-heart-device",
         "https://conformalmedical.com/company/news/conformal-medical-announces-launch-of-the-glace-study-with-next-gen-claas-acuform-left-atrial-appendage-occlusion-device",
         "https://conformalmedical.com/company/news/conformal-medical-announces-glace-study-to-be-highlighted-at-af-symposium"
       ]
@@ -3237,8 +3242,8 @@
         "source": "ESC / EHJ Supplement"
       }
     ],
-    "label_expansions": [],
     "safety_signals": [],
+    "label_expansions": [],
     "press_pipeline": [
       {
         "title": "NewEdge Wealth LLC Has $6.20 Million Stake in Abbott Laboratories $ABT - MarketBeat",
@@ -3249,6 +3254,11 @@
         "title": "LAMBRE II clinical study posted on ClinicalTrials.gov (NCT07385599)",
         "date": "2026-02-20",
         "source": "ClinicalTrials.gov"
+      },
+      {
+        "title": "Gore completed acquisition of Conformal Medical (CLAAS AcuForm platform)",
+        "date": "2026-02-19",
+        "source": "Gore"
       },
       {
         "title": "Gov. Abbott secures $149 million for EMP site, cybersecurity at TTU - KLBK",

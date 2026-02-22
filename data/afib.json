@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-02-20",
+  "as_of": "2026-02-22",
   "items": [
     {
       "id": "milvexian",
@@ -51,7 +51,7 @@
       "mechanism": "Oral Factor XIa inhibitor",
       "focus": "Secondary stroke prevention; AF program stopped",
       "company": "Bayer",
-      "latest_update": "ClinicalTrials.gov update posted 2025-11-12",
+      "latest_update": "2026-02-22: Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
       "press_2026": true,
       "tags": [
         "FXI",
@@ -82,7 +82,8 @@
       "sources": [
         "https://www.bayer.com/media/en-us/oceanic-af-study-stopped-early-due-to-lack-of-efficacy/",
         "https://www.bayer.com/en/us/news-stories/asundexian-after-a-non-cardioembolic-ischemic-stroke",
-        "https://www.bayer.com/media/en-us/bayers-asundexian-demonstrated-a-substantial-26-percent-reduction-in-stroke-after-a-non-cardioembolic-ischemic-stroke-or-high-risk-transient-ischemic-attack-with-no-increase-in-isth-major-bleeding-versus-placebo/"
+        "https://www.bayer.com/media/en-us/bayers-asundexian-demonstrated-a-substantial-26-percent-reduction-in-stroke-after-a-non-cardioembolic-ischemic-stroke-or-high-risk-transient-ischemic-attack-with-no-increase-in-isth-major-bleeding-versus-placebo/",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdmxiTEJBZE8xaW14TnF6TE9CX29nelcxWWt6VTJmMkw4RlkzT0xsclFRb2xXcDJFeW1QWmFzZmNQRW5ZblZQZEtISVJMa2N4OUNrUkY5Mm1RTWlKdGVLTTQ5MVhFTXdRT2FDeW4xYVp5OGwyWkxIOGxlazJybUVjMGF6ZEtyZlNBVnJjVjF0TFR3S0gyRTk0dEhHTWhYY0w1aWdpQzc4WElFeU5UU2RyaUx3dzFucUdmd1d1VHJGc2NVVzlu?oc=5"
       ]
     },
     {
@@ -1719,7 +1720,7 @@
       "mechanism": "Conformable foam-based LAA occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Conformal Medical",
-      "latest_update": "2026-02-19: Gore completed acquisition of Conformal Medical (CLAAS AcuForm platform)",
+      "latest_update": "ClinicalTrials.gov update posted 2026-02-10",
       "tags": [
         "LAAO",
         "foam"
@@ -1807,7 +1808,7 @@
       "mechanism": "Second-generation transcatheter left atrial appendage occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Lifetech Scientific",
-      "latest_update": "NCT07385599 posted for a LAMBRE II clinical study in NVAF",
+      "latest_update": "ClinicalTrials.gov update posted 2026-02-04",
       "tags": [
         "LAAO",
         "next-gen",
@@ -1817,9 +1818,9 @@
         {
           "name": "LAMBRE II clinical study",
           "phase": "First-in-human",
-          "status": "First-in-human",
+          "status": "ACTIVE_NOT_RECRUITING",
           "readout": "TBD",
-          "readout_date": null,
+          "readout_date": "2027-12-31",
           "registry_id": "NCT07385599",
           "note": "Second-generation LAAC device study"
         }
@@ -3175,7 +3176,14 @@
     }
   ],
   "weekly_updates": {
+    "label_expansions": [],
+    "guideline_updates": [],
     "conference_abstracts": [
+      {
+        "title": "Abbott Laboratories (ABT) Announces Positive Results for Amulet 360 Left Atrial Appendage (LAA) Occlude - Yahoo Finance",
+        "date": "2026-02-20",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
       {
         "title": "UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
         "date": "2026-02-17",
@@ -3235,30 +3243,14 @@
         "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
         "date": "2026-02-06",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Budiodarone HARBOR-AF trial design presented at ESC 2025 (first 100-patient data expected soon)",
-        "date": "2025-08-30",
-        "source": "ESC / EHJ Supplement"
       }
     ],
     "safety_signals": [],
-    "label_expansions": [],
     "press_pipeline": [
       {
-        "title": "NewEdge Wealth LLC Has $6.20 Million Stake in Abbott Laboratories $ABT - MarketBeat",
-        "date": "2026-02-20",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "LAMBRE II clinical study posted on ClinicalTrials.gov (NCT07385599)",
-        "date": "2026-02-20",
-        "source": "ClinicalTrials.gov"
-      },
-      {
-        "title": "Gore completed acquisition of Conformal Medical (CLAAS AcuForm platform)",
-        "date": "2026-02-19",
-        "source": "Gore"
+        "title": "Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
+        "date": "2026-02-22",
+        "source": "Google News: AFib watchlist 1 \u00b7 Match: Asundexian"
       },
       {
         "title": "Gov. Abbott secures $149 million for EMP site, cybersecurity at TTU - KLBK",
@@ -3290,7 +3282,6 @@
         "date": "2026-02-06",
         "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
       }
-    ],
-    "guideline_updates": []
+    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-02-22",
+  "as_of": "2026-02-24",
   "items": [
     {
       "id": "milvexian",
@@ -588,7 +588,7 @@
       "mechanism": "Oral investigational therapy (mechanism not disclosed publicly)",
       "focus": "Reduction of AF burden; HDAC6 inhibitor licensed from Chong Kun Dang",
       "company": "Novartis (licensed from Chong Kun Dang)",
-      "latest_update": "ClinicalTrials.gov update posted 2026-01-26",
+      "latest_update": "ClinicalTrials.gov update posted 2026-02-23",
       "tags": [
         "AF burden",
         "Phase 2",
@@ -3176,8 +3176,7 @@
     }
   ],
   "weekly_updates": {
-    "label_expansions": [],
-    "guideline_updates": [],
+    "safety_signals": [],
     "conference_abstracts": [
       {
         "title": "Abbott Laboratories (ABT) Announces Positive Results for Amulet 360 Left Atrial Appendage (LAA) Occlude - Yahoo Finance",
@@ -3245,7 +3244,7 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
       }
     ],
-    "safety_signals": [],
+    "guideline_updates": [],
     "press_pipeline": [
       {
         "title": "Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
@@ -3282,6 +3281,7 @@
         "date": "2026-02-06",
         "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
       }
-    ]
+    ],
+    "label_expansions": []
   }
 }

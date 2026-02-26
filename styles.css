@@ -404,7 +404,25 @@ main {
 
 @media (max-width: 960px) {
   .hero {
+    gap: 24px;
     padding: 40px 24px 24px;
+  }
+
+  .hero-left h1 {
+    font-size: 34px;
+  }
+
+  .hero-left p {
+    max-width: none;
+  }
+
+  .pulse-panel {
+    padding: 20px;
+    min-height: 200px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
   main {
@@ -419,7 +437,122 @@ main {
 }
 
 @media (max-width: 700px) {
+  .hero {
+    gap: 18px;
+    padding: 28px 16px 18px;
+  }
+
+  .hero-left h1 {
+    font-size: 28px;
+    margin: 6px 0 10px;
+  }
+
+  .hero-left p {
+    font-size: 14px;
+  }
+
+  .meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .meta-card {
+    padding: 10px 12px;
+  }
+
+  .meta-value {
+    font-size: 18px;
+  }
+
   .hero-right {
     grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .pulse-panel {
+    padding: 16px;
+    border-radius: 18px;
+    min-height: 0;
+  }
+
+  .pulse-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .pulse-list {
+    font-size: 13px;
+    gap: 8px;
+  }
+
+  .pulse-item {
+    padding: 8px 10px;
+  }
+
+  main {
+    padding: 0 16px 40px;
+  }
+
+  .weekly {
+    margin: 6px 0 24px;
+    gap: 12px;
+  }
+
+  .weekly-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .controls {
+    gap: 12px;
+    margin: 16px 0 20px;
+  }
+
+  .filter-group {
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .filter-label {
+    min-width: 64px;
+  }
+
+  .chip {
+    padding: 8px 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card {
+    padding: 14px;
+    border-radius: 14px;
+    gap: 10px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .value {
+    font-size: 13px;
+  }
+
+  .card-footer {
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+  .details {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .footer {
+    padding: 16px;
   }
 }

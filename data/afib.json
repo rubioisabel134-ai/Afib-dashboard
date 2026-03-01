@@ -2746,22 +2746,45 @@
       "name": "AtriAN Epicardial PFA Catheter",
       "type": "Device",
       "category": "Cardioneuroablation - PFA",
-      "stage": "Preclinical / early clinical",
+      "stage": "Phase I / early clinical",
       "mechanism": "Epicardial PFA targeting ganglionated plexi",
       "focus": "AF (autonomic modulation)",
       "company": "Atrian Medical",
-      "latest_update": "Preclinical and early clinical evidence for epicardial GP ablation; technology described in 2024 Bioengineering paper",
+      "latest_update": "2022-09-06: Completed enrollment of Neural AF-2 human study (12 paroxysmal AF patients) following Neural-AF safety/feasibility study.",
       "tags": [
+        "GP ablation",
         "PFA",
+        "cardioneuroablation",
         "epicardial",
-        "GP ablation"
+        "human study"
       ],
-      "trials": [],
-      "notes": "Epicardial cardioneuroablation using PFA to target ganglionated plexi; early clinical experience reported.",
+      "trials": [
+        {
+          "name": "Neural-AF",
+          "phase": "First-in-human / feasibility",
+          "status": "Completed enrollment",
+          "readout": "Clinical data presented at AF Symposium 2022 and EHRA 2022",
+          "readout_date": "2022-01-14",
+          "registry_id": null,
+          "note": "Safety/feasibility study in CABG patients; 24 treated."
+        },
+        {
+          "name": "Neural AF-2",
+          "phase": "Early clinical",
+          "status": "Completed enrollment",
+          "readout": "One-year AF recurrence follow-up planned after enrollment completion",
+          "readout_date": "2022-09-06",
+          "registry_id": null,
+          "note": "Paroxysmal AF cardiothoracic surgery cohort; 12 treated at Tbilisi Heart and Vascular Clinic."
+        }
+      ],
+      "notes": "Epicardial cardioneuroablation using selective PFA to target ganglionated plexi. Human experience reported across Neural-AF and Neural AF-2 studies.",
       "sources": [
         "https://atrianmedical.com/epicardial-pulsed-field-ablation-for-the-treatment-of-paroxysmal-atrial-fibrillation-during-cardiac-surgery/",
         "https://atrianmedical.com/epicardial-pulsed-field-ablation-of-ganglionated-plexi-computational-and-pre-clinical-evaluation-of-a-bipolar-sub-xiphoid-catheter-for-the-treatment-of-atrial-fibrillation/",
-        "https://pubmed.ncbi.nlm.nih.gov/38247895/"
+        "https://pubmed.ncbi.nlm.nih.gov/38247895/",
+        "https://www.biospace.com/atrian-medical-completes-enrollment-of-second-study-on-cardioneuroablation-using-pfa",
+        "https://atrianmedical.com/atrian-completes-enrollment-of-second-clinical-study/"
       ]
     },
     {

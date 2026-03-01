@@ -3176,11 +3176,37 @@
     }
   ],
   "weekly_updates": {
-    "guideline_updates": [
+    "safety_signals": [],
+    "press_pipeline": [
       {
-        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
-        "date": "2026-02-25",
-        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
+        "title": "Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
+        "date": "2026-02-22",
+        "source": "Google News: AFib watchlist 1 \u00b7 Match: Asundexian"
+      },
+      {
+        "title": "Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market - TipRanks",
+        "date": "2026-02-15",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Arg\u00e1 Medtech data supports single-catheter PFA system - massdevice.com",
+        "date": "2026-02-10",
+        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
+        "date": "2026-02-09",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
+        "date": "2026-02-09",
+        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
       }
     ],
     "conference_abstracts": [
@@ -3250,44 +3276,13 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
       }
     ],
-    "label_expansions": [],
-    "safety_signals": [],
-    "press_pipeline": [
+    "guideline_updates": [
       {
-        "title": "Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
-        "date": "2026-02-22",
-        "source": "Google News: AFib watchlist 1 \u00b7 Match: Asundexian"
-      },
-      {
-        "title": "Gov. Abbott secures $149 million for EMP site, cybersecurity at TTU - KLBK",
-        "date": "2026-02-18",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market - TipRanks",
-        "date": "2026-02-15",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Arg\u00e1 Medtech data supports single-catheter PFA system - massdevice.com",
-        "date": "2026-02-10",
-        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
-        "date": "2026-02-09",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
-        "date": "2026-02-09",
-        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
+        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
+        "date": "2026-02-25",
+        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
       }
-    ]
+    ],
+    "label_expansions": []
   }
 }

@@ -137,7 +137,7 @@
       "mechanism": "Humanized monoclonal antibody targeting Factor XI",
       "focus": "Anticoagulation in AF with reduced bleeding risk",
       "company": "Jiangsu Hengrui",
-      "latest_update": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation",
+      "latest_update": "2026-03-03: Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
       "tags": [
         "FXI",
         "mAb",
@@ -159,7 +159,8 @@
         "https://clinicaltrials.gov/study/NCT06280768",
         "https://academic.oup.com/eurheartj/article/46/Supplement_1/ehaf784.4260/8310619",
         "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
-      ]
+      ],
+      "press_2026": true
     },
     {
       "id": "regn7508",
@@ -170,7 +171,7 @@
       "mechanism": "Monoclonal antibody targeting FXI catalytic domain",
       "focus": "Anticoagulation with reduced bleeding risk; AF stroke prevention program planned",
       "company": "Regeneron",
-      "latest_update": "ROXI-INCLINE (NCT07430956): Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable",
+      "latest_update": "2026-03-03: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -214,7 +215,8 @@
         "https://www.globenewswire.com/news-release/2025/11/08/3184069/0/en/Phase-2-Trials-Demonstrating-Antithrombotic-Effect-of-Two-Novel-Regeneron-Factor-XI-Antibodies-Presented-at-American-Heart-Association-Scientific-Sessions-and-Published-in-The-Lanc.html",
         "https://clinicaltrials.gov/study/NCT07430956",
         "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
-      ]
+      ],
+      "press_2026": true
     },
     {
       "id": "regn9933",
@@ -225,7 +227,7 @@
       "mechanism": "Monoclonal antibody targeting FXI A2 domain",
       "focus": "Anticoagulation for patients with higher bleeding risk; AF safety program",
       "company": "Regeneron",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-24",
+      "latest_update": "2026-03-03: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -267,8 +269,10 @@
         "https://fdaaa.trialstracker.net/trial/NCT07175428/",
         "https://pubmed.ncbi.nlm.nih.gov/41218619/",
         "https://www.globenewswire.com/news-release/2025/11/08/3184069/0/en/Phase-2-Trials-Demonstrating-Antithrombotic-Effect-of-Two-Novel-Regeneron-Factor-XI-Antibodies-Presented-at-American-Heart-Association-Scientific-Sessions-and-Published-in-The-Lanc.html",
-        "https://clinicaltrials.gov/study/NCT07430956"
-      ]
+        "https://clinicaltrials.gov/study/NCT07430956",
+        "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
+      ],
+      "press_2026": true
     },
     {
       "id": "srsd107",
@@ -1546,7 +1550,7 @@
       "mechanism": "Left atrial appendage closure device",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-03-02: Boston Scientific wins expanded CE mark for Farapulse in persistent AFib - MassDevice",
+      "latest_update": "2026-03-03: Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
       "tags": [
         "LAAO",
         "implant"
@@ -1568,7 +1572,8 @@
         "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
         "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
         "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5",
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zVjhySlZxS1BSS3YzQ00teWhVTFNYV3hzd3JrRXRaRHZ6QzRFLXVrblNoSU1IUkd0XzlubG9Xek5QTW9IcDExMVBVY3dsM2VBSC0zYlJLYUJ6Vm1CcElCTFAzamJzc1FQQTA0TVhQdThPaVQ3TDR4ZzZRd0c?oc=5"
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zVjhySlZxS1BSS3YzQ00teWhVTFNYV3hzd3JrRXRaRHZ6QzRFLXVrblNoSU1IUkd0XzlubG9Xek5QTW9IcDExMVBVY3dsM2VBSC0zYlJLYUJ6Vm1CcElCTFAzamJzc1FQQTA0TVhQdThPaVQ3TDR4ZzZRd0c?oc=5",
+        "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&rank=6"
       ],
       "press_2026": true
     },
@@ -3232,6 +3237,63 @@
     }
   ],
   "weekly_updates": {
+    "press_pipeline": [
+      {
+        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+        "date": "2026-03-03",
+        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
+      },
+      {
+        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
+        "date": "2026-03-03",
+        "source": "CI manual scan \u00b7 Match: SHR-2004"
+      },
+      {
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+        "date": "2026-03-03",
+        "source": "CI manual scan \u00b7 Match: REGN7508"
+      },
+      {
+        "title": "C Kevin Clem Obituary (2026) - Delphi, IN - Abbott Funeral Home - Delphi - SMH.com.au",
+        "date": "2026-03-02",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Boston Scientific wins expanded CE mark for Farapulse in persistent AFib - MassDevice",
+        "date": "2026-03-02",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
+        "date": "2026-02-22",
+        "source": "Google News: AFib watchlist 1 \u00b7 Match: Asundexian"
+      },
+      {
+        "title": "Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market - TipRanks",
+        "date": "2026-02-15",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Arg\u00e1 Medtech data supports single-catheter PFA system - massdevice.com",
+        "date": "2026-02-10",
+        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
+        "date": "2026-02-09",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
+        "date": "2026-02-09",
+        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
+      }
+    ],
     "safety_signals": [],
     "conference_abstracts": [
       {
@@ -3305,63 +3367,6 @@
         "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
         "date": "2026-02-25",
         "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
-      }
-    ],
-    "press_pipeline": [
-      {
-        "title": "C Kevin Clem Obituary (2026) - Delphi, IN - Abbott Funeral Home - Delphi - SMH.com.au",
-        "date": "2026-03-02",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Boston Scientific wins expanded CE mark for Farapulse in persistent AFib - MassDevice",
-        "date": "2026-03-02",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
-        "date": "2026-02-22",
-        "source": "Google News: AFib watchlist 1 \u00b7 Match: Asundexian"
-      },
-      {
-        "title": "Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market - TipRanks",
-        "date": "2026-02-15",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Arg\u00e1 Medtech data supports single-catheter PFA system - massdevice.com",
-        "date": "2026-02-10",
-        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
-        "date": "2026-02-09",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
-        "date": "2026-02-09",
-        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet",
-        "date": "",
-        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
-      },
-      {
-        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation",
-        "date": "",
-        "source": "CI manual scan \u00b7 Match: SHR-2004"
-      },
-      {
-        "title": "ROXI-INCLINE (NCT07430956): Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable",
-        "date": "",
-        "source": "CI manual scan \u00b7 Match: REGN7508"
       }
     ],
     "label_expansions": []

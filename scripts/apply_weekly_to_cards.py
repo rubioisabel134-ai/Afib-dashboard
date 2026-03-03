@@ -30,6 +30,26 @@ def extract_source_match(source: str) -> str:
     return m.group(1).strip() if m else ""
 
 
+def extract_nct_id(text: str) -> str:
+    m = re.search(r"\bNCT\d{8}\b", (text or "").upper())
+    return m.group(0) if m else ""
+
+
+def should_replace(existing: Optional[dict], dt: Optional[datetime], title: str) -> bool:
+    if existing is None:
+        return True
+    prev_dt = existing.get("date")
+    if prev_dt is None and dt is not None:
+        return True
+    if prev_dt is not None and dt is None:
+        return False
+    if prev_dt is not None and dt is not None and dt > prev_dt:
+        return True
+    if prev_dt == dt and len(title) > len(existing.get("title", "")):
+        return True
+    return False
+
+
 def main() -> int:
     if not AFIB_PATH.exists() or not CSV_PATH.exists():
         print("Missing data files.")
@@ -40,6 +60,7 @@ def main() -> int:
 
     # Build match terms
     terms = []
+    registry_to_items = {}
     for item in items:
         name = (item.get("name") or "").strip()
         company = (item.get("company") or "").strip()
@@ -47,6 +68,10 @@ def main() -> int:
             terms.append(("name", name, item))
         if company:
             terms.append(("company", company, item))
+        for trial in item.get("trials", []):
+            rid = (trial.get("registry_id") or "").strip().upper()
+            if rid.startswith("NCT"):
+                registry_to_items.setdefault(rid, []).append(item)
 
     updates_by_item = {}
 
@@ -77,15 +102,23 @@ def main() -> int:
                         if normalize(term) == source_norm:
                             matched_items.append((kind, term, item))
 
+            # Also map by registry id so one NCT update can fan out to all linked assets.
+            nct_id = extract_nct_id(f"{title} {link}")
+            if nct_id and nct_id in registry_to_items:
+                for item in registry_to_items[nct_id]:
+                    matched_items.append(("registry", nct_id, item))
+
             if not matched_items:
                 continue
 
+            seen_item_ids = set()
             for kind, term, item in matched_items:
                 key = item.get("id")
-                if not key:
+                if not key or key in seen_item_ids:
                     continue
+                seen_item_ids.add(key)
                 existing = updates_by_item.get(key)
-                if existing is None or (dt and existing["date"] and dt > existing["date"]):
+                if should_replace(existing, dt, title):
                     updates_by_item[key] = {
                         "title": title,
                         "date": dt,

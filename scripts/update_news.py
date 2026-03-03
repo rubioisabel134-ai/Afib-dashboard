@@ -150,8 +150,21 @@ def dedupe_rows(rows: List[Dict[str, str]]) -> List[Dict[str, str]]:
 def keep_row(row: Dict[str, str]) -> bool:
     source = (row.get("source") or "").lower()
     link = (row.get("link") or "").lower()
+    title = (row.get("title") or "")
+    nct_id = extract_nct_id(f"{title} {link}")
     # Drop older broad CI-manual imports; retain only ClinicalTrials.gov tracked links.
     if "ci manual scan" in source and "clinicaltrials.gov/study/" not in link:
+        return False
+    # Drop legacy CI-manual trial rows without dates; new rows are date-stamped.
+    if "ci manual scan" in source and "clinicaltrials.gov/study/" in link and not (row.get("date") or "").strip():
+        return False
+    # Keep canonical CI-manual trial title format that includes NCT id.
+    if (
+        "ci manual scan" in source
+        and "clinicaltrials.gov/study/" in link
+        and nct_id
+        and nct_id not in title.upper()
+    ):
         return False
     return True
 
@@ -317,6 +330,7 @@ def manual_ci_rows(
     if not CI_MANUAL_URLS_PATH.exists():
         return []
     rows: List[Dict[str, str]] = []
+    today = datetime.now(timezone.utc).date().isoformat()
     for raw in CI_MANUAL_URLS_PATH.read_text(encoding="utf-8", errors="ignore").splitlines():
         parsed = parse_manual_input_line(raw)
         if not parsed:
@@ -331,6 +345,8 @@ def manual_ci_rows(
             continue
         if not title:
             title = nct_id or link
+        if nct_id and f"({nct_id})" not in title:
+            title = f"{title} ({nct_id})"
 
         if not is_af_relevant(title, link):
             # Let tracked ClinicalTrials.gov trial pages through even if title text is sparse.
@@ -346,7 +362,7 @@ def manual_ci_rows(
         row = {
             "category": "press_pipeline",
             "title": title,
-            "date": "",
+            "date": today,
             "source": f"CI manual scan · Match: {match}",
             "link": link,
         }

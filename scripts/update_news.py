@@ -15,6 +15,7 @@ CSV_PATH = ROOT / "data" / "weekly_updates.csv"
 SOURCES_PATH = ROOT / "data" / "news_sources.json"
 AFIB_PATH = ROOT / "data" / "afib.json"
 COMPANY_PRESS_PATH = ROOT / "data" / "company_press.json"
+CI_MANUAL_URLS_PATH = ROOT / "data" / "ci_manual_urls.txt"
 
 CATEGORIES = {
     "safety_signals",
@@ -146,6 +147,15 @@ def dedupe_rows(rows: List[Dict[str, str]]) -> List[Dict[str, str]]:
     return list(best.values())
 
 
+def keep_row(row: Dict[str, str]) -> bool:
+    source = (row.get("source") or "").lower()
+    link = (row.get("link") or "").lower()
+    # Drop older broad CI-manual imports; retain only ClinicalTrials.gov tracked links.
+    if "ci manual scan" in source and "clinicaltrials.gov/study/" not in link:
+        return False
+    return True
+
+
 def load_terms() -> List[str]:
     if not AFIB_PATH.exists():
         return []
@@ -168,6 +178,25 @@ def load_terms() -> List[str]:
         seen.add(term)
         cleaned.append(term)
     return cleaned
+
+
+def load_registry_ids() -> Dict[str, List[str]]:
+    if not AFIB_PATH.exists():
+        return {}
+    data = json.loads(AFIB_PATH.read_text())
+    out: Dict[str, List[str]] = {}
+    for item in data.get("items", []):
+        name = (item.get("name") or "").strip()
+        company = (item.get("company") or "").strip()
+        label = name or company
+        for trial in item.get("trials", []):
+            rid = (trial.get("registry_id") or "").strip().upper()
+            if not rid.startswith("NCT"):
+                continue
+            values = out.setdefault(rid, [])
+            if label and label not in values:
+                values.append(label)
+    return out
 
 
 def build_google_news_sources(terms: List[str]) -> List[Dict[str, str]]:
@@ -260,19 +289,93 @@ def is_af_relevant(title: str, link: str) -> bool:
     return True
 
 
+def parse_manual_input_line(line: str) -> Optional[Tuple[str, str]]:
+    text_line = line.strip()
+    if not text_line or text_line.startswith("#"):
+        return None
+    if "\t" in text_line:
+        left, right = text_line.split("\t", 1)
+        title = left.strip()
+        link = right.strip()
+        if link.startswith("http"):
+            return title, link
+    if text_line.startswith("http"):
+        return "", text_line
+    return None
+
+
+def extract_nct_id(text_value: str) -> str:
+    m = re.search(r"\bNCT\d{8}\b", (text_value or "").upper())
+    return m.group(0) if m else ""
+
+
+def manual_ci_rows(
+    terms: List[str],
+    seen: set,
+    registry_map: Dict[str, List[str]],
+) -> List[Dict[str, str]]:
+    if not CI_MANUAL_URLS_PATH.exists():
+        return []
+    rows: List[Dict[str, str]] = []
+    for raw in CI_MANUAL_URLS_PATH.read_text(encoding="utf-8", errors="ignore").splitlines():
+        parsed = parse_manual_input_line(raw)
+        if not parsed:
+            continue
+        title, link = parsed
+        if not link:
+            continue
+        nct_id = extract_nct_id(f"{title} {link}")
+        has_ctgov_trial = "clinicaltrials.gov/study/" in link.lower() and bool(nct_id)
+        # Keep CI-manual ingestion narrowly focused on tracked ClinicalTrials.gov items.
+        if not has_ctgov_trial:
+            continue
+        if not title:
+            title = nct_id or link
+
+        if not is_af_relevant(title, link):
+            # Let tracked ClinicalTrials.gov trial pages through even if title text is sparse.
+            if not (has_ctgov_trial and nct_id in registry_map):
+                continue
+
+        match = find_match(title, terms)
+        if not match and has_ctgov_trial and nct_id in registry_map:
+            match = registry_map[nct_id][0]
+        if not match:
+            continue
+
+        row = {
+            "category": "press_pipeline",
+            "title": title,
+            "date": "",
+            "source": f"CI manual scan · Match: {match}",
+            "link": link,
+        }
+        key = (row["category"], normalize_title(row["title"]), row["date"])
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append(row)
+    return rows
+
+
 def main() -> int:
     if not SOURCES_PATH.exists():
         print("Missing data/news_sources.json")
         return 1
 
     terms = load_terms()
+    registry_map = load_registry_ids()
     sources = json.loads(SOURCES_PATH.read_text())
     sources += build_google_news_sources(terms)
     sources += load_company_press_sources()
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(days=7)
 
-    existing = [row for row in read_existing() if is_af_relevant(row.get("title", ""), row.get("link", ""))]
+    existing = [
+        row
+        for row in read_existing()
+        if is_af_relevant(row.get("title", ""), row.get("link", "")) and keep_row(row)
+    ]
     existing = dedupe_rows(existing)
     seen = set(
         (
@@ -324,6 +427,8 @@ def main() -> int:
                 continue
             seen.add(key)
             new_rows.append(row)
+
+    new_rows.extend(manual_ci_rows(terms=terms, seen=seen, registry_map=registry_map))
 
     combined = dedupe_rows(existing + new_rows)
     write_rows(combined)

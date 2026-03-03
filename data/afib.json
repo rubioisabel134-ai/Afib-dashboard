@@ -3231,7 +3231,6 @@
     }
   ],
   "weekly_updates": {
-    "safety_signals": [],
     "conference_abstracts": [
       {
         "title": "Abbott Laboratories (ABT) Announces Positive Results for Amulet 360 Left Atrial Appendage (LAA) Occlude - Yahoo Finance",
@@ -3363,6 +3362,7 @@
         "date": "2026-02-25",
         "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
       }
-    ]
+    ],
+    "safety_signals": []
   }
 }

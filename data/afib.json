@@ -194,6 +194,15 @@
           "readout_date": "2025-11-08",
           "registry_id": "NCT06454630",
           "note": "Post\u2011TKA VTE prevention"
+        },
+        {
+          "name": "Stroke and Systemic Embolism Prevention in AF (OAC-unsuitable)",
+          "phase": "Phase 3",
+          "status": "UNKNOWN (pending next sync)",
+          "readout": "TBD",
+          "readout_date": null,
+          "registry_id": "NCT07430956",
+          "note": "ClinicalTrials.gov: AF population unsuitable for oral anticoagulation; verify assignment of REGN7508/REGN9933 at next sync."
         }
       ],
       "notes": "Factor XI catalytic\u2011domain antibody; Phase 2 VTE proof\u2011of\u2011concept published; AF safety trial ongoing and Phase 3 AF program planned.",
@@ -201,7 +210,8 @@
         "https://newsroom.regeneron.com/news-releases/news-release-details/regeneron-advance-two-factor-xi-antibodies-broad-phase-3-program",
         "https://fdaaa.trialstracker.net/trial/NCT07175428/",
         "https://pubmed.ncbi.nlm.nih.gov/41218619/",
-        "https://www.globenewswire.com/news-release/2025/11/08/3184069/0/en/Phase-2-Trials-Demonstrating-Antithrombotic-Effect-of-Two-Novel-Regeneron-Factor-XI-Antibodies-Presented-at-American-Heart-Association-Scientific-Sessions-and-Published-in-The-Lanc.html"
+        "https://www.globenewswire.com/news-release/2025/11/08/3184069/0/en/Phase-2-Trials-Demonstrating-Antithrombotic-Effect-of-Two-Novel-Regeneron-Factor-XI-Antibodies-Presented-at-American-Heart-Association-Scientific-Sessions-and-Published-in-The-Lanc.html",
+        "https://clinicaltrials.gov/study/NCT07430956"
       ]
     },
     {
@@ -209,7 +219,7 @@
       "name": "REGN9933",
       "type": "Drug",
       "category": "Stroke Prevention - FXI Inhibitors",
-      "stage": "Phase 2 (AF); Phase 2 completed in VTE",
+      "stage": "Phase 2 (AF); Phase 2 completed in VTE; includes Phase 3 AF program",
       "mechanism": "Monoclonal antibody targeting FXI A2 domain",
       "focus": "Anticoagulation for patients with higher bleeding risk; AF safety program",
       "company": "Regeneron",
@@ -238,6 +248,15 @@
           "readout_date": "2025-11-08",
           "registry_id": "NCT05618808",
           "note": "Post\u2011TKA VTE prevention"
+        },
+        {
+          "name": "Stroke and Systemic Embolism Prevention in AF (OAC-unsuitable)",
+          "phase": "Phase 3",
+          "status": "UNKNOWN (pending next sync)",
+          "readout": "TBD",
+          "readout_date": null,
+          "registry_id": "NCT07430956",
+          "note": "ClinicalTrials.gov: AF population unsuitable for oral anticoagulation; verify assignment of REGN7508/REGN9933 at next sync."
         }
       ],
       "notes": "FXI A2\u2011domain antibody; Phase 2 VTE proof\u2011of\u2011concept published; AF safety trial ongoing alongside REGN7508.",
@@ -245,7 +264,8 @@
         "https://newsroom.regeneron.com/news-releases/news-release-details/regeneron-advance-two-factor-xi-antibodies-broad-phase-3-program",
         "https://fdaaa.trialstracker.net/trial/NCT07175428/",
         "https://pubmed.ncbi.nlm.nih.gov/41218619/",
-        "https://www.globenewswire.com/news-release/2025/11/08/3184069/0/en/Phase-2-Trials-Demonstrating-Antithrombotic-Effect-of-Two-Novel-Regeneron-Factor-XI-Antibodies-Presented-at-American-Heart-Association-Scientific-Sessions-and-Published-in-The-Lanc.html"
+        "https://www.globenewswire.com/news-release/2025/11/08/3184069/0/en/Phase-2-Trials-Demonstrating-Antithrombotic-Effect-of-Two-Novel-Regeneron-Factor-XI-Antibodies-Presented-at-American-Heart-Association-Scientific-Sessions-and-Published-in-The-Lanc.html",
+        "https://clinicaltrials.gov/study/NCT07430956"
       ]
     },
     {

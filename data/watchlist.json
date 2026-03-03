@@ -156,6 +156,18 @@
       "trial_name": "SR-TheAF / SRT first-in-human",
       "nct_id": "NCT05461612",
       "note": "MaxWell SRT first-in-human study"
+    },
+    {
+      "item_id": "regn7508",
+      "trial_name": "Stroke and Systemic Embolism Prevention in AF (OAC-unsuitable)",
+      "nct_id": "NCT07430956",
+      "note": "Regeneron AF stroke/systemic embolism prevention trial in participants unsuitable for oral anticoagulation"
+    },
+    {
+      "item_id": "regn9933",
+      "trial_name": "Stroke and Systemic Embolism Prevention in AF (OAC-unsuitable)",
+      "nct_id": "NCT07430956",
+      "note": "Regeneron AF stroke/systemic embolism prevention trial in participants unsuitable for oral anticoagulation"
     }
   ],
   "press_releases": [

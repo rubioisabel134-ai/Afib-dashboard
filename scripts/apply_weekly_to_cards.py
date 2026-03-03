@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import csv
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
@@ -22,6 +23,11 @@ def parse_date(raw: str) -> Optional[datetime]:
 
 def normalize(text: str) -> str:
     return text.lower()
+
+
+def extract_source_match(source: str) -> str:
+    m = re.search(r"match:\s*(.+)$", source or "", flags=re.IGNORECASE)
+    return m.group(1).strip() if m else ""
 
 
 def main() -> int:
@@ -62,6 +68,14 @@ def main() -> int:
             for kind, term, item in terms:
                 if normalize(term) in title_norm:
                     matched_items.append((kind, term, item))
+
+            if not matched_items:
+                source_match = extract_source_match(source)
+                if source_match:
+                    source_norm = normalize(source_match)
+                    for kind, term, item in terms:
+                        if normalize(term) == source_norm:
+                            matched_items.append((kind, term, item))
 
             if not matched_items:
                 continue

@@ -147,7 +147,7 @@
         {
           "name": "SHR-2004-102",
           "phase": "Phase 1b",
-          "status": "NOT_YET_RECRUITING",
+          "status": "UNKNOWN",
           "readout": "EHJ 2025 abstract",
           "readout_date": "2024-12-31",
           "registry_id": "NCT06280768",
@@ -170,7 +170,7 @@
       "mechanism": "Monoclonal antibody targeting FXI catalytic domain",
       "focus": "Anticoagulation with reduced bleeding risk; AF stroke prevention program planned",
       "company": "Regeneron",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-20",
+      "latest_update": "ClinicalTrials.gov update posted 2026-02-24",
       "tags": [
         "FXI",
         "mAb",
@@ -199,9 +199,9 @@
         {
           "name": "Stroke and Systemic Embolism Prevention in AF (OAC-unsuitable)",
           "phase": "Phase 3",
-          "status": "UNKNOWN (pending next sync)",
+          "status": "NOT_YET_RECRUITING",
           "readout": "TBD",
-          "readout_date": null,
+          "readout_date": "2029-03-28",
           "registry_id": "NCT07430956",
           "note": "ClinicalTrials.gov: AF population unsuitable for oral anticoagulation; verify assignment of REGN7508/REGN9933 at next sync."
         }
@@ -224,7 +224,7 @@
       "mechanism": "Monoclonal antibody targeting FXI A2 domain",
       "focus": "Anticoagulation for patients with higher bleeding risk; AF safety program",
       "company": "Regeneron",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-20",
+      "latest_update": "ClinicalTrials.gov update posted 2026-02-24",
       "tags": [
         "FXI",
         "mAb",
@@ -253,9 +253,9 @@
         {
           "name": "Stroke and Systemic Embolism Prevention in AF (OAC-unsuitable)",
           "phase": "Phase 3",
-          "status": "UNKNOWN (pending next sync)",
+          "status": "NOT_YET_RECRUITING",
           "readout": "TBD",
-          "readout_date": null,
+          "readout_date": "2029-03-28",
           "registry_id": "NCT07430956",
           "note": "ClinicalTrials.gov: AF population unsuitable for oral anticoagulation; verify assignment of REGN7508/REGN9933 at next sync."
         }
@@ -820,7 +820,7 @@
       "mechanism": "Oral SK ion channel inhibitor",
       "focus": "Rhythm control in AF; reduction in AF burden",
       "company": "Acesion Pharma",
-      "latest_update": "Acesion Pharma starts Phase 2 trial of AP31969 in patients with atrial fibrillation",
+      "latest_update": "ClinicalTrials.gov update posted 2025-12-05",
       "press_2026": true,
       "tags": [
         "SK channel",
@@ -1111,7 +1111,7 @@
       "mechanism": "Intravenous SK (KCa2) ion channel inhibitor",
       "focus": "Pharmacologic cardioversion of recent-onset AF",
       "company": "Acesion Pharma",
-      "latest_update": "Acesion Pharma starts Phase 2 trial of AP31969 in patients with atrial fibrillation",
+      "latest_update": "ClinicalTrials.gov update posted 2024-05-06",
       "tags": [
         "SK channel",
         "IV",
@@ -2250,7 +2250,7 @@
       "mechanism": "Epicardial RF ablation (hybrid convergent procedure)",
       "focus": "Persistent and long-standing persistent AF",
       "company": "AtriCure",
-      "latest_update": "AtriCure Completes Enrollment in LeAAPS Clinical Trial for Stroke Prevention",
+      "latest_update": "ClinicalTrials.gov update posted 2023-11-13",
       "tags": [
         "RF",
         "hybrid",
@@ -3231,6 +3231,13 @@
     }
   ],
   "weekly_updates": {
+    "guideline_updates": [
+      {
+        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
+        "date": "2026-02-25",
+        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
+      }
+    ],
     "conference_abstracts": [
       {
         "title": "Abbott Laboratories (ABT) Announces Positive Results for Amulet 360 Left Atrial Appendage (LAA) Occlude - Yahoo Finance",
@@ -3298,6 +3305,8 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
       }
     ],
+    "label_expansions": [],
+    "safety_signals": [],
     "press_pipeline": [
       {
         "title": "C Kevin Clem Obituary (2026) - Delphi, IN - Abbott Funeral Home - Delphi - SMH.com.au",
@@ -3354,15 +3363,6 @@
         "date": "",
         "source": "CI manual scan \u00b7 Match: REGN7508"
       }
-    ],
-    "label_expansions": [],
-    "guideline_updates": [
-      {
-        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
-        "date": "2026-02-25",
-        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
-      }
-    ],
-    "safety_signals": []
+    ]
   }
 }

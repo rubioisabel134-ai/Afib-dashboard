@@ -210,6 +210,24 @@ def fetch_page_date(url: str) -> Optional[datetime]:
     return None
 
 
+def fetch_ctgov_last_update(nct_id: str) -> Optional[datetime]:
+    api_url = f"https://clinicaltrials.gov/api/v2/studies/{nct_id}"
+    try:
+        req = Request(api_url, headers={"User-Agent": "AFib-CI-Manual/1.0"})
+        with urlopen(req, timeout=15) as resp:
+            payload = json.loads(resp.read().decode("utf-8", errors="ignore"))
+    except Exception:
+        return None
+
+    status = payload.get("protocolSection", {}).get("statusModule", {})
+    last = (
+        status.get("lastUpdatePostDateStruct", {}).get("date")
+        or status.get("primaryCompletionDateStruct", {}).get("date")
+        or status.get("completionDateStruct", {}).get("date")
+    )
+    return parse_iso_datetime(last) if last else None
+
+
 def parse_iso_datetime(raw: str) -> Optional[datetime]:
     text = (raw or "").strip()
     if not text:
@@ -222,6 +240,11 @@ def parse_iso_datetime(raw: str) -> Optional[datetime]:
         return dt
     except Exception:
         return None
+
+
+def extract_nct_id(text: str) -> str:
+    m = re.search(r"\bNCT\d{8}\b", (text or "").upper())
+    return m.group(0) if m else ""
 
 
 def match_term(text: str, terms: List[str]) -> str:
@@ -256,11 +279,76 @@ def is_excluded(text: str) -> bool:
 
 
 def parse_date_from_text(text: str) -> Optional[datetime]:
-    m = re.search(r"(20\d{2})[-/](\d{1,2})[-/](\d{1,2})", text)
-    if not m:
-        return None
-    year, month, day = map(int, m.groups())
-    return datetime(year, month, day, tzinfo=timezone.utc)
+    s = text or ""
+
+    # 2026-03-05 or 2026/03/05
+    m = re.search(r"\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b", s)
+    if m:
+        year, month, day = map(int, m.groups())
+        try:
+            return datetime(year, month, day, tzinfo=timezone.utc)
+        except Exception:
+            pass
+
+    # 03/05/2026 or 3-5-2026
+    m = re.search(r"\b(\d{1,2})[-/](\d{1,2})[-/](20\d{2})\b", s)
+    if m:
+        month, day, year = map(int, m.groups())
+        try:
+            return datetime(year, month, day, tzinfo=timezone.utc)
+        except Exception:
+            pass
+
+    # Month-name formats: February 10, 2026 / Feb 10, 2026 / 10 February 2026
+    months = {
+        "jan": 1, "january": 1,
+        "feb": 2, "february": 2,
+        "mar": 3, "march": 3,
+        "apr": 4, "april": 4,
+        "may": 5,
+        "jun": 6, "june": 6,
+        "jul": 7, "july": 7,
+        "aug": 8, "august": 8,
+        "sep": 9, "sept": 9, "september": 9,
+        "oct": 10, "october": 10,
+        "nov": 11, "november": 11,
+        "dec": 12, "december": 12,
+    }
+    m = re.search(
+        r"\b("
+        r"jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|"
+        r"aug(?:ust)?|sep(?:t|tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?"
+        r")\s+(\d{1,2}),?\s+(20\d{2})\b",
+        s,
+        flags=re.IGNORECASE,
+    )
+    if m:
+        mon_s, day_s, year_s = m.groups()
+        month = months.get(mon_s.lower())
+        if month:
+            try:
+                return datetime(int(year_s), month, int(day_s), tzinfo=timezone.utc)
+            except Exception:
+                pass
+
+    m = re.search(
+        r"\b(\d{1,2})\s+("
+        r"jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|"
+        r"aug(?:ust)?|sep(?:t|tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?"
+        r"),?\s+(20\d{2})\b",
+        s,
+        flags=re.IGNORECASE,
+    )
+    if m:
+        day_s, mon_s, year_s = m.groups()
+        month = months.get(mon_s.lower())
+        if month:
+            try:
+                return datetime(int(year_s), month, int(day_s), tzinfo=timezone.utc)
+            except Exception:
+                pass
+
+    return None
 
 
 def parse_year_from_text(text: str) -> Optional[int]:
@@ -355,6 +443,7 @@ def main() -> int:
     require_tracked = not args.allow_keyword_only
     out: List[Item] = []
     date_cache = load_date_cache()
+    ctgov_cache: Dict[str, str] = {}
 
     for raw in input_path.read_text().splitlines():
         parsed = parse_input_line(raw)
@@ -392,6 +481,15 @@ def main() -> int:
                 if page_date is not None:
                     item_date = page_date
 
+        if item_date is None:
+            nct = extract_nct_id(hay)
+            if nct:
+                cached_ct = ctgov_cache.get(nct)
+                ct_date = parse_iso_datetime(cached_ct) if cached_ct else fetch_ctgov_last_update(nct)
+                if ct_date is not None:
+                    ctgov_cache[nct] = ct_date.isoformat()
+                    item_date = ct_date
+
         term_match = match_term(hay, terms)
         emerging_match = match_emerging_term(hay)
         if require_tracked and not term_match and not emerging_match:
@@ -406,7 +504,11 @@ def main() -> int:
                 title=title,
                 url=url,
                 match=term_match or emerging_match or "Keyword-only",
-                date=item_date.date().isoformat() if item_date is not None else "Unknown",
+                date=(
+                    item_date.date().isoformat()
+                    if item_date is not None
+                    else f"Captured {now.date().isoformat()} (publish date unavailable)"
+                ),
             )
         )
 

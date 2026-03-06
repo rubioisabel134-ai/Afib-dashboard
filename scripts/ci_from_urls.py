@@ -113,6 +113,16 @@ EXCLUDE_PHRASES = [
     "wellness",
     "diet",
     "exercise tips",
+    "obituary",
+    "funeral home",
+    "memorial",
+    "stock price",
+    "insider buy",
+    "marketbeat",
+    "yahoo finance",
+    "stake in abbott laboratories",
+    "wealth llc",
+    "earnings call",
 ]
 
 

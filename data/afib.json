@@ -1586,7 +1586,7 @@
       "mechanism": "Left atrial appendage occluder",
       "focus": "Stroke prevention in AF",
       "company": "Abbott",
-      "latest_update": "2026-03-02: C Kevin Clem Obituary (2026) - Delphi, IN - Abbott Funeral Home - Delphi - SMH.com.au",
+      "latest_update": "2026-02-17: UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
       "tags": [
         "LAAO",
         "implant"
@@ -2327,7 +2327,7 @@
       "mechanism": "Contact-force RF ablation catheter with flexible tip",
       "focus": "Paroxysmal AF and typical atrial flutter",
       "company": "Abbott",
-      "latest_update": "2026-03-02: C Kevin Clem Obituary (2026) - Delphi, IN - Abbott Funeral Home - Delphi - SMH.com.au",
+      "latest_update": "2026-02-17: UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
       "tags": [
         "RF",
         "contact force"
@@ -2872,7 +2872,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "AF ablation",
       "company": "Abbott",
-      "latest_update": "2026-03-02: C Kevin Clem Obituary (2026) - Delphi, IN - Abbott Funeral Home - Delphi - SMH.com.au",
+      "latest_update": "2026-02-17: UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -3247,6 +3247,86 @@
     }
   ],
   "weekly_updates": {
+    "press_pipeline": [
+      {
+        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+        "date": "2026-03-06",
+        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
+      },
+      {
+        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
+        "date": "2026-03-06",
+        "source": "CI manual scan \u00b7 Match: SHR-2004"
+      },
+      {
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+        "date": "2026-03-06",
+        "source": "CI manual scan \u00b7 Match: REGN7508"
+      },
+      {
+        "title": "Boston Scientific\u2019s ENTRUST Registry Targets Real-World Edge in Carotid Stroke Prevention - TipRanks",
+        "date": "2026-03-06",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+        "date": "2026-03-03",
+        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
+      },
+      {
+        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
+        "date": "2026-03-03",
+        "source": "CI manual scan \u00b7 Match: SHR-2004"
+      },
+      {
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+        "date": "2026-03-03",
+        "source": "CI manual scan \u00b7 Match: REGN7508"
+      },
+      {
+        "title": "Boston Scientific wins expanded CE mark for Farapulse in persistent AFib - MassDevice",
+        "date": "2026-03-02",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
+        "date": "2026-02-22",
+        "source": "Google News: AFib watchlist 1 \u00b7 Match: Asundexian"
+      },
+      {
+        "title": "Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market - TipRanks",
+        "date": "2026-02-15",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Arg\u00e1 Medtech data supports single-catheter PFA system - massdevice.com",
+        "date": "2026-02-10",
+        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
+        "date": "2026-02-09",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
+        "date": "2026-02-09",
+        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
+      }
+    ],
+    "guideline_updates": [
+      {
+        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
+        "date": "2026-02-25",
+        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
+      }
+    ],
+    "label_expansions": [],
     "safety_signals": [],
     "conference_abstracts": [
       {
@@ -3258,11 +3338,6 @@
         "title": "Boston Scientific\u2019s Farapulse PFA system receives expanded approval - Cardiovascular Business",
         "date": "2026-03-03",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Abbott Laboratories (ABT) Announces Positive Results for Amulet 360 Left Atrial Appendage (LAA) Occlude - Yahoo Finance",
-        "date": "2026-02-20",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
       },
       {
         "title": "UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
@@ -3315,99 +3390,9 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
       },
       {
-        "title": "Abbott stock price: Insider buy and fresh AFib data put ABT back on watch for Monday - TechStock\u00b2",
-        "date": "2026-02-08",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
         "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
         "date": "2026-02-06",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      }
-    ],
-    "press_pipeline": [
-      {
-        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
-        "date": "2026-03-06",
-        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
-      },
-      {
-        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
-        "date": "2026-03-06",
-        "source": "CI manual scan \u00b7 Match: SHR-2004"
-      },
-      {
-        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
-        "date": "2026-03-06",
-        "source": "CI manual scan \u00b7 Match: REGN7508"
-      },
-      {
-        "title": "Boston Scientific\u2019s ENTRUST Registry Targets Real-World Edge in Carotid Stroke Prevention - TipRanks",
-        "date": "2026-03-06",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
-        "date": "2026-03-03",
-        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
-      },
-      {
-        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
-        "date": "2026-03-03",
-        "source": "CI manual scan \u00b7 Match: SHR-2004"
-      },
-      {
-        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
-        "date": "2026-03-03",
-        "source": "CI manual scan \u00b7 Match: REGN7508"
-      },
-      {
-        "title": "C Kevin Clem Obituary (2026) - Delphi, IN - Abbott Funeral Home - Delphi - SMH.com.au",
-        "date": "2026-03-02",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Boston Scientific wins expanded CE mark for Farapulse in persistent AFib - MassDevice",
-        "date": "2026-03-02",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
-        "date": "2026-02-22",
-        "source": "Google News: AFib watchlist 1 \u00b7 Match: Asundexian"
-      },
-      {
-        "title": "Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market - TipRanks",
-        "date": "2026-02-15",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Arg\u00e1 Medtech data supports single-catheter PFA system - massdevice.com",
-        "date": "2026-02-10",
-        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
-        "date": "2026-02-09",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
-        "date": "2026-02-09",
-        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
-      }
-    ],
-    "label_expansions": [],
-    "guideline_updates": [
-      {
-        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
-        "date": "2026-02-25",
-        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
       }
     ]
   }

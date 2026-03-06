@@ -296,6 +296,18 @@ def is_af_relevant(title: str, link: str) -> bool:
         "tony abbott",
         "abbott elementary",
         "texas workforce commission",
+        "obituary",
+        "funeral home",
+        "memorial",
+        "died",
+        "stock price",
+        "insider buy",
+        "marketbeat",
+        "yahoo finance",
+        "stake in abbott laboratories",
+        "wealth llc",
+        "investor alert",
+        "earnings call",
     ]
     if any(term in haystack for term in exclude_terms):
         return False

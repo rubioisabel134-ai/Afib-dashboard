@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-03-06",
+  "as_of": "2026-03-07",
   "items": [
     {
       "id": "milvexian",
@@ -3275,24 +3275,88 @@
     }
   ],
   "weekly_updates": {
-    "guideline_updates": [
+    "conference_abstracts": [
       {
-        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
-        "date": "2026-02-25",
-        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
-      }
-    ],
-    "label_expansions": [],
-    "press_pipeline": [
-      {
-        "title": "RBD4059 publication: RNA interference therapy targeting coagulation factor XI",
-        "date": "2026-03-07",
-        "source": "Blood Advances / ASH \u00b7 Match: RBD4059"
+        "title": "Pulse Biosciences at TD Cowen Conference: NSPFA Technology Shines - Investing.com",
+        "date": "2026-03-04",
+        "source": "Google News: AF Symposium (7d) \u00b7 Match: Pulse Biosciences"
       },
       {
-        "title": "OKL-1111 program terminated",
+        "title": "Boston Scientific\u2019s Farapulse PFA system receives expanded approval - Cardiovascular Business",
+        "date": "2026-03-03",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
+        "date": "2026-02-17",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Abbott\u2019s Volt PFA System Enters U.K. Pilot Amid Expanding Atrial Fibrillation Market - TipRanks",
+        "date": "2026-02-15",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "NHS hospitals pilot Abbott Volt PFA system - Med-Tech Insights",
+        "date": "2026-02-13",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Abbott initiates UK pilot of Volt PFA system - Medical Device Network",
+        "date": "2026-02-12",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Arg\u00e1 Medtech reports 94% lesion durability and strong safety profile in PFA trial - Health Tech World",
+        "date": "2026-02-12",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Arg\u00e1 Medtech reports 94% lesion durability and \u201cstrong safety profile\u201d with single-catheter PFA system - Cardiac Rhythm News",
+        "date": "2026-02-11",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
+        "date": "2026-02-10",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Abbott stock rises on AFib device data buzz as traders weigh FDA overhang - Bez Kabli",
+        "date": "2026-02-10",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Arg\u00e1 Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA System - The Manila Times",
+        "date": "2026-02-09",
+        "source": "Google News: AF Symposium (7d) \u00b7 Match: Arg\u00e1 Medtech"
+      },
+      {
+        "title": "Abbott Reports Strong Results for Amulet 360 LAA Occlusion Device - Medical Product Outsourcing",
+        "date": "2026-02-09",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
+        "date": "2026-02-06",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+      }
+    ],
+    "press_pipeline": [
+      {
+        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
         "date": "2026-03-07",
-        "source": "Alveron News \u00b7 Match: OKL-1111"
+        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
+      },
+      {
+        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
+        "date": "2026-03-07",
+        "source": "CI manual scan \u00b7 Match: SHR-2004"
+      },
+      {
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+        "date": "2026-03-07",
+        "source": "CI manual scan \u00b7 Match: REGN7508"
       },
       {
         "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
@@ -3365,72 +3429,13 @@
         "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
       }
     ],
+    "label_expansions": [],
     "safety_signals": [],
-    "conference_abstracts": [
+    "guideline_updates": [
       {
-        "title": "Pulse Biosciences at TD Cowen Conference: NSPFA Technology Shines - Investing.com",
-        "date": "2026-03-04",
-        "source": "Google News: AF Symposium (7d) \u00b7 Match: Pulse Biosciences"
-      },
-      {
-        "title": "Boston Scientific\u2019s Farapulse PFA system receives expanded approval - Cardiovascular Business",
-        "date": "2026-03-03",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
-        "date": "2026-02-17",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Abbott\u2019s Volt PFA System Enters U.K. Pilot Amid Expanding Atrial Fibrillation Market - TipRanks",
-        "date": "2026-02-15",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "NHS hospitals pilot Abbott Volt PFA system - Med-Tech Insights",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Abbott initiates UK pilot of Volt PFA system - Medical Device Network",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Arg\u00e1 Medtech reports 94% lesion durability and strong safety profile in PFA trial - Health Tech World",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Arg\u00e1 Medtech reports 94% lesion durability and \u201cstrong safety profile\u201d with single-catheter PFA system - Cardiac Rhythm News",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Abbott stock rises on AFib device data buzz as traders weigh FDA overhang - Bez Kabli",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Arg\u00e1 Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA System - The Manila Times",
-        "date": "2026-02-09",
-        "source": "Google News: AF Symposium (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Abbott Reports Strong Results for Amulet 360 LAA Occlusion Device - Medical Product Outsourcing",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
-        "date": "2026-02-06",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
+        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
+        "date": "2026-02-25",
+        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
       }
     ]
   }

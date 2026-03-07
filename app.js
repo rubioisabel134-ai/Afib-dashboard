@@ -18,9 +18,7 @@ const searchEl = document.getElementById("search");
 const categoryFiltersEl = document.getElementById("categoryFilters");
 const stageFiltersEl = document.getElementById("stageFilters");
 const typeFiltersEl = document.getElementById("typeFilters");
-const weeklySafetyEl = document.getElementById("weeklySafety");
-const weeklyLabelEl = document.getElementById("weeklyLabel");
-const weeklyGuidelineEl = document.getElementById("weeklyGuideline");
+const weeklySafetyLabelEl = document.getElementById("weeklySafetyLabel");
 const weeklyConferenceEl = document.getElementById("weeklyConference");
 const weeklyPressEl = document.getElementById("weeklyPress");
 const cardTemplate = document.getElementById("cardTemplate");
@@ -293,9 +291,12 @@ function renderWeeklyList(container, entries) {
 
 function renderWeeklyIntel(weekly) {
   if (!weekly) return;
-  renderWeeklyList(weeklySafetyEl, weekly.safety_signals);
-  renderWeeklyList(weeklyLabelEl, weekly.label_expansions);
-  renderWeeklyList(weeklyGuidelineEl, weekly.guideline_updates);
+  const mergedSafetyLabel = [
+    ...(weekly.safety_signals || []),
+    ...(weekly.label_expansions || []),
+    ...(weekly.guideline_updates || []),
+  ].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  renderWeeklyList(weeklySafetyLabelEl, mergedSafetyLabel);
   renderWeeklyList(weeklyConferenceEl, weekly.conference_abstracts);
   renderWeeklyList(weeklyPressEl, weekly.press_pipeline);
 }

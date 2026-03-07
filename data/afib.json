@@ -1506,20 +1506,23 @@
       "name": "OKL-1111",
       "type": "Drug",
       "category": "Reversal Agents",
-      "stage": "Phase 1 completed (program status uncertain)",
+      "stage": "Program terminated",
       "mechanism": "Broad-spectrum anticoagulant reversal agent",
       "focus": "Reversal of direct thrombin and FXa inhibitors",
       "company": "Alveron",
-      "latest_update": "Company stated Phase 1 was successful but subsequent data did not support progression",
+      "latest_update": "2026-03-07: OKL-1111 program terminated",
       "tags": [
         "reversal",
-        "program status"
+        "program status",
+        "terminated"
       ],
       "trials": [],
-      "notes": "Alveron reported Phase 1 success but later data did not support continued development.",
+      "notes": "Alveron reported Phase 1 success but later data did not support continued development; program terminated.",
       "sources": [
-        "https://alveron.com/news/alveron-initiates-kgk-strategic-partnership-on-lex-033/"
-      ]
+        "https://alveron.com/news/alveron-initiates-kgk-strategic-partnership-on-lex-033/",
+        "https://www.alveron.com/news"
+      ],
+      "press_2026": true
     },
     {
       "id": "prothromplex-total",
@@ -3244,10 +3247,53 @@
         "https://www.maxwellbiomedical.com/cardialen-acquision",
         "https://www.prnewswire.com/news-releases/maxwell-biomedical-completes-acquisition-of-cardialens-assets-301702748.html"
       ]
+    },
+    {
+      "id": "rbd4059",
+      "name": "RBD4059",
+      "type": "Drug",
+      "category": "Stroke Prevention - FXI Inhibitors",
+      "stage": "Preclinical",
+      "mechanism": "RNA interference therapy targeting coagulation factor XI",
+      "focus": "Stroke prevention and anticoagulation risk reduction in AF",
+      "company": "Ribocure / RiboLife",
+      "latest_update": "2026-03-07: RBD4059 publication: RNA interference therapy targeting coagulation factor XI",
+      "tags": [
+        "FXI",
+        "RNAi",
+        "stroke prevention",
+        "preclinical"
+      ],
+      "trials": [],
+      "notes": "Emerging RNA interference approach for FXI suppression; potential competitor in low-bleeding anticoagulation strategies if advanced into AF clinical trials.",
+      "sources": [
+        "https://ashpublications.org/bloodadvances/article/doi/10.1182/bloodadvances.2025018348/565939/RNA-interference-therapy-targeting-coagulation",
+        "https://pharmaphorum.com/news/rna-specialist-ribo-files-205m-ipo-hong-kong",
+        "https://ribocure.com/ribo-and-ribocure-announce-exclusive-global-licensing-agreement/"
+      ],
+      "press_2026": true
     }
   ],
   "weekly_updates": {
+    "guideline_updates": [
+      {
+        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
+        "date": "2026-02-25",
+        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
+      }
+    ],
+    "label_expansions": [],
     "press_pipeline": [
+      {
+        "title": "RBD4059 publication: RNA interference therapy targeting coagulation factor XI",
+        "date": "2026-03-07",
+        "source": "Blood Advances / ASH \u00b7 Match: RBD4059"
+      },
+      {
+        "title": "OKL-1111 program terminated",
+        "date": "2026-03-07",
+        "source": "Alveron News \u00b7 Match: OKL-1111"
+      },
       {
         "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
         "date": "2026-03-06",
@@ -3319,14 +3365,6 @@
         "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
       }
     ],
-    "guideline_updates": [
-      {
-        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
-        "date": "2026-02-25",
-        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
-      }
-    ],
-    "label_expansions": [],
     "safety_signals": [],
     "conference_abstracts": [
       {

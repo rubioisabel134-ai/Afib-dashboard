@@ -220,7 +220,10 @@ def build_google_news_sources(terms: List[str]) -> List[Dict[str, str]]:
     for idx in range(0, len(terms), chunk_size):
         chunk = terms[idx : idx + chunk_size]
         query_terms = " OR ".join(f'\"{term}\"' for term in chunk)
-        query = f"({query_terms}) (atrial fibrillation OR AFib) when:7d"
+        query = (
+            f"({query_terms}) (atrial fibrillation OR AFib) "
+            f"(\"press release\" OR trial OR phase OR study OR topline OR enrollment) when:7d"
+        )
         safe_query = urllib.parse.quote(query, safe="")
         sources.append(
             {
@@ -244,13 +247,27 @@ def load_company_press_sources() -> List[Dict[str, str]]:
     for entry in data:
         name = (entry.get("name") or "").strip()
         url = (entry.get("url") or "").strip()
-        if not name or not url:
+        query = (entry.get("query") or "").strip()
+        require_match = entry.get("require_match", True)
+        if not name or (not url and not query):
+            continue
+        if query:
+            safe_query = urllib.parse.quote(query, safe="")
+            sources.append(
+                {
+                    "name": name,
+                    "category": "press_pipeline",
+                    "url": GOOGLE_NEWS_BASE.format(query=safe_query),
+                    "require_match": require_match,
+                }
+            )
             continue
         sources.append(
             {
                 "name": name,
                 "category": "press_pipeline",
                 "url": url,
+                "require_match": require_match,
             }
         )
     return sources

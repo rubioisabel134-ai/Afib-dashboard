@@ -1,14 +1,52 @@
 [
   {
     "name": "Abbott MediaRoom (Press Releases)",
-    "url": "https://abbott.mediaroom.com/press-releases?pagetemplate=rss"
+    "url": "https://abbott.mediaroom.com/press-releases?pagetemplate=rss",
+    "require_match": true
   },
   {
-    "name": "Bristol Myers Squibb (Press Releases)",
-    "url": "https://news.bms.com/rss/pressrelease.aspx"
+    "name": "AtriCure Press Releases (site query)",
+    "query": "site:news.atricure.com/press-release \"atrial fibrillation\" when:30d",
+    "require_match": true
+  },
+  {
+    "name": "Boston Scientific News Releases (site query)",
+    "query": "site:news.bostonscientific.com/news-releases (atrial fibrillation OR AFib OR LAAO OR ablation) when:30d",
+    "require_match": true
+  },
+  {
+    "name": "Novartis News (site query)",
+    "query": "site:novartis.com/news (atrial fibrillation OR FXI OR anticoagulation OR stroke prevention) when:30d",
+    "require_match": true
+  },
+  {
+    "name": "Xyra News (site query)",
+    "query": "site:xyra.us/news (atrial fibrillation OR budiodarone OR HARBOR-AF) when:30d",
+    "require_match": true
+  },
+  {
+    "name": "BMS Press Releases",
+    "url": "https://news.bms.com/rss/pressrelease.aspx",
+    "require_match": true
+  },
+  {
+    "name": "Regeneron Press Releases (site query)",
+    "query": "site:investor.regeneron.com/news/press-releases (atrial fibrillation OR anticoagulation OR factor XI OR REGN7508 OR REGN9933) when:30d",
+    "require_match": true
+  },
+  {
+    "name": "Regeneron Events & Recent (site query)",
+    "query": "site:investor.regeneron.com/events-and-presentations/events-and-recent (atrial fibrillation OR anticoagulation OR factor XI) when:30d",
+    "require_match": true
+  },
+  {
+    "name": "Ribocure News (site query)",
+    "query": "site:ribocure.com (RBD4059 OR atrial fibrillation OR anticoagulation OR RNA interference) when:90d",
+    "require_match": true
   },
   {
     "name": "Johnson & Johnson (Press Releases)",
-    "url": "https://www.jnj.com/rss-feed/all"
+    "url": "https://www.jnj.com/rss-feed/all",
+    "require_match": true
   }
 ]

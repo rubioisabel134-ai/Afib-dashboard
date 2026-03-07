@@ -288,6 +288,13 @@ def is_excluded(text: str) -> bool:
     return any(term in lower for term in EXCLUDE_PHRASES)
 
 
+def is_press_focused_url(url: str) -> bool:
+    lower = (url or "").lower()
+    if "atricure.com" in lower:
+        return "news.atricure.com/press-release" in lower or "/news-release" in lower or "/news/" in lower
+    return True
+
+
 def parse_date_from_text(text: str) -> Optional[datetime]:
     s = text or ""
 
@@ -469,6 +476,8 @@ def main() -> int:
 
         hay = f"{title} {url}"
         if is_excluded(hay):
+            continue
+        if not is_press_focused_url(url):
             continue
 
         date = parse_date_from_text(hay)

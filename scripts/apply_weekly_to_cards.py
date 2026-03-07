@@ -35,9 +35,27 @@ def extract_nct_id(text: str) -> str:
     return m.group(0) if m else ""
 
 
-def should_replace(existing: Optional[dict], dt: Optional[datetime], title: str) -> bool:
+def source_priority(source: str) -> int:
+    s = (source or "").lower()
+    if "press release" in s or "press releases" in s or "mediaroom" in s:
+        return 1
+    if "fda" in s or "ema" in s:
+        return 2
+    if "google news" in s:
+        return 4
+    return 3
+
+
+def should_replace(existing: Optional[dict], dt: Optional[datetime], title: str, source: str) -> bool:
     if existing is None:
         return True
+    new_rank = source_priority(source)
+    old_rank = source_priority(existing.get("source", ""))
+    # Always prefer higher-quality source (company press > regulatory > other > Google News).
+    if new_rank < old_rank:
+        return True
+    if new_rank > old_rank:
+        return False
     prev_dt = existing.get("date")
     if prev_dt is None and dt is not None:
         return True
@@ -118,7 +136,7 @@ def main() -> int:
                     continue
                 seen_item_ids.add(key)
                 existing = updates_by_item.get(key)
-                if should_replace(existing, dt, title):
+                if should_replace(existing, dt, title, source):
                     updates_by_item[key] = {
                         "title": title,
                         "date": dt,

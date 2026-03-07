@@ -137,7 +137,7 @@
       "mechanism": "Humanized monoclonal antibody targeting Factor XI",
       "focus": "Anticoagulation in AF with reduced bleeding risk",
       "company": "Jiangsu Hengrui",
-      "latest_update": "2026-03-06: Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
+      "latest_update": "2026-03-07: Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
       "tags": [
         "FXI",
         "mAb",
@@ -171,7 +171,7 @@
       "mechanism": "Monoclonal antibody targeting FXI catalytic domain",
       "focus": "Anticoagulation with reduced bleeding risk; AF stroke prevention program planned",
       "company": "Regeneron",
-      "latest_update": "2026-03-06: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+      "latest_update": "2026-03-07: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -227,7 +227,7 @@
       "mechanism": "Monoclonal antibody targeting FXI A2 domain",
       "focus": "Anticoagulation for patients with higher bleeding risk; AF safety program",
       "company": "Regeneron",
-      "latest_update": "2026-03-06: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+      "latest_update": "2026-03-07: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -1553,7 +1553,7 @@
       "mechanism": "Left atrial appendage closure device",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-03-06: Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+      "latest_update": "2026-03-07: Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
       "tags": [
         "LAAO",
         "implant"
@@ -1589,7 +1589,7 @@
       "mechanism": "Left atrial appendage occluder",
       "focus": "Stroke prevention in AF",
       "company": "Abbott",
-      "latest_update": "2026-02-17: UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
+      "latest_update": "2026-02-06: Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
       "tags": [
         "LAAO",
         "implant"
@@ -2330,7 +2330,7 @@
       "mechanism": "Contact-force RF ablation catheter with flexible tip",
       "focus": "Paroxysmal AF and typical atrial flutter",
       "company": "Abbott",
-      "latest_update": "2026-02-17: UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
+      "latest_update": "2026-02-06: Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
       "tags": [
         "RF",
         "contact force"
@@ -2875,7 +2875,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "AF ablation",
       "company": "Abbott",
-      "latest_update": "2026-02-17: UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
+      "latest_update": "2026-02-06: Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
       "press_2026": true,
       "tags": [
         "PFA",

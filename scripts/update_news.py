@@ -101,6 +101,36 @@ def write_rows(rows: List[Dict[str, str]]) -> None:
         writer.writerows(rows)
 
 
+def is_regulatory_item(title: str, link: str, source: str = "") -> bool:
+    text_blob = f"{title} {link} {source}".lower()
+    terms = [
+        "expanded approval",
+        "approval",
+        "approved",
+        "fda approval",
+        "fda approved",
+        "approved by fda",
+        "pma approval",
+        "510(k)",
+        "ce mark",
+        "ce-mark",
+        "ema approval",
+        "marketing authorization",
+        "nmpa",
+        "pmda",
+        "approved in china",
+        "approval in china",
+        "approved in japan",
+        "approval in japan",
+        "regulatory approval",
+        "clearance",
+        "patent",
+        "granted patent",
+        "breakthrough device designation",
+    ]
+    return any(term in text_blob for term in terms)
+
+
 def normalize_title(title: str) -> str:
     # Drop common trailing publisher suffixes so the same story title dedupes.
     base = re.split(r"\s[-|\u2014]\s", title, maxsplit=1)[0]
@@ -421,6 +451,10 @@ def main() -> int:
         for row in read_existing()
         if is_af_relevant(row.get("title", ""), row.get("link", "")) and keep_row(row)
     ]
+    # Re-route regulatory items into the merged Regulatory+Safety column.
+    for row in existing:
+        if is_regulatory_item(row.get("title", ""), row.get("link", ""), row.get("source", "")):
+            row["category"] = "safety_signals"
     existing = dedupe_rows(existing)
     seen = set(
         (
@@ -467,6 +501,8 @@ def main() -> int:
                 "source": source_label,
                 "link": link,
             }
+            if is_regulatory_item(title, link, source_label):
+                row["category"] = "safety_signals"
             key = (row["category"], normalize_title(row["title"]), row["date"])
             if key in seen:
                 continue

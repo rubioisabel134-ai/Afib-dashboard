@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-03-07",
+  "as_of": "2026-03-10",
   "items": [
     {
       "id": "milvexian",
@@ -137,7 +137,7 @@
       "mechanism": "Humanized monoclonal antibody targeting Factor XI",
       "focus": "Anticoagulation in AF with reduced bleeding risk",
       "company": "Jiangsu Hengrui",
-      "latest_update": "2026-03-08: Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
+      "latest_update": "2026-03-10: Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
       "tags": [
         "FXI",
         "mAb",
@@ -171,7 +171,7 @@
       "mechanism": "Monoclonal antibody targeting FXI catalytic domain",
       "focus": "Anticoagulation with reduced bleeding risk; AF stroke prevention program planned",
       "company": "Regeneron",
-      "latest_update": "2026-03-08: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+      "latest_update": "2026-03-10: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -227,7 +227,7 @@
       "mechanism": "Monoclonal antibody targeting FXI A2 domain",
       "focus": "Anticoagulation for patients with higher bleeding risk; AF safety program",
       "company": "Regeneron",
-      "latest_update": "2026-03-08: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+      "latest_update": "2026-03-10: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -1553,7 +1553,7 @@
       "mechanism": "Left atrial appendage closure device",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-03-08: Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+      "latest_update": "2026-03-10: Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
       "tags": [
         "LAAO",
         "implant"
@@ -1756,7 +1756,7 @@
       "mechanism": "Conformable foam-based LAA occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Conformal Medical",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-10",
+      "latest_update": "2026-03-08: Conformal Medical Highlights Clinical Focus on LAAC and CONFORM Study at CRT 2026 - TipRanks",
       "tags": [
         "LAAO",
         "foam"
@@ -1776,7 +1776,8 @@
       "sources": [
         "https://www.conformtrial.com/conform-trial",
         "https://conformalmedical.com/company/news/conformal-medical-achieves-enrollment-milestone-in-the-conform-ide-trial",
-        "https://www.gore.com/news-events/gore-completes-acquisition-conformal-medical"
+        "https://www.gore.com/news-events/gore-completes-acquisition-conformal-medical",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYnBKdGxxVzBnTDAxT3luaGdsR184SGQxMnpHT2hEWnRJM3lpWDhxd0QzeUhyeGcwbmJlWmtkYVhTTjRlbUZDTnQ3cVI3T0V0a0J2SkJTWkd1ZjdNMlNvM2lOZlM4MHRjdTVvYnhXQklrZ0tkX3JObmppREdVakRxem1MdzJudXdtbFpHOE9IalcwN0EtTmVYSUJuZ2ZidkJyTjZZOHNITWV4cl9HbnVseEdzUXl2UkNjNXdBeUc1OHJwbi1uUjI2TQ?oc=5"
       ],
       "press_2026": true
     },
@@ -3275,14 +3276,22 @@
     }
   ],
   "weekly_updates": {
-    "guideline_updates": [
-      {
-        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
-        "date": "2026-02-25",
-        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
-      }
-    ],
     "press_pipeline": [
+      {
+        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+        "date": "2026-03-10",
+        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
+      },
+      {
+        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
+        "date": "2026-03-10",
+        "source": "CI manual scan \u00b7 Match: SHR-2004"
+      },
+      {
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+        "date": "2026-03-10",
+        "source": "CI manual scan \u00b7 Match: REGN7508"
+      },
       {
         "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
         "date": "2026-03-08",
@@ -3379,7 +3388,31 @@
         "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
       }
     ],
+    "safety_signals": [
+      {
+        "title": "Boston Scientific\u2019s Farapulse PFA system receives expanded approval - Cardiovascular Business",
+        "date": "2026-03-03",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
+      },
+      {
+        "title": "Boston Scientific wins expanded CE mark for Farapulse in persistent AFib - MassDevice",
+        "date": "2026-03-02",
+        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
+      }
+    ],
+    "guideline_updates": [
+      {
+        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
+        "date": "2026-02-25",
+        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
+      }
+    ],
     "conference_abstracts": [
+      {
+        "title": "Conformal Medical Highlights Clinical Focus on LAAC and CONFORM Study at CRT 2026 - TipRanks",
+        "date": "2026-03-08",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Conformal Medical"
+      },
       {
         "title": "Pulse Biosciences at TD Cowen Conference: NSPFA Technology Shines - Investing.com",
         "date": "2026-03-04",
@@ -3441,18 +3474,6 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
       }
     ],
-    "label_expansions": [],
-    "safety_signals": [
-      {
-        "title": "Boston Scientific\u2019s Farapulse PFA system receives expanded approval - Cardiovascular Business",
-        "date": "2026-03-03",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Boston Scientific wins expanded CE mark for Farapulse in persistent AFib - MassDevice",
-        "date": "2026-03-02",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
-      }
-    ]
+    "label_expansions": []
   }
 }

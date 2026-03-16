@@ -34,6 +34,31 @@ def fetch_xml(url: str) -> bytes:
         return resp.read()
 
 
+def fetch_ctgov_last_update_date(nct_id: str) -> str:
+    nct = (nct_id or "").upper().strip()
+    if not nct.startswith("NCT"):
+        return ""
+    url = f"https://clinicaltrials.gov/api/v2/studies/{nct}"
+    try:
+        req = Request(url, headers={"User-Agent": "AFib-Dashboard-News/1.0"})
+        with urlopen(req, timeout=20) as resp:
+            payload = json.load(resp)
+    except Exception:
+        return ""
+
+    status = payload.get("protocolSection", {}).get("statusModule", {})
+    candidates = [
+        status.get("lastUpdatePostDateStruct", {}).get("date"),
+        status.get("primaryCompletionDateStruct", {}).get("date"),
+        status.get("completionDateStruct", {}).get("date"),
+    ]
+    for raw in candidates:
+        dt = parse_date(raw)
+        if dt:
+            return dt.date().isoformat()
+    return ""
+
+
 def parse_date(raw: Optional[str]) -> Optional[datetime]:
     if not raw:
         return None
@@ -389,7 +414,7 @@ def manual_ci_rows(
     if not CI_MANUAL_URLS_PATH.exists():
         return []
     rows: List[Dict[str, str]] = []
-    today = datetime.now(timezone.utc).date().isoformat()
+    ctgov_date_cache: Dict[str, str] = {}
     for raw in CI_MANUAL_URLS_PATH.read_text(encoding="utf-8", errors="ignore").splitlines():
         parsed = parse_manual_input_line(raw)
         if not parsed:
@@ -421,10 +446,14 @@ def manual_ci_rows(
         row = {
             "category": "press_pipeline",
             "title": title,
-            "date": today,
+            "date": "",
             "source": f"CI manual scan · Match: {match}",
             "link": link,
         }
+        if nct_id:
+            if nct_id not in ctgov_date_cache:
+                ctgov_date_cache[nct_id] = fetch_ctgov_last_update_date(nct_id)
+            row["date"] = ctgov_date_cache[nct_id]
         key = (row["category"], normalize_title(row["title"]), row["date"])
         if key in seen:
             continue
@@ -451,6 +480,20 @@ def main() -> int:
         for row in read_existing()
         if is_af_relevant(row.get("title", ""), row.get("link", "")) and keep_row(row)
     ]
+    # Keep CI manual ClinicalTrials.gov rows tied to true CT.gov update dates.
+    ctgov_date_cache: Dict[str, str] = {}
+    for row in existing:
+        link = row.get("link", "")
+        source = (row.get("source") or "").lower()
+        if "ci manual scan" not in source or "clinicaltrials.gov/study/" not in link.lower():
+            continue
+        nct_id = extract_nct_id(f"{row.get('title', '')} {link}")
+        if not nct_id:
+            continue
+        if nct_id not in ctgov_date_cache:
+            ctgov_date_cache[nct_id] = fetch_ctgov_last_update_date(nct_id)
+        if ctgov_date_cache[nct_id]:
+            row["date"] = ctgov_date_cache[nct_id]
     # Re-route regulatory items into the merged Regulatory+Safety column.
     for row in existing:
         if is_regulatory_item(row.get("title", ""), row.get("link", ""), row.get("source", "")):

@@ -159,7 +159,7 @@ function buildUpdateEntries(items) {
       stage: item.stage || "",
       company: item.company || "Unknown",
       date: extractUpdateDate(item.latest_update || ""),
-      source: latestSource(item),
+      source: bestUpdateSource(item),
     }))
     .sort((a, b) => {
       if (a.press !== b.press) return a.press ? -1 : 1;
@@ -199,7 +199,18 @@ function extractUpdateDate(updateText) {
   return m ? m[1] : "";
 }
 
-function latestSource(item) {
+function bestUpdateSource(item) {
+  const updateText = item?.latest_update || "";
+  const nctMatch = updateText.match(/\bNCT\d{8}\b/i);
+  if (nctMatch) {
+    return `https://clinicaltrials.gov/study/${nctMatch[0].toUpperCase()}`;
+  }
+  if (/clinicaltrials\.gov|trial|phase|recruiting|enrollment/i.test(updateText)) {
+    const trialWithRegistry = (item?.trials || []).find((trial) => (trial?.registry_id || "").match(/^NCT\d{8}$/i));
+    if (trialWithRegistry) {
+      return `https://clinicaltrials.gov/study/${trialWithRegistry.registry_id.toUpperCase()}`;
+    }
+  }
   const sources = item?.sources || [];
   if (!sources.length) return "";
   return sources[sources.length - 1] || "";

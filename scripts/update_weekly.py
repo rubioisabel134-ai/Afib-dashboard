@@ -2,6 +2,7 @@
 import csv
 import json
 import re
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,11 +25,73 @@ def normalize_title(title: str) -> str:
     return re.sub(r"\s+", " ", base).strip()
 
 
-def dedupe_entries(entries):
-    def extract_match(source: str) -> str:
-        m = re.search(r"match:\s*(.+)$", source, flags=re.IGNORECASE)
-        return (m.group(1).strip().lower() if m else "")
+def extract_match(source: str) -> str:
+    m = re.search(r"match:\s*(.+)$", source or "", flags=re.IGNORECASE)
+    return (m.group(1).strip().lower() if m else "")
 
+
+def source_priority(source: str) -> int:
+    value = (source or "").lower()
+    if "press release" in value or "press releases" in value or "mediaroom" in value:
+        return 1
+    if "fda" in value or "ema" in value:
+        return 2
+    if "google news" in value:
+        return 4
+    return 3
+
+
+def parse_iso_date(raw: str):
+    text = (raw or "").strip()
+    if not text:
+        return None
+    try:
+        return datetime.fromisoformat(text).date()
+    except Exception:
+        return None
+
+
+def week_bucket(raw: str) -> str:
+    dt = parse_iso_date(raw)
+    if dt is None:
+        return "unknown"
+    iso = dt.isocalendar()
+    return f"{iso.year}-W{iso.week:02d}"
+
+
+def event_type(title: str) -> str:
+    t = (title or "").lower()
+    if any(k in t for k in ["approval", "approved", "ce mark", "clearance", "pma", "510(k)", "patent"]):
+        return "regulatory"
+    if any(k in t for k in ["topline", "readout", "results"]):
+        return "readout"
+    if any(k in t for k in ["enrollment", "first patient", "recruiting", "trial"]):
+        return "trial_progress"
+    if "guideline" in t:
+        return "guideline"
+    if "safety" in t:
+        return "safety"
+    return "general"
+
+
+def prefer(new_entry, old_entry) -> bool:
+    new_rank = source_priority(new_entry.get("source", ""))
+    old_rank = source_priority(old_entry.get("source", ""))
+    if new_rank != old_rank:
+        return new_rank < old_rank
+
+    new_date = parse_iso_date(new_entry.get("date", ""))
+    old_date = parse_iso_date(old_entry.get("date", ""))
+    if new_date and old_date and new_date != old_date:
+        return new_date > old_date
+    if new_date and not old_date:
+        return True
+    if old_date and not new_date:
+        return False
+    return len(new_entry.get("title", "")) > len(old_entry.get("title", ""))
+
+
+def dedupe_entries(entries):
     # Keep newest items first when date is present.
     entries = sorted(entries, key=lambda e: e.get("date", ""), reverse=True)
 
@@ -39,12 +102,12 @@ def dedupe_entries(entries):
         source = entry.get("source", "")
         match = extract_match(source)
         if match:
-            key = ("match_date", match, date)
+            key = ("asset_event_week", match, event_type(title), week_bucket(date))
         else:
-            key = ("title_date", normalize_title(title), date)
+            key = ("title_week", normalize_title(title), week_bucket(date))
 
         current = best.get(key)
-        if current is None or len(title) > len(current.get("title", "")):
+        if current is None or prefer(entry, current):
             best[key] = entry
 
     return list(best.values())
@@ -87,10 +150,26 @@ def main() -> int:
     ]
     for category in category_order:
         unique_entries = []
+        seen_by_week = {}
         for entry in weekly.get(category, []):
             key = (normalize_title(entry.get("title", "")), entry.get("date", ""))
+            week_key = (
+                category,
+                extract_match(entry.get("source", "")),
+                event_type(entry.get("title", "")),
+                week_bucket(entry.get("date", "")),
+            )
             if key in global_seen:
                 continue
+            prior = seen_by_week.get(week_key)
+            if prior is not None and not prefer(entry, prior):
+                continue
+            if prior is not None and prefer(entry, prior):
+                try:
+                    unique_entries.remove(prior)
+                except ValueError:
+                    pass
+            seen_by_week[week_key] = entry
             global_seen.add(key)
             unique_entries.append(entry)
         weekly[category] = unique_entries

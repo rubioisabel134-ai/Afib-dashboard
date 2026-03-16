@@ -2,10 +2,12 @@
 import csv
 import json
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 import urllib.parse
 import xml.etree.ElementTree as ET
@@ -29,9 +31,28 @@ GOOGLE_NEWS_BASE = "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&
 
 
 def fetch_xml(url: str) -> bytes:
-    req = Request(url, headers={"User-Agent": "AFib-Dashboard-News/1.0"})
-    with urlopen(req, timeout=20) as resp:
-        return resp.read()
+    req = Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AFib-Dashboard-News/1.0",
+            "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.5",
+        },
+    )
+    # Retry transient upstream throttling / gateway failures.
+    for attempt in range(3):
+        try:
+            with urlopen(req, timeout=20) as resp:
+                return resp.read()
+        except HTTPError as exc:
+            if exc.code in {429, 500, 502, 503, 504} and attempt < 2:
+                time.sleep(1.2 * (attempt + 1))
+                continue
+            raise
+        except URLError:
+            if attempt < 2:
+                time.sleep(1.2 * (attempt + 1))
+                continue
+            raise
 
 
 def fetch_ctgov_last_update_date(nct_id: str) -> str:
@@ -271,7 +292,8 @@ def build_google_news_sources(terms: List[str]) -> List[Dict[str, str]]:
     if not terms:
         return []
     sources = []
-    chunk_size = 12
+    # Larger chunks reduce request count and lower 503 throttling risk.
+    chunk_size = 28
     for idx in range(0, len(terms), chunk_size):
         chunk = terms[idx : idx + chunk_size]
         query_terms = " OR ".join(f'\"{term}\"' for term in chunk)

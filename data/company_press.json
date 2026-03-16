@@ -45,8 +45,8 @@
     "require_match": true
   },
   {
-    "name": "Johnson & Johnson (Press Releases)",
-    "url": "https://www.jnj.com/rss-feed/all",
-    "require_match": true
+    "name": "Johnson & Johnson News (site query)",
+    "require_match": true,
+    "query": "site:jnj.com/media-center (atrial fibrillation OR AFib OR Biosense Webster OR ablation OR stroke prevention) when:30d"
   }
 ]

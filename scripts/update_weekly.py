@@ -16,6 +16,7 @@ CATEGORIES = {
     "conference_abstracts",
     "press_pipeline",
 }
+MAX_ITEMS_PER_CATEGORY = 12
 
 
 def normalize_title(title: str) -> str:
@@ -57,6 +58,13 @@ def week_bucket(raw: str) -> str:
         return "unknown"
     iso = dt.isocalendar()
     return f"{iso.year}-W{iso.week:02d}"
+
+
+def sort_key(entry):
+    dt = parse_iso_date(entry.get("date", ""))
+    ord_date = dt.toordinal() if dt else 0
+    # Lower source rank is better; higher date is better.
+    return (-ord_date, source_priority(entry.get("source", "")), -len(entry.get("title", "")))
 
 
 def event_type(title: str) -> str:
@@ -172,7 +180,7 @@ def main() -> int:
             seen_by_week[week_key] = entry
             global_seen.add(key)
             unique_entries.append(entry)
-        weekly[category] = unique_entries
+        weekly[category] = sorted(unique_entries, key=sort_key)[:MAX_ITEMS_PER_CATEGORY]
 
     data["weekly_updates"] = weekly
     DATA_PATH.write_text(json.dumps(data, indent=2))

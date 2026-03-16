@@ -231,10 +231,10 @@ function buildUpdateBadges(entry) {
   ) {
     badges.push("Regulatory");
   }
-  if (text.includes("nct")) badges.push("CT.gov");
   if (
     text.includes("phase") ||
     text.includes("trial") ||
+    text.includes("nct") ||
     text.includes("enrollment") ||
     text.includes("recruiting")
   ) {

@@ -207,6 +207,10 @@ main {
   margin-top: 8px;
 }
 
+.weekly-extra[hidden] {
+  display: none !important;
+}
+
 .weekly-toggle {
   margin-top: 8px;
   border: 1px solid var(--stroke);

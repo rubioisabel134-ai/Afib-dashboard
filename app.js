@@ -13,6 +13,8 @@ const itemCountEl = document.getElementById("itemCount");
 const readoutCountEl = document.getElementById("readoutCount");
 const deviceUpdateListEl = document.getElementById("deviceUpdateList");
 const drugUpdateListEl = document.getElementById("drugUpdateList");
+const viewAllDevicesBtn = document.getElementById("viewAllDevices");
+const viewAllDrugsBtn = document.getElementById("viewAllDrugs");
 const cardGridEl = document.getElementById("cardGrid");
 const searchEl = document.getElementById("search");
 const categoryFiltersEl = document.getElementById("categoryFilters");
@@ -155,6 +157,9 @@ function buildUpdateEntries(items) {
       type: item.type,
       press: Boolean(item.press_2026),
       stage: item.stage || "",
+      company: item.company || "Unknown",
+      date: extractUpdateDate(item.latest_update || ""),
+      source: latestSource(item),
     }))
     .sort((a, b) => {
       if (a.press !== b.press) return a.press ? -1 : 1;
@@ -173,13 +178,72 @@ function renderUpdateList(container, entries) {
     return;
   }
   entries.forEach((entry) => {
-    const div = document.createElement("div");
-    div.className = "pulse-item";
-    div.innerHTML = `<strong>${entry.name}</strong><br/>${entry.update}${
-      entry.press ? '<div class="pulse-tag">Press Release</div>' : ""
-    }`;
-    container.appendChild(div);
+    const node = document.createElement(entry.source ? "a" : "div");
+    node.className = "pulse-item";
+    if (entry.source) {
+      node.href = entry.source;
+      node.target = "_blank";
+      node.rel = "noopener noreferrer";
+    }
+    const badges = buildUpdateBadges(entry);
+    node.innerHTML = `<strong>${entry.name}</strong>
+      <div class="pulse-meta">${entry.date || "Date TBD"} · ${entry.company}</div>
+      <div class="pulse-update">${entry.update}</div>
+      <div class="pulse-badges">${badges.map((badge) => `<span class="pulse-tag">${badge}</span>`).join("")}</div>`;
+    container.appendChild(node);
   });
+}
+
+function extractUpdateDate(updateText) {
+  const m = (updateText || "").match(/^(\d{4}-\d{2}-\d{2})[:\s]/);
+  return m ? m[1] : "";
+}
+
+function latestSource(item) {
+  const sources = item?.sources || [];
+  if (!sources.length) return "";
+  return sources[sources.length - 1] || "";
+}
+
+function buildUpdateBadges(entry) {
+  const badges = [];
+  const text = `${entry.update || ""} ${entry.stage || ""}`.toLowerCase();
+  if (entry.press) badges.push("Press");
+  if (
+    text.includes("approval") ||
+    text.includes("approved") ||
+    text.includes("fda") ||
+    text.includes("ce mark") ||
+    text.includes("nmpa") ||
+    text.includes("pmda") ||
+    text.includes("patent")
+  ) {
+    badges.push("Regulatory");
+  }
+  if (text.includes("nct")) badges.push("CT.gov");
+  if (
+    text.includes("phase") ||
+    text.includes("trial") ||
+    text.includes("enrollment") ||
+    text.includes("recruiting")
+  ) {
+    badges.push("Trial");
+  }
+  if (text.includes("readout") || text.includes("topline") || text.includes("results")) {
+    badges.push("Readout");
+  }
+  if (!badges.length) badges.push("Update");
+  return badges.slice(0, 3);
+}
+
+function setTypeFilter(type) {
+  state.filters.type.clear();
+  state.filters.type.add(type);
+  Array.from(typeFiltersEl.querySelectorAll(".chip")).forEach((chip) => {
+    chip.classList.toggle("active", chip.textContent === type);
+  });
+  renderCards();
+  cardGridEl.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function matchesFilters(item) {
@@ -443,6 +507,8 @@ async function init() {
     state.search = event.target.value.trim();
     renderCards();
   });
+  if (viewAllDevicesBtn) viewAllDevicesBtn.addEventListener("click", () => setTypeFilter("Device"));
+  if (viewAllDrugsBtn) viewAllDrugsBtn.addEventListener("click", () => setTypeFilter("Drug"));
 }
 
 init();

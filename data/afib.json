@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-03-14",
+  "as_of": "2026-03-16",
   "items": [
     {
       "id": "milvexian",
@@ -1553,7 +1553,7 @@
       "mechanism": "Left atrial appendage closure device",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-03-14: Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+      "latest_update": "2024-11-29: Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
       "tags": [
         "LAAO",
         "implant"
@@ -3276,7 +3276,6 @@
     }
   ],
   "weekly_updates": {
-    "label_expansions": [],
     "conference_abstracts": [
       {
         "title": "Conformal Medical Highlights Clinical Focus on LAAC and CONFORM Study at CRT 2026 - TipRanks",
@@ -3334,13 +3333,6 @@
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
       }
     ],
-    "safety_signals": [
-      {
-        "title": "Boston Scientific\u2019s Farapulse PFA system receives expanded approval - Cardiovascular Business",
-        "date": "2026-03-03",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
-      }
-    ],
     "guideline_updates": [
       {
         "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
@@ -3348,17 +3340,15 @@
         "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
       }
     ],
+    "label_expansions": [],
+    "safety_signals": [
+      {
+        "title": "Boston Scientific\u2019s Farapulse PFA system receives expanded approval - Cardiovascular Business",
+        "date": "2026-03-03",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
+      }
+    ],
     "press_pipeline": [
-      {
-        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
-        "date": "2026-03-14",
-        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
-      },
-      {
-        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
-        "date": "2026-03-08",
-        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
-      },
       {
         "title": "Abbott initiates UK pilot of Volt PFA system - MSN",
         "date": "2026-03-07",
@@ -3403,6 +3393,11 @@
         "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
         "date": "2026-02-06",
         "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+        "date": "2024-11-29",
+        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
       },
       {
         "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",

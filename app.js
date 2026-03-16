@@ -22,6 +22,7 @@ const weeklySafetyLabelEl = document.getElementById("weeklySafetyLabel");
 const weeklyConferenceEl = document.getElementById("weeklyConference");
 const weeklyPressEl = document.getElementById("weeklyPress");
 const cardTemplate = document.getElementById("cardTemplate");
+const WEEKLY_PREVIEW_LIMIT = 5;
 
 const uniq = (arr) => Array.from(new Set(arr)).sort((a, b) => a.localeCompare(b));
 
@@ -279,7 +280,36 @@ function renderWeeklyList(container, entries) {
     container.appendChild(div);
     return;
   }
-  entries.forEach((entry) => {
+
+  const scored = entries
+    .map((entry, idx) => ({
+      ...entry,
+      _idx: idx,
+      _asset: extractAssetKey(entry),
+      _date: parseDate(entry.date),
+      _score: weeklyPriority(entry),
+      _sourceRank: weeklySourceRank(entry.source || ""),
+    }))
+    .sort((a, b) => {
+      if (b._score !== a._score) return b._score - a._score;
+      if ((b._date?.getTime() || 0) !== (a._date?.getTime() || 0)) return (b._date?.getTime() || 0) - (a._date?.getTime() || 0);
+      if (a._sourceRank !== b._sourceRank) return a._sourceRank - b._sourceRank;
+      return a._idx - b._idx;
+    });
+
+  const preview = [];
+  const previewAssetSeen = new Set();
+  for (const entry of scored) {
+    if (preview.length >= WEEKLY_PREVIEW_LIMIT) break;
+    if (entry._asset && previewAssetSeen.has(entry._asset)) continue;
+    preview.push(entry);
+    if (entry._asset) previewAssetSeen.add(entry._asset);
+  }
+
+  const previewIdx = new Set(preview.map((e) => e._idx));
+  const extra = scored.filter((e) => !previewIdx.has(e._idx));
+
+  preview.forEach((entry) => {
     const div = document.createElement("div");
     div.className = "weekly-item";
     div.innerHTML = `<strong>${entry.title}</strong><span>${entry.date || "Date TBD"} · ${
@@ -287,6 +317,99 @@ function renderWeeklyList(container, entries) {
     }</span>`;
     container.appendChild(div);
   });
+
+  if (extra.length) {
+    const extraWrap = document.createElement("div");
+    extraWrap.className = "weekly-extra";
+    extraWrap.hidden = true;
+
+    extra.forEach((entry) => {
+      const div = document.createElement("div");
+      div.className = "weekly-item";
+      div.innerHTML = `<strong>${entry.title}</strong><span>${entry.date || "Date TBD"} · ${
+        entry.source || "Source TBD"
+      }</span>`;
+      extraWrap.appendChild(div);
+    });
+    container.appendChild(extraWrap);
+
+    const toggle = document.createElement("button");
+    toggle.className = "weekly-toggle";
+    toggle.type = "button";
+    toggle.textContent = `Show ${extra.length} more`;
+    toggle.addEventListener("click", () => {
+      const open = !extraWrap.hidden;
+      extraWrap.hidden = open;
+      toggle.textContent = open ? `Show ${extra.length} more` : "Show less";
+    });
+    container.appendChild(toggle);
+  }
+}
+
+function extractAssetKey(entry) {
+  const source = (entry?.source || "").toLowerCase();
+  const m = source.match(/match:\s*(.+)$/i);
+  if (!m) return "";
+  return m[1].trim();
+}
+
+function weeklySourceRank(source) {
+  const s = (source || "").toLowerCase();
+  if (s.includes("press release") || s.includes("press releases") || s.includes("mediaroom")) return 1;
+  if (s.includes("fda") || s.includes("ema")) return 2;
+  if (s.includes("google news")) return 4;
+  return 3;
+}
+
+function weeklyPriority(entry) {
+  const title = (entry?.title || "").toLowerCase();
+  const source = (entry?.source || "").toLowerCase();
+  const text = `${title} ${source}`;
+  let score = 0;
+
+  if (
+    text.includes("fda") ||
+    text.includes("ema") ||
+    text.includes("ce mark") ||
+    text.includes("nmpa") ||
+    text.includes("pmda") ||
+    text.includes("approval") ||
+    text.includes("approved") ||
+    text.includes("clearance") ||
+    text.includes("patent")
+  ) {
+    score += 5;
+  }
+
+  if (source.includes("press release") || source.includes("press releases") || source.includes("mediaroom")) {
+    score += 4;
+  }
+
+  if (
+    text.includes("phase 3") ||
+    text.includes("phase iii") ||
+    text.includes("phase 2") ||
+    text.includes("phase ii") ||
+    text.includes("pivotal") ||
+    text.includes("topline") ||
+    text.includes("enrollment complete")
+  ) {
+    score += 3;
+  }
+
+  if (text.includes("nct")) score += 2;
+
+  if (
+    text.includes("stock price") ||
+    text.includes("insider buy") ||
+    text.includes("marketbeat") ||
+    text.includes("yahoo finance")
+  ) {
+    score -= 3;
+  }
+
+  if (text.includes("obituary") || text.includes("funeral")) score -= 5;
+  return score;
 }
 
 function renderWeeklyIntel(weekly) {

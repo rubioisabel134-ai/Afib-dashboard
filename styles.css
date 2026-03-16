@@ -201,6 +201,27 @@ main {
   margin-top: 4px;
 }
 
+.weekly-extra {
+  display: grid;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.weekly-toggle {
+  margin-top: 8px;
+  border: 1px solid var(--stroke);
+  background: var(--panel);
+  color: var(--accent-2);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.weekly-toggle:hover {
+  background: rgba(31, 111, 235, 0.08);
+}
+
 .controls {
   display: grid;
   gap: 16px;

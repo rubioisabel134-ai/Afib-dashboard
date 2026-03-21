@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-03-16",
+  "as_of": "2026-03-21",
   "items": [
     {
       "id": "milvexian",
@@ -2957,7 +2957,7 @@
       "mechanism": "High-voltage focal PFA catheter",
       "focus": "AF ablation; focal point-by-point",
       "company": "Field Medical",
-      "latest_update": "2026-02-11: Field Medical presents late-breaking Field PULSE trial data at 2026 AF symposium - Cardiac Rhythm News",
+      "latest_update": "2026-03-18: PFA startup Field Medical appoints Mark Turco as CEO - MedTech Dive",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -2977,7 +2977,8 @@
       ],
       "notes": "FieldForce system is a focal, contact-sensing PFA catheter designed for rapid point-by-point ablation.",
       "sources": [
-        "https://www.prnewswire.com/news-releases/field-medical-presents-late-breaking-field-pulse-trial-data-at-af-symposium-2026-302680633.html"
+        "https://www.prnewswire.com/news-releases/field-medical-presents-late-breaking-field-pulse-trial-data-at-af-symposium-2026-302680633.html",
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNanF4TWlNakR2eTFFZXdreGZTQkRTYXF5Z1RxS196S1EwMVhuOWJ2MFlnTDJqYzRRQUF1dWlUT1pha29MX1poejZNb2Rwb3phVG5Pamh5Slctclc1YnpDX2R3M1V1cTdLN1dPNUVwQ29nX0tjSmh6NlYwV0t6aFVTOE5saGRjb2df?oc=5"
       ]
     },
     {
@@ -3009,7 +3010,7 @@
       "mechanism": "Nanosecond pulsed field ablation (nsPFA)",
       "focus": "AF ablation; pulmonary vein isolation",
       "company": "Pulse Biosciences",
-      "latest_update": "2026-03-04: Pulse Biosciences at TD Cowen Conference: NSPFA Technology Shines - Investing.com",
+      "latest_update": "2026-03-20: Pulse Biosciences to accelerate Pulse Cardiac Catheter Ablation System - MSN",
       "press_2026": true,
       "tags": [
         "nsPFA",
@@ -3031,7 +3032,8 @@
       "sources": [
         "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-announces-first-human-procedures-its-novel",
         "https://www.nasdaq.com/press-release/pulse-biosciences-presents-late-breaking-data-npulsetm-cardiac-catheter-system-first",
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmc2UWg5Z0RiVVBEUzNhUV9QTFJhQ1ZWb1dtanRqNkhNazBwUW1lSkhlQmZieGRjQ0hrWjBRRXhzS2lZTVdMYWZCbkdPLUdRLWhHNDJTWUVhWFhwdVdpZ1lmS19MYVZRMmx3UUpwa3FGSFpNd21ScEtnN2dINFhlNEFmOFZCOTh0NkY1dVhGbENxSVFXYkRzWjJIbEZyZTlIeDE3QXZ5VHEwZmdGNFdXcktLZFJ4eHMyempQaQ?oc=5"
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmc2UWg5Z0RiVVBEUzNhUV9QTFJhQ1ZWb1dtanRqNkhNazBwUW1lSkhlQmZieGRjQ0hrWjBRRXhzS2lZTVdMYWZCbkdPLUdRLWhHNDJTWUVhWFhwdVdpZ1lmS19MYVZRMmx3UUpwa3FGSFpNd21ScEtnN2dINFhlNEFmOFZCOTh0NkY1dVhGbENxSVFXYkRzWjJIbEZyZTlIeDE3QXZ5VHEwZmdGNFdXcktLZFJ4eHMyempQaQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPanBQWEFwMmZCaXJzcHZaM1Z6a1czVmozVGs1WkhXcTlCRFV5ZEd3YUpXbnJkMmdQS3JGS2VaNWJ5TkU3WEowbDFOM0ExdV9qVEZ3R2lRbjJHN19VX0Q1b0lfQ1VOVjF4VVl3MnNzQ1ZkREJCV3ZQa0N4eVBTM0VfcE4tajg2RDNCVGs1cE16c2sxWGxhODB2OE5vRzcxMTBydDlBeDkyaUl0X2xPSV92bmlITEpDai1NQ21KSzgtS3dlWnFNQ0pFX3VYVEx5dDdMXzFlOVBzZVlrb3lLZ0NkdDMwYTgycDZFTGxiQ0U3RFFBRG5rRllycWFpR2IwSVN3MUtXMGdZUTRud0s0Y3ZSM3V1ckdSdS1taHl6UmZLNDVkQ0ZvTzJIaGNJYjdDTUcwV1ZmUU9ZaVFzSUlzdFBqcVloRWhsVFRMQS01RHIzZ2hhVy1U?oc=5"
       ]
     },
     {
@@ -3043,7 +3045,7 @@
       "mechanism": "Nanosecond PFA surgical clamp system",
       "focus": "Concomitant surgical AF ablation",
       "company": "Pulse Biosciences",
-      "latest_update": "2026-03-04: Pulse Biosciences at TD Cowen Conference: NSPFA Technology Shines - Investing.com",
+      "latest_update": "2026-03-20: Pulse Biosciences to accelerate Pulse Cardiac Catheter Ablation System - MSN",
       "tags": [
         "nsPFA",
         "surgical",
@@ -3064,7 +3066,8 @@
       "sources": [
         "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-announces-fda-ide-approval-initiate-its-nspfa",
         "https://clinicaltrials.gov/study/NCT06959121",
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmc2UWg5Z0RiVVBEUzNhUV9QTFJhQ1ZWb1dtanRqNkhNazBwUW1lSkhlQmZieGRjQ0hrWjBRRXhzS2lZTVdMYWZCbkdPLUdRLWhHNDJTWUVhWFhwdVdpZ1lmS19MYVZRMmx3UUpwa3FGSFpNd21ScEtnN2dINFhlNEFmOFZCOTh0NkY1dVhGbENxSVFXYkRzWjJIbEZyZTlIeDE3QXZ5VHEwZmdGNFdXcktLZFJ4eHMyempQaQ?oc=5"
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmc2UWg5Z0RiVVBEUzNhUV9QTFJhQ1ZWb1dtanRqNkhNazBwUW1lSkhlQmZieGRjQ0hrWjBRRXhzS2lZTVdMYWZCbkdPLUdRLWhHNDJTWUVhWFhwdVdpZ1lmS19MYVZRMmx3UUpwa3FGSFpNd21ScEtnN2dINFhlNEFmOFZCOTh0NkY1dVhGbENxSVFXYkRzWjJIbEZyZTlIeDE3QXZ5VHEwZmdGNFdXcktLZFJ4eHMyempQaQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPanBQWEFwMmZCaXJzcHZaM1Z6a1czVmozVGs1WkhXcTlCRFV5ZEd3YUpXbnJkMmdQS3JGS2VaNWJ5TkU3WEowbDFOM0ExdV9qVEZ3R2lRbjJHN19VX0Q1b0lfQ1VOVjF4VVl3MnNzQ1ZkREJCV3ZQa0N4eVBTM0VfcE4tajg2RDNCVGs1cE16c2sxWGxhODB2OE5vRzcxMTBydDlBeDkyaUl0X2xPSV92bmlITEpDai1NQ21KSzgtS3dlWnFNQ0pFX3VYVEx5dDdMXzFlOVBzZVlrb3lLZ0NkdDMwYTgycDZFTGxiQ0U3RFFBRG5rRllycWFpR2IwSVN3MUtXMGdZUTRud0s0Y3ZSM3V1ckdSdS1taHl6UmZLNDVkQ0ZvTzJIaGNJYjdDTUcwV1ZmUU9ZaVFzSUlzdFBqcVloRWhsVFRMQS01RHIzZ2hhVy1U?oc=5"
       ]
     },
     {
@@ -3276,7 +3279,36 @@
     }
   ],
   "weekly_updates": {
+    "guideline_updates": [
+      {
+        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
+        "date": "2026-02-25",
+        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
+      }
+    ],
+    "safety_signals": [
+      {
+        "title": "Boston Scientific\u2019s Farapulse PFA system receives expanded approval - Cardiovascular Business",
+        "date": "2026-03-03",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
+      }
+    ],
     "conference_abstracts": [
+      {
+        "title": "Pulse Biosciences to accelerate Pulse Cardiac Catheter Ablation System - MSN",
+        "date": "2026-03-20",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
+      },
+      {
+        "title": "Pulse Biosciences at Oppenheimer Conference: Promising AF Ablation Results By Investing.com - Investing.com India",
+        "date": "2026-03-18",
+        "source": "Google News: AF Symposium (7d) \u00b7 Match: Pulse Biosciences"
+      },
+      {
+        "title": "PFA startup Field Medical appoints Mark Turco as CEO - MedTech Dive",
+        "date": "2026-03-18",
+        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Field Medical"
+      },
       {
         "title": "Conformal Medical Highlights Clinical Focus on LAAC and CONFORM Study at CRT 2026 - TipRanks",
         "date": "2026-03-08",
@@ -3321,31 +3353,6 @@
         "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
         "date": "2026-02-09",
         "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Abbott Reports Strong Results for Amulet 360 LAA Occlusion Device - Medical Product Outsourcing",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Data Demonstrates Safety, Efficacy of Abbott's Ablation Catheters for Treating Atrial Fibrillation - Diagnostic and Interventional Cardiology",
-        "date": "2026-02-06",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      }
-    ],
-    "guideline_updates": [
-      {
-        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
-        "date": "2026-02-25",
-        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
-      }
-    ],
-    "label_expansions": [],
-    "safety_signals": [
-      {
-        "title": "Boston Scientific\u2019s Farapulse PFA system receives expanded approval - Cardiovascular Business",
-        "date": "2026-03-03",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
       }
     ],
     "press_pipeline": [
@@ -3404,6 +3411,7 @@
         "date": "2024-02-28",
         "source": "CI manual scan \u00b7 Match: SHR-2004"
       }
-    ]
+    ],
+    "label_expansions": []
   }
 }

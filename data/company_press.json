@@ -81,11 +81,5 @@
     "url": "https://news.medtronic.com/",
     "crawl_limit": 4,
     "require_match": true
-  },
-  {
-    "name": "Johnson & Johnson News (site query)",
-    "source_type": "google_news_query",
-    "require_match": true,
-    "query": "site:jnj.com/media-center (atrial fibrillation OR AFib OR Biosense Webster OR ablation OR stroke prevention) when:30d"
   }
 ]

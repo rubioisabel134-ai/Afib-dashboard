@@ -4,6 +4,11 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
+COMMIT_TARGETS=(
+  data/afib.json
+  data/weekly_updates.csv
+)
+
 echo "Running trial update..."
 python3 scripts/update.py
 
@@ -16,15 +21,15 @@ python3 scripts/update_weekly.py
 echo "Applying weekly updates to cards..."
 python3 scripts/apply_weekly_to_cards.py
 
-if git diff --quiet; then
+if git diff --quiet -- "${COMMIT_TARGETS[@]}"; then
   echo "No data changes detected."
   exit 0
 fi
 
 STAMP="$(date +%Y-%m-%d)"
-git add data/afib.json data/watchlist.json
+git add "${COMMIT_TARGETS[@]}"
 git commit -m "Weekly update ${STAMP}"
 
 echo "Pushing to origin/main..."
-git push
+git push origin main
 echo "Done."

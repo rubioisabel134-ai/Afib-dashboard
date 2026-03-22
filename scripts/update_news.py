@@ -73,6 +73,14 @@ AF_EXCLUDE_TERMS = [
     "wealth llc",
     "investor alert",
     "earnings call",
+    "record month in dollars",
+    "weight-loss news",
+    "semaglutide",
+    "deep pipeline",
+    "dividend",
+    "shares",
+    "stock rises",
+    "stock price today",
 ]
 
 DEVELOPMENT_SIGNAL_TERMS = [
@@ -1001,6 +1009,8 @@ def should_crawl_press_link(listing_url: str, article_url: str, link_text: str) 
     listing_path = listing.path.lower().rstrip("/")
     if article_path == listing_path:
         return False
+    if article_path in {"", "/"}:
+        return False
     if re.search(r"/index\d*\.html?$", article_path):
         return False
     hints = [
@@ -1090,6 +1100,12 @@ def fetch_html_press_items(
             continue
         title = article.get("title", "") or link_text or article_url
         body_text = article.get("body_text", "")
+        if normalize_url(listing_url, article_url) == listing_url.rstrip("/") or title.strip().lower() in {
+            "news",
+            "atricure news",
+            "press releases",
+        }:
+            continue
         dt = parse_date(article.get("page_date", ""))
         if dt is None:
             dt = infer_listing_date(listing_html, article_url, link_text=link_text)
@@ -1146,12 +1162,30 @@ def fetch_source_items(
     return items
 
 
+def is_google_news_source(source: Dict[str, str]) -> bool:
+    name = (source.get("name") or "").lower()
+    url = (source.get("url") or "").lower()
+    source_type = (source.get("source_type") or "").lower()
+    return "google news" in name or "news.google.com" in url or source_type == "google_news_query"
+
+
+def is_google_news_row(row: Dict[str, str]) -> bool:
+    source = (row.get("source") or "").lower()
+    link = (row.get("link") or "").lower()
+    return "google news" in source or "news.google.com" in link
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Update AFib weekly news rows")
     parser.add_argument(
         "--with-google-news",
         action="store_true",
         help="Include Google News feed queries in addition to company press rooms",
+    )
+    parser.add_argument(
+        "--verbose-timing",
+        action="store_true",
+        help="Print per-source timing and item counts",
     )
     args = parser.parse_args()
 
@@ -1163,6 +1197,8 @@ def main() -> int:
     registry_map = load_registry_ids()
     article_cache = load_article_cache()
     sources = json.loads(SOURCES_PATH.read_text())
+    if not args.with_google_news:
+        sources = [source for source in sources if not is_google_news_source(source)]
     if args.with_google_news:
         sources += build_google_news_sources(terms)
     sources += load_company_press_sources()
@@ -1174,6 +1210,8 @@ def main() -> int:
         for row in read_existing()
         if is_af_relevant(row.get("title", ""), row.get("link", "")) and keep_row(row)
     ]
+    if not args.with_google_news:
+        existing = [row for row in existing if not is_google_news_row(row)]
     # Keep CI manual ClinicalTrials.gov rows tied to true CT.gov update dates.
     ctgov_date_cache: Dict[str, str] = {}
     for row in existing:
@@ -1203,6 +1241,7 @@ def main() -> int:
     )
 
     new_rows: List[Dict[str, str]] = []
+    source_timings: List[Tuple[float, str, int]] = []
 
     for source in sources:
         category = source.get("category")
@@ -1211,11 +1250,20 @@ def main() -> int:
         if category not in CATEGORIES or not url or not name:
             continue
 
+        started_at = time.perf_counter()
         try:
             items = fetch_source_items(source, cutoff, terms, article_cache)
         except Exception as exc:  # noqa: BLE001
+            elapsed = time.perf_counter() - started_at
+            source_timings.append((elapsed, name, -1))
+            if args.verbose_timing:
+                print(f"[timing] {name}: {elapsed:.2f}s (error)", flush=True)
             print(f"Failed to fetch {name}: {exc}")
             continue
+        elapsed = time.perf_counter() - started_at
+        source_timings.append((elapsed, name, len(items)))
+        if args.verbose_timing:
+            print(f"[timing] {name}: {elapsed:.2f}s ({len(items)} items)", flush=True)
 
         for item in items:
             title = item.get("title", "")
@@ -1245,6 +1293,11 @@ def main() -> int:
     combined = dedupe_rows(existing + new_rows)
     write_rows(combined)
     save_article_cache(article_cache)
+    if args.verbose_timing and source_timings:
+        print("Slowest sources:", flush=True)
+        for elapsed, name, count in sorted(source_timings, reverse=True)[:10]:
+            count_label = "error" if count < 0 else f"{count} items"
+            print(f"- {name}: {elapsed:.2f}s ({count_label})", flush=True)
     print(f"Added {len(new_rows)} new weekly updates.")
     return 0
 

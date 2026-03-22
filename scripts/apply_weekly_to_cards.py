@@ -30,6 +30,10 @@ def extract_source_match(source: str) -> str:
     return m.group(1).strip() if m else ""
 
 
+def is_new_candidate_match(source_match: str) -> bool:
+    return (source_match or "").strip().lower().startswith("new:")
+
+
 def extract_nct_id(text: str) -> str:
     m = re.search(r"\bNCT\d{8}\b", (text or "").upper())
     return m.group(0) if m else ""
@@ -63,6 +67,8 @@ def should_replace(existing: Optional[dict], dt: Optional[datetime], title: str,
         return False
     if prev_dt is not None and dt is not None and dt > prev_dt:
         return True
+    if prev_dt is None and dt is None:
+        return False
     if prev_dt == dt and len(title) > len(existing.get("title", "")):
         return True
     return False
@@ -114,7 +120,7 @@ def main() -> int:
 
             if not matched_items:
                 source_match = extract_source_match(source)
-                if source_match:
+                if source_match and not is_new_candidate_match(source_match):
                     source_norm = normalize(source_match)
                     for kind, term, item in terms:
                         if normalize(term) == source_norm:

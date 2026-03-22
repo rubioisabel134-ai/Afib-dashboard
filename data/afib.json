@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-03-21",
+  "as_of": "2026-03-22",
   "items": [
     {
       "id": "milvexian",
@@ -51,7 +51,7 @@
       "mechanism": "Oral Factor XIa inhibitor",
       "focus": "Secondary stroke prevention; AF program stopped",
       "company": "Bayer",
-      "latest_update": "2026-02-22: Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
+      "latest_update": "ClinicalTrials.gov update posted 2025-11-12",
       "press_2026": true,
       "tags": [
         "FXI",
@@ -283,7 +283,7 @@
       "mechanism": "Long-acting FXI siRNA",
       "focus": "Thromboembolic disorders including AF stroke prevention",
       "company": "Sirius Therapeutics / CRISPR Therapeutics",
-      "latest_update": "EMA authorization to initiate Phase 2 in July 2025",
+      "latest_update": "Sirius Therapeutics Receives European Medicines Agency (EMA) Authorization to Initiate a Phase 2 Clinical Trial of SRSD107 for Thromboembolic Disorders-Sirius Therapeutics, Inc.",
       "tags": [
         "FXI",
         "siRNA",
@@ -1204,7 +1204,7 @@
       "mechanism": "Oral antiarrhythmic related to amiodarone",
       "focus": "AF burden reduction in paroxysmal AF",
       "company": "Xyra / Lee's Pharmaceutical (prior: Armetheon)",
-      "latest_update": "2025-08-30: Budiodarone HARBOR-AF trial design presented at ESC 2025 (first 100-patient data expected soon)",
+      "latest_update": "XYRA Announces the Issuance of a Fifth N",
       "tags": [
         "oral",
         "AF burden",
@@ -1235,7 +1235,8 @@
         "https://pubmed.ncbi.nlm.nih.gov/22205496/",
         "https://academic.oup.com/eurheartj/article/46/Supplement_1/ehaf784.782/8309289",
         "https://www.prnewswire.com/news-releases/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040-302436581.html",
-        "https://www.prnewswire.com/news-releases/armetheon-announces-issuance-of-a-new-us-patent-for-its-phase-2-clinical-stage-novel-oral-anti-arrhythmic-budiodarone-300406058.html"
+        "https://www.prnewswire.com/news-releases/armetheon-announces-issuance-of-a-new-us-patent-for-its-phase-2-clinical-stage-novel-oral-anti-arrhythmic-budiodarone-300406058.html",
+        "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
       ]
     },
     {
@@ -1756,7 +1757,7 @@
       "mechanism": "Conformable foam-based LAA occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Conformal Medical",
-      "latest_update": "2026-03-08: Conformal Medical Highlights Clinical Focus on LAAC and CONFORM Study at CRT 2026 - TipRanks",
+      "latest_update": "ClinicalTrials.gov update posted 2026-03-18",
       "tags": [
         "LAAO",
         "foam"
@@ -3010,7 +3011,7 @@
       "mechanism": "Nanosecond pulsed field ablation (nsPFA)",
       "focus": "AF ablation; pulmonary vein isolation",
       "company": "Pulse Biosciences",
-      "latest_update": "2026-03-20: Pulse Biosciences to accelerate Pulse Cardiac Catheter Ablation System - MSN",
+      "latest_update": "ClinicalTrials.gov update posted 2026-01-12",
       "press_2026": true,
       "tags": [
         "nsPFA",
@@ -3045,7 +3046,7 @@
       "mechanism": "Nanosecond PFA surgical clamp system",
       "focus": "Concomitant surgical AF ablation",
       "company": "Pulse Biosciences",
-      "latest_update": "2026-03-20: Pulse Biosciences to accelerate Pulse Cardiac Catheter Ablation System - MSN",
+      "latest_update": "ClinicalTrials.gov update posted 2026-01-12",
       "tags": [
         "nsPFA",
         "surgical",
@@ -3279,122 +3280,24 @@
     }
   ],
   "weekly_updates": {
-    "guideline_updates": [
-      {
-        "title": "Intravenous Amiodarone in Preexcited Atrial Fibrillation: A Systematic Review - American Heart Association Journals",
-        "date": "2026-02-25",
-        "source": "Google News: AF guideline (7d) \u00b7 Match: Amiodarone"
-      }
-    ],
     "safety_signals": [
       {
-        "title": "Boston Scientific\u2019s Farapulse PFA system receives expanded approval - Cardiovascular Business",
-        "date": "2026-03-03",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
+        "title": "XYRA Announces the Issuance of a Fifth N",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Budiodarone"
+      },
+      {
+        "title": "XYRA Announces Issuance of US Patent to",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Xyra"
       }
     ],
-    "conference_abstracts": [
-      {
-        "title": "Pulse Biosciences to accelerate Pulse Cardiac Catheter Ablation System - MSN",
-        "date": "2026-03-20",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Pulse Biosciences"
-      },
-      {
-        "title": "Pulse Biosciences at Oppenheimer Conference: Promising AF Ablation Results By Investing.com - Investing.com India",
-        "date": "2026-03-18",
-        "source": "Google News: AF Symposium (7d) \u00b7 Match: Pulse Biosciences"
-      },
-      {
-        "title": "PFA startup Field Medical appoints Mark Turco as CEO - MedTech Dive",
-        "date": "2026-03-18",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Field Medical"
-      },
-      {
-        "title": "Conformal Medical Highlights Clinical Focus on LAAC and CONFORM Study at CRT 2026 - TipRanks",
-        "date": "2026-03-08",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Conformal Medical"
-      },
-      {
-        "title": "Pulse Biosciences at TD Cowen Conference: NSPFA Technology Shines - Investing.com",
-        "date": "2026-03-04",
-        "source": "Google News: AF Symposium (7d) \u00b7 Match: Pulse Biosciences"
-      },
-      {
-        "title": "UK hospitals pilot Abbott\u2019s Volt pulsed field ablation system in AF patients - Cardiac Rhythm News",
-        "date": "2026-02-17",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Abbott\u2019s Volt PFA System Enters U.K. Pilot Amid Expanding Atrial Fibrillation Market - TipRanks",
-        "date": "2026-02-15",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "NHS hospitals pilot Abbott Volt PFA system - Med-Tech Insights",
-        "date": "2026-02-13",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Arg\u00e1 Medtech reports 94% lesion durability and strong safety profile in PFA trial - Health Tech World",
-        "date": "2026-02-12",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Arg\u00e1 Medtech reports 94% lesion durability and \u201cstrong safety profile\u201d with single-catheter PFA system - Cardiac Rhythm News",
-        "date": "2026-02-11",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
-        "date": "2026-02-10",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Boston Scientific"
-      },
-      {
-        "title": "Arg\u00e1 Medtech Reports Clinical Results of First-in-Human BURST-AF Trial of Single-Catheter PFA System - Diagnostic and Interventional Cardiology",
-        "date": "2026-02-09",
-        "source": "Google News: atrial fibrillation (7d) \u00b7 Match: Arg\u00e1 Medtech"
-      }
-    ],
+    "label_expansions": [],
     "press_pipeline": [
-      {
-        "title": "Abbott initiates UK pilot of Volt PFA system - MSN",
-        "date": "2026-03-07",
-        "source": "Google News: AFib watchlist 14 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Boston Scientific\u2019s ENTRUST Registry Targets Real-World Edge in Carotid Stroke Prevention - TipRanks",
-        "date": "2026-03-06",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
-      },
       {
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
         "date": "2026-02-24",
         "source": "CI manual scan \u00b7 Match: REGN7508"
-      },
-      {
-        "title": "Overviewing Phase 3 OCEANIC-STROKE Trial of Asundexian in Secondary Stroke Prevention: Mike Sharma, MD, MSc - NeurologyLive",
-        "date": "2026-02-22",
-        "source": "Google News: AFib watchlist 1 \u00b7 Match: Asundexian"
-      },
-      {
-        "title": "Abbott Volt PFA Pilot Signals Intensifying Competition in Atrial Fibrillation Market - TipRanks",
-        "date": "2026-02-15",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Abbott\u2019s Volt PFA System Enters U.K. Pilot as Global Market Surpasses $500 Million - TipRanks",
-        "date": "2026-02-15",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Arg\u00e1 Medtech data supports single-catheter PFA system - massdevice.com",
-        "date": "2026-02-10",
-        "source": "Google News: AFib watchlist 13 \u00b7 Match: Arg\u00e1 Medtech"
-      },
-      {
-        "title": "Boston Scientific Farapulse PFA outperforms thermal ablation in study - massdevice.com",
-        "date": "2026-02-09",
-        "source": "Google News: AFib watchlist 8 \u00b7 Match: Boston Scientific"
       },
       {
         "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
@@ -3410,8 +3313,24 @@
         "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
         "date": "2024-02-28",
         "source": "CI manual scan \u00b7 Match: SHR-2004"
+      },
+      {
+        "title": "Sirius Therapeutics Receives European Medicines Agency (EMA) Authorization to Initiate a Phase 2 Clinical Trial of SRSD107 for Thromboembolic Disorders-Sirius Therapeutics, Inc.",
+        "date": "",
+        "source": "Sirius Press Room \u00b7 Match: SRSD107"
+      },
+      {
+        "title": "Sirius Therapeutics Announces First Patient Dosed in Phase 2 Trial of SRSD216 for siRNA Therapy for Hyperlipoproteinemia(a)-Sirius Therapeutics, Inc.",
+        "date": "",
+        "source": "Sirius Press Room \u00b7 Match: NEW: SRSD216"
+      },
+      {
+        "title": "XYRA Announces FDA Label Guidance for Ma",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Budiodarone"
       }
     ],
-    "label_expansions": []
+    "conference_abstracts": [],
+    "guideline_updates": []
   }
 }

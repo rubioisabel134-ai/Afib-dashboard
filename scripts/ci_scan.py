@@ -164,6 +164,10 @@ def load_terms() -> List[str]:
             terms.append(name)
         if company:
             terms.append(company)
+            for token in re.split(r"[/,;]|(?:\s+\&\s+)", company):
+                token = token.strip()
+                if len(token) >= 4:
+                    terms.append(token)
     seen = set()
     cleaned = []
     for term in terms:
@@ -601,13 +605,15 @@ def main() -> int:
                             if not term_match and not has_include_signal(hay):
                                 continue
                             filtered.append(LinkItem(title=title, url=link, match=term_match or keyword_match))
-                        items = filtered
+                        merged = {item.url: item for item in items}
+                        for item in filtered:
+                            merged.setdefault(item.url, item)
+                        items = list(merged.values())
                     except Exception as exc:  # noqa: BLE001
                         if args.verbose_errors:
                             print(f"Fallback Google News failed for {name}: {exc}")
-                        continue
-                else:
-                    continue
+                        if not items:
+                            continue
 
                 cache_entry = cache.get(url, {"items": []})
                 prev_urls = {item.get("url") for item in cache_entry.get("items", [])}

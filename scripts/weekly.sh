@@ -7,7 +7,7 @@ cd "$ROOT_DIR"
 echo "Running trial update..."
 python3 scripts/update.py
 
-echo "Fetching news sources..."
+echo "Fetching company press releases..."
 python3 scripts/update_news.py
 
 echo "Updating weekly intel..."

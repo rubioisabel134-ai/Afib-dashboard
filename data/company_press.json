@@ -1,51 +1,94 @@
 [
   {
     "name": "Abbott MediaRoom (Press Releases)",
+    "source_type": "rss",
     "url": "https://abbott.mediaroom.com/press-releases?pagetemplate=rss",
     "require_match": true
   },
   {
     "name": "AtriCure Press Releases (site query)",
-    "query": "site:news.atricure.com/press-release \"atrial fibrillation\" when:30d",
+    "source_type": "html_press_room",
+    "url": "https://news.atricure.com/press-release",
+    "crawl_limit": 4,
     "require_match": true
   },
   {
     "name": "Boston Scientific News Releases (site query)",
-    "query": "site:news.bostonscientific.com/news-releases (atrial fibrillation OR AFib OR LAAO OR ablation) when:30d",
+    "source_type": "html_press_room",
+    "url": "https://news.bostonscientific.com/news-releases",
+    "crawl_limit": 4,
     "require_match": true
   },
   {
-    "name": "Novartis News (site query)",
-    "query": "site:novartis.com/news (atrial fibrillation OR FXI OR anticoagulation OR stroke prevention) when:30d",
+    "name": "Novartis News",
+    "source_type": "html_press_room",
+    "url": "https://www.novartis.com/news",
+    "crawl_limit": 4,
     "require_match": true
   },
   {
     "name": "Xyra News (site query)",
+    "source_type": "google_news_query",
     "query": "site:xyra.us/news (atrial fibrillation OR budiodarone OR HARBOR-AF) when:30d",
     "require_match": true
   },
   {
     "name": "BMS Press Releases",
-    "url": "https://news.bms.com/rss/pressrelease.aspx",
+    "source_type": "html_press_room",
+    "url": "https://www.bms.com/media/press-releases.html",
+    "crawl_limit": 4,
     "require_match": true
   },
   {
-    "name": "Regeneron Press Releases (site query)",
-    "query": "site:investor.regeneron.com/news/press-releases (atrial fibrillation OR anticoagulation OR factor XI OR REGN7508 OR REGN9933) when:30d",
+    "name": "Regeneron Press Releases",
+    "source_type": "html_press_room",
+    "url": "https://investor.regeneron.com/news-releases",
+    "crawl_limit": 4,
     "require_match": true
   },
   {
     "name": "Regeneron Events & Recent (site query)",
+    "source_type": "google_news_query",
     "query": "site:investor.regeneron.com/events-and-presentations/events-and-recent (atrial fibrillation OR anticoagulation OR factor XI) when:30d",
     "require_match": true
   },
   {
     "name": "Ribocure News (site query)",
+    "source_type": "google_news_query",
     "query": "site:ribocure.com (RBD4059 OR atrial fibrillation OR anticoagulation OR RNA interference) when:90d",
     "require_match": true
   },
   {
+    "name": "Sirius Press Room",
+    "source_type": "html_press_room",
+    "url": "https://www.siriusrna.com/companynews/",
+    "require_match": true,
+    "crawl_limit": 4
+  },
+  {
+    "name": "Johnson & Johnson Press Releases",
+    "source_type": "html_press_room",
+    "url": "https://www.jnj.com/media-center/press-releases",
+    "crawl_limit": 4,
+    "require_match": true
+  },
+  {
+    "name": "Bayer Media",
+    "source_type": "html_press_room",
+    "url": "https://www.bayer.com/media/en-us/",
+    "crawl_limit": 4,
+    "require_match": true
+  },
+  {
+    "name": "Medtronic Newsroom",
+    "source_type": "html_press_room",
+    "url": "https://news.medtronic.com/",
+    "crawl_limit": 4,
+    "require_match": true
+  },
+  {
     "name": "Johnson & Johnson News (site query)",
+    "source_type": "google_news_query",
     "require_match": true,
     "query": "site:jnj.com/media-center (atrial fibrillation OR AFib OR Biosense Webster OR ablation OR stroke prevention) when:30d"
   }

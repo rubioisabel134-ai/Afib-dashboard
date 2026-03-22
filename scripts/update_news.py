@@ -81,6 +81,16 @@ AF_EXCLUDE_TERMS = [
     "shares",
     "stock rises",
     "stock price today",
+    "venous thromboembolism",
+    " vte ",
+    "total knee arthroplasty",
+    " knee arthroplasty",
+    "hyperlipoproteinemia",
+    "lipoprotein(a)",
+    "lipoprotein a",
+    "chronic coronary",
+    "peripheral arterial disease",
+    "peripheral artery disease",
 ]
 
 DEVELOPMENT_SIGNAL_TERMS = [
@@ -894,15 +904,16 @@ def is_company_like_term(term: str) -> bool:
 def analyze_match(title: str, link: str, terms: List[str], body_text: str = "") -> Tuple[str, str]:
     headline = f"{title} {link}"
     full_text = f"{headline} {body_text}"
+    overall_af = is_af_relevant(title, link, body_text)
     headline_af = is_af_relevant(title, link)
     headline_new = find_new_candidate(headline, terms)
-    if headline_new and is_af_relevant(title, link, body_text) and has_development_signal(full_text):
+    if headline_new and overall_af and has_development_signal(full_text):
         return "", headline_new
     headline_match = find_match(headline, terms)
     headline_specific_match = ""
     if headline_match and not is_company_like_term(headline_match):
         headline_specific_match = headline_match
-    if headline_specific_match:
+    if headline_specific_match and overall_af:
         return headline_specific_match, ""
     if headline_match and headline_af:
         return headline_match, ""
@@ -912,10 +923,10 @@ def analyze_match(title: str, link: str, terms: List[str], body_text: str = "") 
             return tracked_match, ""
         return "", ""
     if tracked_match:
-        if headline_af or headline_specific_match or headline_new:
+        if overall_af and (headline_af or headline_specific_match or headline_new):
             return tracked_match, ""
         return "", ""
-    if not is_af_relevant(title, link, body_text):
+    if not overall_af:
         return "", ""
     if not has_development_signal(full_text):
         return "", ""

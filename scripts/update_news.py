@@ -20,6 +20,8 @@ CSV_PATH = ROOT / "data" / "weekly_updates.csv"
 SOURCES_PATH = ROOT / "data" / "news_sources.json"
 AFIB_PATH = ROOT / "data" / "afib.json"
 COMPANY_PRESS_PATH = ROOT / "data" / "company_press.json"
+CONFERENCE_SOURCES_PATH = ROOT / "data" / "conference_sources.json"
+CONFERENCE_CALENDAR_PATH = ROOT / "data" / "conference_calendar.json"
 CI_MANUAL_URLS_PATH = ROOT / "data" / "ci_manual_urls.txt"
 ARTICLE_CACHE_PATH = ROOT / "data" / "company_press_cache.json"
 
@@ -116,6 +118,40 @@ DEVELOPMENT_SIGNAL_TERMS = [
     "drug",
     "catheter",
     "ablation",
+    "late-breaking",
+    "oral presentation",
+    "simultaneous publication",
+    "presentation",
+    "abstract",
+    "congress",
+    "scientific sessions",
+]
+
+CONFERENCE_SIGNAL_TERMS = [
+    "acc.26",
+    "acc 2026",
+    "american college of cardiology",
+    "scientific session",
+    "late-breaking",
+    "late breaker",
+    "oral presentation",
+    "oral abstract",
+    "breaking clinical trial",
+    "simultaneous publication",
+    "presented at",
+    "presented during",
+    "conference presentation",
+    "abstract",
+    "heart rhythm 2026",
+    "heart rhythm society",
+    "hrs 2026",
+    "ehra 2026",
+    "ehra congress",
+    "esc congress 2026",
+    "esc congress",
+    "aha scientific sessions",
+    "scientific sessions 2026",
+    "aha 2026",
 ]
 
 GENERIC_CANDIDATE_TOKENS = {
@@ -845,6 +881,80 @@ def load_company_press_sources() -> List[Dict[str, str]]:
     return sources
 
 
+def parse_iso_date(raw: str) -> Optional[datetime]:
+    text_value = (raw or "").strip()
+    if not text_value:
+        return None
+    try:
+        return datetime.fromisoformat(text_value).replace(tzinfo=timezone.utc)
+    except Exception:
+        return None
+
+
+def load_conference_windows() -> Dict[str, Tuple[datetime, datetime]]:
+    if not CONFERENCE_CALENDAR_PATH.exists():
+        return {}
+    try:
+        data = json.loads(CONFERENCE_CALENDAR_PATH.read_text())
+    except Exception:
+        return {}
+
+    windows: Dict[str, Tuple[datetime, datetime]] = {}
+    for entry in data:
+        conference = (entry.get("conference") or "").strip().upper()
+        start_dt = parse_iso_date(entry.get("start_date", ""))
+        end_dt = parse_iso_date(entry.get("end_date", ""))
+        if not conference or start_dt is None or end_dt is None:
+            continue
+        windows[conference] = (start_dt, end_dt)
+    return windows
+
+
+def load_conference_sources(now: datetime) -> List[Dict[str, str]]:
+    if not CONFERENCE_SOURCES_PATH.exists():
+        return []
+    try:
+        data = json.loads(CONFERENCE_SOURCES_PATH.read_text())
+    except Exception:
+        return []
+
+    windows = load_conference_windows()
+    out: List[Dict[str, str]] = []
+    for entry in data:
+        name = (entry.get("name") or "").strip()
+        url = (entry.get("url") or "").strip()
+        conference = (entry.get("conference") or "").strip().upper()
+        if not name or not url or not conference:
+            continue
+        source = {
+            "name": name,
+            "category": (entry.get("category") or "conference_abstracts").strip(),
+            "source_type": (entry.get("source_type") or "html_listing").strip(),
+            "url": url,
+            "require_match": entry.get("require_match", True),
+            "crawl_limit": int(entry.get("crawl_limit", 6)),
+            "lookback_days": int(entry.get("lookback_days", 21)),
+            "conference": conference,
+            "priority": int(entry.get("priority", 3)),
+        }
+        window = windows.get(conference)
+        if window is not None:
+            start_dt, end_dt = window
+            if start_dt - timedelta(days=14) <= now <= end_dt + timedelta(days=7):
+                source["active_window"] = "1"
+        out.append(source)
+
+    out.sort(
+        key=lambda source: (
+            source.get("conference", ""),
+            0 if source.get("active_window") else 1,
+            int(source.get("priority", 3)),
+            source.get("name", ""),
+        )
+    )
+    return out
+
+
 def find_match(text_value: str, terms: List[str]) -> str:
     title_lower = text_value.lower()
     for term in terms:
@@ -861,6 +971,20 @@ def is_af_relevant(title: str, link: str, body_text: str = "") -> bool:
     if any(term in haystack for term in AF_EXCLUDE_TERMS):
         return False
     return True
+
+
+def has_conference_signal(
+    title: str,
+    link: str,
+    body_text: str = "",
+    source_name: str = "",
+    conference: str = "",
+) -> bool:
+    haystack = f"{title} {link} {body_text} {source_name} {conference}".lower()
+    if any(term in haystack for term in CONFERENCE_SIGNAL_TERMS):
+        return True
+    conference_lower = (conference or "").strip().lower()
+    return bool(conference_lower and conference_lower in haystack)
 
 
 def has_development_signal(text_value: str) -> bool:
@@ -931,6 +1055,31 @@ def analyze_match(title: str, link: str, terms: List[str], body_text: str = "") 
     if not has_development_signal(full_text):
         return "", ""
     return "", find_new_candidate(full_text, terms)
+
+
+def category_requires_conference_signal(category: str) -> bool:
+    return (category or "").strip().lower() == "conference_abstracts"
+
+
+def is_source_relevant(
+    category: str,
+    title: str,
+    link: str,
+    body_text: str = "",
+    source_name: str = "",
+    conference: str = "",
+) -> bool:
+    if not is_af_relevant(title, link, body_text):
+        return False
+    if category_requires_conference_signal(category):
+        return has_conference_signal(
+            title,
+            link,
+            body_text,
+            source_name=source_name,
+            conference=conference,
+        )
+    return True
 
 
 def parse_manual_input_line(line: str) -> Optional[Tuple[str, str]]:
@@ -1009,7 +1158,12 @@ def manual_ci_rows(
     return rows
 
 
-def should_crawl_press_link(listing_url: str, article_url: str, link_text: str) -> bool:
+def should_crawl_press_link(
+    listing_url: str,
+    article_url: str,
+    link_text: str,
+    source_type: str = "html_press_room",
+) -> bool:
     listing = urlparse(listing_url)
     article = urlparse(article_url)
     if listing.netloc != article.netloc:
@@ -1024,6 +1178,11 @@ def should_crawl_press_link(listing_url: str, article_url: str, link_text: str) 
         return False
     if re.search(r"/index\d*\.html?$", article_path):
         return False
+    if source_type == "html_listing":
+        if re.search(r"/(article|articles|news|story|stories|meetings|features|conference|congress|session|sessions)/", article_path):
+            return True
+        if re.search(r"/\d{4}/\d{2}/", article_path):
+            return True
     hints = [
         "/news/",
         "/press",
@@ -1041,9 +1200,32 @@ def should_crawl_press_link(listing_url: str, article_url: str, link_text: str) 
     return False
 
 
-def listing_is_candidate(text_value: str, terms: List[str]) -> bool:
+def listing_is_candidate(
+    text_value: str,
+    terms: List[str],
+    category: str = "press_pipeline",
+    source_name: str = "",
+    conference: str = "",
+) -> bool:
     tracked_match, new_candidate = analyze_match(text_value, "", terms)
-    return bool(tracked_match or new_candidate or is_af_relevant(text_value, "", text_value))
+    if tracked_match or new_candidate:
+        if category_requires_conference_signal(category):
+            return has_conference_signal(
+                text_value,
+                "",
+                text_value,
+                source_name=source_name,
+                conference=conference,
+            )
+        return True
+    return is_source_relevant(
+        category,
+        text_value,
+        "",
+        text_value,
+        source_name=source_name,
+        conference=conference,
+    )
 
 
 def extract_press_room_links(
@@ -1051,6 +1233,10 @@ def extract_press_room_links(
     html: str,
     terms: List[str],
     cutoff: datetime,
+    category: str = "press_pipeline",
+    source_name: str = "",
+    conference: str = "",
+    source_type: str = "html_press_room",
 ) -> List[Dict[str, str]]:
     parser = ListingLinkParser()
     parser.feed(html)
@@ -1064,14 +1250,20 @@ def extract_press_room_links(
             continue
         context_text = re.sub(r"\s+", " ", entry.get("context", "")).strip()
         text_value = link_text or context_text or article_url
-        if not should_crawl_press_link(listing_url, article_url, text_value):
+        if not should_crawl_press_link(listing_url, article_url, text_value, source_type=source_type):
             continue
         if article_url in seen:
             continue
         listing_date = infer_listing_date(html, article_url, link_text=link_text)
         if listing_date and listing_date < cutoff:
             continue
-        if not listing_is_candidate(f"{link_text} {context_text} {article_url}", terms):
+        if not listing_is_candidate(
+            f"{link_text} {context_text} {article_url}",
+            terms,
+            category=category,
+            source_name=source_name,
+            conference=conference,
+        ):
             continue
         seen.add(article_url)
         out.append(
@@ -1095,9 +1287,21 @@ def fetch_html_press_items(
     listing_html = fetch_html(listing_url)
     crawl_limit = int(source.get("crawl_limit", 4))
     require_match = source.get("require_match", True)
+    category = source.get("category", "press_pipeline")
+    source_name = source.get("name", "")
+    conference = source.get("conference", "")
     items: List[Dict[str, str]] = []
 
-    for entry in extract_press_room_links(listing_url, listing_html, terms, cutoff)[:crawl_limit]:
+    for entry in extract_press_room_links(
+        listing_url,
+        listing_html,
+        terms,
+        cutoff,
+        category=category,
+        source_name=source_name,
+        conference=conference,
+        source_type=(source.get("source_type") or "html_press_room"),
+    )[:crawl_limit]:
         link_text = entry.get("text", "")
         article_url = entry.get("url", "")
         listing_date = (entry.get("date") or "").strip()
@@ -1122,7 +1326,14 @@ def fetch_html_press_items(
             dt = infer_listing_date(listing_html, article_url, link_text=link_text)
         if dt and dt < cutoff:
             continue
-        if not is_af_relevant(title, article_url, body_text):
+        if not is_source_relevant(
+            category,
+            title,
+            article_url,
+            body_text,
+            source_name=source_name,
+            conference=conference,
+        ):
             continue
         tracked_match, new_candidate = analyze_match(title, article_url, terms, body_text)
         if require_match and not tracked_match and not new_candidate:
@@ -1146,7 +1357,10 @@ def fetch_source_items(
     article_cache: Dict[str, Dict[str, str]],
 ) -> List[Dict[str, str]]:
     source_type = (source.get("source_type") or "rss").strip().lower()
-    if source_type == "html_press_room":
+    category = source.get("category", "press_pipeline")
+    source_name = source.get("name", "")
+    conference = source.get("conference", "")
+    if source_type in {"html_press_room", "html_listing"}:
         return fetch_html_press_items(source, cutoff, terms, article_cache)
 
     xml_bytes = fetch_xml(source["url"])
@@ -1156,7 +1370,13 @@ def fetch_source_items(
             continue
         if dt and dt < cutoff:
             continue
-        if not is_af_relevant(title, link):
+        if not is_source_relevant(
+            category,
+            title,
+            link,
+            source_name=source_name,
+            conference=conference,
+        ):
             continue
         tracked_match, new_candidate = analyze_match(title, link, terms)
         if source.get("require_match", True) and not tracked_match and not new_candidate:
@@ -1198,6 +1418,16 @@ def main() -> int:
         action="store_true",
         help="Print per-source timing and item counts",
     )
+    parser.add_argument(
+        "--conference-only",
+        action="store_true",
+        help="Only scan conference sources",
+    )
+    parser.add_argument(
+        "--conference",
+        default="",
+        help="Restrict conference scanning to one meeting code such as ACC, HRS, EHRA, ESC, or AHA",
+    )
     args = parser.parse_args()
 
     if not SOURCES_PATH.exists():
@@ -1208,13 +1438,23 @@ def main() -> int:
     registry_map = load_registry_ids()
     article_cache = load_article_cache()
     sources = json.loads(SOURCES_PATH.read_text())
+    if args.conference_only:
+        sources = [source for source in sources if source.get("category") == "conference_abstracts"]
     if not args.with_google_news:
         sources = [source for source in sources if not is_google_news_source(source)]
     if args.with_google_news:
         sources += build_google_news_sources(terms)
-    sources += load_company_press_sources()
     now = datetime.now(timezone.utc)
-    cutoff = now - timedelta(days=7)
+    conference_filter = (args.conference or "").strip().upper()
+    conference_sources = load_conference_sources(now)
+    if conference_filter:
+        conference_sources = [
+            source for source in conference_sources if source.get("conference", "").upper() == conference_filter
+        ]
+    if not args.conference_only:
+        sources += load_company_press_sources()
+    sources += conference_sources
+    default_cutoff = now - timedelta(days=7)
 
     existing = [
         row
@@ -1263,7 +1503,10 @@ def main() -> int:
 
         started_at = time.perf_counter()
         try:
-            items = fetch_source_items(source, cutoff, terms, article_cache)
+            source_cutoff = now - timedelta(days=int(source.get("lookback_days", 7)))
+            if source.get("category") != "conference_abstracts":
+                source_cutoff = default_cutoff
+            items = fetch_source_items(source, source_cutoff, terms, article_cache)
         except Exception as exc:  # noqa: BLE001
             elapsed = time.perf_counter() - started_at
             source_timings.append((elapsed, name, -1))

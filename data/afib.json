@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-03-26",
+  "as_of": "2026-04-03",
   "items": [
     {
       "id": "milvexian",
@@ -3281,7 +3281,18 @@
     }
   ],
   "weekly_updates": {
-    "safety_signals": [],
+    "safety_signals": [
+      {
+        "title": "XYRA Announces the Issuance of a Fifth N",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Budiodarone"
+      },
+      {
+        "title": "XYRA Announces Issuance of US Patent to",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Xyra"
+      }
+    ],
     "conference_abstracts": [
       {
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
@@ -3299,7 +3310,6 @@
         "source": "HRS News \u00b7 Match: Johnson"
       }
     ],
-    "guideline_updates": [],
     "press_pipeline": [
       {
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
@@ -3320,8 +3330,14 @@
         "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
         "date": "2024-02-28",
         "source": "CI manual scan \u00b7 Match: SHR-2004"
+      },
+      {
+        "title": "XYRA Announces FDA Label Guidance for Ma",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Budiodarone"
       }
     ],
+    "guideline_updates": [],
     "label_expansions": []
   }
 }

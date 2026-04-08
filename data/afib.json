@@ -3281,7 +3281,20 @@
     }
   ],
   "weekly_updates": {
+    "conference_abstracts": [
+      {
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX"
+      },
+      {
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson"
+      }
+    ],
     "safety_signals": [],
+    "label_expansions": [],
     "press_pipeline": [
       {
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
@@ -3304,24 +3317,6 @@
         "source": "CI manual scan \u00b7 Match: SHR-2004"
       }
     ],
-    "guideline_updates": [],
-    "label_expansions": [],
-    "conference_abstracts": [
-      {
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX"
-      },
-      {
-        "title": "ACC 2026 | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: NEW: COVID-19"
-      },
-      {
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson"
-      }
-    ]
+    "guideline_updates": []
   }
 }

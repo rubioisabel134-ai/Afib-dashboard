@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import csv
+import html
 import json
 import re
 import time
@@ -687,6 +688,31 @@ def keep_row(row: Dict[str, str]) -> bool:
 
 
 def load_terms() -> List[str]:
+    def term_variants(text_value: str, *, is_company: bool = False) -> List[str]:
+        raw = (text_value or "").strip()
+        if not raw:
+            return []
+        variants = [raw]
+        if not is_company:
+            alias = re.sub(
+                r"\b(platform|system|device|program|therapy|therapeutic|catheter|portfolio)\b",
+                "",
+                raw,
+                flags=re.IGNORECASE,
+            )
+            alias = re.sub(r"\s+", " ", alias).strip(" -/")
+            if alias and alias not in variants:
+                variants.append(alias)
+            head = alias.split()[0] if alias else ""
+            if head and len(head) >= 5 and any(ch.isupper() for ch in head):
+                variants.append(head)
+        if is_company:
+            for token in re.split(r"[/,;]|(?:\s+\&\s+)", raw):
+                token = token.strip()
+                if len(token) >= 6 and len(token.split()) >= 2:
+                    variants.append(token)
+        return variants
+
     if not AFIB_PATH.exists():
         return []
     data = json.loads(AFIB_PATH.read_text())
@@ -694,14 +720,8 @@ def load_terms() -> List[str]:
     for item in data.get("items", []):
         name = (item.get("name") or "").strip()
         company = (item.get("company") or "").strip()
-        if name:
-            terms.append(name)
-        if company:
-            terms.append(company)
-            for token in re.split(r"[/,;]|(?:\s+\&\s+)", company):
-                token = token.strip()
-                if len(token) >= 4:
-                    terms.append(token)
+        terms.extend(term_variants(name, is_company=False))
+        terms.extend(term_variants(company, is_company=True))
     # De-duplicate while preserving order
     seen = set()
     cleaned = []
@@ -956,7 +976,7 @@ def load_conference_sources(now: datetime) -> List[Dict[str, str]]:
 
 
 def find_match(text_value: str, terms: List[str]) -> str:
-    title_lower = text_value.lower()
+    title_lower = html.unescape(text_value).lower()
     for term in terms:
         if term.lower() in title_lower:
             return term

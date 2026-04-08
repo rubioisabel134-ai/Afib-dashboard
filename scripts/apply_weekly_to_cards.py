@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import csv
+import html
 import json
 import re
 from datetime import datetime
@@ -22,7 +23,33 @@ def parse_date(raw: str) -> Optional[datetime]:
 
 
 def normalize(text: str) -> str:
-    return text.lower()
+    return html.unescape(text).lower()
+
+
+def term_variants(text_value: str, *, is_company: bool = False):
+    raw = (text_value or "").strip()
+    if not raw:
+        return []
+    variants = [raw]
+    if not is_company:
+        alias = re.sub(
+            r"\b(platform|system|device|program|therapy|therapeutic|catheter|portfolio)\b",
+            "",
+            raw,
+            flags=re.IGNORECASE,
+        )
+        alias = re.sub(r"\s+", " ", alias).strip(" -/")
+        if alias and alias not in variants:
+            variants.append(alias)
+        head = alias.split()[0] if alias else ""
+        if head and len(head) >= 5 and any(ch.isupper() for ch in head):
+            variants.append(head)
+    if is_company:
+        for token in re.split(r"[/,;]|(?:\s+\&\s+)", raw):
+            token = token.strip()
+            if len(token) >= 6 and len(token.split()) >= 2:
+                variants.append(token)
+    return variants
 
 
 def extract_source_match(source: str) -> str:
@@ -88,10 +115,10 @@ def main() -> int:
     for item in items:
         name = (item.get("name") or "").strip()
         company = (item.get("company") or "").strip()
-        if name:
-            terms.append(("name", name, item))
-        if company:
-            terms.append(("company", company, item))
+        for variant in term_variants(name, is_company=False):
+            terms.append(("name", variant, item))
+        for variant in term_variants(company, is_company=True):
+            terms.append(("company", variant, item))
         for trial in item.get("trials", []):
             rid = (trial.get("registry_id") or "").strip().upper()
             if rid.startswith("NCT"):

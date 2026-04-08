@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-04-03",
+  "as_of": "2026-04-08",
   "items": [
     {
       "id": "milvexian",
@@ -3281,6 +3281,20 @@
     }
   ],
   "weekly_updates": {
+    "guideline_updates": [],
+    "safety_signals": [
+      {
+        "title": "XYRA Announces the Issuance of a Fifth N",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Budiodarone"
+      },
+      {
+        "title": "XYRA Announces Issuance of US Patent to",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Xyra"
+      }
+    ],
+    "label_expansions": [],
     "conference_abstracts": [
       {
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
@@ -3288,14 +3302,22 @@
         "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX"
       },
       {
+        "title": "ACC 2026 | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: NEW: COVID-19"
+      },
+      {
         "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
         "date": "2026-03-24",
         "source": "HRS News \u00b7 Match: Johnson"
       }
     ],
-    "safety_signals": [],
-    "label_expansions": [],
     "press_pipeline": [
+      {
+        "title": "Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
+        "date": "2026-04-07",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: Johnson"
+      },
       {
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
         "date": "2026-02-24",
@@ -3315,8 +3337,12 @@
         "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
         "date": "2024-02-28",
         "source": "CI manual scan \u00b7 Match: SHR-2004"
+      },
+      {
+        "title": "XYRA Announces FDA Label Guidance for Ma",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Budiodarone"
       }
-    ],
-    "guideline_updates": []
+    ]
   }
 }

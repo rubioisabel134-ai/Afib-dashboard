@@ -191,6 +191,7 @@ def main() -> int:
         update = updates_by_item[key]
         date_prefix = f"{update['date_str']}: " if update["date_str"] else ""
         item["latest_update"] = f"{date_prefix}{update['title']}"
+        item["latest_update_link"] = update["link"] or ""
 
         if update["link"]:
             sources = item.get("sources") or []

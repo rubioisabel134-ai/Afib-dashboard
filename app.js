@@ -200,6 +200,9 @@ function extractUpdateDate(updateText) {
 }
 
 function bestUpdateSource(item) {
+  if (item?.latest_update_link) {
+    return item.latest_update_link;
+  }
   const updateText = item?.latest_update || "";
   const nctMatch = updateText.match(/\bNCT\d{8}\b/i);
   if (nctMatch) {

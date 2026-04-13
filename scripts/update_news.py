@@ -1102,6 +1102,26 @@ def is_source_relevant(
     return True
 
 
+def resolved_row_category(
+    source_category: str,
+    title: str,
+    link: str,
+    body_text: str = "",
+    source_name: str = "",
+    conference: str = "",
+) -> str:
+    category = (source_category or "").strip()
+    if category == "press_pipeline" and has_conference_signal(
+        title,
+        link,
+        body_text,
+        source_name=source_name,
+        conference=conference,
+    ):
+        return "conference_abstracts"
+    return category
+
+
 def parse_manual_input_line(line: str) -> Optional[Tuple[str, str]]:
     text_line = line.strip()
     if not text_line or text_line.startswith("#"):
@@ -1548,7 +1568,13 @@ def main() -> int:
                 continue
             source_label = name if not match else f"{name} · Match: {match}"
             row = {
-                "category": category,
+                "category": resolved_row_category(
+                    category,
+                    title,
+                    link,
+                    source_name=name,
+                    conference=source.get("conference", ""),
+                ),
                 "title": title,
                 "date": date_str,
                 "source": source_label,

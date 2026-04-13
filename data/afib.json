@@ -127,7 +127,8 @@
         "https://anthostherapeutics.com/press-release/anthos_2024-08-15_release-10/",
         "https://anthostherapeutics.com/press-release/anthos_2024-08-27_release/",
         "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
-      ]
+      ],
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
     },
     {
       "id": "shr-2004",
@@ -161,7 +162,8 @@
         "https://academic.oup.com/eurheartj/article/46/Supplement_1/ehaf784.4260/8310619",
         "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
       ],
-      "press_2026": true
+      "press_2026": true,
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
     },
     {
       "id": "regn7508",
@@ -217,7 +219,8 @@
         "https://clinicaltrials.gov/study/NCT07430956",
         "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
       ],
-      "press_2026": true
+      "press_2026": true,
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
     },
     {
       "id": "regn9933",
@@ -273,7 +276,8 @@
         "https://clinicaltrials.gov/study/NCT07430956",
         "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
       ],
-      "press_2026": true
+      "press_2026": true,
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
     },
     {
       "id": "srsd107",
@@ -397,7 +401,8 @@
       "sources": [
         "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af",
         "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
-      ]
+      ],
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
     },
     {
       "id": "dabigatran",
@@ -1582,7 +1587,8 @@
         "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&rank=6",
         "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       ],
-      "press_2026": true
+      "press_2026": true,
+      "latest_update_link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
     },
     {
       "id": "amulet",
@@ -1619,7 +1625,8 @@
         "https://news.google.com/rss/articles/CBMixwFBVV95cUxOejBWOFB5Mnd2UXFlRlhkRDMzZV9mTC1sSm5TeEt1bm1EMVBYQmRGaldiQWJOWUNNRlpic0RyMkFpYkRtUmVFdUNMYXJTMW5ITExkb243U3lkVF9XM0tWVHVCajZQcU0tTnVzRzd3ZU1CX2pFaFpaZ0cxU2N2UENNV0FzSGtUcW04SXhiWjdrM2lYcXE1cEJmWXFXaWtXTFo3NEdlalpBcXpIZjVkMFlDcTVLbTFtanBYWkJFVlppWEV5RU5WV05B?oc=5",
         "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcEhLZ19EbUtjOW9CRVFpd3Jia19Mek9qRmZSX3p5QUcwQlViMnl6UHdZYjRMUkU3TVZLMWpFaGtkS2VFTUxuUWlaWUl6MVYwaFZOUzIxQTJEYkl0NXNsWDFOcjJ6TzlDeU5pWUd0YlJLZ0ZPWlFkS3hyTjRkTEhNTnVsOFdDSFliMkd5a25hbzJad2p3?oc=5"
       ],
-      "press_2026": true
+      "press_2026": true,
+      "latest_update_link": ""
     },
     {
       "id": "watchman-flx-pro",
@@ -1658,7 +1665,8 @@
         "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYndob0RvaVhFM0xrVjFpRFJZRkYzYk1rOGFTTnFZa2tlZkpSRlhDNTBsbl9UbkZDXzlTczVRUUNZTlJIWHVWUWV0Y0ZsRUk2MkFOT1FyLXloWGVabTREb0VNbHRxWkV3eG81SUh1RFNsRHRKVHN1Z0FWSEw0cmlQSzBNTE4xaS0yVGt1X21RSGNkaTItU24xVkctSmY1RUVVVVZ2cHdyMHVHR3d3R1QySVBpazhlZXJQckc1UnhVS053RG44a1B2a2RLNDVGMlVpWjJEZWl5OA?oc=5",
         "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       ],
-      "press_2026": true
+      "press_2026": true,
+      "latest_update_link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
     },
     {
       "id": "appligator",
@@ -2084,7 +2092,8 @@
         "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYndob0RvaVhFM0xrVjFpRFJZRkYzYk1rOGFTTnFZa2tlZkpSRlhDNTBsbl9UbkZDXzlTczVRUUNZTlJIWHVWUWV0Y0ZsRUk2MkFOT1FyLXloWGVabTREb0VNbHRxWkV3eG81SUh1RFNsRHRKVHN1Z0FWSEw0cmlQSzBNTE4xaS0yVGt1X21RSGNkaTItU24xVkctSmY1RUVVVVZ2cHdyMHVHR3d3R1QySVBpazhlZXJQckc1UnhVS053RG44a1B2a2RLNDVGMlVpWjJEZWl5OA?oc=5",
         "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       ],
-      "press_2026": true
+      "press_2026": true,
+      "latest_update_link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
     },
     {
       "id": "farapulse",
@@ -2364,7 +2373,8 @@
         "https://news.google.com/rss/articles/CBMixwFBVV95cUxOejBWOFB5Mnd2UXFlRlhkRDMzZV9mTC1sSm5TeEt1bm1EMVBYQmRGaldiQWJOWUNNRlpic0RyMkFpYkRtUmVFdUNMYXJTMW5ITExkb243U3lkVF9XM0tWVHVCajZQcU0tTnVzRzd3ZU1CX2pFaFpaZ0cxU2N2UENNV0FzSGtUcW04SXhiWjdrM2lYcXE1cEJmWXFXaWtXTFo3NEdlalpBcXpIZjVkMFlDcTVLbTFtanBYWkJFVlppWEV5RU5WV05B?oc=5",
         "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcEhLZ19EbUtjOW9CRVFpd3Jia19Mek9qRmZSX3p5QUcwQlViMnl6UHdZYjRMUkU3TVZLMWpFaGtkS2VFTUxuUWlaWUl6MVYwaFZOUzIxQTJEYkl0NXNsWDFOcjJ6TzlDeU5pWUd0YlJLZ0ZPWlFkS3hyTjRkTEhNTnVsOFdDSFliMkd5a25hbzJad2p3?oc=5"
       ],
-      "press_2026": true
+      "press_2026": true,
+      "latest_update_link": ""
     },
     {
       "id": "heliostar",
@@ -2851,7 +2861,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal AF ablation",
       "company": "Johnson & Johnson MedTech",
-      "latest_update": "2026-04-07: Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
+      "latest_update": "2026-04-13: Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",
       "tags": [
         "PFA",
         "ablation"
@@ -2874,7 +2884,8 @@
         "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe",
         "https://www.jnj.com/media-center/press-releases/johnson-johnson-highlights-favorable-12-month-interim-results-for-the-varipulse-platform-at-ehra-2026"
       ],
-      "press_2026": true
+      "press_2026": true,
+      "latest_update_link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-highlights-favorable-12-month-interim-results-for-the-varipulse-platform-at-ehra-2026"
     },
     {
       "id": "volt",
@@ -2912,7 +2923,8 @@
         "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT0ZBUXhNbUdTWkJYUmpuVjgyUmZDRXJsWjU1Z2M1Q3dad253RjBmRHRVdHBGV0d0M3c5TENJTER3OGJkRGRDQ3Q4SXFuRU45SmRLV2Z5Nko5aXdGOWpKZWViLVR3OGpVejFNSjhLemYyb2xBMWJNT1hCRDNOSzNsajN2MzlMVWdNS25aSnJaSmprd0xJRnlNNEROZWhDN0pnNGYyVV81SUJsZw?oc=5",
         "https://news.google.com/rss/articles/CBMixwFBVV95cUxOejBWOFB5Mnd2UXFlRlhkRDMzZV9mTC1sSm5TeEt1bm1EMVBYQmRGaldiQWJOWUNNRlpic0RyMkFpYkRtUmVFdUNMYXJTMW5ITExkb243U3lkVF9XM0tWVHVCajZQcU0tTnVzRzd3ZU1CX2pFaFpaZ0cxU2N2UENNV0FzSGtUcW04SXhiWjdrM2lYcXE1cEJmWXFXaWtXTFo3NEdlalpBcXpIZjVkMFlDcTVLbTFtanBYWkJFVlppWEV5RU5WV05B?oc=5",
         "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcEhLZ19EbUtjOW9CRVFpd3Jia19Mek9qRmZSX3p5QUcwQlViMnl6UHdZYjRMUkU3TVZLMWpFaGtkS2VFTUxuUWlaWUl6MVYwaFZOUzIxQTJEYkl0NXNsWDFOcjJ6TzlDeU5pWUd0YlJLZ0ZPWlFkS3hyTjRkTEhNTnVsOFdDSFliMkd5a25hbzJad2p3?oc=5"
-      ]
+      ],
+      "latest_update_link": ""
     },
     {
       "id": "sphere-360",
@@ -3288,23 +3300,7 @@
     }
   ],
   "weekly_updates": {
-    "label_expansions": [],
-    "safety_signals": [],
     "guideline_updates": [],
-    "conference_abstracts": [
-      {
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
     "press_pipeline": [
       {
         "title": "Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
@@ -3341,6 +3337,28 @@
         "date": "2024-02-28",
         "source": "CI manual scan \u00b7 Match: SHR-2004",
         "link": "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
+      }
+    ],
+    "label_expansions": [],
+    "safety_signals": [],
+    "conference_abstracts": [
+      {
+        "title": "Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",
+        "date": "2026-04-13",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: VARIPULSE Platform",
+        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-highlights-favorable-12-month-interim-results-for-the-varipulse-platform-at-ehra-2026"
+      },
+      {
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
       }
     ]
   }

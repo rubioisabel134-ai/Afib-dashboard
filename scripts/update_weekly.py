@@ -141,6 +141,7 @@ def main() -> int:
                     "title": (row.get("title") or "").strip(),
                     "date": (row.get("date") or "").strip(),
                     "source": (row.get("source") or "").strip(),
+                    "link": (row.get("link") or "").strip(),
                 }
             )
 

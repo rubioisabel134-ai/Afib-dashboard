@@ -2851,7 +2851,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal AF ablation",
       "company": "Johnson & Johnson MedTech",
-      "latest_update": "2026-04-13: Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",
+      "latest_update": "2026-04-07: Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
       "tags": [
         "PFA",
         "ablation"
@@ -3288,72 +3288,59 @@
     }
   ],
   "weekly_updates": {
-    "press_pipeline": [
-      {
-        "title": "Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",
-        "date": "2026-04-13",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: VARIPULSE Platform"
-      },
-      {
-        "title": "Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
-        "date": "2026-04-07",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: Johnson"
-      },
-      {
-        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
-        "date": "2026-02-24",
-        "source": "CI manual scan \u00b7 Match: REGN7508"
-      },
-      {
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
-        "date": "2025-11-06",
-        "source": "CI manual scan \u00b7 Match: Abelacimab"
-      },
-      {
-        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
-        "date": "2024-11-29",
-        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
-      },
-      {
-        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
-        "date": "2024-02-28",
-        "source": "CI manual scan \u00b7 Match: SHR-2004"
-      },
-      {
-        "title": "XYRA Announces FDA Label Guidance for Ma",
-        "date": "",
-        "source": "Xyra News \u00b7 Match: Budiodarone"
-      }
-    ],
+    "label_expansions": [],
+    "safety_signals": [],
+    "guideline_updates": [],
     "conference_abstracts": [
       {
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
         "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX"
-      },
-      {
-        "title": "ACC 2026 | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: NEW: COVID-19"
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       },
       {
         "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
         "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson"
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
       }
     ],
-    "label_expansions": [],
-    "guideline_updates": [],
-    "safety_signals": [
+    "press_pipeline": [
       {
-        "title": "XYRA Announces the Issuance of a Fifth N",
-        "date": "",
-        "source": "Xyra News \u00b7 Match: Budiodarone"
+        "title": "Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
+        "date": "2026-04-07",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: Johnson",
+        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe"
+      },
+      {
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+        "date": "2026-02-24",
+        "source": "CI manual scan \u00b7 Match: REGN7508",
+        "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
+      },
+      {
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      },
+      {
+        "title": "Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
+        "date": "2025-11-06",
+        "source": "CI manual scan \u00b7 Match: Abelacimab",
+        "link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
+      },
+      {
+        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+        "date": "2024-11-29",
+        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX",
+        "link": "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&rank=6"
+      },
+      {
+        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
+        "date": "2024-02-28",
+        "source": "CI manual scan \u00b7 Match: SHR-2004",
+        "link": "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
       }
     ]
   }

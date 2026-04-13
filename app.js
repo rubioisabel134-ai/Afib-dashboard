@@ -298,13 +298,24 @@ function buildCard(item) {
   const drawer = node.querySelector(".drawer");
   const drawerContent = node.querySelector(".drawer-content");
   const details = node.querySelector(".details");
+  const latestSource = bestUpdateSource(item);
 
   title.textContent = item.name;
   sub.textContent = item.category;
   pill.textContent = item.stage;
   mechanism.textContent = item.mechanism;
   focus.textContent = item.focus;
-  latest.textContent = item.latest_update;
+  if (latestSource) {
+    latest.innerHTML = "";
+    const latestLink = document.createElement("a");
+    latestLink.href = latestSource;
+    latestLink.target = "_blank";
+    latestLink.rel = "noopener noreferrer";
+    latestLink.textContent = item.latest_update;
+    latest.appendChild(latestLink);
+  } else {
+    latest.textContent = item.latest_update;
+  }
   trials.textContent = item.trials.map((trial) => trial.name).join(", ");
   company.textContent = item.company;
 
@@ -330,6 +341,15 @@ function buildCard(item) {
     <strong>Notes:</strong>
     <p>${item.notes}</p>
   `;
+  const sourceLinks = (item.sources || [])
+    .map((source) => `<li><a href="${source}" target="_blank" rel="noopener noreferrer">${source}</a></li>`)
+    .join("");
+  if (sourceLinks) {
+    drawerContent.innerHTML += `
+      <strong>Sources:</strong>
+      <ul>${sourceLinks}</ul>
+    `;
+  }
 
   details.addEventListener("click", () => {
     drawer.classList.toggle("open");
@@ -385,8 +405,13 @@ function renderWeeklyList(container, entries) {
   const extra = scored.filter((e) => !previewIdx.has(e._idx));
 
   preview.forEach((entry) => {
-    const div = document.createElement("div");
+    const div = document.createElement(entry.link ? "a" : "div");
     div.className = "weekly-item";
+    if (entry.link) {
+      div.href = entry.link;
+      div.target = "_blank";
+      div.rel = "noopener noreferrer";
+    }
     div.innerHTML = `<strong>${entry.title}</strong><span>${entry.date || "Date TBD"} · ${
       entry.source || "Source TBD"
     }</span>`;
@@ -399,8 +424,13 @@ function renderWeeklyList(container, entries) {
     extraWrap.hidden = true;
 
     extra.forEach((entry) => {
-      const div = document.createElement("div");
+      const div = document.createElement(entry.link ? "a" : "div");
       div.className = "weekly-item";
+      if (entry.link) {
+        div.href = entry.link;
+        div.target = "_blank";
+        div.rel = "noopener noreferrer";
+      }
       div.innerHTML = `<strong>${entry.title}</strong><span>${entry.date || "Date TBD"} · ${
         entry.source || "Source TBD"
       }</span>`;

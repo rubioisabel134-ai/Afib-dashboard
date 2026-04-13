@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-04-08",
+  "as_of": "2026-04-13",
   "items": [
     {
       "id": "milvexian",
@@ -95,7 +95,7 @@
       "mechanism": "Monoclonal antibody targeting FXI/FXIa",
       "focus": "Stroke and systemic embolism prevention in AF",
       "company": "Novartis / Anthos Therapeutics",
-      "latest_update": "Phase 3 development in AF; FDA Fast Track for AF stroke prevention",
+      "latest_update": "2025-11-06: Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
       "tags": [
         "FXI",
         "mAb",
@@ -125,7 +125,8 @@
       "sources": [
         "https://www.novartis.com/news/media-releases/novartis-bolsters-late-stage-cardiovascular-pipeline-agreement-acquire-anthos-therapeutics-usd-925-million-upfront",
         "https://anthostherapeutics.com/press-release/anthos_2024-08-15_release-10/",
-        "https://anthostherapeutics.com/press-release/anthos_2024-08-27_release/"
+        "https://anthostherapeutics.com/press-release/anthos_2024-08-27_release/",
+        "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
       ]
     },
     {
@@ -376,7 +377,7 @@
       "mechanism": "Direct oral anticoagulant (Factor Xa inhibitor)",
       "focus": "Stroke prevention in AF",
       "company": "Bayer / Janssen",
-      "latest_update": "DOACs preferred over warfarin in most AF patients",
+      "latest_update": "2025-11-06: Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
       "tags": [
         "DOAC",
         "Factor Xa"
@@ -394,7 +395,8 @@
       ],
       "notes": "Standard-of-care anticoagulant for non-valvular AF.",
       "sources": [
-        "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"
+        "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af",
+        "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
       ]
     },
     {
@@ -2849,7 +2851,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal AF ablation",
       "company": "Johnson & Johnson MedTech",
-      "latest_update": "2026-04-07: Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
+      "latest_update": "2026-04-13: Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",
       "tags": [
         "PFA",
         "ablation"
@@ -2869,7 +2871,8 @@
       "sources": [
         "https://www.jnj.com/media-center/press-releases/johnson-johnson-medtech-receives-fda-approval-for-the-varipulse-pulsed-field-ablation-platform-for-the-treatment-of-atrial-fibrillation",
         "https://www.wsj.com/health/healthcare/j-js-high-hopes-for-heart-rhythm-device-grounded-by-safety-concerns-8ea63120",
-        "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe"
+        "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe",
+        "https://www.jnj.com/media-center/press-releases/johnson-johnson-highlights-favorable-12-month-interim-results-for-the-varipulse-platform-at-ehra-2026"
       ],
       "press_2026": true
     },
@@ -3285,20 +3288,48 @@
     }
   ],
   "weekly_updates": {
-    "guideline_updates": [],
-    "safety_signals": [
+    "press_pipeline": [
       {
-        "title": "XYRA Announces the Issuance of a Fifth N",
-        "date": "",
-        "source": "Xyra News \u00b7 Match: Budiodarone"
+        "title": "Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",
+        "date": "2026-04-13",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: VARIPULSE Platform"
       },
       {
-        "title": "XYRA Announces Issuance of US Patent to",
+        "title": "Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
+        "date": "2026-04-07",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: Johnson"
+      },
+      {
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+        "date": "2026-02-24",
+        "source": "CI manual scan \u00b7 Match: REGN7508"
+      },
+      {
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
+      },
+      {
+        "title": "Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
+        "date": "2025-11-06",
+        "source": "CI manual scan \u00b7 Match: Abelacimab"
+      },
+      {
+        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+        "date": "2024-11-29",
+        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
+      },
+      {
+        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
+        "date": "2024-02-28",
+        "source": "CI manual scan \u00b7 Match: SHR-2004"
+      },
+      {
+        "title": "XYRA Announces FDA Label Guidance for Ma",
         "date": "",
-        "source": "Xyra News \u00b7 Match: Xyra"
+        "source": "Xyra News \u00b7 Match: Budiodarone"
       }
     ],
-    "label_expansions": [],
     "conference_abstracts": [
       {
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
@@ -3316,34 +3347,11 @@
         "source": "HRS News \u00b7 Match: Johnson"
       }
     ],
-    "press_pipeline": [
+    "label_expansions": [],
+    "guideline_updates": [],
+    "safety_signals": [
       {
-        "title": "Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
-        "date": "2026-04-07",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: Johnson"
-      },
-      {
-        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
-        "date": "2026-02-24",
-        "source": "CI manual scan \u00b7 Match: REGN7508"
-      },
-      {
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott"
-      },
-      {
-        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
-        "date": "2024-11-29",
-        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX"
-      },
-      {
-        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
-        "date": "2024-02-28",
-        "source": "CI manual scan \u00b7 Match: SHR-2004"
-      },
-      {
-        "title": "XYRA Announces FDA Label Guidance for Ma",
+        "title": "XYRA Announces the Issuance of a Fifth N",
         "date": "",
         "source": "Xyra News \u00b7 Match: Budiodarone"
       }

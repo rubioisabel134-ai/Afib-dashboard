@@ -351,7 +351,7 @@
       "mechanism": "Selective GIRK4 inhibitor",
       "focus": "Rapid pharmacologic cardioversion in AF",
       "company": "Bayer",
-      "latest_update": "2026-04-16: Phase III study results with Bayer\u2019s FXIa inhibitor demonstrating substantial reduction in ischemic stroke with no increase in ISTH major bleeding versus placebo published in New England Journal of Medicine",
+      "latest_update": "Articles tagged with 'doccheck-en' | Bayer",
       "tags": [
         "GIRK4",
         "cardioversion",
@@ -372,10 +372,9 @@
       "sources": [
         "https://www.bayer.com/media/en-us/bayer-starts-phase-i-study-with-girk4-inhibitor-for-treatment-of-patients-with-atrial-fibrillation/",
         "https://www.bayer.com/en/us/news-stories/rapid-cardioversion",
-        "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
+        "https://www.bayer.com/media/en-us/?h=1&t=doccheck-en"
       ],
-      "latest_update_link": "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/",
-      "press_2026": true
+      "latest_update_link": "https://www.bayer.com/media/en-us/?h=1&t=doccheck-en"
     },
     {
       "id": "rivaroxaban",

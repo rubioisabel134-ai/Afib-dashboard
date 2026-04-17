@@ -145,13 +145,21 @@ def main() -> int:
                 if normalize(term) in title_norm:
                     matched_items.append((kind, term, item))
 
-            if not matched_items:
-                source_match = extract_source_match(source)
-                if source_match and not is_new_candidate_match(source_match):
-                    source_norm = normalize(source_match)
-                    for kind, term, item in terms:
-                        if normalize(term) == source_norm:
-                            matched_items.append((kind, term, item))
+            if matched_items and any(kind == "name" for kind, _, _ in matched_items):
+                matched_items = [entry for entry in matched_items if entry[0] != "company"]
+
+            source_matched_items = []
+            source_match = extract_source_match(source)
+            if source_match and not is_new_candidate_match(source_match):
+                source_norm = normalize(source_match)
+                for kind, term, item in terms:
+                    if normalize(term) == source_norm:
+                        source_matched_items.append((kind, term, item))
+
+            if source_matched_items:
+                matched_items = source_matched_items
+            elif matched_items and any(kind == "name" for kind, _, _ in matched_items):
+                matched_items = [entry for entry in matched_items if entry[0] != "company"]
 
             # Also map by registry id so one NCT update can fan out to all linked assets.
             nct_id = extract_nct_id(f"{title} {link}")

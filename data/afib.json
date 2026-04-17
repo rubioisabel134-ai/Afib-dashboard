@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-04-13",
+  "as_of": "2026-04-17",
   "items": [
     {
       "id": "milvexian",
@@ -10,7 +10,7 @@
       "mechanism": "Oral Factor XIa inhibitor",
       "focus": "Stroke prevention in AF and secondary stroke prevention",
       "company": "BMS / Johnson & Johnson",
-      "latest_update": "ClinicalTrials.gov update posted 2026-03-13",
+      "latest_update": "ClinicalTrials.gov update posted 2026-04-13",
       "tags": [
         "FXI",
         "oral",
@@ -51,7 +51,7 @@
       "mechanism": "Oral Factor XIa inhibitor",
       "focus": "Secondary stroke prevention; AF program stopped",
       "company": "Bayer",
-      "latest_update": "ClinicalTrials.gov update posted 2025-11-12",
+      "latest_update": "2026-04-16: Phase III study results with Bayer\u2019s FXIa inhibitor demonstrating substantial reduction in ischemic stroke with no increase in ISTH major bleeding versus placebo published in New England Journal of Medicine",
       "press_2026": true,
       "tags": [
         "FXI",
@@ -83,8 +83,10 @@
         "https://www.bayer.com/media/en-us/oceanic-af-study-stopped-early-due-to-lack-of-efficacy/",
         "https://www.bayer.com/en/us/news-stories/asundexian-after-a-non-cardioembolic-ischemic-stroke",
         "https://www.bayer.com/media/en-us/bayers-asundexian-demonstrated-a-substantial-26-percent-reduction-in-stroke-after-a-non-cardioembolic-ischemic-stroke-or-high-risk-transient-ischemic-attack-with-no-increase-in-isth-major-bleeding-versus-placebo/",
-        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdmxiTEJBZE8xaW14TnF6TE9CX29nelcxWWt6VTJmMkw4RlkzT0xsclFRb2xXcDJFeW1QWmFzZmNQRW5ZblZQZEtISVJMa2N4OUNrUkY5Mm1RTWlKdGVLTTQ5MVhFTXdRT2FDeW4xYVp5OGwyWkxIOGxlazJybUVjMGF6ZEtyZlNBVnJjVjF0TFR3S0gyRTk0dEhHTWhYY0w1aWdpQzc4WElFeU5UU2RyaUx3dzFucUdmd1d1VHJGc2NVVzlu?oc=5"
-      ]
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdmxiTEJBZE8xaW14TnF6TE9CX29nelcxWWt6VTJmMkw4RlkzT0xsclFRb2xXcDJFeW1QWmFzZmNQRW5ZblZQZEtISVJMa2N4OUNrUkY5Mm1RTWlKdGVLTTQ5MVhFTXdRT2FDeW4xYVp5OGwyWkxIOGxlazJybUVjMGF6ZEtyZlNBVnJjVjF0TFR3S0gyRTk0dEhHTWhYY0w1aWdpQzc4WElFeU5UU2RyaUx3dzFucUdmd1d1VHJGc2NVVzlu?oc=5",
+        "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
+      ],
+      "latest_update_link": "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
     },
     {
       "id": "abelacimab",
@@ -349,7 +351,7 @@
       "mechanism": "Selective GIRK4 inhibitor",
       "focus": "Rapid pharmacologic cardioversion in AF",
       "company": "Bayer",
-      "latest_update": "Phase 1 first\u2011in\u2011human study initiated (May 2025)",
+      "latest_update": "2026-04-16: Phase III study results with Bayer\u2019s FXIa inhibitor demonstrating substantial reduction in ischemic stroke with no increase in ISTH major bleeding versus placebo published in New England Journal of Medicine",
       "tags": [
         "GIRK4",
         "cardioversion",
@@ -369,8 +371,11 @@
       "notes": "Investigational GIRK4 inhibitor aimed at rapid cardioversion without anesthesia or electrical shock.",
       "sources": [
         "https://www.bayer.com/media/en-us/bayer-starts-phase-i-study-with-girk4-inhibitor-for-treatment-of-patients-with-atrial-fibrillation/",
-        "https://www.bayer.com/en/us/news-stories/rapid-cardioversion"
-      ]
+        "https://www.bayer.com/en/us/news-stories/rapid-cardioversion",
+        "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
+      ],
+      "latest_update_link": "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/",
+      "press_2026": true
     },
     {
       "id": "rivaroxaban",
@@ -1244,7 +1249,8 @@
         "https://www.prnewswire.com/news-releases/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040-302436581.html",
         "https://www.prnewswire.com/news-releases/armetheon-announces-issuance-of-a-new-us-patent-for-its-phase-2-clinical-stage-novel-oral-anti-arrhythmic-budiodarone-300406058.html",
         "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
-      ]
+      ],
+      "latest_update_link": "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
     },
     {
       "id": "metoprolol",
@@ -2221,7 +2227,7 @@
       "mechanism": "Ultra-low temperature cryoablation (ULTC)",
       "focus": "Persistent AF ablation",
       "company": "Adagio Medical",
-      "latest_update": "ClinicalTrials.gov update posted 2024-04-24",
+      "latest_update": "ClinicalTrials.gov update posted 2026-04-13",
       "tags": [
         "cryoablation",
         "ULTC"
@@ -2230,7 +2236,7 @@
         {
           "name": "iCLAS U.S. IDE",
           "phase": "IDE",
-          "status": "UNKNOWN",
+          "status": "COMPLETED",
           "readout": "TBD",
           "readout_date": "2023-08-30",
           "registry_id": "NCT04061603",
@@ -2283,7 +2289,7 @@
       "mechanism": "Epicardial RF ablation (hybrid convergent procedure)",
       "focus": "Persistent and long-standing persistent AF",
       "company": "AtriCure",
-      "latest_update": "ClinicalTrials.gov update posted 2023-11-13",
+      "latest_update": "2026-04-14: AtriCure to Announce First Quarter 2026 Financial Results | AtriCure News",
       "tags": [
         "RF",
         "hybrid",
@@ -2304,8 +2310,11 @@
       "sources": [
         "https://ir.atricure.com/news-releases/news-release-details/atricures-epi-sense-system-approved-fda-treatment-long-standing",
         "https://www.atricure.com/patients-caregivers/clinical-evidence/trials-results",
-        "https://ir.atricure.com/news-releases/news-release-details/atricure-completes-enrollment-leaaps-clinical-trial-stroke"
-      ]
+        "https://ir.atricure.com/news-releases/news-release-details/atricure-completes-enrollment-leaaps-clinical-trial-stroke",
+        "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results"
+      ],
+      "latest_update_link": "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results",
+      "press_2026": true
     },
     {
       "id": "omnypulse",
@@ -2582,7 +2591,7 @@
       "mechanism": "Surgical clamp with advanced RF + PFA",
       "focus": "Concomitant surgical AF ablation",
       "company": "AtriCure",
-      "latest_update": "AtriCure Completes Enrollment in LeAAPS Clinical Trial for Stroke Prevention",
+      "latest_update": "2026-04-14: AtriCure to Announce First Quarter 2026 Financial Results | AtriCure News",
       "tags": [
         "PFA",
         "RF",
@@ -2602,8 +2611,11 @@
       "notes": "Builds on EnCompass clamp; combines advanced RF and PFA to reduce ablation time.",
       "sources": [
         "https://www.businesswire.com/news/home/20251211833575/en/AtriCure-Announces-the-First-Patients-Treated-with-Novel-Dual-Energy-Platform",
-        "https://ir.atricure.com/news-releases/news-release-details/atricure-completes-enrollment-leaaps-clinical-trial-stroke"
-      ]
+        "https://ir.atricure.com/news-releases/news-release-details/atricure-completes-enrollment-leaaps-clinical-trial-stroke",
+        "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results"
+      ],
+      "latest_update_link": "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results",
+      "press_2026": true
     },
     {
       "id": "cardiopulse-dinova",
@@ -3300,8 +3312,20 @@
     }
   ],
   "weekly_updates": {
-    "guideline_updates": [],
+    "label_expansions": [],
     "press_pipeline": [
+      {
+        "title": "Phase III study results with Bayer\u2019s FXIa inhibitor demonstrating substantial reduction in ischemic stroke with no increase in ISTH major bleeding versus placebo published in New England Journal of Medicine",
+        "date": "2026-04-16",
+        "source": "Bayer Media \u00b7 Match: Asundexian",
+        "link": "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
+      },
+      {
+        "title": "AtriCure to Announce First Quarter 2026 Financial Results | AtriCure News",
+        "date": "2026-04-14",
+        "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
+        "link": "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results"
+      },
       {
         "title": "Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
         "date": "2026-04-07",
@@ -3337,10 +3361,29 @@
         "date": "2024-02-28",
         "source": "CI manual scan \u00b7 Match: SHR-2004",
         "link": "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
+      },
+      {
+        "title": "Articles tagged with 'doccheck-en' | Bayer",
+        "date": "",
+        "source": "Bayer Media \u00b7 Match: Bayer",
+        "link": "https://www.bayer.com/media/en-us/?h=1&t=doccheck-en"
+      },
+      {
+        "title": "XYRA Announces FDA Label Guidance for Ma",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Budiodarone",
+        "link": "https://xyra.us/news/xyra-announces-fda-label-guidance-for-managing-atrial-fibrillation-with-budiodarone-and-wearable-monitoring-devices/"
       }
     ],
-    "label_expansions": [],
-    "safety_signals": [],
+    "safety_signals": [
+      {
+        "title": "XYRA Announces the Issuance of a Fifth N",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Budiodarone",
+        "link": "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
+      }
+    ],
+    "guideline_updates": [],
     "conference_abstracts": [
       {
         "title": "Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",

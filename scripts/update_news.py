@@ -977,10 +977,21 @@ def load_conference_sources(now: datetime) -> List[Dict[str, str]]:
 
 def find_match(text_value: str, terms: List[str]) -> str:
     title_lower = html.unescape(text_value).lower()
-    for term in terms:
+    matches = []
+    for idx, term in enumerate(terms):
         if term.lower() in title_lower:
-            return term
-    return ""
+            matches.append(term)
+    if not matches:
+        return ""
+
+    matches.sort(
+        key=lambda term: (
+            1 if is_company_like_term(term) else 0,
+            -len(term),
+            terms.index(term),
+        )
+    )
+    return matches[0]
 
 
 def is_af_relevant(title: str, link: str, body_text: str = "") -> bool:

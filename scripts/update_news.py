@@ -721,6 +721,8 @@ def load_terms() -> List[str]:
         name = (item.get("name") or "").strip()
         company = (item.get("company") or "").strip()
         terms.extend(term_variants(name, is_company=False))
+        for alias in item.get("aliases", []) or []:
+            terms.extend(term_variants(str(alias), is_company=False))
         terms.extend(term_variants(company, is_company=True))
     # De-duplicate while preserving order
     seen = set()

@@ -3286,26 +3286,43 @@
     },
     {
       "id": "rbd4059",
-      "name": "RBD4059",
+      "name": "Vortosiran",
+      "aliases": [
+        "RBD4059",
+        "Vortosiran (RBD4059)"
+      ],
       "type": "Drug",
       "category": "Stroke Prevention - FXI Inhibitors",
-      "stage": "Preclinical",
+      "stage": "Phase 2",
       "mechanism": "RNA interference therapy targeting coagulation factor XI",
       "focus": "Stroke prevention and anticoagulation risk reduction in AF",
       "company": "Ribocure / RiboLife",
-      "latest_update": "2026-03-07: RBD4059 publication: RNA interference therapy targeting coagulation factor XI",
+      "latest_update": "2026-04-14: Ribo Submits Phase 2b Clinical Trial Application for world\u2019s first siRNA FXI inhibitor in atrial fibrillation",
+      "latest_update_link": "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/",
       "tags": [
         "FXI",
         "RNAi",
         "stroke prevention",
-        "preclinical"
+        "phase 2",
+        "vortosiran"
       ],
-      "trials": [],
-      "notes": "Emerging RNA interference approach for FXI suppression; potential competitor in low-bleeding anticoagulation strategies if advanced into AF clinical trials.",
+      "trials": [
+        {
+          "name": "ORBIT-FXI-AF",
+          "phase": "Phase 2b",
+          "status": "CTA submitted",
+          "readout": "TBD",
+          "readout_date": null,
+          "registry_id": null,
+          "note": "Planned atrial fibrillation stroke-prevention study; future registry listing may use vortosiran or RBD4059."
+        }
+      ],
+      "notes": "Ribocure renamed RBD4059 to vortosiran and announced a Phase 2b CTA submission for AF. Watch for a future ClinicalTrials.gov record under either vortosiran, RBD4059, or ORBIT-FXI-AF.",
       "sources": [
         "https://ashpublications.org/bloodadvances/article/doi/10.1182/bloodadvances.2025018348/565939/RNA-interference-therapy-targeting-coagulation",
         "https://pharmaphorum.com/news/rna-specialist-ribo-files-205m-ipo-hong-kong",
-        "https://ribocure.com/ribo-and-ribocure-announce-exclusive-global-licensing-agreement/"
+        "https://ribocure.com/ribo-and-ribocure-announce-exclusive-global-licensing-agreement/",
+        "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/"
       ],
       "press_2026": true
     }
@@ -3313,6 +3330,12 @@
   "weekly_updates": {
     "label_expansions": [],
     "press_pipeline": [
+      {
+        "title": "Ribo Submits Phase 2b Clinical Trial Application for world’s first siRNA FXI inhibitor in atrial fibrillation",
+        "date": "2026-04-14",
+        "source": "Ribocure News \u00b7 Match: Vortosiran",
+        "link": "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/"
+      },
       {
         "title": "Phase III study results with Bayer\u2019s FXIa inhibitor demonstrating substantial reduction in ischemic stroke with no increase in ISTH major bleeding versus placebo published in New England Journal of Medicine",
         "date": "2026-04-16",

@@ -117,6 +117,9 @@ def main() -> int:
         company = (item.get("company") or "").strip()
         for variant in term_variants(name, is_company=False):
             terms.append(("name", variant, item))
+        for alias in item.get("aliases", []) or []:
+            for variant in term_variants(str(alias), is_company=False):
+                terms.append(("name", variant, item))
         for variant in term_variants(company, is_company=True):
             terms.append(("company", variant, item))
         for trial in item.get("trials", []):

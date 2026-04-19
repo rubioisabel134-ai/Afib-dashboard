@@ -5,6 +5,7 @@ const state = {
     stage: new Set(),
     type: new Set(),
   },
+  conferenceFilter: "",
   search: "",
 };
 
@@ -26,6 +27,7 @@ const weeklyPressEl = document.getElementById("weeklyPress");
 const conferenceFeedEl = document.getElementById("conferenceFeed");
 const conferenceCalendarEl = document.getElementById("conferenceCalendar");
 const conferenceStatusEl = document.getElementById("conferenceStatus");
+const conferenceChipsEl = document.getElementById("conferenceChips");
 const cardTemplate = document.getElementById("cardTemplate");
 const WEEKLY_PREVIEW_LIMIT = 5;
 const SUMMARY_UPDATE_LIMIT = 4;
@@ -406,10 +408,46 @@ function conferenceState(calendarEntries) {
   return { active, upcoming };
 }
 
+function detectConferenceCode(entry, conferenceCodes) {
+  const haystack = `${entry?.title || ""} ${entry?.source || ""}`.toLowerCase();
+  for (const code of conferenceCodes) {
+    const lower = code.toLowerCase();
+    if (haystack.includes(lower)) return code;
+    if (code === "HRS" && haystack.includes("heart rhythm")) return code;
+    if (code === "ACC" && haystack.includes("american college of cardiology")) return code;
+    if (code === "AHA" && haystack.includes("scientific sessions")) return code;
+  }
+  return "";
+}
+
+function renderConferenceChips(calendarEntries, defaultCode) {
+  if (!conferenceChipsEl) return;
+  conferenceChipsEl.innerHTML = "";
+  const codes = Array.from(new Set((calendarEntries || []).map((entry) => entry.conference).filter(Boolean)));
+  if (!codes.length) return;
+  if (!state.conferenceFilter) state.conferenceFilter = defaultCode || "HRS";
+  if (!codes.includes(state.conferenceFilter)) state.conferenceFilter = defaultCode || codes[0];
+
+  codes.forEach((code) => {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "conference-chip";
+    chip.textContent = code;
+    chip.classList.toggle("active", state.conferenceFilter === code);
+    chip.addEventListener("click", () => {
+      state.conferenceFilter = code;
+      renderConferenceCalendar(calendarEntries, state.data?.weekly_updates?.conference_abstracts || []);
+    });
+    conferenceChipsEl.appendChild(chip);
+  });
+}
+
 function renderConferenceCalendar(calendarEntries, weeklyConference) {
   if (!conferenceCalendarEl || !conferenceStatusEl || !conferenceFeedEl) return;
 
   const { active, upcoming } = conferenceState(calendarEntries || []);
+  const defaultCode = active?.conference || upcoming[0]?.conference || "HRS";
+  renderConferenceChips(calendarEntries, defaultCode);
   if (active) {
     conferenceStatusEl.textContent = `Active Meeting: ${active.label || active.conference}`;
   } else if (upcoming.length) {
@@ -437,13 +475,14 @@ function renderConferenceCalendar(calendarEntries, weeklyConference) {
     });
   }
 
-  const activeCode = (active?.conference || "").toLowerCase();
-  const prioritizedConference = [...(weeklyConference || [])].sort((a, b) => {
-    const aHit = activeCode && `${a.title || ""} ${a.source || ""}`.toLowerCase().includes(activeCode) ? 1 : 0;
-    const bHit = activeCode && `${b.title || ""} ${b.source || ""}`.toLowerCase().includes(activeCode) ? 1 : 0;
-    if (bHit !== aHit) return bHit - aHit;
-    return (b.date || "").localeCompare(a.date || "");
-  });
+  const codes = Array.from(new Set((calendarEntries || []).map((entry) => entry.conference).filter(Boolean)));
+  const prioritizedConference = [...(weeklyConference || [])]
+    .map((entry) => ({
+      ...entry,
+      _conferenceCode: detectConferenceCode(entry, codes),
+    }))
+    .filter((entry) => !state.conferenceFilter || entry._conferenceCode === state.conferenceFilter)
+    .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   renderWeeklyList(conferenceFeedEl, prioritizedConference.slice(0, 8));
 }
 

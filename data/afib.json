@@ -3328,14 +3328,35 @@
     }
   ],
   "weekly_updates": {
-    "label_expansions": [],
-    "press_pipeline": [
+    "conference_abstracts": [
       {
-        "title": "Ribo Submits Phase 2b Clinical Trial Application for world’s first siRNA FXI inhibitor in atrial fibrillation",
-        "date": "2026-04-14",
-        "source": "Ribocure News \u00b7 Match: Vortosiran",
-        "link": "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/"
+        "title": "Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",
+        "date": "2026-04-13",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: VARIPULSE Platform",
+        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-highlights-favorable-12-month-interim-results-for-the-varipulse-platform-at-ehra-2026"
       },
+      {
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
+    "safety_signals": [
+      {
+        "title": "XYRA Announces the Issuance of a Fifth N",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Budiodarone",
+        "link": "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
+      }
+    ],
+    "press_pipeline": [
       {
         "title": "Phase III study results with Bayer\u2019s FXIa inhibitor demonstrating substantial reduction in ischemic stroke with no increase in ISTH major bleeding versus placebo published in New England Journal of Medicine",
         "date": "2026-04-16",
@@ -3347,6 +3368,12 @@
         "date": "2026-04-14",
         "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
         "link": "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results"
+      },
+      {
+        "title": "Ribo Submits Phase 2b Clinical Trial Application for world\u2019s first siRNA FXI inhibitor in atrial fibrillation",
+        "date": "2026-04-14",
+        "source": "Ribocure News \u00b7 Match: Vortosiran",
+        "link": "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/"
       },
       {
         "title": "Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
@@ -3397,34 +3424,7 @@
         "link": "https://xyra.us/news/xyra-announces-fda-label-guidance-for-managing-atrial-fibrillation-with-budiodarone-and-wearable-monitoring-devices/"
       }
     ],
-    "safety_signals": [
-      {
-        "title": "XYRA Announces the Issuance of a Fifth N",
-        "date": "",
-        "source": "Xyra News \u00b7 Match: Budiodarone",
-        "link": "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
-      }
-    ],
     "guideline_updates": [],
-    "conference_abstracts": [
-      {
-        "title": "Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",
-        "date": "2026-04-13",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: VARIPULSE Platform",
-        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-highlights-favorable-12-month-interim-results-for-the-varipulse-platform-at-ehra-2026"
-      },
-      {
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ]
+    "label_expansions": []
   }
 }

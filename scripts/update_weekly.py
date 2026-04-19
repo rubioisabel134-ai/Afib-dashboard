@@ -121,34 +121,11 @@ def dedupe_entries(entries):
     return list(best.values())
 
 
-def main() -> int:
-    if not DATA_PATH.exists() or not CSV_PATH.exists():
-        print("Missing data/afib.json or data/weekly_updates.csv")
-        return 1
-
-    data = json.loads(DATA_PATH.read_text())
-
+def top_entries_by_category(rows_by_category):
     weekly = {key: [] for key in CATEGORIES}
+    for category, entries in rows_by_category.items():
+        weekly[category] = dedupe_entries(entries)
 
-    with CSV_PATH.open(newline="", encoding="utf-8") as handle:
-        reader = csv.DictReader(handle)
-        for row in reader:
-            category = (row.get("category") or "").strip()
-            if category not in CATEGORIES:
-                continue
-            weekly[category].append(
-                {
-                    "title": (row.get("title") or "").strip(),
-                    "date": (row.get("date") or "").strip(),
-                    "source": (row.get("source") or "").strip(),
-                    "link": (row.get("link") or "").strip(),
-                }
-            )
-
-    for category in CATEGORIES:
-        weekly[category] = dedupe_entries(weekly[category])
-
-    # Remove cross-category duplicates so the same story appears once.
     global_seen = set()
     category_order = [
         "safety_signals",
@@ -182,9 +159,57 @@ def main() -> int:
             global_seen.add(key)
             unique_entries.append(entry)
         weekly[category] = sorted(unique_entries, key=sort_key)[:MAX_ITEMS_PER_CATEGORY]
+    return weekly
+
+
+def assert_weekly_sync(expected_weekly, actual_weekly):
+    missing = []
+    for category in CATEGORIES:
+        actual_keys = {
+            (normalize_title(entry.get("title", "")), entry.get("date", ""), entry.get("link", ""))
+            for entry in actual_weekly.get(category, [])
+        }
+        for entry in expected_weekly.get(category, []):
+            key = (normalize_title(entry.get("title", "")), entry.get("date", ""), entry.get("link", ""))
+            if key not in actual_keys:
+                missing.append((category, entry.get("title", ""), entry.get("date", ""), entry.get("link", "")))
+    if missing:
+        lines = ["weekly_updates sync check failed. Missing rows in afib.json:"]
+        for category, title, date, link in missing[:10]:
+            lines.append(f"- {category} | {date or 'Date TBD'} | {title} | {link}")
+        raise SystemExit("\n".join(lines))
+
+
+def main() -> int:
+    if not DATA_PATH.exists() or not CSV_PATH.exists():
+        print("Missing data/afib.json or data/weekly_updates.csv")
+        return 1
+
+    data = json.loads(DATA_PATH.read_text())
+
+    weekly = {key: [] for key in CATEGORIES}
+
+    with CSV_PATH.open(newline="", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            category = (row.get("category") or "").strip()
+            if category not in CATEGORIES:
+                continue
+            weekly[category].append(
+                {
+                    "title": (row.get("title") or "").strip(),
+                    "date": (row.get("date") or "").strip(),
+                    "source": (row.get("source") or "").strip(),
+                    "link": (row.get("link") or "").strip(),
+                }
+            )
+
+    weekly = top_entries_by_category(weekly)
 
     data["weekly_updates"] = weekly
     DATA_PATH.write_text(json.dumps(data, indent=2))
+    reloaded = json.loads(DATA_PATH.read_text())
+    assert_weekly_sync(weekly, reloaded.get("weekly_updates", {}))
     print("Updated weekly_updates from CSV.")
     return 0
 

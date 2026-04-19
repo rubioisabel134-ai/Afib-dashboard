@@ -33,14 +33,14 @@
       </div>
       <div class="hero-right">
         <div class="pulse-panel">
-          <div class="pulse-title">Devices — 2026 Updates</div>
+          <div class="pulse-title">Top Device Updates</div>
           <div id="deviceUpdateList" class="pulse-list"></div>
           <div class="pulse-footer">
             <button id="viewAllDevices" class="pulse-link" type="button">View all devices</button>
           </div>
         </div>
         <div class="pulse-panel">
-          <div class="pulse-title">Pharmaceuticals — 2026 Updates</div>
+          <div class="pulse-title">Top Drug Updates</div>
           <div id="drugUpdateList" class="pulse-list"></div>
           <div class="pulse-footer">
             <button id="viewAllDrugs" class="pulse-link" type="button">View all pharmaceuticals</button>
@@ -50,10 +50,29 @@
     </header>
 
     <main>
+      <section class="conference">
+        <div class="conference-head">
+          <div>
+            <h2>Conference Tracker</h2>
+            <p>Follow active meeting coverage and upcoming AFib-relevant congresses.</p>
+          </div>
+          <div id="conferenceStatus" class="conference-status">Conference calendar loading…</div>
+        </div>
+        <div class="conference-grid">
+          <div class="conference-card conference-card-wide">
+            <div class="weekly-title">Current Conference Feed</div>
+            <div id="conferenceFeed" class="weekly-list"></div>
+          </div>
+          <div class="conference-card">
+            <div class="weekly-title">Upcoming Meetings</div>
+            <div id="conferenceCalendar" class="conference-calendar"></div>
+          </div>
+        </div>
+      </section>
       <section class="weekly">
         <div class="weekly-head">
           <h2>Weekly Intel</h2>
-          <p>Track regulatory/safety news, conference abstracts, and company press updates.</p>
+          <p>Structured feed for regulatory, conference, and pipeline intelligence.</p>
         </div>
         <div class="weekly-grid">
           <div class="weekly-card">

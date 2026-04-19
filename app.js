@@ -23,8 +23,12 @@ const typeFiltersEl = document.getElementById("typeFilters");
 const weeklySafetyLabelEl = document.getElementById("weeklySafetyLabel");
 const weeklyConferenceEl = document.getElementById("weeklyConference");
 const weeklyPressEl = document.getElementById("weeklyPress");
+const conferenceFeedEl = document.getElementById("conferenceFeed");
+const conferenceCalendarEl = document.getElementById("conferenceCalendar");
+const conferenceStatusEl = document.getElementById("conferenceStatus");
 const cardTemplate = document.getElementById("cardTemplate");
 const WEEKLY_PREVIEW_LIMIT = 5;
+const SUMMARY_UPDATE_LIMIT = 4;
 
 const uniq = (arr) => Array.from(new Set(arr)).sort((a, b) => a.localeCompare(b));
 
@@ -163,9 +167,10 @@ function buildUpdateEntries(items) {
     }))
     .sort((a, b) => {
       if (a.press !== b.press) return a.press ? -1 : 1;
+      if ((b.date || "") !== (a.date || "")) return (b.date || "").localeCompare(a.date || "");
       return stagePriority(a.stage) - stagePriority(b.stage);
     })
-    .slice(0, 6);
+    .slice(0, SUMMARY_UPDATE_LIMIT);
 }
 
 function renderUpdateList(container, entries) {
@@ -369,6 +374,79 @@ function renderCards() {
   itemCountEl.textContent = String(items.length);
 }
 
+function parseCalendarDate(dateStr) {
+  if (!dateStr) return null;
+  const parsed = new Date(`${dateStr}T00:00:00`);
+  if (Number.isNaN(parsed.getTime())) return null;
+  return parsed;
+}
+
+function formatCalendarRange(start, end) {
+  const startDate = parseCalendarDate(start);
+  const endDate = parseCalendarDate(end);
+  if (!startDate || !endDate) return `${start || "TBD"} to ${end || "TBD"}`;
+  const startLabel = startDate.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  const endLabel = endDate.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+  return `${startLabel} to ${endLabel}`;
+}
+
+function conferenceState(calendarEntries) {
+  const now = new Date();
+  const active = calendarEntries.find((entry) => {
+    const start = parseCalendarDate(entry.start_date);
+    const end = parseCalendarDate(entry.end_date);
+    return start && end && start <= now && now <= end;
+  });
+  const upcoming = calendarEntries
+    .filter((entry) => {
+      const start = parseCalendarDate(entry.start_date);
+      return start && start >= new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    })
+    .sort((a, b) => (a.start_date || "").localeCompare(b.start_date || ""));
+  return { active, upcoming };
+}
+
+function renderConferenceCalendar(calendarEntries, weeklyConference) {
+  if (!conferenceCalendarEl || !conferenceStatusEl || !conferenceFeedEl) return;
+
+  const { active, upcoming } = conferenceState(calendarEntries || []);
+  if (active) {
+    conferenceStatusEl.textContent = `Active Meeting: ${active.label || active.conference}`;
+  } else if (upcoming.length) {
+    conferenceStatusEl.textContent = `Next Meeting: ${upcoming[0].label || upcoming[0].conference}`;
+  } else {
+    conferenceStatusEl.textContent = "No conference windows loaded";
+  }
+
+  conferenceCalendarEl.innerHTML = "";
+  const calendarPreview = (active ? [active, ...upcoming.filter((entry) => entry !== active)] : upcoming).slice(0, 4);
+  if (!calendarPreview.length) {
+    const empty = document.createElement("div");
+    empty.className = "conference-meeting";
+    empty.textContent = "No upcoming conferences loaded.";
+    conferenceCalendarEl.appendChild(empty);
+  } else {
+    calendarPreview.forEach((entry) => {
+      const node = document.createElement("div");
+      node.className = "conference-meeting";
+      node.innerHTML = `<strong>${entry.label || entry.conference}</strong><div class="conference-meta">${formatCalendarRange(
+        entry.start_date,
+        entry.end_date,
+      )}</div><div class="conference-meta">${entry.conference}</div>`;
+      conferenceCalendarEl.appendChild(node);
+    });
+  }
+
+  const activeCode = (active?.conference || "").toLowerCase();
+  const prioritizedConference = [...(weeklyConference || [])].sort((a, b) => {
+    const aHit = activeCode && `${a.title || ""} ${a.source || ""}`.toLowerCase().includes(activeCode) ? 1 : 0;
+    const bHit = activeCode && `${b.title || ""} ${b.source || ""}`.toLowerCase().includes(activeCode) ? 1 : 0;
+    if (bHit !== aHit) return bHit - aHit;
+    return (b.date || "").localeCompare(a.date || "");
+  });
+  renderWeeklyList(conferenceFeedEl, prioritizedConference.slice(0, 8));
+}
+
 function renderWeeklyList(container, entries) {
   container.innerHTML = "";
   if (!entries || !entries.length) {
@@ -533,8 +611,15 @@ function renderWeeklyIntel(weekly) {
 }
 
 async function init() {
-  const response = await fetch("data/afib.json");
-  const data = await response.json();
+  const [dataResponse, calendarResponse] = await Promise.all([
+    fetch("data/afib.json"),
+    fetch("data/conference_calendar.json").catch(() => null),
+  ]);
+  const data = await dataResponse.json();
+  let conferenceCalendar = [];
+  if (calendarResponse && calendarResponse.ok) {
+    conferenceCalendar = await calendarResponse.json();
+  }
   state.data = data;
 
   asOfEl.textContent = formatDate(data.as_of);
@@ -545,6 +630,7 @@ async function init() {
   renderUpdateList(drugUpdateListEl, drugUpdates);
   readoutCountEl.textContent = String(deviceUpdates.length + drugUpdates.length);
   renderWeeklyIntel(data.weekly_updates);
+  renderConferenceCalendar(conferenceCalendar, data.weekly_updates?.conference_abstracts || []);
   renderCards();
 
   searchEl.addEventListener("input", (event) => {

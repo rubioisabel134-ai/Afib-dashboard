@@ -179,6 +179,84 @@ main {
   padding: 0 64px 64px;
 }
 
+.conference {
+  margin: 8px 0 28px;
+  display: grid;
+  gap: 16px;
+}
+
+.conference-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.conference-head h2 {
+  margin: 0 0 6px;
+  font-family: "Sora", sans-serif;
+  font-size: 22px;
+}
+
+.conference-head p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.conference-status {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(11, 143, 107, 0.14), rgba(31, 111, 235, 0.14));
+  border: 1px solid rgba(11, 143, 107, 0.18);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.conference-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(260px, 0.9fr);
+  gap: 12px;
+}
+
+.conference-card {
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: var(--shadow);
+}
+
+.conference-card-wide .weekly-item {
+  background: rgba(11, 143, 107, 0.08);
+  border-color: rgba(11, 143, 107, 0.14);
+}
+
+.conference-calendar {
+  display: grid;
+  gap: 10px;
+}
+
+.conference-meeting {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(228, 87, 46, 0.08);
+  border: 1px solid rgba(228, 87, 46, 0.14);
+}
+
+.conference-meeting strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.conference-meta {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
 .weekly {
   margin: 8px 0 32px;
   display: grid;
@@ -231,6 +309,9 @@ main {
   border-radius: 10px;
   background: rgba(31, 111, 235, 0.08);
   border: 1px solid rgba(31, 111, 235, 0.12);
+  color: inherit;
+  text-decoration: none;
+  display: block;
 }
 
 .weekly-item span {
@@ -238,6 +319,10 @@ main {
   color: var(--muted);
   font-size: 11px;
   margin-top: 4px;
+}
+
+.weekly-item:hover {
+  background: rgba(31, 111, 235, 0.12);
 }
 
 .weekly-extra {
@@ -493,6 +578,14 @@ main {
     padding: 0 24px 48px;
   }
 
+  .conference-head {
+    flex-direction: column;
+  }
+
+  .conference-grid {
+    grid-template-columns: 1fr;
+  }
+
   .footer {
     padding: 20px 24px 32px;
     flex-direction: column;
@@ -559,6 +652,11 @@ main {
   }
 
   .weekly {
+    margin: 6px 0 24px;
+    gap: 12px;
+  }
+
+  .conference {
     margin: 6px 0 24px;
     gap: 12px;
   }

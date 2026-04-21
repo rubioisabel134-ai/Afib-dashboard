@@ -8,25 +8,25 @@
   {
     "conference": "EHRA",
     "label": "EHRA 2026",
-    "start_date": "2026-04-05",
-    "end_date": "2026-04-21"
+    "start_date": "2026-04-12",
+    "end_date": "2026-04-14"
   },
   {
     "conference": "HRS",
     "label": "Heart Rhythm 2026",
-    "start_date": "2026-04-16",
-    "end_date": "2026-05-03"
+    "start_date": "2026-04-23",
+    "end_date": "2026-04-26"
   },
   {
     "conference": "ESC",
     "label": "ESC Congress 2026",
-    "start_date": "2026-08-21",
-    "end_date": "2026-09-07"
+    "start_date": "2026-08-28",
+    "end_date": "2026-08-31"
   },
   {
     "conference": "AHA",
     "label": "AHA Scientific Sessions 2026",
-    "start_date": "2026-10-30",
-    "end_date": "2026-11-16"
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-09"
   }
 ]

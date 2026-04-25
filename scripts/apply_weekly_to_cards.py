@@ -10,6 +10,7 @@ from typing import Optional
 ROOT = Path(__file__).resolve().parents[1]
 AFIB_PATH = ROOT / "data" / "afib.json"
 CSV_PATH = ROOT / "data" / "weekly_updates.csv"
+ARTICLE_CACHE_PATH = ROOT / "data" / "company_press_cache.json"
 
 
 def parse_date(raw: str) -> Optional[datetime]:
@@ -24,6 +25,34 @@ def parse_date(raw: str) -> Optional[datetime]:
 
 def normalize(text: str) -> str:
     return html.unescape(text).lower()
+
+
+def contains_term(text_value: str, term: str) -> bool:
+    return normalize(term) in normalize(text_value)
+
+
+def load_article_cache() -> dict:
+    if not ARTICLE_CACHE_PATH.exists():
+        return {}
+    try:
+        data = json.loads(ARTICLE_CACHE_PATH.read_text())
+    except Exception:
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def item_name_terms(item: dict) -> list[str]:
+    terms = []
+    for value in [item.get("name"), *(item.get("aliases") or [])]:
+        for variant in term_variants(str(value), is_company=False):
+            if variant not in terms:
+                terms.append(variant)
+    return terms
+
+
+def item_is_specifically_mentioned(item: dict, title: str, link: str, body_text: str) -> bool:
+    haystack = f"{title} {link} {body_text}"
+    return any(contains_term(haystack, term) for term in item_name_terms(item))
 
 
 def term_variants(text_value: str, *, is_company: bool = False):
@@ -77,6 +106,11 @@ def source_priority(source: str) -> int:
     return 3
 
 
+def is_low_value_source_link(link: str) -> bool:
+    value = (link or "").lower()
+    return "news.google.com/rss/articles/" in value or "news.google.com/read/" in value
+
+
 def should_replace(existing: Optional[dict], dt: Optional[datetime], title: str, source: str) -> bool:
     if existing is None:
         return True
@@ -108,6 +142,7 @@ def main() -> int:
 
     data = json.loads(AFIB_PATH.read_text())
     items = data.get("items", [])
+    article_cache = load_article_cache()
 
     # Build match terms
     terms = []
@@ -140,6 +175,10 @@ def main() -> int:
             link = (row.get("link") or "").strip()
             category = (row.get("category") or "").strip()
             source = (row.get("source") or "").strip()
+            body_text = ""
+            cached = article_cache.get(link)
+            if isinstance(cached, dict):
+                body_text = str(cached.get("body_text", ""))
 
             title_norm = normalize(title)
 
@@ -147,6 +186,16 @@ def main() -> int:
             for kind, term, item in terms:
                 if normalize(term) in title_norm:
                     matched_items.append((kind, term, item))
+
+            if matched_items:
+                filtered = []
+                for kind, term, item in matched_items:
+                    if kind != "company":
+                        filtered.append((kind, term, item))
+                        continue
+                    if item_is_specifically_mentioned(item, title, link, body_text):
+                        filtered.append((kind, term, item))
+                matched_items = filtered
 
             if matched_items and any(kind == "name" for kind, _, _ in matched_items):
                 matched_items = [entry for entry in matched_items if entry[0] != "company"]
@@ -158,6 +207,22 @@ def main() -> int:
                 for kind, term, item in terms:
                     if normalize(term) == source_norm:
                         source_matched_items.append((kind, term, item))
+
+            if category == "conference_abstracts" and source_matched_items:
+                filtered = []
+                for kind, term, item in source_matched_items:
+                    if contains_term(title, term) or contains_term(link, term):
+                        filtered.append((kind, term, item))
+                source_matched_items = filtered
+            elif source_matched_items:
+                filtered = []
+                for kind, term, item in source_matched_items:
+                    if kind != "company":
+                        filtered.append((kind, term, item))
+                        continue
+                    if item_is_specifically_mentioned(item, title, link, body_text):
+                        filtered.append((kind, term, item))
+                source_matched_items = filtered
 
             if source_matched_items:
                 matched_items = source_matched_items
@@ -206,7 +271,7 @@ def main() -> int:
 
         if update["link"]:
             sources = item.get("sources") or []
-            if update["link"] not in sources:
+            if update["link"] not in sources and not is_low_value_source_link(update["link"]):
                 sources.append(update["link"])
                 item["sources"] = sources
 

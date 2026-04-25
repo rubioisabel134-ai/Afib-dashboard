@@ -18,11 +18,6 @@ mkdir -p "$LOG_DIR"
 
   source .venv/bin/activate
 
-  # Pull latest to avoid push conflicts. Autostash prevents abort on local edits.
-  if ! git pull --rebase --autostash origin main; then
-    echo "Warning: git pull failed, continuing with local state."
-  fi
-
   if ! python scripts/ci_capture_playwright.py \
     --days 10 \
     --max-queries 8 \
@@ -40,18 +35,7 @@ mkdir -p "$LOG_DIR"
   python scripts/ci_from_urls.py \
     --input data/ci_manual_urls.txt \
     --output reports/ci_manual_scan.md \
-    --days 10
-
-  CHANGED_TARGETS="$(git status --porcelain -- data/ci_manual_urls.txt reports/ci_manual_scan.md)"
-  if [[ -z "$CHANGED_TARGETS" ]]; then
-    echo "No CI changes to commit."
-    exit 0
-  fi
-
-  STAMP="$(date +%Y-%m-%d)"
-  git add data/ci_manual_urls.txt reports/ci_manual_scan.md
-  git commit -m "Daily AFib CI scan ${STAMP}"
-  git push origin main
-
-  echo "Daily AFib CI automation finished and pushed."
+    --days 10 \
+    --verify-page-dates
+  echo "Daily AFib CI automation finished (local-only)."
 } >> "$LOG_FILE" 2>&1

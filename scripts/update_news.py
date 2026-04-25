@@ -409,6 +409,15 @@ def normalize_url(base_url: str, link: str) -> Optional[str]:
     return absolute
 
 
+def text_matches_pattern(text_value: str, pattern: str) -> bool:
+    if not text_value or not pattern:
+        return False
+    try:
+        return re.search(pattern, text_value, flags=re.IGNORECASE) is not None
+    except re.error:
+        return pattern.lower() in text_value.lower()
+
+
 def page_title_from_html(html: str) -> str:
     match = re.search(r"<title[^>]*>(.*?)</title>", html, flags=re.IGNORECASE | re.DOTALL)
     if not match:
@@ -1090,6 +1099,11 @@ def analyze_match(title: str, link: str, terms: List[str], body_text: str = "") 
     return "", find_new_candidate(full_text, terms)
 
 
+def conference_match_is_headline_level(title: str, link: str, terms: List[str]) -> bool:
+    tracked_match, new_candidate = analyze_match(title, link, terms)
+    return bool(tracked_match or new_candidate)
+
+
 def category_requires_conference_signal(category: str) -> bool:
     return (category or "").strip().lower() == "conference_abstracts"
 
@@ -1231,7 +1245,7 @@ def should_crawl_press_link(
         return False
     if re.search(r"/index\d*\.html?$", article_path):
         return False
-    if source_type == "html_listing":
+    if source_type in {"html_listing", "html_conference_hub"}:
         if re.search(r"/(article|articles|news|story|stories|meetings|features|conference|congress|session|sessions)/", article_path):
             return True
         if re.search(r"/\d{4}/\d{2}/", article_path):
@@ -1246,6 +1260,8 @@ def should_crawl_press_link(
         "/html/companynews/",
     ]
     haystack = f"{article_url} {link_text}".lower()
+    if re.search(r"/20\d{2}-\d{2}-\d{2}[-/]", article_path):
+        return True
     if any(hint in haystack for hint in hints):
         return True
     if re.search(r"/\d{2,}\.html?$", article_path):
@@ -1259,7 +1275,13 @@ def listing_is_candidate(
     category: str = "press_pipeline",
     source_name: str = "",
     conference: str = "",
+    source_type: str = "html_press_room",
 ) -> bool:
+    if source_type == "html_press_room":
+        headline_match = find_match(text_value, terms)
+        headline_new = find_new_candidate(text_value, terms)
+        if headline_match or headline_new:
+            return True
     tracked_match, new_candidate = analyze_match(text_value, "", terms)
     if tracked_match or new_candidate:
         if category_requires_conference_signal(category):
@@ -1316,6 +1338,7 @@ def extract_press_room_links(
             category=category,
             source_name=source_name,
             conference=conference,
+            source_type=source_type,
         ):
             continue
         seen.add(article_url)
@@ -1330,14 +1353,67 @@ def extract_press_room_links(
     return out
 
 
+def resolve_listing_url(source: Dict[str, str], terms: List[str], cutoff: datetime) -> Tuple[str, str]:
+    listing_url = source["url"]
+    source_type = (source.get("source_type") or "").strip().lower()
+    if source_type != "html_conference_hub":
+        return listing_url, ""
+
+    hub_html = fetch_html(listing_url)
+    parser = ListingLinkParser()
+    parser.feed(hub_html)
+    pattern = (
+        (source.get("conference_page_pattern") or "").strip()
+        or (source.get("conference") or "").strip()
+    )
+    source_name = source.get("name", "")
+    conference = source.get("conference", "")
+
+    candidates: List[Tuple[int, str]] = []
+    for entry in parser.entries:
+        link_text = re.sub(r"\s+", " ", entry.get("text", "")).strip()
+        href = entry.get("href", "")
+        article_url = normalize_url(listing_url, href)
+        if not article_url or article_url.rstrip("/") == listing_url.rstrip("/"):
+            continue
+        context_text = re.sub(r"\s+", " ", entry.get("context", "")).strip()
+        combined_text = f"{link_text} {context_text} {article_url}".strip()
+        if not text_matches_pattern(combined_text, pattern):
+            continue
+        listing_date = infer_listing_date(hub_html, article_url, link_text=link_text)
+        if listing_date and listing_date < cutoff:
+            continue
+        score = 0
+        if text_matches_pattern(link_text, pattern):
+            score += 3
+        if listing_is_candidate(
+            combined_text,
+            terms,
+            category="conference_abstracts",
+            source_name=source_name,
+            conference=conference,
+        ):
+            score += 2
+        if "/conference" in article_url.lower() or "/conferences/" in article_url.lower():
+            score += 1
+        candidates.append((score, article_url))
+
+    if not candidates:
+        return listing_url, hub_html
+
+    candidates.sort(key=lambda item: (-item[0], item[1]))
+    return candidates[0][1], ""
+
+
 def fetch_html_press_items(
     source: Dict[str, str],
     cutoff: datetime,
     terms: List[str],
     article_cache: Dict[str, Dict[str, str]],
 ) -> List[Dict[str, str]]:
-    listing_url = source["url"]
-    listing_html = fetch_html(listing_url)
+    listing_url, listing_html = resolve_listing_url(source, terms, cutoff)
+    if not listing_html:
+        listing_html = fetch_html(listing_url)
     crawl_limit = int(source.get("crawl_limit", 4))
     require_match = source.get("require_match", True)
     category = source.get("category", "press_pipeline")
@@ -1389,6 +1465,11 @@ def fetch_html_press_items(
         ):
             continue
         tracked_match, new_candidate = analyze_match(title, article_url, terms, body_text)
+        if category_requires_conference_signal(category) and tracked_match:
+            if not conference_match_is_headline_level(title, article_url, terms):
+                continue
+        if category in {"press_pipeline", "safety_signals", "label_expansions"} and not dt:
+            continue
         if require_match and not tracked_match and not new_candidate:
             continue
         match_label = tracked_match or (f"NEW: {new_candidate}" if new_candidate else "")
@@ -1413,7 +1494,7 @@ def fetch_source_items(
     category = source.get("category", "press_pipeline")
     source_name = source.get("name", "")
     conference = source.get("conference", "")
-    if source_type in {"html_press_room", "html_listing"}:
+    if source_type in {"html_press_room", "html_listing", "html_conference_hub"}:
         return fetch_html_press_items(source, cutoff, terms, article_cache)
 
     xml_bytes = fetch_xml(source["url"])
@@ -1423,21 +1504,43 @@ def fetch_source_items(
             continue
         if dt and dt < cutoff:
             continue
+        body_text = ""
+        page_title = title
+        # For RSS-backed company press sources, fetch article text before final relevance matching.
+        if category == "press_pipeline":
+            article = get_article_details(
+                article_url=link,
+                link_text=title,
+                listing_date=dt.date().isoformat() if dt else "",
+                article_cache=article_cache,
+            )
+            if article is not None:
+                body_text = article.get("body_text", "")
+                page_title = article.get("title", "") or title
+                article_dt = parse_date(article.get("page_date", ""))
+                if article_dt is not None:
+                    dt = article_dt
         if not is_source_relevant(
             category,
-            title,
+            page_title,
             link,
+            body_text,
             source_name=source_name,
             conference=conference,
         ):
             continue
-        tracked_match, new_candidate = analyze_match(title, link, terms)
+        tracked_match, new_candidate = analyze_match(page_title, link, terms, body_text)
+        if category_requires_conference_signal(category) and tracked_match:
+            if not conference_match_is_headline_level(page_title, link, terms):
+                continue
         if source.get("require_match", True) and not tracked_match and not new_candidate:
+            continue
+        if category in {"press_pipeline", "safety_signals", "label_expansions"} and not dt:
             continue
         match_label = tracked_match or (f"NEW: {new_candidate}" if new_candidate else "")
         items.append(
             {
-                "title": title,
+                "title": page_title,
                 "link": link,
                 "date": dt.date().isoformat() if dt else "",
                 "match": match_label,

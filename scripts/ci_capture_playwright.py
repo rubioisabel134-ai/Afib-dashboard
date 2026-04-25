@@ -40,6 +40,15 @@ def load_direct_sources(limit: int) -> List[Tuple[str, str]]:
     return out
 
 
+def load_special_sources() -> List[Tuple[str, str]]:
+    return [
+        ("ClinicalTrials AF search", "https://clinicaltrials.gov/search?cond=atrial%20fibrillation"),
+        ("ClinicalTrials LAAO search", "https://clinicaltrials.gov/search?term=LAAO"),
+        ("ClinicalTrials FXI search", "https://clinicaltrials.gov/search?term=factor%20XI%20atrial%20fibrillation"),
+        ("EHJ AF search", "https://academic.oup.com/eurheartj/search-results?page=1&q=atrial%20fibrillation"),
+    ]
+
+
 def build_queries(days: int, domains: List[str], max_queries: int) -> List[Tuple[str, str]]:
     seeds = [
         '("atrial fibrillation" OR AFib) (drug OR device OR trial OR pivotal OR ablation OR LAAO) when:{days}d',
@@ -93,6 +102,7 @@ def main() -> int:
     domains = load_watchlist_domains()
     queries = build_queries(args.days, domains, args.max_queries)
     direct_sources = load_direct_sources(args.direct_sources)
+    special_sources = load_special_sources()
     if not queries:
         print("No queries configured.")
         return 1
@@ -159,13 +169,17 @@ def main() -> int:
             print(f"Captured from {label}: {len(rows)} candidate links")
 
         # Direct source pass: capture headline links from priority sources in a real browser.
-        for label, url in direct_sources:
+        for label, url in (direct_sources + special_sources):
             page.goto(url, wait_until="domcontentloaded")
             page.wait_for_timeout(2200)
             rows: List[Dict[str, str]] = page.evaluate(
                 """
                 () => {
-                  const include = ['atrial fibrillation','afib','ablation','pfa','laao','watchman','amulet','trial','phase','pivotal','approval','fda','ema','device','catheter','stroke'];
+                  const include = [
+                    'atrial fibrillation','afib','ablation','pfa','laao','watchman','amulet',
+                    'trial','phase','pivotal','approval','fda','ema','device','catheter','stroke',
+                    'spaf','factor xi','fxi','fxia','lambre','lambre ii','budiodarone','harbor-af','hbi-3000','ap31969','milvexian','abelacimab'
+                  ];
                   const links = Array.from(document.querySelectorAll('a'));
                   const out = [];
                   for (const a of links) {

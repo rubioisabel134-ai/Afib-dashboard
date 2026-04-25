@@ -83,7 +83,6 @@
         "https://www.bayer.com/media/en-us/oceanic-af-study-stopped-early-due-to-lack-of-efficacy/",
         "https://www.bayer.com/en/us/news-stories/asundexian-after-a-non-cardioembolic-ischemic-stroke",
         "https://www.bayer.com/media/en-us/bayers-asundexian-demonstrated-a-substantial-26-percent-reduction-in-stroke-after-a-non-cardioembolic-ischemic-stroke-or-high-risk-transient-ischemic-attack-with-no-increase-in-isth-major-bleeding-versus-placebo/",
-        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdmxiTEJBZE8xaW14TnF6TE9CX29nelcxWWt6VTJmMkw4RlkzT0xsclFRb2xXcDJFeW1QWmFzZmNQRW5ZblZQZEtISVJMa2N4OUNrUkY5Mm1RTWlKdGVLTTQ5MVhFTXdRT2FDeW4xYVp5OGwyWkxIOGxlazJybUVjMGF6ZEtyZlNBVnJjVjF0TFR3S0gyRTk0dEhHTWhYY0w1aWdpQzc4WElFeU5UU2RyaUx3dzFucUdmd1d1VHJGc2NVVzlu?oc=5",
         "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
       ],
       "latest_update_link": "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
@@ -351,7 +350,7 @@
       "mechanism": "Selective GIRK4 inhibitor",
       "focus": "Rapid pharmacologic cardioversion in AF",
       "company": "Bayer",
-      "latest_update": "Articles tagged with 'doccheck-en' | Bayer",
+      "latest_update": "Phase 1 study initiated for AF cardioversion candidate",
       "tags": [
         "GIRK4",
         "cardioversion",
@@ -371,10 +370,9 @@
       "notes": "Investigational GIRK4 inhibitor aimed at rapid cardioversion without anesthesia or electrical shock.",
       "sources": [
         "https://www.bayer.com/media/en-us/bayer-starts-phase-i-study-with-girk4-inhibitor-for-treatment-of-patients-with-atrial-fibrillation/",
-        "https://www.bayer.com/en/us/news-stories/rapid-cardioversion",
-        "https://www.bayer.com/media/en-us/?h=1&t=doccheck-en"
+        "https://www.bayer.com/en/us/news-stories/rapid-cardioversion"
       ],
-      "latest_update_link": "https://www.bayer.com/media/en-us/?h=1&t=doccheck-en"
+      "latest_update_link": "https://www.bayer.com/media/en-us/bayer-starts-phase-i-study-with-girk4-inhibitor-for-treatment-of-patients-with-atrial-fibrillation/"
     },
     {
       "id": "rivaroxaban",
@@ -1215,7 +1213,7 @@
       "mechanism": "Oral antiarrhythmic related to amiodarone",
       "focus": "AF burden reduction in paroxysmal AF",
       "company": "Xyra / Lee's Pharmaceutical (prior: Armetheon)",
-      "latest_update": "XYRA Announces the Issuance of a Fifth N",
+      "latest_update": "HARBOR-AF Phase 3 design presented at ESC 2025",
       "tags": [
         "oral",
         "AF burden",
@@ -1246,10 +1244,9 @@
         "https://pubmed.ncbi.nlm.nih.gov/22205496/",
         "https://academic.oup.com/eurheartj/article/46/Supplement_1/ehaf784.782/8309289",
         "https://www.prnewswire.com/news-releases/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040-302436581.html",
-        "https://www.prnewswire.com/news-releases/armetheon-announces-issuance-of-a-new-us-patent-for-its-phase-2-clinical-stage-novel-oral-anti-arrhythmic-budiodarone-300406058.html",
-        "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
+        "https://www.prnewswire.com/news-releases/armetheon-announces-issuance-of-a-new-us-patent-for-its-phase-2-clinical-stage-novel-oral-anti-arrhythmic-budiodarone-300406058.html"
       ],
-      "latest_update_link": "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
+      "latest_update_link": "https://academic.oup.com/eurheartj/article/46/Supplement_1/ehaf784.782/8309289"
     },
     {
       "id": "metoprolol",
@@ -1585,10 +1582,6 @@
       "notes": "Indicated to reduce stroke risk in NVAF patients who need an alternative to oral anticoagulation.",
       "sources": [
         "https://www.acc.org/Latest-in-Cardiology/Articles/2020/07/23/14/14/Next-Generation-WATCHMAN-FLX-LAAC-Device-Gains-FDA-Approval",
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
-        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5",
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zVjhySlZxS1BSS3YzQ00teWhVTFNYV3hzd3JrRXRaRHZ6QzRFLXVrblNoSU1IUkd0XzlubG9Xek5QTW9IcDExMVBVY3dsM2VBSC0zYlJLYUJ6Vm1CcElCTFAzamJzc1FQQTA0TVhQdThPaVQ3TDR4ZzZRd0c?oc=5",
         "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&rank=6",
         "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       ],
@@ -1622,13 +1615,7 @@
       ],
       "notes": "FDA-approved LAA occluder for AF patients at risk of stroke.",
       "sources": [
-        "https://abbott.mediaroom.com/2021-08-16-Abbotts-Amplatzer-TM-Amulet-TM-Device-Approved-by-FDA-to-Treat-People-With-Atrial-Fibrillation-at-Risk-of-Stroke",
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ0Vva1N5QVd4UkdfYy1uaEtzWkJhd2VIN0VQVkh6aXFEZEp6TE42N0NDcUJncWtxcHNVbUZnUmFaNVVXTmJPQ1hWaGgzejJfa3hYVm5FbXMwWU1VYnlGOHNoMXFSVWlsWGtiRTc4QXpsZTQ1WVIxblIwLTY4MU1EOW9xdGR3SU5oQUZ3Z0xDQkJ2UlhuQ1ZZNE5LNFlibl9RQUhXWGJVX1N2UlN1ZXY2Ukc0dkFkNmptZVB2WkdFRG83OHhrZG5ZOGRB?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lWYXdRem5fUG1aalk5bllkRnF4cU1VaEJWT2JVOEhIWWJNV21xcUUxRElxd2c3eURWV19YRWY0M0lXMll2czgzc3MxU0k1OFBqWWN2UXc1MEtyV0pfZnprN3dlMnVHZjI5MzNmbm8xelRoLUp5Q1NQQTZTZG1sdUxLR1RsN2lYTTlNQ2EybzdScVZLVWhMNjJ3Rll4NDl0OWJkNUdtSXhKV0tJbUhJNQ?oc=5",
-        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWkM4X0tWU1ZOeXh1bXYwc1JVc1IxdjVVblNNZEhraUM0a0pLSVA2OFVkX1JWWnJKalFLaEkzcENMZlQwWjRyeS1wREotQWZhYi1td1lYQ1dIWjM4MlkxaEQxQ095VnVJQ3RPbWloRHJLSDI2eU53REhmYXBpc3ZtUlZJbDA?oc=5",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT0ZBUXhNbUdTWkJYUmpuVjgyUmZDRXJsWjU1Z2M1Q3dad253RjBmRHRVdHBGV0d0M3c5TENJTER3OGJkRGRDQ3Q4SXFuRU45SmRLV2Z5Nko5aXdGOWpKZWViLVR3OGpVejFNSjhLemYyb2xBMWJNT1hCRDNOSzNsajN2MzlMVWdNS25aSnJaSmprd0xJRnlNNEROZWhDN0pnNGYyVV81SUJsZw?oc=5",
-        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOejBWOFB5Mnd2UXFlRlhkRDMzZV9mTC1sSm5TeEt1bm1EMVBYQmRGaldiQWJOWUNNRlpic0RyMkFpYkRtUmVFdUNMYXJTMW5ITExkb243U3lkVF9XM0tWVHVCajZQcU0tTnVzRzd3ZU1CX2pFaFpaZ0cxU2N2UENNV0FzSGtUcW04SXhiWjdrM2lYcXE1cEJmWXFXaWtXTFo3NEdlalpBcXpIZjVkMFlDcTVLbTFtanBYWkJFVlppWEV5RU5WV05B?oc=5",
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcEhLZ19EbUtjOW9CRVFpd3Jia19Mek9qRmZSX3p5QUcwQlViMnl6UHdZYjRMUkU3TVZLMWpFaGtkS2VFTUxuUWlaWUl6MVYwaFZOUzIxQTJEYkl0NXNsWDFOcjJ6TzlDeU5pWUd0YlJLZ0ZPWlFkS3hyTjRkTEhNTnVsOFdDSFliMkd5a25hbzJad2p3?oc=5"
+        "https://abbott.mediaroom.com/2021-08-16-Abbotts-Amplatzer-TM-Amulet-TM-Device-Approved-by-FDA-to-Treat-People-With-Atrial-Fibrillation-at-Risk-of-Stroke"
       ],
       "press_2026": true,
       "latest_update_link": ""
@@ -1662,12 +1649,6 @@
       "sources": [
         "https://news.bostonscientific.com/2024-02-06-Boston-Scientific-Receives-FDA-Approval-for-WATCHMAN-FLX-Pro-LAA-Closure-Device",
         "https://www.bostonscientific.com/en-US/products/laac-system/watchman-flx-pro.html",
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
-        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5",
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zVjhySlZxS1BSS3YzQ00teWhVTFNYV3hzd3JrRXRaRHZ6QzRFLXVrblNoSU1IUkd0XzlubG9Xek5QTW9IcDExMVBVY3dsM2VBSC0zYlJLYUJ6Vm1CcElCTFAzamJzc1FQQTA0TVhQdThPaVQ3TDR4ZzZRd0c?oc=5",
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQU1Y3ZU5KWnY2ME5WMVp2U1lKYURxR1pVWnkzVWRydXVtUjlEQjR0aGxmdkVxV2hhMllveWp5YkpwV250RGpzc0dnbXVLalZrWTk5clczN202M2NOVV9YLVlVUWxYLUhnYjdQRnp4X1NONFFvM3lLSlJGMkJfRzNGRFIwVmNFbjBiWkpPQ3Z6OHFta0pzMW9ib0d2dzZSZ2JnbUhka1JsT20zTEVBaWZwNm1PWE95VlJ6eGo0RXpudDEwNkZ1RGJTY0N3?oc=5",
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYndob0RvaVhFM0xrVjFpRFJZRkYzYk1rOGFTTnFZa2tlZkpSRlhDNTBsbl9UbkZDXzlTczVRUUNZTlJIWHVWUWV0Y0ZsRUk2MkFOT1FyLXloWGVabTREb0VNbHRxWkV3eG81SUh1RFNsRHRKVHN1Z0FWSEw0cmlQSzBNTE4xaS0yVGt1X21RSGNkaTItU24xVkctSmY1RUVVVVZ2cHdyMHVHR3d3R1QySVBpazhlZXJQckc1UnhVS053RG44a1B2a2RLNDVGMlVpWjJEZWl5OA?oc=5",
         "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       ],
       "press_2026": true,
@@ -1794,8 +1775,7 @@
       "sources": [
         "https://www.conformtrial.com/conform-trial",
         "https://conformalmedical.com/company/news/conformal-medical-achieves-enrollment-milestone-in-the-conform-ide-trial",
-        "https://www.gore.com/news-events/gore-completes-acquisition-conformal-medical",
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYnBKdGxxVzBnTDAxT3luaGdsR184SGQxMnpHT2hEWnRJM3lpWDhxd0QzeUhyeGcwbmJlWmtkYVhTTjRlbUZDTnQ3cVI3T0V0a0J2SkJTWkd1ZjdNMlNvM2lOZlM4MHRjdTVvYnhXQklrZ0tkX3JObmppREdVakRxem1MdzJudXdtbFpHOE9IalcwN0EtTmVYSUJuZ2ZidkJyTjZZOHNITWV4cl9HbnVseEdzUXl2UkNjNXdBeUc1OHJwbi1uUjI2TQ?oc=5"
+        "https://www.gore.com/news-events/gore-completes-acquisition-conformal-medical"
       ],
       "press_2026": true
     },
@@ -2089,12 +2069,6 @@
       "notes": "Next-generation LAAO device designed for improved sealing across complex appendage anatomy.",
       "sources": [
         "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/left-atrial-appendage-closure/next-generation-watchman-enters-trial-2026-laao-volume-grows",
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
-        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5",
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zVjhySlZxS1BSS3YzQ00teWhVTFNYV3hzd3JrRXRaRHZ6QzRFLXVrblNoSU1IUkd0XzlubG9Xek5QTW9IcDExMVBVY3dsM2VBSC0zYlJLYUJ6Vm1CcElCTFAzamJzc1FQQTA0TVhQdThPaVQ3TDR4ZzZRd0c?oc=5",
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQU1Y3ZU5KWnY2ME5WMVp2U1lKYURxR1pVWnkzVWRydXVtUjlEQjR0aGxmdkVxV2hhMllveWp5YkpwV250RGpzc0dnbXVLalZrWTk5clczN202M2NOVV9YLVlVUWxYLUhnYjdQRnp4X1NONFFvM3lLSlJGMkJfRzNGRFIwVmNFbjBiWkpPQ3Z6OHFta0pzMW9ib0d2dzZSZ2JnbUhka1JsT20zTEVBaWZwNm1PWE95VlJ6eGo0RXpudDEwNkZ1RGJTY0N3?oc=5",
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYndob0RvaVhFM0xrVjFpRFJZRkYzYk1rOGFTTnFZa2tlZkpSRlhDNTBsbl9UbkZDXzlTczVRUUNZTlJIWHVWUWV0Y0ZsRUk2MkFOT1FyLXloWGVabTREb0VNbHRxWkV3eG81SUh1RFNsRHRKVHN1Z0FWSEw0cmlQSzBNTE4xaS0yVGt1X21RSGNkaTItU24xVkctSmY1RUVVVVZ2cHdyMHVHR3d3R1QySVBpazhlZXJQckc1UnhVS053RG44a1B2a2RLNDVGMlVpWjJEZWl5OA?oc=5",
         "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       ],
       "press_2026": true,
@@ -2138,12 +2112,6 @@
       "sources": [
         "https://news.bostonscientific.com/2024-01-31-Boston-Scientific-Receives-FDA-Approval-for-FARAPULSE-TM-Pulsed-Field-Ablation-System",
         "https://news.bostonscientific.com/2025-07-07-Boston-Scientific-receives-FDA-approval-for-expanded-labeling-of-FARAPULSE-TM-Pulsed-Field-Ablation-System",
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
-        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5",
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zVjhySlZxS1BSS3YzQ00teWhVTFNYV3hzd3JrRXRaRHZ6QzRFLXVrblNoSU1IUkd0XzlubG9Xek5QTW9IcDExMVBVY3dsM2VBSC0zYlJLYUJ6Vm1CcElCTFAzamJzc1FQQTA0TVhQdThPaVQ3TDR4ZzZRd0c?oc=5",
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQU1Y3ZU5KWnY2ME5WMVp2U1lKYURxR1pVWnkzVWRydXVtUjlEQjR0aGxmdkVxV2hhMllveWp5YkpwV250RGpzc0dnbXVLalZrWTk5clczN202M2NOVV9YLVlVUWxYLUhnYjdQRnp4X1NONFFvM3lLSlJGMkJfRzNGRFIwVmNFbjBiWkpPQ3Z6OHFta0pzMW9ib0d2dzZSZ2JnbUhka1JsT20zTEVBaWZwNm1PWE95VlJ6eGo0RXpudDEwNkZ1RGJTY0N3?oc=5",
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYndob0RvaVhFM0xrVjFpRFJZRkYzYk1rOGFTTnFZa2tlZkpSRlhDNTBsbl9UbkZDXzlTczVRUUNZTlJIWHVWUWV0Y0ZsRUk2MkFOT1FyLXloWGVabTREb0VNbHRxWkV3eG81SUh1RFNsRHRKVHN1Z0FWSEw0cmlQSzBNTE4xaS0yVGt1X21RSGNkaTItU24xVkctSmY1RUVVVVZ2cHdyMHVHR3d3R1QySVBpazhlZXJQckc1UnhVS053RG44a1B2a2RLNDVGMlVpWjJEZWl5OA?oc=5",
         "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
       ],
       "press_2026": true,
@@ -2158,7 +2126,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal and persistent AF ablation",
       "company": "Medtronic",
-      "latest_update": "2026-02-17: Tariffs are still a thing, and they\u2019re hitting Medtronic\u2019s profit - Star Tribune",
+      "latest_update": "2023-12-13: FDA approval announced for PulseSelect PFA System",
       "tags": [
         "PFA",
         "ablation"
@@ -2176,9 +2144,9 @@
       ],
       "notes": "First PFA system to receive FDA approval.",
       "sources": [
-        "https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation",
-        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQajlDcVNKYWxkSERpS21Nb0tqZHVoY0MxT3RaMUZJRG5ZNzdORi0xYmI4M0ZTRnhORkNjdW5GRVVlX193bXJ4QkxSdWNVcEZUODZScndXOFlBSkR5aWthZFozMXhqUFhCM21KV0l1OUdsMDU5NzEyNFZDXzJrMkN6NjhrdGpxZm8zVEN0blBtdnZIXzNjNWpPQ2JZRlZBXzRwTnBwZ09CYzZkOVJ4ejE4TWMwSHZJdHd5ZHc?oc=5"
-      ]
+        "https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation"
+      ],
+      "latest_update_link": "https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation"
     },
     {
       "id": "farawave",
@@ -2189,7 +2157,7 @@
       "mechanism": "Single-shot multielectrode PFA catheter (basket/flower shapes)",
       "focus": "Pulmonary vein isolation in AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-03-06: Boston Scientific\u2019s ENTRUST Registry Targets Real-World Edge in Carotid Stroke Prevention - TipRanks",
+      "latest_update": "2024-01-31: FDA approval supported by FARAPULSE pivotal data",
       "tags": [
         "PFA",
         "catheter",
@@ -2209,14 +2177,9 @@
       "notes": "FARAWAVE is the ablation catheter used in the FARAPULSE system; variable basket/flower configurations adapt to PV anatomy.",
       "sources": [
         "https://news.bostonscientific.com/2024-01-31-Boston-Scientific-Receives-FDA-Approval-for-FARAPULSE-TM-Pulsed-Field-Ablation-System",
-        "https://www.acc.org/latest-in-cardiology/articles/2024/01/31/17/59/fda-update-agency-approves-farapulse-pulsed-field-ablation-system",
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUDhPYmRDUUdBVV9YdWx3VzIybFVVdnhLSlZRa2Y2T1FPdDlfcUZhcmZnY2RvU3lJeXRxaUdQZDg2UmhweTl3cEFEcE9RYXJZSnFyM05zZEM3QU1XYmRsQ2k2WXAwYjE4N29LU1pZS1RNb05LODJ3N1hDWS1Dam12Um1HdlhYLTI2V05FVV9pZ3VmZ1ZVWjJNQmpycG9zTk1VdGotRnU1c29kUE9oQUhYRkJWS3VCM2VrQXVONFdYMmdaby1PZ1HSAc4BQVVfeXFMT2RTRF9GZDZnS1VnVGNQMXQ1ZUR4WTlrMzluMnB0QTVtQ0dMX2MwMEMzcHNPSzZJMmgtU1dUOHBVV1B3VUYwZnY5REtQdmxvTk04WHZmcmY0d3BDV21kam1PVzdCV3VFSGpBTUQtTGRNZGtVN0tHMDRMQkhjRDdlQ2tYUmxVYkZ6SF9yMGZtWkowOFYtcVVMaDVaTV9BYUUzeU5lWDBkQ05RR2ZjQldiQV9rR1VyWDFFcXZtRzFKd3B5a3hhT19oR3RNM3E1VGc?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1NNNHRGcWJsa2o4Tkc3LXdZOElLQ3N0eHVVSmZaUUV2VFFrdjR5VjlxMWI3MVltXzZXVTU4dEhWX3M1UGRWdGlHel9rMEQ5WHpfR09vd29FdHlvZGhrdWMwVEJJN3d5am81ZF95WThPUnZfRjBheUxZUkZ0RkpMbWJ5RjFpNXlLTFFDYTJYSmVLTWZzcXNsVzR6MDloRE1sREphRzlUYUFCNWRUcHpJeXVXWVA0YVAzVWZlYW5VSEhBMC1Vd3dNMDdkMW9rc2sxRnc?oc=5",
-        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5",
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zVjhySlZxS1BSS3YzQ00teWhVTFNYV3hzd3JrRXRaRHZ6QzRFLXVrblNoSU1IUkd0XzlubG9Xek5QTW9IcDExMVBVY3dsM2VBSC0zYlJLYUJ6Vm1CcElCTFAzamJzc1FQQTA0TVhQdThPaVQ3TDR4ZzZRd0c?oc=5",
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQU1Y3ZU5KWnY2ME5WMVp2U1lKYURxR1pVWnkzVWRydXVtUjlEQjR0aGxmdkVxV2hhMllveWp5YkpwV250RGpzc0dnbXVLalZrWTk5clczN202M2NOVV9YLVlVUWxYLUhnYjdQRnp4X1NONFFvM3lLSlJGMkJfRzNGRFIwVmNFbjBiWkpPQ3Z6OHFta0pzMW9ib0d2dzZSZ2JnbUhka1JsT20zTEVBaWZwNm1PWE95VlJ6eGo0RXpudDEwNkZ1RGJTY0N3?oc=5",
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYndob0RvaVhFM0xrVjFpRFJZRkYzYk1rOGFTTnFZa2tlZkpSRlhDNTBsbl9UbkZDXzlTczVRUUNZTlJIWHVWUWV0Y0ZsRUk2MkFOT1FyLXloWGVabTREb0VNbHRxWkV3eG81SUh1RFNsRHRKVHN1Z0FWSEw0cmlQSzBNTE4xaS0yVGt1X21RSGNkaTItU24xVkctSmY1RUVVVVZ2cHdyMHVHR3d3R1QySVBpazhlZXJQckc1UnhVS053RG44a1B2a2RLNDVGMlVpWjJEZWl5OA?oc=5"
+        "https://www.acc.org/latest-in-cardiology/articles/2024/01/31/17/59/fda-update-agency-approves-farapulse-pulsed-field-ablation-system"
       ],
+      "latest_update_link": "https://news.bostonscientific.com/2024-01-31-Boston-Scientific-Receives-FDA-Approval-for-FARAPULSE-TM-Pulsed-Field-Ablation-System",
       "press_2026": true
     },
     {
@@ -2311,10 +2274,9 @@
       "sources": [
         "https://ir.atricure.com/news-releases/news-release-details/atricures-epi-sense-system-approved-fda-treatment-long-standing",
         "https://www.atricure.com/patients-caregivers/clinical-evidence/trials-results",
-        "https://ir.atricure.com/news-releases/news-release-details/atricure-completes-enrollment-leaaps-clinical-trial-stroke",
-        "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results"
+        "https://ir.atricure.com/news-releases/news-release-details/atricure-completes-enrollment-leaaps-clinical-trial-stroke"
       ],
-      "latest_update_link": "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results",
+      "latest_update_link": "",
       "press_2026": true
     },
     {
@@ -2356,7 +2318,7 @@
       "mechanism": "Contact-force RF ablation catheter with flexible tip",
       "focus": "Paroxysmal AF and typical atrial flutter",
       "company": "Abbott",
-      "latest_update": "2026-02-06: Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+      "latest_update": "2026-04-25: Abbott showcases strength of its technologies to address abnormal heart rhythms with late-breaking clinical data at Heart Rhythm Society 2026 - Apr 25, 2026",
       "tags": [
         "RF",
         "contact force"
@@ -2376,15 +2338,10 @@
       "sources": [
         "https://www.fda.gov/medical-devices/recently-approved-devices/tactiflex-ablation-catheter-sensor-enabled-p220013",
         "https://abbott.mediaroom.com/2023-05-19-Abbott-Receives-FDA-Approval-for-TactiFlex-TM-Ablation-Catheter-for-Treatment-of-Abnormal-Heart-Rhythm",
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ0Vva1N5QVd4UkdfYy1uaEtzWkJhd2VIN0VQVkh6aXFEZEp6TE42N0NDcUJncWtxcHNVbUZnUmFaNVVXTmJPQ1hWaGgzejJfa3hYVm5FbXMwWU1VYnlGOHNoMXFSVWlsWGtiRTc4QXpsZTQ1WVIxblIwLTY4MU1EOW9xdGR3SU5oQUZ3Z0xDQkJ2UlhuQ1ZZNE5LNFlibl9RQUhXWGJVX1N2UlN1ZXY2Ukc0dkFkNmptZVB2WkdFRG83OHhrZG5ZOGRB?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lWYXdRem5fUG1aalk5bllkRnF4cU1VaEJWT2JVOEhIWWJNV21xcUUxRElxd2c3eURWV19YRWY0M0lXMll2czgzc3MxU0k1OFBqWWN2UXc1MEtyV0pfZnprN3dlMnVHZjI5MzNmbm8xelRoLUp5Q1NQQTZTZG1sdUxLR1RsN2lYTTlNQ2EybzdScVZLVWhMNjJ3Rll4NDl0OWJkNUdtSXhKV0tJbUhJNQ?oc=5",
-        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWkM4X0tWU1ZOeXh1bXYwc1JVc1IxdjVVblNNZEhraUM0a0pLSVA2OFVkX1JWWnJKalFLaEkzcENMZlQwWjRyeS1wREotQWZhYi1td1lYQ1dIWjM4MlkxaEQxQ095VnVJQ3RPbWloRHJLSDI2eU53REhmYXBpc3ZtUlZJbDA?oc=5",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT0ZBUXhNbUdTWkJYUmpuVjgyUmZDRXJsWjU1Z2M1Q3dad253RjBmRHRVdHBGV0d0M3c5TENJTER3OGJkRGRDQ3Q4SXFuRU45SmRLV2Z5Nko5aXdGOWpKZWViLVR3OGpVejFNSjhLemYyb2xBMWJNT1hCRDNOSzNsajN2MzlMVWdNS25aSnJaSmprd0xJRnlNNEROZWhDN0pnNGYyVV81SUJsZw?oc=5",
-        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOejBWOFB5Mnd2UXFlRlhkRDMzZV9mTC1sSm5TeEt1bm1EMVBYQmRGaldiQWJOWUNNRlpic0RyMkFpYkRtUmVFdUNMYXJTMW5ITExkb243U3lkVF9XM0tWVHVCajZQcU0tTnVzRzd3ZU1CX2pFaFpaZ0cxU2N2UENNV0FzSGtUcW04SXhiWjdrM2lYcXE1cEJmWXFXaWtXTFo3NEdlalpBcXpIZjVkMFlDcTVLbTFtanBYWkJFVlppWEV5RU5WV05B?oc=5",
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcEhLZ19EbUtjOW9CRVFpd3Jia19Mek9qRmZSX3p5QUcwQlViMnl6UHdZYjRMUkU3TVZLMWpFaGtkS2VFTUxuUWlaWUl6MVYwaFZOUzIxQTJEYkl0NXNsWDFOcjJ6TzlDeU5pWUd0YlJLZ0ZPWlFkS3hyTjRkTEhNTnVsOFdDSFliMkd5a25hbzJad2p3?oc=5"
+        "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026"
       ],
       "press_2026": true,
-      "latest_update_link": ""
+      "latest_update_link": "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026"
     },
     {
       "id": "heliostar",
@@ -2592,7 +2549,7 @@
       "mechanism": "Surgical clamp with advanced RF + PFA",
       "focus": "Concomitant surgical AF ablation",
       "company": "AtriCure",
-      "latest_update": "2026-04-14: AtriCure to Announce First Quarter 2026 Financial Results | AtriCure News",
+      "latest_update": "2025-12-11: First patients treated with novel dual energy platform",
       "tags": [
         "PFA",
         "RF",
@@ -2612,10 +2569,9 @@
       "notes": "Builds on EnCompass clamp; combines advanced RF and PFA to reduce ablation time.",
       "sources": [
         "https://www.businesswire.com/news/home/20251211833575/en/AtriCure-Announces-the-First-Patients-Treated-with-Novel-Dual-Energy-Platform",
-        "https://ir.atricure.com/news-releases/news-release-details/atricure-completes-enrollment-leaaps-clinical-trial-stroke",
-        "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results"
+        "https://ir.atricure.com/news-releases/news-release-details/atricure-completes-enrollment-leaaps-clinical-trial-stroke"
       ],
-      "latest_update_link": "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results",
+      "latest_update_link": "https://www.businesswire.com/news/home/20251211833575/en/AtriCure-Announces-the-First-Patients-Treated-with-Novel-Dual-Energy-Platform",
       "press_2026": true
     },
     {
@@ -2909,7 +2865,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "AF ablation",
       "company": "Abbott",
-      "latest_update": "2026-02-06: Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+      "latest_update": "2026-04-25: Abbott showcases strength of its technologies to address abnormal heart rhythms with late-breaking clinical data at Heart Rhythm Society 2026 - Apr 25, 2026",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -2930,14 +2886,9 @@
       "sources": [
         "https://abbott.mediaroom.com/2025-12-22-Abbotts-Volt-TM-Pulsed-Field-Ablation-System-Receives-FDA-Approval-to-Treat-Patients-with-Atrial-Fibrillation",
         "https://abbott.mediaroom.com/2026-02-06-Late-breaking-data-presentations-showcase-the-safety-and-efficacy-of-Abbotts-ablation-catheters-to-treat-people-with-atrial-fibrillation",
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ0Vva1N5QVd4UkdfYy1uaEtzWkJhd2VIN0VQVkh6aXFEZEp6TE42N0NDcUJncWtxcHNVbUZnUmFaNVVXTmJPQ1hWaGgzejJfa3hYVm5FbXMwWU1VYnlGOHNoMXFSVWlsWGtiRTc4QXpsZTQ1WVIxblIwLTY4MU1EOW9xdGR3SU5oQUZ3Z0xDQkJ2UlhuQ1ZZNE5LNFlibl9RQUhXWGJVX1N2UlN1ZXY2Ukc0dkFkNmptZVB2WkdFRG83OHhrZG5ZOGRB?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0lWYXdRem5fUG1aalk5bllkRnF4cU1VaEJWT2JVOEhIWWJNV21xcUUxRElxd2c3eURWV19YRWY0M0lXMll2czgzc3MxU0k1OFBqWWN2UXc1MEtyV0pfZnprN3dlMnVHZjI5MzNmbm8xelRoLUp5Q1NQQTZTZG1sdUxLR1RsN2lYTTlNQ2EybzdScVZLVWhMNjJ3Rll4NDl0OWJkNUdtSXhKV0tJbUhJNQ?oc=5",
-        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWkM4X0tWU1ZOeXh1bXYwc1JVc1IxdjVVblNNZEhraUM0a0pLSVA2OFVkX1JWWnJKalFLaEkzcENMZlQwWjRyeS1wREotQWZhYi1td1lYQ1dIWjM4MlkxaEQxQ095VnVJQ3RPbWloRHJLSDI2eU53REhmYXBpc3ZtUlZJbDA?oc=5",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT0ZBUXhNbUdTWkJYUmpuVjgyUmZDRXJsWjU1Z2M1Q3dad253RjBmRHRVdHBGV0d0M3c5TENJTER3OGJkRGRDQ3Q4SXFuRU45SmRLV2Z5Nko5aXdGOWpKZWViLVR3OGpVejFNSjhLemYyb2xBMWJNT1hCRDNOSzNsajN2MzlMVWdNS25aSnJaSmprd0xJRnlNNEROZWhDN0pnNGYyVV81SUJsZw?oc=5",
-        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOejBWOFB5Mnd2UXFlRlhkRDMzZV9mTC1sSm5TeEt1bm1EMVBYQmRGaldiQWJOWUNNRlpic0RyMkFpYkRtUmVFdUNMYXJTMW5ITExkb243U3lkVF9XM0tWVHVCajZQcU0tTnVzRzd3ZU1CX2pFaFpaZ0cxU2N2UENNV0FzSGtUcW04SXhiWjdrM2lYcXE1cEJmWXFXaWtXTFo3NEdlalpBcXpIZjVkMFlDcTVLbTFtanBYWkJFVlppWEV5RU5WV05B?oc=5",
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcEhLZ19EbUtjOW9CRVFpd3Jia19Mek9qRmZSX3p5QUcwQlViMnl6UHdZYjRMUkU3TVZLMWpFaGtkS2VFTUxuUWlaWUl6MVYwaFZOUzIxQTJEYkl0NXNsWDFOcjJ6TzlDeU5pWUd0YlJLZ0ZPWlFkS3hyTjRkTEhNTnVsOFdDSFliMkd5a25hbzJad2p3?oc=5"
+        "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026"
       ],
-      "latest_update_link": ""
+      "latest_update_link": "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026"
     },
     {
       "id": "sphere-360",
@@ -2948,7 +2899,7 @@
       "mechanism": "Single-shot PFA mapping and ablation catheter",
       "focus": "Paroxysmal AF ablation",
       "company": "Medtronic",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-13",
+      "latest_update": "2026-04-25: Medtronic announces key Affera\u2122 clinical study milestones for Sphere-9\u2122 and Sphere-360\u2122 catheters as global adoption continues - Apr 25, 2026",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -2979,8 +2930,9 @@
       "sources": [
         "https://news.medtronic.com/2026-01-23-Affera-TM-momentum-continues-as-Medtronic-announces-CE-Mark-in-Europe-and-U-S-IDE-first-cases-for-Sphere-360-TM-PFA-catheter-to-treat-paroxysmal-atrial-fibrillation",
         "https://www.medtronic.com/en-us/e/healthcare-professionals/cardiac-ablation/sphere-360-clinical-evidence.html",
-        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQajlDcVNKYWxkSERpS21Nb0tqZHVoY0MxT3RaMUZJRG5ZNzdORi0xYmI4M0ZTRnhORkNjdW5GRVVlX193bXJ4QkxSdWNVcEZUODZScndXOFlBSkR5aWthZFozMXhqUFhCM21KV0l1OUdsMDU5NzEyNFZDXzJrMkN6NjhrdGpxZm8zVEN0blBtdnZIXzNjNWpPQ2JZRlZBXzRwTnBwZ09CYzZkOVJ4ejE4TWMwSHZJdHd5ZHc?oc=5"
-      ]
+        "https://news.medtronic.com/2026-04-25-Medtronic-announces-key-Affera-TM-clinical-study-milestones-for-Sphere-9-TM-and-Sphere-360-TM-catheters-as-global-adoption-continues"
+      ],
+      "latest_update_link": "https://news.medtronic.com/2026-04-25-Medtronic-announces-key-Affera-TM-clinical-study-milestones-for-Sphere-9-TM-and-Sphere-360-TM-catheters-as-global-adoption-continues"
     },
     {
       "id": "fieldforce",
@@ -3011,8 +2963,7 @@
       ],
       "notes": "FieldForce system is a focal, contact-sensing PFA catheter designed for rapid point-by-point ablation.",
       "sources": [
-        "https://www.prnewswire.com/news-releases/field-medical-presents-late-breaking-field-pulse-trial-data-at-af-symposium-2026-302680633.html",
-        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNanF4TWlNakR2eTFFZXdreGZTQkRTYXF5Z1RxS196S1EwMVhuOWJ2MFlnTDJqYzRRQUF1dWlUT1pha29MX1poejZNb2Rwb3phVG5Pamh5Slctclc1YnpDX2R3M1V1cTdLN1dPNUVwQ29nX0tjSmh6NlYwV0t6aFVTOE5saGRjb2df?oc=5"
+        "https://www.prnewswire.com/news-releases/field-medical-presents-late-breaking-field-pulse-trial-data-at-af-symposium-2026-302680633.html"
       ]
     },
     {
@@ -3065,9 +3016,7 @@
       "notes": "Nanosecond PFA 360 catheter designed for single-shot, circumferential ablation.",
       "sources": [
         "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-announces-first-human-procedures-its-novel",
-        "https://www.nasdaq.com/press-release/pulse-biosciences-presents-late-breaking-data-npulsetm-cardiac-catheter-system-first",
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmc2UWg5Z0RiVVBEUzNhUV9QTFJhQ1ZWb1dtanRqNkhNazBwUW1lSkhlQmZieGRjQ0hrWjBRRXhzS2lZTVdMYWZCbkdPLUdRLWhHNDJTWUVhWFhwdVdpZ1lmS19MYVZRMmx3UUpwa3FGSFpNd21ScEtnN2dINFhlNEFmOFZCOTh0NkY1dVhGbENxSVFXYkRzWjJIbEZyZTlIeDE3QXZ5VHEwZmdGNFdXcktLZFJ4eHMyempQaQ?oc=5",
-        "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPanBQWEFwMmZCaXJzcHZaM1Z6a1czVmozVGs1WkhXcTlCRFV5ZEd3YUpXbnJkMmdQS3JGS2VaNWJ5TkU3WEowbDFOM0ExdV9qVEZ3R2lRbjJHN19VX0Q1b0lfQ1VOVjF4VVl3MnNzQ1ZkREJCV3ZQa0N4eVBTM0VfcE4tajg2RDNCVGs1cE16c2sxWGxhODB2OE5vRzcxMTBydDlBeDkyaUl0X2xPSV92bmlITEpDai1NQ21KSzgtS3dlWnFNQ0pFX3VYVEx5dDdMXzFlOVBzZVlrb3lLZ0NkdDMwYTgycDZFTGxiQ0U3RFFBRG5rRllycWFpR2IwSVN3MUtXMGdZUTRud0s0Y3ZSM3V1ckdSdS1taHl6UmZLNDVkQ0ZvTzJIaGNJYjdDTUcwV1ZmUU9ZaVFzSUlzdFBqcVloRWhsVFRMQS01RHIzZ2hhVy1U?oc=5"
+        "https://www.nasdaq.com/press-release/pulse-biosciences-presents-late-breaking-data-npulsetm-cardiac-catheter-system-first"
       ]
     },
     {
@@ -3099,9 +3048,7 @@
       "notes": "IDE-approved U.S. study for surgical nsPFA clamp system during concomitant cardiac surgery.",
       "sources": [
         "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-announces-fda-ide-approval-initiate-its-nspfa",
-        "https://clinicaltrials.gov/study/NCT06959121",
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmc2UWg5Z0RiVVBEUzNhUV9QTFJhQ1ZWb1dtanRqNkhNazBwUW1lSkhlQmZieGRjQ0hrWjBRRXhzS2lZTVdMYWZCbkdPLUdRLWhHNDJTWUVhWFhwdVdpZ1lmS19MYVZRMmx3UUpwa3FGSFpNd21ScEtnN2dINFhlNEFmOFZCOTh0NkY1dVhGbENxSVFXYkRzWjJIbEZyZTlIeDE3QXZ5VHEwZmdGNFdXcktLZFJ4eHMyempQaQ?oc=5",
-        "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPanBQWEFwMmZCaXJzcHZaM1Z6a1czVmozVGs1WkhXcTlCRFV5ZEd3YUpXbnJkMmdQS3JGS2VaNWJ5TkU3WEowbDFOM0ExdV9qVEZ3R2lRbjJHN19VX0Q1b0lfQ1VOVjF4VVl3MnNzQ1ZkREJCV3ZQa0N4eVBTM0VfcE4tajg2RDNCVGs1cE16c2sxWGxhODB2OE5vRzcxMTBydDlBeDkyaUl0X2xPSV92bmlITEpDai1NQ21KSzgtS3dlWnFNQ0pFX3VYVEx5dDdMXzFlOVBzZVlrb3lLZ0NkdDMwYTgycDZFTGxiQ0U3RFFBRG5rRllycWFpR2IwSVN3MUtXMGdZUTRud0s0Y3ZSM3V1ckdSdS1taHl6UmZLNDVkQ0ZvTzJIaGNJYjdDTUcwV1ZmUU9ZaVFzSUlzdFBqcVloRWhsVFRMQS01RHIzZ2hhVy1U?oc=5"
+        "https://clinicaltrials.gov/study/NCT06959121"
       ]
     },
     {

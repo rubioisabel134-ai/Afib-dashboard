@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-04-17",
+  "as_of": "2026-04-25",
   "items": [
     {
       "id": "milvexian",
@@ -385,7 +385,7 @@
       "mechanism": "Direct oral anticoagulant (Factor Xa inhibitor)",
       "focus": "Stroke prevention in AF",
       "company": "Bayer / Janssen",
-      "latest_update": "2025-11-06: Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
+      "latest_update": "Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
       "tags": [
         "DOAC",
         "Factor Xa"
@@ -625,7 +625,7 @@
       "mechanism": "Oral investigational therapy (mechanism not disclosed publicly)",
       "focus": "Reduction of AF burden; HDAC6 inhibitor licensed from Chong Kun Dang",
       "company": "Novartis (licensed from Chong Kun Dang)",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-23",
+      "latest_update": "ClinicalTrials.gov update posted 2026-04-17",
       "tags": [
         "AF burden",
         "Phase 2",
@@ -2109,7 +2109,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal and persistent AF ablation",
       "company": "Boston Scientific",
-      "latest_update": "2026-03-06: Boston Scientific\u2019s ENTRUST Registry Targets Real-World Edge in Carotid Stroke Prevention - TipRanks",
+      "latest_update": "2026-04-24: Johnson &amp; Johnson Launches Landmark Head-to-Head Pulsed Field Ablation Trial in Persistent Atrial Fibrillation",
       "tags": [
         "PFA",
         "ablation"
@@ -2143,9 +2143,11 @@
         "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ0pZTGpNU01MUGxXQWQzdmpqS1ZtWFlhY2tiajYxM2kzQW9fUTBlOHNWNE82VnhZMjM0UVJaNGhSZ0FFaGZzSGladDZoVkctWmlxUnFITEZHRlVvVGxBMTcxbGhLRDhjWkZNa29kZWstc2xjbUhpSXRTTHJ1VTFBWWpCSW5FMExQTkNEZEw5Vm9ENnFZZW5fTVVMQjAxZTRyMUtsOFItUWhLZDlKUngzU25naU4xeWc1SGRTQlZrQlUyTkZrX2p2N3J0LTFqamU0WXV2MGxNdzZFRkxj?oc=5",
         "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zVjhySlZxS1BSS3YzQ00teWhVTFNYV3hzd3JrRXRaRHZ6QzRFLXVrblNoSU1IUkd0XzlubG9Xek5QTW9IcDExMVBVY3dsM2VBSC0zYlJLYUJ6Vm1CcElCTFAzamJzc1FQQTA0TVhQdThPaVQ3TDR4ZzZRd0c?oc=5",
         "https://news.google.com/rss/articles/CBMiygFBVV95cUxQU1Y3ZU5KWnY2ME5WMVp2U1lKYURxR1pVWnkzVWRydXVtUjlEQjR0aGxmdkVxV2hhMllveWp5YkpwV250RGpzc0dnbXVLalZrWTk5clczN202M2NOVV9YLVlVUWxYLUhnYjdQRnp4X1NONFFvM3lLSlJGMkJfRzNGRFIwVmNFbjBiWkpPQ3Z6OHFta0pzMW9ib0d2dzZSZ2JnbUhka1JsT20zTEVBaWZwNm1PWE95VlJ6eGo0RXpudDEwNkZ1RGJTY0N3?oc=5",
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYndob0RvaVhFM0xrVjFpRFJZRkYzYk1rOGFTTnFZa2tlZkpSRlhDNTBsbl9UbkZDXzlTczVRUUNZTlJIWHVWUWV0Y0ZsRUk2MkFOT1FyLXloWGVabTREb0VNbHRxWkV3eG81SUh1RFNsRHRKVHN1Z0FWSEw0cmlQSzBNTE4xaS0yVGt1X21RSGNkaTItU24xVkctSmY1RUVVVVZ2cHdyMHVHR3d3R1QySVBpazhlZXJQckc1UnhVS053RG44a1B2a2RLNDVGMlVpWjJEZWl5OA?oc=5"
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYndob0RvaVhFM0xrVjFpRFJZRkYzYk1rOGFTTnFZa2tlZkpSRlhDNTBsbl9UbkZDXzlTczVRUUNZTlJIWHVWUWV0Y0ZsRUk2MkFOT1FyLXloWGVabTREb0VNbHRxWkV3eG81SUh1RFNsRHRKVHN1Z0FWSEw0cmlQSzBNTE4xaS0yVGt1X21RSGNkaTItU24xVkctSmY1RUVVVVZ2cHdyMHVHR3d3R1QySVBpazhlZXJQckc1UnhVS053RG44a1B2a2RLNDVGMlVpWjJEZWl5OA?oc=5",
+        "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
       ],
-      "press_2026": true
+      "press_2026": true,
+      "latest_update_link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
     },
     {
       "id": "pulseselect",
@@ -2288,7 +2290,7 @@
       "mechanism": "Epicardial RF ablation (hybrid convergent procedure)",
       "focus": "Persistent and long-standing persistent AF",
       "company": "AtriCure",
-      "latest_update": "2026-04-14: AtriCure to Announce First Quarter 2026 Financial Results | AtriCure News",
+      "latest_update": "ClinicalTrials.gov update posted 2023-11-13",
       "tags": [
         "RF",
         "hybrid",
@@ -2872,7 +2874,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal AF ablation",
       "company": "Johnson & Johnson MedTech",
-      "latest_update": "2026-04-13: Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",
+      "latest_update": "2026-04-07: Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
       "tags": [
         "PFA",
         "ablation"
@@ -2896,7 +2898,7 @@
         "https://www.jnj.com/media-center/press-releases/johnson-johnson-highlights-favorable-12-month-interim-results-for-the-varipulse-platform-at-ehra-2026"
       ],
       "press_2026": true,
-      "latest_update_link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-highlights-favorable-12-month-interim-results-for-the-varipulse-platform-at-ehra-2026"
+      "latest_update_link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe"
     },
     {
       "id": "volt",
@@ -3328,13 +3330,17 @@
     }
   ],
   "weekly_updates": {
-    "conference_abstracts": [
+    "safety_signals": [
       {
-        "title": "Johnson &amp; Johnson Highlights Favorable 12-Month Interim Results for the VARIPULSE Platform at EHRA 2026",
-        "date": "2026-04-13",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: VARIPULSE Platform",
-        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-highlights-favorable-12-month-interim-results-for-the-varipulse-platform-at-ehra-2026"
-      },
+        "title": "XYRA Announces the Issuance of a Fifth N",
+        "date": "",
+        "source": "Xyra News \u00b7 Match: Budiodarone",
+        "link": "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
+      }
+    ],
+    "label_expansions": [],
+    "guideline_updates": [],
+    "conference_abstracts": [
       {
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
         "date": "2026-03-28",
@@ -3348,26 +3354,18 @@
         "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
       }
     ],
-    "safety_signals": [
-      {
-        "title": "XYRA Announces the Issuance of a Fifth N",
-        "date": "",
-        "source": "Xyra News \u00b7 Match: Budiodarone",
-        "link": "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
-      }
-    ],
     "press_pipeline": [
+      {
+        "title": "Johnson &amp; Johnson Launches Landmark Head-to-Head Pulsed Field Ablation Trial in Persistent Atrial Fibrillation",
+        "date": "2026-04-24",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: FARAPULSE PFA",
+        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
+      },
       {
         "title": "Phase III study results with Bayer\u2019s FXIa inhibitor demonstrating substantial reduction in ischemic stroke with no increase in ISTH major bleeding versus placebo published in New England Journal of Medicine",
         "date": "2026-04-16",
         "source": "Bayer Media \u00b7 Match: Asundexian",
         "link": "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
-      },
-      {
-        "title": "AtriCure to Announce First Quarter 2026 Financial Results | AtriCure News",
-        "date": "2026-04-14",
-        "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
-        "link": "https://news.atricure.com/press-release/atricure-announce-first-quarter-2026-financial-results"
       },
       {
         "title": "Ribo Submits Phase 2b Clinical Trial Application for world\u2019s first siRNA FXI inhibitor in atrial fibrillation",
@@ -3423,8 +3421,6 @@
         "source": "Xyra News \u00b7 Match: Budiodarone",
         "link": "https://xyra.us/news/xyra-announces-fda-label-guidance-for-managing-atrial-fibrillation-with-budiodarone-and-wearable-monitoring-devices/"
       }
-    ],
-    "guideline_updates": [],
-    "label_expansions": []
+    ]
   }
 }

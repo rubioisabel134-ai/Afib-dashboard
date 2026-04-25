@@ -3330,16 +3330,6 @@
     }
   ],
   "weekly_updates": {
-    "safety_signals": [
-      {
-        "title": "XYRA Announces the Issuance of a Fifth N",
-        "date": "",
-        "source": "Xyra News \u00b7 Match: Budiodarone",
-        "link": "https://xyra.us/news/xyra-announces-the-issuance-of-a-fifth-new-us-patent-in-a-series-of-patents-which-protect-the-use-of-budiodarone-in-the-management-of-atrial-fibrillation-till-after-2040/"
-      }
-    ],
-    "label_expansions": [],
-    "guideline_updates": [],
     "conference_abstracts": [
       {
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
@@ -3355,12 +3345,6 @@
       }
     ],
     "press_pipeline": [
-      {
-        "title": "Johnson &amp; Johnson Launches Landmark Head-to-Head Pulsed Field Ablation Trial in Persistent Atrial Fibrillation",
-        "date": "2026-04-24",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: FARAPULSE PFA",
-        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
-      },
       {
         "title": "Phase III study results with Bayer\u2019s FXIa inhibitor demonstrating substantial reduction in ischemic stroke with no increase in ISTH major bleeding versus placebo published in New England Journal of Medicine",
         "date": "2026-04-16",
@@ -3410,17 +3394,32 @@
         "link": "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
       },
       {
-        "title": "Articles tagged with 'doccheck-en' | Bayer",
+        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
         "date": "",
-        "source": "Bayer Media \u00b7 Match: Bayer",
-        "link": "https://www.bayer.com/media/en-us/?h=1&t=doccheck-en"
+        "source": "CI manual scan \u00b7 Match: SHR-2004",
+        "link": "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=3"
       },
       {
-        "title": "XYRA Announces FDA Label Guidance for Ma",
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
         "date": "",
-        "source": "Xyra News \u00b7 Match: Budiodarone",
-        "link": "https://xyra.us/news/xyra-announces-fda-label-guidance-for-managing-atrial-fibrillation-with-budiodarone-and-wearable-monitoring-devices/"
+        "source": "CI manual scan \u00b7 Match: REGN7508",
+        "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=4"
+      },
+      {
+        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+        "date": "",
+        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX",
+        "link": "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&viewType=Card&rank=5"
+      },
+      {
+        "title": "Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
+        "date": "",
+        "source": "CI manual scan \u00b7 Match: Rivaroxaban",
+        "link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
       }
-    ]
+    ],
+    "safety_signals": [],
+    "label_expansions": [],
+    "guideline_updates": []
   }
 }

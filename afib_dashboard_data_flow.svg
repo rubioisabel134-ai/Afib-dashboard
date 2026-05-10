@@ -1,0 +1,43 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: 700 36px 'Arial', sans-serif; fill: #111; }
+    .box { rx: 20; ry: 20; }
+    .label { font: 700 18px 'Arial', sans-serif; fill: #fff; }
+    .label-dark { font: 700 18px 'Arial', sans-serif; fill: #1e1e1e; }
+    .sub { font: 500 15px 'Arial', sans-serif; fill: #fff; }
+    .sub-dark { font: 500 15px 'Arial', sans-serif; fill: #1e1e1e; }
+  </style>
+  <text x="60" y="70" class="title">AFib Dashboard — Data Flow</text>
+
+  <!-- Boxes -->
+  <rect x="120" y="120" width="1160" height="110" class="box" fill="#14243E" />
+  <text x="700" y="160" text-anchor="middle" class="label">SOURCES</text>
+  <text x="700" y="190" text-anchor="middle" class="sub">FDA · EMA · Company RSS · Google News · ClinicalTrials.gov</text>
+
+  <rect x="120" y="260" width="1160" height="110" class="box" fill="#195E82" />
+  <text x="700" y="300" text-anchor="middle" class="label">UPDATE SCRIPTS</text>
+  <text x="700" y="330" text-anchor="middle" class="sub">update.py · update_news.py · update_weekly.py · apply_weekly_to_cards.py</text>
+
+  <rect x="120" y="400" width="1160" height="110" class="box" fill="#D9CDBD" />
+  <text x="700" y="440" text-anchor="middle" class="label-dark">DATA LAYER</text>
+  <text x="700" y="470" text-anchor="middle" class="sub-dark">afib.json + weekly_updates.csv</text>
+
+  <rect x="120" y="540" width="1160" height="110" class="box" fill="#E4572E" />
+  <text x="700" y="580" text-anchor="middle" class="label">DASHBOARD UI</text>
+  <text x="700" y="610" text-anchor="middle" class="sub">HTML · CSS · JS</text>
+
+  <rect x="120" y="680" width="1160" height="110" class="box" fill="#0B8F6B" />
+  <text x="700" y="720" text-anchor="middle" class="label">PUBLISHED</text>
+  <text x="700" y="750" text-anchor="middle" class="sub">GitHub Pages</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#555" />
+    </marker>
+  </defs>
+  <line x1="700" y1="230" x2="700" y2="260" stroke="#555" stroke-width="4" marker-end="url(#arrow)" />
+  <line x1="700" y1="370" x2="700" y2="400" stroke="#555" stroke-width="4" marker-end="url(#arrow)" />
+  <line x1="700" y1="510" x2="700" y2="540" stroke="#555" stroke-width="4" marker-end="url(#arrow)" />
+  <line x1="700" y1="650" x2="700" y2="680" stroke="#555" stroke-width="4" marker-end="url(#arrow)" />
+</svg>

@@ -1,0 +1,6 @@
+category,title,date,source,link
+safety_signals,[Safety item title],YYYY-MM-DD,[FDA/EMA/source],[https://...]
+label_expansions,[Label expansion title],YYYY-MM-DD,[FDA/EMA/source],[https://...]
+guideline_updates,[Guideline update title],YYYY-MM-DD,[ESC/AHA/ACC/source],[https://...]
+conference_abstracts,[Conference abstract/news title],YYYY-MM-DD,[HRS/EHRA/AF Symposium/source],[https://...]
+press_pipeline,[Company press/pipeline title],YYYY-MM-DD,[Company/source],[https://...]

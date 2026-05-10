@@ -1,0 +1,109 @@
+id,name,type,category,stage,company,mechanism,focus
+milvexian,Milvexian,Drug,Stroke Prevention - FXI Inhibitors,Phase 3,BMS / Johnson & Johnson,Oral Factor XIa inhibitor,Stroke prevention in AF and secondary stroke prevention
+asundexian,Asundexian,Drug,Stroke Prevention - FXI Inhibitors,Phase 3,Bayer,Oral Factor XIa inhibitor,Secondary stroke prevention; AF program stopped
+abelacimab,Abelacimab (MAA868),Drug,Stroke Prevention - FXI Inhibitors,Phase 3,Novartis / Anthos Therapeutics,Monoclonal antibody targeting FXI/FXIa,Stroke and systemic embolism prevention in AF
+shr-2004,SHR-2004,Drug,Stroke Prevention - FXI Inhibitors,Phase 1b,Jiangsu Hengrui,Humanized monoclonal antibody targeting Factor XI,Anticoagulation in AF with reduced bleeding risk
+regn7508,REGN7508,Drug,Stroke Prevention - FXI Inhibitors,Phase 2 (AF); Phase 3 in VTE,Regeneron,Monoclonal antibody targeting FXI catalytic domain,Anticoagulation with reduced bleeding risk; AF stroke prevention program planned
+regn9933,REGN9933,Drug,Stroke Prevention - FXI Inhibitors,Phase 2 (AF); Phase 2 completed in VTE,Regeneron,Monoclonal antibody targeting FXI A2 domain,Anticoagulation for patients with higher bleeding risk; AF safety program
+srsd107,SRSD107,Drug,Stroke Prevention - FXI Inhibitors,Phase 2,Sirius Therapeutics / CRISPR Therapeutics,Long-acting FXI siRNA,Thromboembolic disorders including AF stroke prevention
+apixaban,Apixaban (Eliquis),Drug,Stroke Prevention - Anticoagulants,Approved,BMS / Pfizer,Direct oral anticoagulant (Factor Xa inhibitor),Stroke prevention in AF
+bay-3670549,BAY 3670549,Drug,Rhythm Control - Antiarrhythmic Drugs,Phase 1,Bayer,Selective GIRK4 inhibitor,Rapid pharmacologic cardioversion in AF
+rivaroxaban,Rivaroxaban (Xarelto),Drug,Stroke Prevention - Anticoagulants,Approved,Bayer / Janssen,Direct oral anticoagulant (Factor Xa inhibitor),Stroke prevention in AF
+dabigatran,Dabigatran (Pradaxa),Drug,Stroke Prevention - Anticoagulants,Approved,Boehringer Ingelheim,Direct oral anticoagulant (direct thrombin inhibitor),Stroke prevention in AF
+edoxaban,Edoxaban (Savaysa),Drug,Stroke Prevention - Anticoagulants,Approved,Daiichi Sankyo,Direct oral anticoagulant (Factor Xa inhibitor),Stroke prevention in AF
+warfarin,Warfarin,Drug,Stroke Prevention - Anticoagulants,Approved,Generic,Vitamin K antagonist,Stroke prevention in AF
+tecarfarin,Tecarfarin,Drug,Stroke Prevention - Anticoagulants,Late-stage (ESKD + AF planned trial),Cadrenal Therapeutics,Vitamin K antagonist (VKA),Anticoagulation in ESKD + AF; stroke/systemic thromboembolism prevention
+adx-626,ADX-626,Drug,Stroke Prevention - FXI Inhibitors,Phase 1,ADARx Pharmaceuticals,siRNA targeting Factor XI,Thrombotic diseases including AF stroke prevention
+procase-ab002,proCase (AB002),Drug,Stroke Prevention - Novel Antithrombotics,Phase 2,Aronora (royalties held by XOMA),Thrombin analog (protein C pathway activator),Acute cardiovascular thrombosis; potential anticoagulation applications
+compound-006,Compound-006,Drug,Stroke Prevention - Novel Antithrombotics,Preclinical,Protheragen,NMMHC IIA inhibitor,Arterial thrombosis (preclinical)
+compound-011,Compound-011,Drug,Stroke Prevention - Novel Antithrombotics,Preclinical,Protheragen,NMMHC IIA inhibitor,Venous thrombosis (preclinical)
+pkn605,PKN605 (aka CKD-510),Drug,Disease Modification - AF Remodeling,Phase 2,Novartis (licensed from Chong Kun Dang),Oral investigational therapy (mechanism not disclosed publicly),Reduction of AF burden; HDAC6 inhibitor licensed from Chong Kun Dang
+ve-1902,VE-1902,Drug,Stroke Prevention - Anticoagulants,Phase 1,Verseon,Precision oral anticoagulant (direct thrombin inhibitor),Stroke and heart attack prevention with reduced bleeding risk
+ve-2851,VE-2851,Drug,Stroke Prevention - Anticoagulants,Preclinical,Verseon,Precision oral anticoagulant (direct thrombin inhibitor),Stroke and heart attack prevention with reduced bleeding risk
+tah3311,TAH3311 (Apixaban ODF),Drug,Stroke Prevention - Anticoagulants,NDA submitted,TAHO Pharmaceuticals,Apixaban oral dissolving film (ODF) formulation,Stroke prevention and thromboembolic disorders (apixaban reformulation)
+tah3341,TAH3341 (Apixaban ER Film),Drug,Stroke Prevention - Anticoagulants,Pipeline,TAHO Pharmaceuticals,Apixaban oral extended-release film,Anticoagulation (apixaban reformulation)
+kv998083,KV998083,Drug,Stroke Prevention - FXII Inhibitors,Preclinical,KalVista Pharmaceuticals,Oral FXIIa inhibitor,Antithrombotic therapy with reduced bleeding risk
+mpi-8,MPI-8 (Macromolecular Polyphosphate Inhibitor 8),Drug,Stroke Prevention - Novel Antithrombotics,Preclinical,Academic (University of Michigan / UBC),Polyphosphate inhibitor (targets platelet polyP),Antithrombotic therapy with reduced bleeding risk
+amiodarone,Amiodarone,Drug,Rhythm Control - Antiarrhythmic Drugs,Approved,Generic,Class III antiarrhythmic (multi-channel blocker),Rhythm control in AF
+dronedarone,Dronedarone (Multaq),Drug,Rhythm Control - Antiarrhythmic Drugs,Approved,Sanofi,Class III antiarrhythmic,Rhythm control in AF
+ap31969,AP31969,Drug,Rhythm Control - Antiarrhythmic Drugs,Phase 2,Acesion Pharma,Oral SK ion channel inhibitor,Rhythm control in AF; reduction in AF burden
+dofetilide,Dofetilide,Drug,Rhythm Control - Antiarrhythmic Drugs,Approved,Generic,Class III antiarrhythmic,Rhythm control in AF
+sotalol,Sotalol,Drug,Rhythm Control - Antiarrhythmic Drugs,Approved,Generic,Class III antiarrhythmic with beta-blocking,Rhythm control in AF
+flecainide,Flecainide,Drug,Rhythm Control - Antiarrhythmic Drugs,Approved,Generic,Class Ic antiarrhythmic,Rhythm control in AF
+propafenone,Propafenone,Drug,Rhythm Control - Antiarrhythmic Drugs,Approved,Generic,Class Ic antiarrhythmic,Rhythm control in AF
+etripamil,Etripamil (Cardamyst),Drug,Rate Control - Acute AFib-RVR,Phase 3,Milestone Pharmaceuticals,Intranasal calcium channel blocker (short-acting),Acute treatment of AFib with rapid ventricular rate (AFib-RVR)
+inrhythm-flecainide,InRhythm (inhaled flecainide),Drug,Rhythm Control - Antiarrhythmic Drugs,Phase 2,InCarda Therapeutics,Inhaled delivery of flecainide,Rapid cardioversion of recent-onset paroxysmal AF
+thrv-1268,THRV-1268,Drug,Disease Modification - AF Remodeling,Phase 1,Thryv Therapeutics,SGK1 inhibitor,AF remodeling and cardiometabolic disease
+lqt-1213,LQT-1213 (Islasertib),Drug,Rhythm Control - Antiarrhythmic Drugs,Preclinical,Thryv Therapeutics,Oral small-molecule antiarrhythmic (mechanism not publicly detailed),Long QT syndrome and arrhythmia risk; potential AF relevance under evaluation
+at-6616,AT6616,Drug,Disease Modification - AF Remodeling,Preclinical,Abelian Pharmaceutical (pipeline in HKEX listing draft),Undisclosed,Atrial fibrillation
+ctp-amio,CTP‑Amio,Drug,Rhythm Control - Antiarrhythmic Drugs,Preclinical / grant-funded,Vivasc Therapeutics / University of Pittsburgh,Cardiac targeting peptide conjugated to amiodarone,AF treatment with reduced systemic toxicity
+ap30663,AP30663,Drug,Rhythm Control - Antiarrhythmic Drugs,Phase 2,Acesion Pharma,Intravenous SK (KCa2) ion channel inhibitor,Pharmacologic cardioversion of recent-onset AF
+hbi-3000,HBI-3000 (sulcardine),Drug,Rhythm Control - Antiarrhythmic Drugs,Phase 2,HUYABIO International,Intravenous multi‑ion channel blocker (sulcardine derivative),Pharmacologic cardioversion of recent‑onset AF
+hbi-3020,HBI-3020,Drug,Rhythm Control - Antiarrhythmic Drugs,Preclinical / early clinical,HUYABIO International,Oral second‑generation sulcardine (multi‑ion channel blocker),Chronic rhythm control in AF (oral formulation)
+budiodarone,Budiodarone,Drug,Rhythm Control - Antiarrhythmic Drugs,Phase 2,Xyra / Lee's Pharmaceutical (prior: Armetheon),Oral antiarrhythmic related to amiodarone,AF burden reduction in paroxysmal AF
+metoprolol,Metoprolol,Drug,Rate Control,Approved,Generic,Beta blocker,Rate control in AF
+rapiblyk-landiolol,Rapiblyk (landiolol),Drug,Rate Control - Acute AFib/AFlutter,"FDA Approved (Nov 22, 2024)",AOP Health (U.S. commercial partner: Eagle Pharmaceuticals),Ultra-short-acting beta-1 selective blocker (IV),Short-term ventricular rate control in AF and atrial flutter (critical care)
+diltiazem,Diltiazem,Drug,Rate Control,Approved,Generic,Non-dihydropyridine calcium channel blocker,Rate control in AF
+verapamil,Verapamil,Drug,Rate Control,Approved,Generic,Non-dihydropyridine calcium channel blocker,Rate control in AF
+digoxin,Digoxin,Drug,Rate Control,Approved,Generic,Cardiac glycoside,Rate control in AF
+praxbind,Praxbind (idarucizumab),Drug,Reversal Agents,FDA Approved,Boehringer Ingelheim,Monoclonal antibody fragment that reverses dabigatran,Emergency reversal of dabigatran anticoagulation
+andexxa,Andexxa / Andexanet alfa,Drug,Reversal Agents,FDA Approved (sales stopped in US Dec 2025),AstraZeneca (Portola),Decoy FXa protein reversing factor Xa inhibitors,Reversal of apixaban and rivaroxaban anticoagulation
+ciraparantag,Ciraparantag,Drug,Reversal Agents,Phase 2,Perosphere (developer),Small-molecule anticoagulant reversal agent,Reversal of DOACs and heparins
+bms-986341,BMS-986341 / JNJ-77906998,Drug,Reversal Agents,Phase 1,BMS / Johnson & Johnson,Monoclonal antibody against FXIa inhibitor milvexian,Reversal of milvexian anticoagulant activity
+slounase,Slounase (batroxobin),Drug,Hemostatic Agents,Approved (regional),Lee's Pharmaceutical,Thrombin-like serine protease from snake venom,Hemostasis in bleeding disorders and surgery
+vmx-c001,VMX-C001,Drug,Reversal Agents,Phase 3 (planned),VarmX,Small-molecule Factor Xa inhibitor reversal,Reversal of FXa inhibitors in bleeding
+okl-1111,OKL-1111,Drug,Reversal Agents,Phase 1 completed (program status uncertain),Alveron,Broad-spectrum anticoagulant reversal agent,Reversal of direct thrombin and FXa inhibitors
+prothromplex-total,Prothromplex Total (4F-PCC),Drug,Reversal Agents,Approved (EU/UK),Takeda (Shire),Four-factor prothrombin complex concentrate,Reversal of vitamin K antagonist anticoagulation
+watchman-flx,WATCHMAN FLX,Device,LAA Occlusion Devices,FDA Approved,Boston Scientific,Left atrial appendage closure device,Stroke prevention in non-valvular AF
+amulet,Amplatzer Amulet,Device,LAA Occlusion Devices,FDA Approved,Abbott,Left atrial appendage occluder,Stroke prevention in AF
+watchman-flx-pro,WATCHMAN FLX Pro,Device,LAA Occlusion Devices,FDA Approved,Boston Scientific,Next-generation LAA closure device with extended sizes and enhanced sealing,Stroke prevention in non-valvular AF
+appligator,Appligator LAA Elimination System,Device,LAA Occlusion Devices,First-in-human study initiated,Append Medical,Implant-free transcatheter LAA elimination (vacuum-based),Stroke prevention in non‑valvular AF
+sepiola-laac,Sepiola LAA Closure Device,Device,LAA Occlusion Devices,Clinical study (safety and performance),Endomatic,LAA closure device,Stroke prevention in non‑valvular AF
+wavecrest,WaveCrest LAA Occluder,Device,LAA Occlusion Devices,Investigational (U.S.),Coherex Medical (Biosense Webster),Expandable foam-based LAA occluder,Stroke prevention in non-valvular AF
+conformal-claas,Conformal CLAAS,Device,LAA Occlusion Devices,Pivotal IDE (CONFORM),Conformal Medical,Conformable foam-based LAA occluder,Stroke prevention in non-valvular AF
+conformal-acuform,Conformal CLAAS AcuForm,Device,LAA Occlusion Devices,Early clinical (GLACE),Conformal Medical,Next‑gen conformable foam LAA occluder,Stroke prevention in non‑valvular AF
+lambr-plus,LAMBRE Plus LAA Occluder,Device,LAA Occlusion Devices,FDA-approved investigator-initiated trial (US),Lifetech Scientific,Self-expanding LAA occluder with disc-and-lobe design,Stroke prevention in non‑valvular AF
+laminar-laax,Laminar LAAX System,Device,LAA Occlusion Devices,Pivotal IDE enrolling,Johnson & Johnson MedTech (Biosense Webster),Rotational elimination of LAA (LAAX),Stroke prevention in non‑valvular AF
+anchorman,AnchorMan LAAC System,Device,LAA Occlusion Devices,NMPA Approved (China); EU MDR certified,MicroPort CardioFlow,Semi-closed LAAC device with 3D folding anchors,Stroke prevention in non‑valvular AF
+seala-laac,SeaLA LAAC Device,Device,LAA Occlusion Devices,Clinical (China),DiNovA EP,Pacifier-like LAA occluder,Stroke prevention in non‑valvular AF
+omega-laao,Omega LAA Occluder,Device,LAA Occlusion Devices,Early clinical,Eclipse Medical,Self-retaining inverted cup LAA occluder,Stroke prevention in non‑valvular AF
+zenith-laao,Zenith LAA Occlusion System,Device,LAA Occlusion Devices,First-in-human,AuriGen Medical,LAA occluder with independent anchors and repositionability,Stroke prevention in non‑valvular AF
+vine,Vine,Device,Stroke Prevention - Carotid Filter,Investigational,Javelin Medical,Permanent carotid artery filter for clot interception,Stroke prevention in AF patients (LVO interception)
+watchman-nextgen,WATCHMAN Next-Generation (4th gen),Device,LAA Occlusion Devices,Planned pivotal trial (2026),Boston Scientific,Left atrial appendage closure device,Stroke prevention in non-valvular AF
+farapulse,FARAPULSE PFA System,Device,Catheter Ablation - PFA,FDA Approved,Boston Scientific,Pulsed field ablation,Paroxysmal and persistent AF ablation
+pulseselect,PulseSelect PFA System,Device,Catheter Ablation - PFA,FDA Approved,Medtronic,Pulsed field ablation,Paroxysmal and persistent AF ablation
+farawave,FARAWAVE PFA Catheter,Device,Catheter Ablation - PFA,FDA Approved (as part of FARAPULSE),Boston Scientific,Single-shot multielectrode PFA catheter (basket/flower shapes),Pulmonary vein isolation in AF
+iclas,iCLAS Cryoablation System,Device,Catheter Ablation - Cryoablation,CE Mark; U.S. IDE,Adagio Medical,Ultra-low temperature cryoablation (ULTC),Persistent AF ablation
+adagio-cryopulse,CryoPulse PFCA Catheter System,Device,Catheter Ablation - PFA,Early clinical,Adagio Medical,Pulsed field ablation and pulsed field cryoablation (PFCA),Persistent AF ablation
+episense,EPi-Sense System,Device,Hybrid/Surgical Ablation,FDA Approved,AtriCure,Epicardial RF ablation (hybrid convergent procedure),Persistent and long-standing persistent AF
+omnypulse,OMNYPULSE Platform,Device,Catheter Ablation - PFA,Investigational,Biosense Webster (J&J MedTech),Large-tip focal PFA catheter platform,Paroxysmal AF ablation
+tactiflex,"TactiFlex Ablation Catheter, Sensor Enabled",Device,Catheter Ablation - RF,FDA Approved,Abbott,Contact-force RF ablation catheter with flexible tip,Paroxysmal AF and typical atrial flutter
+heliostar,HELIOSTAR Balloon Ablation Catheter,Device,Catheter Ablation - RF,CE Mark (not US-approved),Biosense Webster (J&J MedTech),Multi-electrode RF balloon ablation,Paroxysmal AF pulmonary vein isolation
+kardium-globe,Globe Pulsed Field System,Device,Catheter Ablation - PFA,FDA Approved (PMA),Kardium,Single-shot spherical multielectrode PFA with integrated mapping,Paroxysmal AF ablation
+optishot,OptiShot PFA Balloon System,Device,Catheter Ablation - PFA,Investigational,CardioFocus,Compliant PFA balloon for single-shot PVI,Paroxysmal AF ablation
+quickshot,QuickShot PFA System,Device,Catheter Ablation - PFA,Clinical (CE Mark trial),CardioFocus (acquired Galvanize EP division),Large-area focal PFA catheter,AF ablation (focal PFA)
+heartlight-x4,HeartLight X4 PFA Balloon,Device,Catheter Ablation - PFA,Planned human trials,CardioFocus,PFA balloon for single-shot PVI,AF ablation
+ablaview,AblaView PFA System,Device,Catheter Ablation - PFA,First-in-man completed,MedLumics,Optically guided PFA with optical coherence reflectometry,AF ablation
+encompass-dual-energy,EnCompass Dual Energy Platform,Device,Surgical Ablation - Dual Energy,First patients treated,AtriCure,Surgical clamp with advanced RF + PFA,Concomitant surgical AF ablation
+cardiopulse-dinova,CardiPulse PFA System,Device,Catheter Ablation - PFA,Clinical (China),Hangzhou DiNovA EP Technology,Hexaspline PFA catheter with bipolar biphasic pulses,Paroxysmal AF ablation (PVI)
+insightpfa-lotospfa,LotosPFA Catheter (InsightPFA),Device,Catheter Ablation - PFA,Clinical (China),Insight Medtech,Nanosecond biphasic PFA catheter,Paroxysmal AF ablation (PVI)
+arga-coherent,Coherent Sine-Burst Electroporation (CSE) System,Device,Catheter Ablation - PFA,IDE pivotal trial,Argá Medtech,Coherent Sine-Burst Electroporation (CSE) pulsed field system,Paroxysmal and persistent AF ablation
+microport-pulsemagic,PulseMagic TrueForce PFA Catheter,Device,Catheter Ablation - PFA,Approved (China NMPA),MicroPort EP,Pressure-sensing PFA catheter with irrigation,AF ablation (multi-energy EP platform)
+microport-multi-energy,MicroPort EP Multi‑Energy Platform (RF + PFA),Device,Catheter Ablation - Platform,Commercial (China); expanding,MicroPort EP,"Integrated EP platform supporting RF, cryo, and PFA technologies",AF ablation across energy modalities
+spherepvi,SpherePVI Multi-Ablation System,Device,Catheter Ablation - PFA,Investigational (U.S.); clinical studies,Affera / Medtronic,Expandable lattice PFA catheter with multiple configurations,Paroxysmal AF ablation
+sirona-smt,SMT Multimodal PFA/RF Catheter,Device,Catheter Ablation - PFA/RF,Preclinical / emerging,Sirona Medical Technologies,"Multimodal array with focal, oval/circular, and flat configurations; PFA + RF",AF ablation
+atrian-atrian,AtriAN Epicardial PFA Catheter,Device,Cardioneuroablation - PFA,Preclinical / early clinical,Atrian Medical,Epicardial PFA targeting ganglionated plexi,AF (autonomic modulation)
+varipulse,VARIPULSE Platform,Device,Catheter Ablation - PFA,FDA Approved,Johnson & Johnson MedTech,Pulsed field ablation,Paroxysmal AF ablation
+volt,Volt PFA System,Device,Catheter Ablation - PFA,FDA Approved,Abbott,Pulsed field ablation,AF ablation
+sphere-360,Sphere-360 PFA Catheter (Affera),Device,Catheter Ablation - PFA,CE Mark; U.S. IDE,Medtronic,Single-shot PFA mapping and ablation catheter,Paroxysmal AF ablation
+fieldforce,FieldForce PFA System,Device,Catheter Ablation - PFA,Early clinical,Field Medical,High-voltage focal PFA catheter,AF ablation; focal point-by-point
+easy-pulz,Easy Pulz,Device,Catheter Ablation - PFA,Preclinical / early development,BTL,Pulsed field ablation system,AF ablation
+cellfx-nspfa-360,CellFX nsPFA 360 Cardiac Catheter,Device,Catheter Ablation - PFA,First-in-human,Pulse Biosciences,Nanosecond pulsed field ablation (nsPFA),AF ablation; pulmonary vein isolation
+cellfx-nspfa-surgery,CellFX nsPFA Cardiac Surgery System (NANOCLAMP AF),Device,Surgical Ablation - PFA,IDE approved (U.S.),Pulse Biosciences,Nanosecond PFA surgical clamp system,Concomitant surgical AF ablation
+cala-neuromod,Cala Peripheral Nerve Stimulation (AFib-01),Device,Neuromodulation - Peripheral Nerve Stimulation,Feasibility study,Cala Health,Wrist- and ear-worn neuromodulation targeting peripheral nerves,AF burden reduction
+botox-poaf,Botulinum toxin type A (AGN-151607) for POAF prevention,Drug,Neuromodulation - Autonomic Modulation,Completed trial (NOVA),Allergan (AbbVie) / academic investigators,Injection into epicardial fat pads / ganglionated plexi,Prevention of post-operative AF (POAF)
+inomagen-gene,Inomagen non‑viral gene therapy program,Drug,Gene Therapy,Preclinical / IND‑enabling,Inomagen Therapeutics,Non‑viral gene therapy targeting AF molecular mechanisms; electroporation‑assisted delivery,Disease modification for atrial fibrillation
+cardurion-camkii,Cardurion CaMKII inhibitors,Drug,Disease Modification - CaMKII Inhibition,Phase 1 (CPVT); AF planned,Cardurion Pharmaceuticals,CaMKII inhibition to normalize calcium signaling,Arrhythmias including potential post-operative AF programs
+as-100283,AS-100283,Drug,Disease Modification - CaMKII Inhibition,Preclinical,Vasa (reported by BioWorld),CaMKII inhibitor,Arrhythmias with potential AF applications
+maxwell-srt,Spatial Resynchronization Therapy (SRT),Device,Neuromodulation - Cardiac Pacing,First-in-human completed; clinical study expanding,MaxWell Biomedical,Multi-site low-energy atrial pacing with Rhythm360 algorithm,AF rhythm control and atrial function restoration
+maxwell-mpt,MultiPulse Therapy (MPT),Device,Neuromodulation - Low-Energy Defibrillation,Clinical experience (legacy studies),MaxWell Biomedical (Cardialen assets),Ultra-low-energy defibrillation/cardioversion pulses,AF and VT cardioversion

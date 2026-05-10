@@ -26,6 +26,18 @@ CONFERENCE_CALENDAR_PATH = ROOT / "data" / "conference_calendar.json"
 CI_MANUAL_URLS_PATH = ROOT / "data" / "ci_manual_urls.txt"
 ARTICLE_CACHE_PATH = ROOT / "data" / "company_press_cache.json"
 
+NON_HTML_EXTENSIONS = {
+    ".csv",
+    ".doc",
+    ".docx",
+    ".pdf",
+    ".ppt",
+    ".pptx",
+    ".xls",
+    ".xlsx",
+    ".zip",
+}
+
 CATEGORIES = {
     "safety_signals",
     "label_expansions",
@@ -35,6 +47,10 @@ CATEGORIES = {
 }
 
 GOOGLE_NEWS_BASE = "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
+
+
+class NonHtmlContentError(ValueError):
+    pass
 
 AF_RELEVANT_TERMS = [
     "atrial fibrillation",
@@ -296,7 +312,15 @@ def fetch_xml(url: str) -> bytes:
             raise
 
 
+def is_probably_non_html_url(url: str) -> bool:
+    path = urlparse(url).path.lower()
+    return any(path.endswith(ext) for ext in NON_HTML_EXTENSIONS)
+
+
 def fetch_html(url: str) -> str:
+    if is_probably_non_html_url(url):
+        raise NonHtmlContentError(f"Skipping non-HTML URL: {url}")
+
     req = Request(
         url,
         headers={
@@ -308,7 +332,11 @@ def fetch_html(url: str) -> str:
     for attempt in range(3):
         try:
             with urlopen(req, timeout=20) as resp:
-                return resp.read().decode("utf-8", errors="ignore")
+                content_type = resp.headers.get_content_type()
+                if content_type not in {"text/html", "application/xhtml+xml"}:
+                    raise NonHtmlContentError(f"Skipping {content_type} content: {url}")
+                charset = resp.headers.get_content_charset() or "utf-8"
+                return resp.read().decode(charset, errors="ignore")
         except HTTPError as exc:
             if exc.code in {429, 500, 502, 503, 504} and attempt < 2:
                 time.sleep(1.2 * (attempt + 1))
@@ -568,7 +596,10 @@ def get_article_details(
         return None
 
     title = page_title_from_html(article_html) or link_text or article_url
-    body_text = extract_visible_text(article_html)
+    try:
+        body_text = extract_visible_text(article_html)
+    except Exception:
+        return None
     dt = parse_html_date(article_html, url=article_url, fallback_text=f"{title} {link_text}")
     if dt is None and listing_date:
         dt = parse_date(listing_date)
@@ -1501,6 +1532,8 @@ def fetch_source_items(
     items: List[Dict[str, str]] = []
     for title, link, dt in parse_rss(xml_bytes):
         if not title:
+            continue
+        if is_probably_non_html_url(link):
             continue
         if dt and dt < cutoff:
             continue

@@ -6,20 +6,32 @@ cd "$ROOT_DIR"
 
 COMMIT_TARGETS=(
   data/afib.json
+  data/ci_date_cache.json
+  data/ci_manual_urls.txt
+  data/company_press_cache.json
   data/weekly_updates.csv
+  reports/ci_manual_scan.md
 )
 
-echo "Running trial update..."
-python3 scripts/update.py
+run_step() {
+  local label="$1"
+  shift
+  local start
+  local end
+  start="$(date +%s)"
+  echo "$label..."
+  "$@"
+  end="$(date +%s)"
+  echo "$label completed in $((end - start))s."
+}
 
-echo "Fetching company press releases..."
-python3 scripts/update_news.py
+run_step "Running trial update" python3 scripts/update.py
 
-echo "Updating weekly intel..."
-python3 scripts/update_weekly.py
+run_step "Fetching company press releases" python3 scripts/update_news.py
 
-echo "Applying weekly updates to cards..."
-python3 scripts/apply_weekly_to_cards.py
+run_step "Updating weekly intel" python3 scripts/update_weekly.py
+
+run_step "Applying weekly updates to cards" python3 scripts/apply_weekly_to_cards.py
 
 if git diff --quiet -- "${COMMIT_TARGETS[@]}"; then
   echo "No data changes detected."

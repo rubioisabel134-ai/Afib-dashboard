@@ -186,6 +186,18 @@ GENERIC_CANDIDATE_TOKENS = {
     "FXI",
 }
 
+GENERIC_CANDIDATE_PREFIXES = {
+    "CHMP",
+    "CTIS",
+    "EMA",
+    "EMADOC",
+    "EPAR",
+    "PRAC",
+    "PSUR",
+    "PSUSA",
+    "PSUV",
+}
+
 
 class LinkParser(HTMLParser):
     def __init__(self) -> None:
@@ -1070,7 +1082,10 @@ def find_new_candidate(text_value: str, terms: List[str]) -> str:
     for pattern in (r"\b[A-Z]{2,6}-\d{2,6}[A-Z]?\b", r"\b[A-Z]{3,8}\d{2,6}[A-Z]?\b"):
         for match in re.finditer(pattern, text_value):
             token = match.group(0).strip()
+            prefix = re.split(r"[-\d]", token, maxsplit=1)[0]
             if token in GENERIC_CANDIDATE_TOKENS:
+                continue
+            if prefix in GENERIC_CANDIDATE_PREFIXES:
                 continue
             if token.lower() in known:
                 continue
@@ -1127,7 +1142,7 @@ def analyze_match(title: str, link: str, terms: List[str], body_text: str = "") 
         return "", ""
     if not has_development_signal(full_text):
         return "", ""
-    return "", find_new_candidate(full_text, terms)
+    return "", ""
 
 
 def conference_match_is_headline_level(title: str, link: str, terms: List[str]) -> bool:

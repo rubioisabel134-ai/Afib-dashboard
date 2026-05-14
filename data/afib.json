@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-10",
+  "as_of": "2026-05-13",
   "items": [
     {
       "id": "milvexian",
@@ -3278,6 +3278,21 @@
     }
   ],
   "weekly_updates": {
+    "guideline_updates": [],
+    "conference_abstracts": [
+      {
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
     "press_pipeline": [
       {
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
@@ -3338,24 +3353,15 @@
         "date": "2024-02-28",
         "source": "CI manual scan \u00b7 Match: SHR-2004",
         "link": "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
-      }
-    ],
-    "guideline_updates": [],
-    "conference_abstracts": [
-      {
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       },
       {
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+        "title": "Iclusig | European Medicines Agency (EMA)",
+        "date": "2013-07-11",
+        "source": "EMA What's New \u00b7 Match: NEW: PSUV-0009",
+        "link": "https://www.ema.europa.eu/en/medicines/human/EPAR/iclusig"
       }
     ],
-    "label_expansions": [],
-    "safety_signals": []
+    "safety_signals": [],
+    "label_expansions": []
   }
 }

@@ -2996,7 +2996,7 @@
       "mechanism": "Nanosecond pulsed field ablation (nsPFA)",
       "focus": "AF ablation; pulmonary vein isolation",
       "company": "Pulse Biosciences",
-      "latest_update": "ClinicalTrials.gov update posted 2026-05-05",
+      "latest_update": "2026-05-04: Pulse Biosciences Reports Business Updates and First Quarter 2026 Financial Results",
       "press_2026": true,
       "tags": [
         "nsPFA",
@@ -3017,8 +3017,17 @@
       "notes": "Nanosecond PFA 360 catheter designed for single-shot, circumferential ablation.",
       "sources": [
         "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-announces-first-human-procedures-its-novel",
-        "https://www.nasdaq.com/press-release/pulse-biosciences-presents-late-breaking-data-npulsetm-cardiac-catheter-system-first"
-      ]
+        "https://www.nasdaq.com/press-release/pulse-biosciences-presents-late-breaking-data-npulsetm-cardiac-catheter-system-first",
+        "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-reports-business-updates-and-first-quarter-2"
+      ],
+      "aliases": [
+        "nPulse Cardiac Catheter System",
+        "nPulse Cardiac Catheter",
+        "NANOPULSE-AF",
+        "CellFX nsPFA 360",
+        "nsPFA 360 Cardiac Catheter"
+      ],
+      "latest_update_link": "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-reports-business-updates-and-first-quarter-2"
     },
     {
       "id": "cellfx-nspfa-surgery",
@@ -3050,6 +3059,11 @@
       "sources": [
         "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-announces-fda-ide-approval-initiate-its-nspfa",
         "https://clinicaltrials.gov/study/NCT06959121"
+      ],
+      "aliases": [
+        "NANOCLAMP AF",
+        "NANOCLAMP-AF",
+        "nPulse Cardiac Surgery System"
       ]
     },
     {
@@ -3278,7 +3292,6 @@
     }
   ],
   "weekly_updates": {
-    "guideline_updates": [],
     "conference_abstracts": [
       {
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
@@ -3293,7 +3306,16 @@
         "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
       }
     ],
+    "safety_signals": [],
+    "label_expansions": [],
+    "guideline_updates": [],
     "press_pipeline": [
+      {
+        "title": "Pulse Biosciences Reports Business Updates and First Quarter 2026 Financial Results",
+        "date": "2026-05-04",
+        "source": "Pulse Biosciences Press Releases \u00b7 Match: nPulse Cardiac Catheter System",
+        "link": "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-reports-business-updates-and-first-quarter-2"
+      },
       {
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
         "date": "2026-04-29",
@@ -3354,8 +3376,6 @@
         "source": "CI manual scan \u00b7 Match: SHR-2004",
         "link": "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
       }
-    ],
-    "safety_signals": [],
-    "label_expansions": []
+    ]
   }
 }

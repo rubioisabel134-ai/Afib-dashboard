@@ -1610,6 +1610,15 @@ def is_google_news_row(row: Dict[str, str]) -> bool:
     return "google news" in source or "news.google.com" in link
 
 
+def existing_row_is_relevant(row: Dict[str, str], article_cache: Dict[str, Dict[str, str]]) -> bool:
+    link = row.get("link", "")
+    body_text = ""
+    cached = article_cache.get(link)
+    if isinstance(cached, dict):
+        body_text = str(cached.get("body_text", ""))
+    return is_af_relevant(row.get("title", ""), link, body_text)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Update AFib weekly news rows")
     parser.add_argument(
@@ -1663,7 +1672,7 @@ def main() -> int:
     existing = [
         row
         for row in read_existing()
-        if is_af_relevant(row.get("title", ""), row.get("link", "")) and keep_row(row)
+        if existing_row_is_relevant(row, article_cache) and keep_row(row)
     ]
     if not args.with_google_news:
         existing = [row for row in existing if not is_google_news_row(row)]

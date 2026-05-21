@@ -75,11 +75,28 @@ AF_RELEVANT_TERMS = [
     "fxia",
     "asundexian",
     "oceanic-stroke",
+    "fxi",
+]
+
+FXI_STROKE_CONTEXT_TERMS = [
     "secondary stroke",
     "ischemic stroke",
     "non-cardioembolic",
     "transient ischemic attack",
+    "tia",
+    "oceanic-stroke",
+]
+
+FXI_STROKE_REQUIRED_TERMS = [
+    "factor xi",
+    "factor xia",
     "fxi",
+    "fxia",
+    "asundexian",
+    "milvexian",
+    "abelacimab",
+    "oceanic-stroke",
+    "librexia-stroke",
 ]
 
 AF_EXCLUDE_TERMS = [
@@ -1058,7 +1075,11 @@ def find_match(text_value: str, terms: List[str]) -> str:
 
 def is_af_relevant(title: str, link: str, body_text: str = "") -> bool:
     haystack = f"{title} {link} {body_text}".lower()
-    if not any(term in haystack for term in AF_RELEVANT_TERMS):
+    has_core_signal = any(term in haystack for term in AF_RELEVANT_TERMS)
+    has_fxi_stroke_exception = any(term in haystack for term in FXI_STROKE_CONTEXT_TERMS) and any(
+        term in haystack for term in FXI_STROKE_REQUIRED_TERMS
+    )
+    if not has_core_signal and not has_fxi_stroke_exception:
         return False
 
     if any(term in haystack for term in AF_EXCLUDE_TERMS):

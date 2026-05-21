@@ -71,6 +71,14 @@ AF_RELEVANT_TERMS = [
     "anticoagul",
     "arrhythm",
     "factor xi",
+    "factor xia",
+    "fxia",
+    "asundexian",
+    "oceanic-stroke",
+    "secondary stroke",
+    "ischemic stroke",
+    "non-cardioembolic",
+    "transient ischemic attack",
     "fxi",
 ]
 

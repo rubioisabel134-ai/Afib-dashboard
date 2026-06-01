@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-21",
+  "as_of": "2026-06-01",
   "items": [
     {
       "id": "milvexian",
@@ -176,7 +176,7 @@
       "mechanism": "Monoclonal antibody targeting FXI catalytic domain",
       "focus": "Anticoagulation with reduced bleeding risk; AF stroke prevention program planned",
       "company": "Regeneron",
-      "latest_update": "2026-04-29: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+      "latest_update": "2026-05-29: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -233,7 +233,7 @@
       "mechanism": "Monoclonal antibody targeting FXI A2 domain",
       "focus": "Anticoagulation for patients with higher bleeding risk; AF safety program",
       "company": "Regeneron",
-      "latest_update": "2026-04-29: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+      "latest_update": "2026-05-29: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -1757,7 +1757,7 @@
       "mechanism": "Conformable foam-based LAA occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Conformal Medical",
-      "latest_update": "ClinicalTrials.gov update posted 2026-05-06",
+      "latest_update": "ClinicalTrials.gov update posted 2026-05-26",
       "tags": [
         "LAAO",
         "foam"
@@ -3293,23 +3293,27 @@
     }
   ],
   "weekly_updates": {
-    "safety_signals": [],
     "guideline_updates": [],
-    "conference_abstracts": [
+    "safety_signals": [],
+    "press_pipeline": [
       {
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+        "date": "2026-05-29",
+        "source": "CI manual scan \u00b7 Match: REGN7508",
+        "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
       },
       {
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
-    "press_pipeline": [
+        "title": "Show all 5 locations (NCT07430956)",
+        "date": "2026-05-29",
+        "source": "CI manual scan \u00b7 Match: REGN7508",
+        "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=4#locations"
+      },
+      {
+        "title": "AtriCure to Participate in the Goldman Sachs 47th Annual Global Health Care Conference | AtriCure News",
+        "date": "2026-05-27",
+        "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
+        "link": "https://news.atricure.com/press-release/atricure-participate-goldman-sachs-47th-annual-global-health-care-conference"
+      },
       {
         "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
         "date": "2026-05-19",
@@ -3321,18 +3325,6 @@
         "date": "2026-05-04",
         "source": "Pulse Biosciences Press Releases \u00b7 Match: nPulse Cardiac Catheter System",
         "link": "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-reports-business-updates-and-first-quarter-2"
-      },
-      {
-        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
-        "date": "2026-04-29",
-        "source": "CI manual scan \u00b7 Match: REGN7508",
-        "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
-      },
-      {
-        "title": "Show all 5 locations (NCT07430956)",
-        "date": "2026-04-29",
-        "source": "CI manual scan \u00b7 Match: REGN7508",
-        "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=4#locations"
       },
       {
         "title": "Johnson &amp; Johnson Launches Landmark Head-to-Head Pulsed Field Ablation Trial in Persistent Atrial Fibrillation",
@@ -3375,14 +3367,22 @@
         "date": "2024-11-29",
         "source": "CI manual scan \u00b7 Match: WATCHMAN FLX",
         "link": "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&rank=6"
-      },
-      {
-        "title": "Study on the Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-2004 Injection in Adult Patients With Atrial Fibrillation (NCT06280768)",
-        "date": "2024-02-28",
-        "source": "CI manual scan \u00b7 Match: SHR-2004",
-        "link": "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
       }
     ],
-    "label_expansions": []
+    "label_expansions": [],
+    "conference_abstracts": [
+      {
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ]
   }
 }

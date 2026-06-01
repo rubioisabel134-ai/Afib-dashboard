@@ -42,6 +42,7 @@ def load_direct_sources(limit: int) -> List[Tuple[str, str]]:
 
 def load_special_sources() -> List[Tuple[str, str]]:
     return [
+        ("TCTMD AFib search", "https://www.tctmd.com/search?keyword=Atrial%20Fibrillation&f%5B0%5D=topic%3AAtrial%20Fibrillation"),
         ("ClinicalTrials AF search", "https://clinicaltrials.gov/search?cond=atrial%20fibrillation"),
         ("ClinicalTrials LAAO search", "https://clinicaltrials.gov/search?term=LAAO"),
         ("ClinicalTrials FXI search", "https://clinicaltrials.gov/search?term=factor%20XI%20atrial%20fibrillation"),

@@ -1023,12 +1023,15 @@ def load_conference_sources(now: datetime) -> List[Dict[str, str]]:
         name = (entry.get("name") or "").strip()
         url = (entry.get("url") or "").strip()
         conference = (entry.get("conference") or "").strip().upper()
+        source_type = (entry.get("source_type") or "html_listing").strip()
+        if source_type.lower() == "browser_only":
+            continue
         if not name or not url or not conference:
             continue
         source = {
             "name": name,
             "category": (entry.get("category") or "conference_abstracts").strip(),
-            "source_type": (entry.get("source_type") or "html_listing").strip(),
+            "source_type": source_type,
             "url": url,
             "require_match": entry.get("require_match", True),
             "crawl_limit": int(entry.get("crawl_limit", 6)),

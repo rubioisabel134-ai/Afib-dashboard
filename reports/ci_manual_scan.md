@@ -1,43 +1,46 @@
-# AFib CI Manual Scan (2026-05-18)
+# AFib CI Manual Scan (2026-06-01)
 
-Run time: 2026-05-18T14:21:20.751617+00:00
+Run time: 2026-06-01T12:02:17.648537+00:00
 
 ## Top Items
-- Low-dose digoxin in patients with heart failure with reduced or mildly reduced ejection fraction: a randomized controlled trial (match: Digoxin)
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMiX0FVX3lxTE90V2NFaXJIU0YwUTAtLWh2TkxZX2lrQlNpeE93aW1sd2hmN3VEUnJhTlJwX2hLM01Sdnc5XzhBMm5xVEF4TEFQS19QQlFBRUhMUnN6Q2tfLThNUWRqVklV?hl=en-US&gl=US&ceid=US%3Aen
-- Taking A Fresh Look At Pulse Biosciences (PLSE) Valuation After New Atrial Fibrillation Trial Progress (match: Pulse Biosciences)
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMi1AFBVV95cUxQWjRjbzhJclBOdU1XelNtcEkzQWdxMXp2eEV4bDhGYjBIalJDTW1uZ0k1LTk2ZVNsbmxPLTVmcVRfb29sWFVwb2ZJTk9GLTVKemxsRDBFWEttYjYwN1p4bFUxWXhqcGdvVHR1ZVgyM3JKeEtNSVBFU09OY2k2bTBjQlFocUJtVDNhZXhFMHVHcklLQ1VZQ05JM2dyUnVaOGlYX3ZUdDk3SjFHNEg3VUp2TWdwSEVGczN4VnFZMEkzUTlQM0FRQzdPQ0hybFpHYTE1c1lZT9IB2gFBVV95cUxNa2s0aXktTXgtaHd1TmR2Nmlrbjd1MlFXWHllamxMV0ZjdklJbFdyUGNOUndPQ0dXa1VVLTQ5Q2xyNDBXUzFta0ZFMWFwUGtqMG5QWVFBX0tyMkVlRDd4QVFXSmhVMmhGZjZjZGp1dE5UdVJyYXo1eHVCM3h5M2M1LUhkbm5YVUtaeUdwdGQ0MlVpYzhOdWRUalJTYzhXQUdCVGZyaXFicUtSUGZNUXAyMVhHY0tmTHd6dUpCUkNwbUd5SDRHT0xDOUk1dWx3Y1F0V3ZOVVNEZUhBQQ?hl=en-US&gl=US&ceid=US%3Aen
-- Is Pulse Biosciences (PLSE) Quietly Redefining Its Core Identity Around Atrial Fibrillation? (match: Pulse Biosciences)
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMirwFBVV95cUxNSDJPWWxWY01jODBoX1kwc0d1SHRNS3JuR1l2NEpKczJ1Mi1QY3pFZWlidW8yQjdoQU5YQUxFQjFMa2U2UlZfeTFocmFIV08yM3FBaTR0eTNVMzNXX0dtbEhZaF9mRkFHMmxaNE1KcnNaNnhKOHA1eUVKTG9aY3lRcjNrOWs5cjc0R3ZaRGdtbk1BRUZlSzV0Mm9VR0JjbUFxUHJHbjBqNmZ2eWVLZ3Zv?hl=en-US&gl=US&ceid=US%3Aen
-- Association of Concurrent Amiodarone and Beta-Blocker Therapy at Discharge With 30-Day Rehospitalization After Atrial Fibrillation Hospitalization (match: Amiodarone)
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMikwJBVV95cUxQdG9SUU5RdDBwTHJ0WVRvT2NOS2w2MTBJLWduWjZmR2ptb2tNMzczRXBCRml3U1JMSDQ1cGYwLWFoYzJKbHBYOGtZMG5KbVRHOHN3S0liVEtuZTMwMmZ0cUVjNnpONWdFX3BNcnFlcDBTZUpYOEVMTWxMTW04YzhnSkdTMTZsSkZIQkRhZHo5ZGhSUUtqbHczN1hLcVlPdHVISmNIeHBYWTNJd3FoaFJ6dDlRLXktN3JzNk9hb2UzZE53dWhWVjJ5bmZHZU1lSU5hbWlZRHNOb0FvZGMzd2owcjNwN2g5QUI4UkIybC1WX1NpSVdEX0NOVkZ6SkhJNVMxVkt6YnBRWW5VeU1QR2lUcmw4RQ?hl=en-US&gl=US&ceid=US%3Aen
-- Pulse Biosciences (PLSE) Stock Surges 17% on Major $13M Insider Purchase (match: Pulse Biosciences)
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMiSEFVX3lxTE0tbUZuSUxvQlNwc1hkVTJFYmpOd1d3RnJXRzZyZUR4dG43MWlqSDNwdjFJVlRqRUI0WmZIYWhGbEpIOWp1Y3VDcA?hl=en-US&gl=US&ceid=US%3Aen
-- Association of Concurrent Amiodarone and Beta-Blocker Therapy at Discharge With 30-Day Rehospitalization After Atrial Fibrillation Hospitalization (match: Amiodarone)
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMirAJBVV95cUxNTHZ5Ui1ZR1VXRklaOER5VmhjXzkyT0hKSUozNGVQdjZsX0NmQzhDaTNsRXpQSWh3Q1Q0dFJ4a3hydnVmRjVGTG91LU5fRk5UX2lfRkV1dnVLTWZaclY3VE1iRktEYnFXTlRQMGRSSXlscjNScUJzeTg1RVNTN2JkR1BqVk40RlE0WjNqVU1MazdfNGZ1azVCMXBIclFvc1M3S2xBaDNyWmV3dm5rR1RueXBWbDBJd2ZnUDhjX0ozdXBZQ19lbmZ5RWt5TDZweFpOQXctMURwTU5CN2dqOUZlTGZiTXRIOGN5RjVLcXhKLXJpRnQyWmh3cDdtVWVJdTlmMm85cnpzeXpBUzh4WnhSSXNCSmpCSWo1OWxjbkFjX09vR2NKV2tvZzN2dmI?hl=en-US&gl=US&ceid=US%3Aen
-- Taking A Fresh Look At Pulse Biosciences (PLSE) Valuation After New Atrial Fibrillation Trial Progress (match: Pulse Biosciences)
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMi5wFBVV95cUxPYnh1bFlQakllSlZtVzlPaTdBcFpOSlI4Sk5BRXpJdjZEMExZNk5IUjdJZDl3Q3ZucmlzNnFOVVAxczNQM09FaHhBamVYM0k2YTBYQVJpVTN3X3BWeXlBMVRTQzluXzdWVkpCYldpcFFod2VkbkdRdjEtMFJpNDRIQVJqSWZwUW1MSGR5N2o3T255cEkzRFZ6bS13dy1TUER0OEhwTFNqMGI0dS1tbXZSSEQxQUQ2bm9XQXl2WmttTWZYelBnOENiTFhNMzNOTXVHTjZBNldjRUpsLWs0U25oVGR3MnpUOHM?hl=en-US&gl=US&ceid=US%3Aen
+- Watchman Woes: Boston Scientific Shares Plunge on Weak Demand (match: Boston Scientific)
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMirwFBVV95cUxPZ2Z1aE14XzdyNUhpMVhTQ3Y3dFJiZWhZcWVzMy1zRzZHOVB5TTV4SnJURVZaYi0yRnNtdHBhc19ObmN0RzE0VFg2R2xDNlN2cVJOMW1jY25vbU44ZzA3bC1wendRd01lVW5MNGFLdTdfcEwzaTB0VUxjSG92a2l4SnlMOGE1QnhWRVBxX19iZFZYc3N6NzR5Uy14c3hacE9SaEhHVjBvWUNhNzROeVhF?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Scientific hits two-year low after flagging weaker demand for heart device (match: Boston Scientific)
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMirwFBVV95cUxQRDBNWVBjVmFqRFAySkNaNUdaUWpzeDBuOURFRHVMYkNKRmJZMGtfaDdwT1BZeFVMRk9YZXdSTFJZb0kyOHI1MXgtd3dRU2tiXzZWZ2cyelBab1J6bGhNR2dTX2FrX2dHcjMzNVBGTm81WVRZa0xpX1BzT3REZzJWRHVudDZLVDV2YS1PNG5LeXd6Sjh3Vnh4cGZ1UUxxMHhBakFsVC1YOWd2TTMzVDRn?hl=en-US&gl=US&ceid=US%3Aen
+- Flecainide Erectile Dysfunction: What Men on Heart Rhythm Medication Need to Know (match: Flecainide)
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMijAJBVV95cUxOU3lEVHMtV2dPMk04X1djTGpJNmhrMExDeFBfN3dOM2tVQ2JJN0xJczJJcjcxdzVGRTRIdjEtUGFiUnJfVXdkam9XbzdiUUtCYmpJOUVSeV8wNExwQ1ZQajFyM0xiTlRfMWVnNW1fWTVzV0lIVmpvRjdNUENxWmx4elpRNnhYelFoODhDQ0VKT051d3g4TW5jbllaQ3FISGlSRVNVNmpNeFdsTWs0U056OWp5blpJMDN0QW9HRmNkMXpmLWFiR09HUDZrN2QzYzZIWkotckxjaklKTmFxWGJOU1FOOVBZaGZVQkcxQk9fcTVLalJNV0xvVWlDREd3ODhVUmtqUjBkWU93ZlRj?hl=en-US&gl=US&ceid=US%3Aen
+- Regeneron Targets Stroke Prevention Gap With New Atrial Fibrillation Trial (match: Regeneron)
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMixAFBVV95cUxNSXo5UE9VdXFPQjZrS2ZieTBGbVhEQmxmRE1iekhnXzd0NGlQeW9SNWFWeUpMWTBqSC1ZSGlNUFFhZ29EQ0hwZ0Z6WDdsWC1IaGNrQmZldDBGWFZEX0lTSWlRcXZXWXp6bnA3OFY2OG0xaG5IazlMSWFiSHpMd0MtU2FjSHE3RXB4UUd4bDFfdWdnNmhld29LTktTV25wRi1jUkVJSDYxUVBib0dIdFN6MFVmRTdHaVRza0pFdXhmVnZtZExE?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Scientific Advances FARAPULSE PFA Study in Atrial Fibrillation (match: Boston Scientific)
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMivgFBVV95cUxPZmpRMXdMd2lhMF9vWGpOanpDTXNaOGpNYkZoaUtqRDRUdkw1c3UtazdlbWNYYlpWRTJlSTZjSTJYZ3dwTjc1V3BIRTNCa182WERXcThaSEVPbnJiUThYRGRzVThUbVBVaDRrbVR4OW1FQk9uY0lVVFRkZWVPeXpBUzBad2hDRXktd3oybjQyZzBqNzVyVW56ZWZoblROWG1sWXhEd3lSLWs1OGhwVERQNF9pMC1sSTIxYVUwaUt3?hl=en-US&gl=US&ceid=US%3Aen
+- Adagio Medical Holdings (ADGM) Q1 2026 Earnings: Wider-Than-Expected Loss Highlights Ongoing Development Costs - Profitability Analysis (match: Adagio Medical)
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMi5AFBVV95cUxNRnhzNnh1OHlabGFEM3lodlF2MVlwLWVKSXlyVFpzcmR6NVBoMGhJenVGUndtanZSZVppZzVxOC1SVG5LSmdQU1BUMU43bElaVnZVWWpxclZ3dktGUFpnSVZzNm5VVzNRcm1pLXhzYVppdEFtcjREX0ExTmxwT3A4QTlHVGxLaDBKRzQwYTN2ZTJqQldaQWxaT1lnOEw5bThqbVh6aW9wTGxzbzl5Z0RDTzdrdlRjWFRuY0o4OG1zZk1sdkV4WWF6QzJ3b0luT0hQWUJ5TWY0WHBXTk0tMjdKRm00cGk?hl=en-US&gl=US&ceid=US%3Aen
+- Adagio Medical Holdings (ADGM) Q1 2026 Earnings: Wider-Than-Expected Loss Highlights Ongoing Development Costs - GAAP Earnings Report (match: Adagio Medical)
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMi7AFBVV95cUxPMjJJRkp4b0pPZ1NVOFBkZ1dvNFVTOUZaRjVTU2J6dEJLcEx2ZHltLU9hdXNGdzVjS1NVY2dXRXE4Yjk2Rk92bXBsWDRaM1lxdy1EQmNNeUN2a1NiNWVtUk1lU09OUzhyMWNhNndNb2l3QWJUTEdvWFhaQ2d1Y0p2MlAwcTNFSDBHbWpJTUFyZ050eGU4c0Z2ZndzR0dxUkFfdlA0aDdwSWc1NzdxWDZGa1FJdm5PTmxYNFRYeVVuM2Z5MW1VdFpYdVRIbnhmcExrWFNlMmcxcFduSUVpSmw3WlVxS2owZnJSQzZleA?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Scientific hits two-year low after flagging weaker demand for heart device (match: Boston Scientific)
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMirwFBVV95cUxOa3hhR2xueHZaWGZDc2p4YjhCY3JlNmNxNmJXcEYyNzFjeGNNajRLaUg3RDJRWkswYkNCc2hpWFUtUlJuLThxSG5hcU1zZG8zZDhoOGpTY21wZ1o4MThGQWJHUlAxMlJnV3QwaEZQT1pnSndLaWhOSV9POGxZRUhrWHktc090Q01tVERXMFV4X1ZTd2tLUEN1WjBRN2JpbGlLS01wbnBwNmpqR0E2dTBB?hl=en-US&gl=US&ceid=US%3Aen
+- The high costs of robotic tech | Medtronic recalls thousands of devices | TAVR in younger patients | FDA approves next-gen valve (match: Medtronic)
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMi7AFBVV95cUxNRUE2dnRjTmdMNjZmVWxBRzQ3bWtzWS1TLWFGYWtrRWlPb2lxdmpFZ2hoc0oxTXE2dW02b0hOdmhTeWUyNlFDUkhZYjlyNVE5S25GZmpHSjZab0p0UHB5MUtaODEyUV9XTmFYN2M5NnV5TnpVLV9KdDNFR1FJNnI5aWxORjBuQ1Vycko1QWhzM2FqZ3MxRE9EcFJCOTFTYzlYZjBuekRiWGZsRzhlQjQyZEwtMGRmcWtvN0U4d1RqaDVCLWJ6YkZXdmowZnhlUkRGdnRvTnNTdVAtUTg5XzJaazVuY1ZvRGVjZ2x0Sg?hl=en-US&gl=US&ceid=US%3Aen
 - Get News Alerts by Email (match: Abbott)
-- Date: Captured 2026-05-18 (publish date unavailable)
+- Date: Captured 2026-06-01 (publish date unavailable)
 - https://abbott.mediaroom.com/alerts?type=1
 - Abbott’s next‑generation CardioMEMS™ remote heart failure monitoring reader receives FDA approval to enhance patient experience and help detect disease progression (match: Abbott)
-- Date: Captured 2026-05-18 (publish date unavailable)
+- Date: Captured 2026-06-01 (publish date unavailable)
 - https://abbott.mediaroom.com/press-releases?item=124735
 - Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients (match: Abbott)
-- Date: Captured 2026-05-18 (publish date unavailable)
+- Date: Captured 2026-06-01 (publish date unavailable)
 - https://abbott.mediaroom.com/press-releases?item=124733
-- February 10, 2026Argá Medtech Reports 87.6% Freedom from AF/AFL/AT at 12 MonthsArgá Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA SystemContinue Reading (match: Argá Medtech)
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://argamedtech.com/news/f/press-release-arg%C3%A1-medtech-reports-94%25-lesion-durability
 - AtriCure Announces the First Patient Treated in the BoxX-NoAF Clinical Trial (match: AtriCure)
-- Date: Captured 2026-05-18 (publish date unavailable)
+- Date: Captured 2026-06-01 (publish date unavailable)
 - https://ir.atricure.com/news-releases/news-release-details/atricure-announces-first-patient-treated-boxx-noaf-clinical
 - Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (match: WATCHMAN FLX)
 - Date: 2024-11-29
@@ -49,13 +52,13 @@ Run time: 2026-05-18T14:21:20.751617+00:00
 ## By Drug/Device
 - Abbott
 - Get News Alerts by Email
-- Date: Captured 2026-05-18 (publish date unavailable)
+- Date: Captured 2026-06-01 (publish date unavailable)
 - https://abbott.mediaroom.com/alerts?type=1
 - Abbott’s next‑generation CardioMEMS™ remote heart failure monitoring reader receives FDA approval to enhance patient experience and help detect disease progression
-- Date: Captured 2026-05-18 (publish date unavailable)
+- Date: Captured 2026-06-01 (publish date unavailable)
 - https://abbott.mediaroom.com/press-releases?item=124735
 - Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients
-- Date: Captured 2026-05-18 (publish date unavailable)
+- Date: Captured 2026-06-01 (publish date unavailable)
 - https://abbott.mediaroom.com/press-releases?item=124733
 
 - abelacimab
@@ -63,42 +66,47 @@ Run time: 2026-05-18T14:21:20.751617+00:00
 - Date: 2025-11-06
 - https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5
 
-- Amiodarone
-- Association of Concurrent Amiodarone and Beta-Blocker Therapy at Discharge With 30-Day Rehospitalization After Atrial Fibrillation Hospitalization
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMikwJBVV95cUxQdG9SUU5RdDBwTHJ0WVRvT2NOS2w2MTBJLWduWjZmR2ptb2tNMzczRXBCRml3U1JMSDQ1cGYwLWFoYzJKbHBYOGtZMG5KbVRHOHN3S0liVEtuZTMwMmZ0cUVjNnpONWdFX3BNcnFlcDBTZUpYOEVMTWxMTW04YzhnSkdTMTZsSkZIQkRhZHo5ZGhSUUtqbHczN1hLcVlPdHVISmNIeHBYWTNJd3FoaFJ6dDlRLXktN3JzNk9hb2UzZE53dWhWVjJ5bmZHZU1lSU5hbWlZRHNOb0FvZGMzd2owcjNwN2g5QUI4UkIybC1WX1NpSVdEX0NOVkZ6SkhJNVMxVkt6YnBRWW5VeU1QR2lUcmw4RQ?hl=en-US&gl=US&ceid=US%3Aen
-- Association of Concurrent Amiodarone and Beta-Blocker Therapy at Discharge With 30-Day Rehospitalization After Atrial Fibrillation Hospitalization
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMirAJBVV95cUxNTHZ5Ui1ZR1VXRklaOER5VmhjXzkyT0hKSUozNGVQdjZsX0NmQzhDaTNsRXpQSWh3Q1Q0dFJ4a3hydnVmRjVGTG91LU5fRk5UX2lfRkV1dnVLTWZaclY3VE1iRktEYnFXTlRQMGRSSXlscjNScUJzeTg1RVNTN2JkR1BqVk40RlE0WjNqVU1MazdfNGZ1azVCMXBIclFvc1M3S2xBaDNyWmV3dm5rR1RueXBWbDBJd2ZnUDhjX0ozdXBZQ19lbmZ5RWt5TDZweFpOQXctMURwTU5CN2dqOUZlTGZiTXRIOGN5RjVLcXhKLXJpRnQyWmh3cDdtVWVJdTlmMm85cnpzeXpBUzh4WnhSSXNCSmpCSWo1OWxjbkFjX09vR2NKV2tvZzN2dmI?hl=en-US&gl=US&ceid=US%3Aen
-
-- Argá Medtech
-- February 10, 2026Argá Medtech Reports 87.6% Freedom from AF/AFL/AT at 12 MonthsArgá Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA SystemContinue Reading
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://argamedtech.com/news/f/press-release-arg%C3%A1-medtech-reports-94%25-lesion-durability
+- Adagio Medical
+- Adagio Medical Holdings (ADGM) Q1 2026 Earnings: Wider-Than-Expected Loss Highlights Ongoing Development Costs - Profitability Analysis
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMi5AFBVV95cUxNRnhzNnh1OHlabGFEM3lodlF2MVlwLWVKSXlyVFpzcmR6NVBoMGhJenVGUndtanZSZVppZzVxOC1SVG5LSmdQU1BUMU43bElaVnZVWWpxclZ3dktGUFpnSVZzNm5VVzNRcm1pLXhzYVppdEFtcjREX0ExTmxwT3A4QTlHVGxLaDBKRzQwYTN2ZTJqQldaQWxaT1lnOEw5bThqbVh6aW9wTGxzbzl5Z0RDTzdrdlRjWFRuY0o4OG1zZk1sdkV4WWF6QzJ3b0luT0hQWUJ5TWY0WHBXTk0tMjdKRm00cGk?hl=en-US&gl=US&ceid=US%3Aen
+- Adagio Medical Holdings (ADGM) Q1 2026 Earnings: Wider-Than-Expected Loss Highlights Ongoing Development Costs - GAAP Earnings Report
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMi7AFBVV95cUxPMjJJRkp4b0pPZ1NVOFBkZ1dvNFVTOUZaRjVTU2J6dEJLcEx2ZHltLU9hdXNGdzVjS1NVY2dXRXE4Yjk2Rk92bXBsWDRaM1lxdy1EQmNNeUN2a1NiNWVtUk1lU09OUzhyMWNhNndNb2l3QWJUTEdvWFhaQ2d1Y0p2MlAwcTNFSDBHbWpJTUFyZ050eGU4c0Z2ZndzR0dxUkFfdlA0aDdwSWc1NzdxWDZGa1FJdm5PTmxYNFRYeVVuM2Z5MW1VdFpYdVRIbnhmcExrWFNlMmcxcFduSUVpSmw3WlVxS2owZnJSQzZleA?hl=en-US&gl=US&ceid=US%3Aen
 
 - AtriCure
 - AtriCure Announces the First Patient Treated in the BoxX-NoAF Clinical Trial
-- Date: Captured 2026-05-18 (publish date unavailable)
+- Date: Captured 2026-06-01 (publish date unavailable)
 - https://ir.atricure.com/news-releases/news-release-details/atricure-announces-first-patient-treated-boxx-noaf-clinical
 
-- Digoxin
-- Low-dose digoxin in patients with heart failure with reduced or mildly reduced ejection fraction: a randomized controlled trial
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMiX0FVX3lxTE90V2NFaXJIU0YwUTAtLWh2TkxZX2lrQlNpeE93aW1sd2hmN3VEUnJhTlJwX2hLM01Sdnc5XzhBMm5xVEF4TEFQS19QQlFBRUhMUnN6Q2tfLThNUWRqVklV?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Scientific
+- Watchman Woes: Boston Scientific Shares Plunge on Weak Demand
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMirwFBVV95cUxPZ2Z1aE14XzdyNUhpMVhTQ3Y3dFJiZWhZcWVzMy1zRzZHOVB5TTV4SnJURVZaYi0yRnNtdHBhc19ObmN0RzE0VFg2R2xDNlN2cVJOMW1jY25vbU44ZzA3bC1wendRd01lVW5MNGFLdTdfcEwzaTB0VUxjSG92a2l4SnlMOGE1QnhWRVBxX19iZFZYc3N6NzR5Uy14c3hacE9SaEhHVjBvWUNhNzROeVhF?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Scientific hits two-year low after flagging weaker demand for heart device
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMirwFBVV95cUxQRDBNWVBjVmFqRFAySkNaNUdaUWpzeDBuOURFRHVMYkNKRmJZMGtfaDdwT1BZeFVMRk9YZXdSTFJZb0kyOHI1MXgtd3dRU2tiXzZWZ2cyelBab1J6bGhNR2dTX2FrX2dHcjMzNVBGTm81WVRZa0xpX1BzT3REZzJWRHVudDZLVDV2YS1PNG5LeXd6Sjh3Vnh4cGZ1UUxxMHhBakFsVC1YOWd2TTMzVDRn?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Scientific Advances FARAPULSE PFA Study in Atrial Fibrillation
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMivgFBVV95cUxPZmpRMXdMd2lhMF9vWGpOanpDTXNaOGpNYkZoaUtqRDRUdkw1c3UtazdlbWNYYlpWRTJlSTZjSTJYZ3dwTjc1V3BIRTNCa182WERXcThaSEVPbnJiUThYRGRzVThUbVBVaDRrbVR4OW1FQk9uY0lVVFRkZWVPeXpBUzBad2hDRXktd3oybjQyZzBqNzVyVW56ZWZoblROWG1sWXhEd3lSLWs1OGhwVERQNF9pMC1sSTIxYVUwaUt3?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Scientific hits two-year low after flagging weaker demand for heart device
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMirwFBVV95cUxOa3hhR2xueHZaWGZDc2p4YjhCY3JlNmNxNmJXcEYyNzFjeGNNajRLaUg3RDJRWkswYkNCc2hpWFUtUlJuLThxSG5hcU1zZG8zZDhoOGpTY21wZ1o4MThGQWJHUlAxMlJnV3QwaEZQT1pnSndLaWhOSV9POGxZRUhrWHktc090Q01tVERXMFV4X1ZTd2tLUEN1WjBRN2JpbGlLS01wbnBwNmpqR0E2dTBB?hl=en-US&gl=US&ceid=US%3Aen
 
-- Pulse Biosciences
-- Taking A Fresh Look At Pulse Biosciences (PLSE) Valuation After New Atrial Fibrillation Trial Progress
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMi1AFBVV95cUxQWjRjbzhJclBOdU1XelNtcEkzQWdxMXp2eEV4bDhGYjBIalJDTW1uZ0k1LTk2ZVNsbmxPLTVmcVRfb29sWFVwb2ZJTk9GLTVKemxsRDBFWEttYjYwN1p4bFUxWXhqcGdvVHR1ZVgyM3JKeEtNSVBFU09OY2k2bTBjQlFocUJtVDNhZXhFMHVHcklLQ1VZQ05JM2dyUnVaOGlYX3ZUdDk3SjFHNEg3VUp2TWdwSEVGczN4VnFZMEkzUTlQM0FRQzdPQ0hybFpHYTE1c1lZT9IB2gFBVV95cUxNa2s0aXktTXgtaHd1TmR2Nmlrbjd1MlFXWHllamxMV0ZjdklJbFdyUGNOUndPQ0dXa1VVLTQ5Q2xyNDBXUzFta0ZFMWFwUGtqMG5QWVFBX0tyMkVlRDd4QVFXSmhVMmhGZjZjZGp1dE5UdVJyYXo1eHVCM3h5M2M1LUhkbm5YVUtaeUdwdGQ0MlVpYzhOdWRUalJTYzhXQUdCVGZyaXFicUtSUGZNUXAyMVhHY0tmTHd6dUpCUkNwbUd5SDRHT0xDOUk1dWx3Y1F0V3ZOVVNEZUhBQQ?hl=en-US&gl=US&ceid=US%3Aen
-- Is Pulse Biosciences (PLSE) Quietly Redefining Its Core Identity Around Atrial Fibrillation?
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMirwFBVV95cUxNSDJPWWxWY01jODBoX1kwc0d1SHRNS3JuR1l2NEpKczJ1Mi1QY3pFZWlidW8yQjdoQU5YQUxFQjFMa2U2UlZfeTFocmFIV08yM3FBaTR0eTNVMzNXX0dtbEhZaF9mRkFHMmxaNE1KcnNaNnhKOHA1eUVKTG9aY3lRcjNrOWs5cjc0R3ZaRGdtbk1BRUZlSzV0Mm9VR0JjbUFxUHJHbjBqNmZ2eWVLZ3Zv?hl=en-US&gl=US&ceid=US%3Aen
-- Pulse Biosciences (PLSE) Stock Surges 17% on Major $13M Insider Purchase
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMiSEFVX3lxTE0tbUZuSUxvQlNwc1hkVTJFYmpOd1d3RnJXRzZyZUR4dG43MWlqSDNwdjFJVlRqRUI0WmZIYWhGbEpIOWp1Y3VDcA?hl=en-US&gl=US&ceid=US%3Aen
-- Taking A Fresh Look At Pulse Biosciences (PLSE) Valuation After New Atrial Fibrillation Trial Progress
-- Date: Captured 2026-05-18 (publish date unavailable)
-- https://news.google.com/read/CBMi5wFBVV95cUxPYnh1bFlQakllSlZtVzlPaTdBcFpOSlI4Sk5BRXpJdjZEMExZNk5IUjdJZDl3Q3ZucmlzNnFOVVAxczNQM09FaHhBamVYM0k2YTBYQVJpVTN3X3BWeXlBMVRTQzluXzdWVkpCYldpcFFod2VkbkdRdjEtMFJpNDRIQVJqSWZwUW1MSGR5N2o3T255cEkzRFZ6bS13dy1TUER0OEhwTFNqMGI0dS1tbXZSSEQxQUQ2bm9XQXl2WmttTWZYelBnOENiTFhNMzNOTXVHTjZBNldjRUpsLWs0U25oVGR3MnpUOHM?hl=en-US&gl=US&ceid=US%3Aen
+- Flecainide
+- Flecainide Erectile Dysfunction: What Men on Heart Rhythm Medication Need to Know
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMijAJBVV95cUxOU3lEVHMtV2dPMk04X1djTGpJNmhrMExDeFBfN3dOM2tVQ2JJN0xJczJJcjcxdzVGRTRIdjEtUGFiUnJfVXdkam9XbzdiUUtCYmpJOUVSeV8wNExwQ1ZQajFyM0xiTlRfMWVnNW1fWTVzV0lIVmpvRjdNUENxWmx4elpRNnhYelFoODhDQ0VKT051d3g4TW5jbllaQ3FISGlSRVNVNmpNeFdsTWs0U056OWp5blpJMDN0QW9HRmNkMXpmLWFiR09HUDZrN2QzYzZIWkotckxjaklKTmFxWGJOU1FOOVBZaGZVQkcxQk9fcTVLalJNV0xvVWlDREd3ODhVUmtqUjBkWU93ZlRj?hl=en-US&gl=US&ceid=US%3Aen
+
+- Medtronic
+- The high costs of robotic tech | Medtronic recalls thousands of devices | TAVR in younger patients | FDA approves next-gen valve
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMi7AFBVV95cUxNRUE2dnRjTmdMNjZmVWxBRzQ3bWtzWS1TLWFGYWtrRWlPb2lxdmpFZ2hoc0oxTXE2dW02b0hOdmhTeWUyNlFDUkhZYjlyNVE5S25GZmpHSjZab0p0UHB5MUtaODEyUV9XTmFYN2M5NnV5TnpVLV9KdDNFR1FJNnI5aWxORjBuQ1Vycko1QWhzM2FqZ3MxRE9EcFJCOTFTYzlYZjBuekRiWGZsRzhlQjQyZEwtMGRmcWtvN0U4d1RqaDVCLWJ6YkZXdmowZnhlUkRGdnRvTnNTdVAtUTg5XzJaazVuY1ZvRGVjZ2x0Sg?hl=en-US&gl=US&ceid=US%3Aen
+
+- Regeneron
+- Regeneron Targets Stroke Prevention Gap With New Atrial Fibrillation Trial
+- Date: Captured 2026-06-01 (publish date unavailable)
+- https://news.google.com/read/CBMixAFBVV95cUxNSXo5UE9VdXFPQjZrS2ZieTBGbVhEQmxmRE1iekhnXzd0NGlQeW9SNWFWeUpMWTBqSC1ZSGlNUFFhZ29EQ0hwZ0Z6WDdsWC1IaGNrQmZldDBGWFZEX0lTSWlRcXZXWXp6bnA3OFY2OG0xaG5IazlMSWFiSHpMd0MtU2FjSHE3RXB4UUd4bDFfdWdnNmhld29LTktTV25wRi1jUkVJSDYxUVBib0dIdFN6MFVmRTdHaVRza0pFdXhmVnZtZExE?hl=en-US&gl=US&ceid=US%3Aen
 
 - WATCHMAN FLX
 - Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet

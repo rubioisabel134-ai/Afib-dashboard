@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-05",
+  "as_of": "2026-06-12",
   "items": [
     {
       "id": "milvexian",
@@ -835,7 +835,7 @@
       "mechanism": "Oral SK ion channel inhibitor",
       "focus": "Rhythm control in AF; reduction in AF burden",
       "company": "Acesion Pharma",
-      "latest_update": "ClinicalTrials.gov update posted 2025-12-05",
+      "latest_update": "ClinicalTrials.gov update posted 2026-06-12",
       "press_2026": true,
       "tags": [
         "SK channel",
@@ -1845,7 +1845,7 @@
       "mechanism": "Second-generation transcatheter left atrial appendage occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Lifetech Scientific",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-04",
+      "latest_update": "ClinicalTrials.gov update posted 2026-06-10",
       "tags": [
         "LAAO",
         "next-gen",
@@ -1855,7 +1855,7 @@
         {
           "name": "LAMBRE II clinical study",
           "phase": "First-in-human",
-          "status": "ACTIVE_NOT_RECRUITING",
+          "status": "RECRUITING",
           "readout": "TBD",
           "readout_date": "2027-12-31",
           "registry_id": "NCT07385599",
@@ -3301,10 +3301,10 @@
         "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
       },
       {
-        "title": "Show all 13 locations (NCT07430956)",
+        "title": "Find Contact Information (NCT07430956)",
         "date": "2026-05-29",
         "source": "CI manual scan \u00b7 Match: REGN7508",
-        "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=4#locations"
+        "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5#contacts-and-locations"
       },
       {
         "title": "AtriCure to Participate in the Goldman Sachs 47th Annual Global Health Care Conference | AtriCure News",
@@ -3367,9 +3367,9 @@
         "link": "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&rank=6"
       }
     ],
-    "guideline_updates": [],
-    "safety_signals": [],
     "label_expansions": [],
+    "safety_signals": [],
+    "guideline_updates": [],
     "conference_abstracts": [
       {
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",

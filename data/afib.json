@@ -1598,7 +1598,7 @@
       "mechanism": "Left atrial appendage occluder",
       "focus": "Stroke prevention in AF",
       "company": "Abbott",
-      "latest_update": "2026-04-25: Abbott showcases strength of its technologies to address abnormal heart rhythms with late-breaking clinical data at Heart Rhythm Society 2026 - Apr 25, 2026",
+      "latest_update": "2026-05-27: CLEAR trial recruiting for concomitant Volt PFA System + Amulet 2 LAAO procedure (NCT07523620)",
       "tags": [
         "LAAO",
         "implant"
@@ -1612,15 +1612,25 @@
           "readout_date": "2021-08-16",
           "registry_id": null,
           "note": "LAAC vs WATCHMAN"
+        },
+        {
+          "name": "CLEAR",
+          "phase": "Feasibility",
+          "status": "RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2027-05-31",
+          "registry_id": "NCT07523620",
+          "note": "Abbott concomitant Volt PFA System + Amulet 2 LAAO feasibility/safety/effectiveness study"
         }
       ],
       "notes": "FDA-approved LAA occluder for AF patients at risk of stroke.",
       "sources": [
         "https://abbott.mediaroom.com/2021-08-16-Abbotts-Amplatzer-TM-Amulet-TM-Device-Approved-by-FDA-to-Treat-People-With-Atrial-Fibrillation-at-Risk-of-Stroke",
-        "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026"
+        "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026",
+        "https://clinicaltrials.gov/study/NCT07523620"
       ],
       "press_2026": true,
-      "latest_update_link": "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026"
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT07523620"
     },
     {
       "id": "watchman-flx-pro",
@@ -2882,15 +2892,25 @@
           "readout_date": "2026-02-06",
           "registry_id": null,
           "note": "PFA system"
+        },
+        {
+          "name": "CLEAR",
+          "phase": "Feasibility",
+          "status": "RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2027-05-31",
+          "registry_id": "NCT07523620",
+          "note": "Abbott concomitant Volt PFA System + Amulet 2 LAAO feasibility/safety/effectiveness study"
         }
       ],
       "notes": "FDA-approved PFA system; late-breaking 12-month data shared at AF Symposium 2026.",
       "sources": [
         "https://abbott.mediaroom.com/2025-12-22-Abbotts-Volt-TM-Pulsed-Field-Ablation-System-Receives-FDA-Approval-to-Treat-Patients-with-Atrial-Fibrillation",
         "https://abbott.mediaroom.com/2026-02-06-Late-breaking-data-presentations-showcase-the-safety-and-efficacy-of-Abbotts-ablation-catheters-to-treat-people-with-atrial-fibrillation",
-        "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026"
+        "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026",
+        "https://clinicaltrials.gov/study/NCT07523620"
       ],
-      "latest_update_link": "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026"
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT07523620"
     },
     {
       "id": "sphere-360",

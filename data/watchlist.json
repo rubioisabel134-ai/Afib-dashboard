@@ -168,6 +168,18 @@
       "trial_name": "ROXI-INCLINE",
       "nct_id": "NCT07430956",
       "note": "Regeneron AF stroke/systemic embolism prevention trial in participants unsuitable for oral anticoagulation"
+    },
+    {
+      "item_id": "amulet",
+      "trial_name": "CLEAR",
+      "nct_id": "NCT07523620",
+      "note": "Abbott concomitant Volt PFA System + Amulet 2 LAAO feasibility/safety/effectiveness study"
+    },
+    {
+      "item_id": "volt",
+      "trial_name": "CLEAR",
+      "nct_id": "NCT07523620",
+      "note": "Abbott concomitant Volt PFA System + Amulet 2 LAAO feasibility/safety/effectiveness study"
     }
   ],
   "press_releases": [

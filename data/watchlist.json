@@ -216,6 +216,18 @@
       "trial_name": "OPTION-EMEA",
       "nct_id": "NCT07349121",
       "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN FLX Pro or WATCHMAN FLX EMEA post-market study"
+    },
+    {
+      "item_id": "faraflex",
+      "trial_name": "ELEVATE-PF",
+      "nct_id": "NCT06510556",
+      "note": "Boston Scientific FARAFLEX mapping and PFA catheter feasibility / first-in-human study"
+    },
+    {
+      "item_id": "faraflex",
+      "trial_name": "FARADIGM",
+      "nct_id": "NCT07575269",
+      "note": "Boston Scientific global FARAFLEX Mapping and PFA System study in paroxysmal and persistent AF"
     }
   ],
   "press_releases": [

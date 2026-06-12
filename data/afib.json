@@ -2180,7 +2180,7 @@
           "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN FLX Pro or WATCHMAN FLX study"
         }
       ],
-      "notes": "PFA system FDA-approved for paroxysmal AF; expanded labeling to persistent AF in 2025. Boston Scientific\u2019s FARAFLEX is referenced by the company as part of its PFA portfolio.",
+      "notes": "PFA system FDA-approved for paroxysmal AF; expanded labeling to persistent AF in 2025. Next-generation FARAFLEX map-and-ablate catheter is tracked separately.",
       "sources": [
         "https://news.bostonscientific.com/2024-01-31-Boston-Scientific-Receives-FDA-Approval-for-FARAPULSE-TM-Pulsed-Field-Ablation-System",
         "https://news.bostonscientific.com/2025-07-07-Boston-Scientific-receives-FDA-approval-for-expanded-labeling-of-FARAPULSE-TM-Pulsed-Field-Ablation-System",
@@ -2191,6 +2191,53 @@
       ],
       "press_2026": true,
       "latest_update_link": "https://clinicaltrials.gov/study/NCT06686485"
+    },
+    {
+      "id": "faraflex",
+      "name": "FARAFLEX Mapping and PFA Catheter",
+      "type": "Device",
+      "category": "Catheter Ablation - PFA",
+      "stage": "Investigational",
+      "mechanism": "Large focal pulsed field ablation catheter with integrated cardiac mapping",
+      "focus": "Map-and-ablate workflow for paroxysmal and persistent AF",
+      "company": "Boston Scientific",
+      "latest_update": "2026-06-02: FARADIGM global FARAFLEX Mapping and PFA System study recruiting (NCT07575269)",
+      "tags": [
+        "PFA",
+        "ablation",
+        "mapping",
+        "map-and-ablate"
+      ],
+      "trials": [
+        {
+          "name": "ELEVATE-PF",
+          "phase": "Feasibility / first-in-human",
+          "status": "RECRUITING",
+          "readout": "Two-month remapping durability data reported; 1-year follow-up ongoing",
+          "readout_date": "2026-06-01",
+          "registry_id": "NCT06510556",
+          "note": "Boston Scientific FARAFLEX mapping and PFA catheter study in persistent or paroxysmal AF"
+        },
+        {
+          "name": "FARADIGM",
+          "phase": "Global prospective single-arm",
+          "status": "RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2028-06-12",
+          "registry_id": "NCT07575269",
+          "note": "Evaluates FARAFLEX Mapping and PFA System safety and effectiveness in symptomatic drug-refractory paroxysmal and persistent AF"
+        }
+      ],
+      "notes": "Next-generation Boston Scientific FARAPULSE-platform catheter designed to combine diagnostic mapping and PFA delivery in one catheter with a wide-area tip and high-fidelity sensing electrodes; investigational and not available for sale.",
+      "sources": [
+        "https://www.bostonscientific.com/en-US/products/catheters--ablation/farapulse-pfa-system/clinical-data.html",
+        "https://www.bostonscientific.com/content/dam/bostonscientific/ep/farapulse/ELEVATE-data-summary.pdf",
+        "https://clinicaltrials.gov/study/NCT06510556",
+        "https://clinicaltrials.gov/study/NCT07575269",
+        "https://www.clinicaltrialsarena.com/news/hrs-2026-medtronic-boston-scientific-abbott-pfa-clinical-trial-results/"
+      ],
+      "press_2026": true,
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT07575269"
     },
     {
       "id": "pulseselect",

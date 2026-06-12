@@ -180,6 +180,42 @@
       "trial_name": "CLEAR",
       "nct_id": "NCT07523620",
       "note": "Abbott concomitant Volt PFA System + Amulet 2 LAAO feasibility/safety/effectiveness study"
+    },
+    {
+      "item_id": "farapulse",
+      "trial_name": "OPTION-A",
+      "nct_id": "NCT06686485",
+      "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN LAAC Asia post-market study"
+    },
+    {
+      "item_id": "watchman-flx",
+      "trial_name": "OPTION-A",
+      "nct_id": "NCT06686485",
+      "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN LAAC Asia post-market study"
+    },
+    {
+      "item_id": "watchman-flx-pro",
+      "trial_name": "OPTION-A",
+      "nct_id": "NCT06686485",
+      "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN LAAC Asia post-market study"
+    },
+    {
+      "item_id": "farapulse",
+      "trial_name": "OPTION-EMEA",
+      "nct_id": "NCT07349121",
+      "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN FLX Pro or WATCHMAN FLX EMEA post-market study"
+    },
+    {
+      "item_id": "watchman-flx",
+      "trial_name": "OPTION-EMEA",
+      "nct_id": "NCT07349121",
+      "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN FLX Pro or WATCHMAN FLX EMEA post-market study"
+    },
+    {
+      "item_id": "watchman-flx-pro",
+      "trial_name": "OPTION-EMEA",
+      "nct_id": "NCT07349121",
+      "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN FLX Pro or WATCHMAN FLX EMEA post-market study"
     }
   ],
   "press_releases": [

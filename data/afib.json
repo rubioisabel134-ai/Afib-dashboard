@@ -1564,7 +1564,7 @@
       "mechanism": "Left atrial appendage closure device",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-03-28: CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+      "latest_update": "2026-05-14: OPTION-A recruiting for concomitant FARAPULSE PFA + WATCHMAN LAAC procedure (NCT06686485)",
       "tags": [
         "LAAO",
         "implant"
@@ -1578,16 +1578,37 @@
           "readout_date": "2020-07-23",
           "registry_id": null,
           "note": "LAAC performance"
+        },
+        {
+          "name": "OPTION-A",
+          "phase": "Post-market observational",
+          "status": "RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2026-10-31",
+          "registry_id": "NCT06686485",
+          "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN LAAC Asia study; company release references WATCHMAN FLX Pro"
+        },
+        {
+          "name": "OPTION-EMEA",
+          "phase": "Post-market",
+          "status": "NOT_YET_RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2028-12",
+          "registry_id": "NCT07349121",
+          "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN FLX Pro or WATCHMAN FLX study"
         }
       ],
       "notes": "Indicated to reduce stroke risk in NVAF patients who need an alternative to oral anticoagulation.",
       "sources": [
         "https://www.acc.org/Latest-in-Cardiology/Articles/2020/07/23/14/14/Next-Generation-WATCHMAN-FLX-LAAC-Device-Gains-FDA-Approval",
         "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&rank=6",
+        "https://clinicaltrials.gov/study/NCT06686485",
+        "https://clinicaltrials.gov/study/NCT07349121",
+        "https://news.bostonscientific.com/2024-09-27-Boston-Scientific-Receives-Japanese-Regulatory-Approval-for-the-FARAPULSE-TM-Pulsed-Field-Ablation-System",
         "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       ],
       "press_2026": true,
-      "latest_update_link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT06686485"
     },
     {
       "id": "amulet",
@@ -1641,7 +1662,7 @@
       "mechanism": "Next-generation LAA closure device with extended sizes and enhanced sealing",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-03-28: CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+      "latest_update": "2026-05-14: OPTION-A recruiting for concomitant FARAPULSE PFA + WATCHMAN LAAC procedure (NCT06686485)",
       "tags": [
         "LAAO",
         "implant"
@@ -1655,16 +1676,37 @@
           "readout_date": "2020-07-23",
           "registry_id": null,
           "note": "WATCHMAN FLX clinical program"
+        },
+        {
+          "name": "OPTION-A",
+          "phase": "Post-market observational",
+          "status": "RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2026-10-31",
+          "registry_id": "NCT06686485",
+          "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN LAAC Asia study; company release references WATCHMAN FLX Pro"
+        },
+        {
+          "name": "OPTION-EMEA",
+          "phase": "Post-market",
+          "status": "NOT_YET_RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2028-12",
+          "registry_id": "NCT07349121",
+          "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN FLX Pro or WATCHMAN FLX study"
         }
       ],
       "notes": "FLX Pro adds 40 mm size and polymer coating for enhanced sealing.",
       "sources": [
         "https://news.bostonscientific.com/2024-02-06-Boston-Scientific-Receives-FDA-Approval-for-WATCHMAN-FLX-Pro-LAA-Closure-Device",
         "https://www.bostonscientific.com/en-US/products/laac-system/watchman-flx-pro.html",
+        "https://clinicaltrials.gov/study/NCT06686485",
+        "https://clinicaltrials.gov/study/NCT07349121",
+        "https://news.bostonscientific.com/2024-09-27-Boston-Scientific-Receives-Japanese-Regulatory-Approval-for-the-FARAPULSE-TM-Pulsed-Field-Ablation-System",
         "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       ],
       "press_2026": true,
-      "latest_update_link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT06686485"
     },
     {
       "id": "appligator",
@@ -2095,7 +2137,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal and persistent AF ablation",
       "company": "Boston Scientific",
-      "latest_update": "2026-04-24: Johnson &amp; Johnson Launches Landmark Head-to-Head Pulsed Field Ablation Trial in Persistent Atrial Fibrillation",
+      "latest_update": "2026-05-14: OPTION-A recruiting for concomitant FARAPULSE PFA + WATCHMAN LAAC procedure (NCT06686485)",
       "tags": [
         "PFA",
         "ablation"
@@ -2118,16 +2160,37 @@
           "readout_date": "2025-07-07",
           "registry_id": null,
           "note": "Persistent AF"
+        },
+        {
+          "name": "OPTION-A",
+          "phase": "Post-market observational",
+          "status": "RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2026-10-31",
+          "registry_id": "NCT06686485",
+          "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN LAAC Asia study"
+        },
+        {
+          "name": "OPTION-EMEA",
+          "phase": "Post-market",
+          "status": "NOT_YET_RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2028-12",
+          "registry_id": "NCT07349121",
+          "note": "Boston Scientific concomitant FARAPULSE PFA + WATCHMAN FLX Pro or WATCHMAN FLX study"
         }
       ],
       "notes": "PFA system FDA-approved for paroxysmal AF; expanded labeling to persistent AF in 2025. Boston Scientific\u2019s FARAFLEX is referenced by the company as part of its PFA portfolio.",
       "sources": [
         "https://news.bostonscientific.com/2024-01-31-Boston-Scientific-Receives-FDA-Approval-for-FARAPULSE-TM-Pulsed-Field-Ablation-System",
         "https://news.bostonscientific.com/2025-07-07-Boston-Scientific-receives-FDA-approval-for-expanded-labeling-of-FARAPULSE-TM-Pulsed-Field-Ablation-System",
+        "https://clinicaltrials.gov/study/NCT06686485",
+        "https://clinicaltrials.gov/study/NCT07349121",
+        "https://news.bostonscientific.com/2024-09-27-Boston-Scientific-Receives-Japanese-Regulatory-Approval-for-the-FARAPULSE-TM-Pulsed-Field-Ablation-System",
         "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
       ],
       "press_2026": true,
-      "latest_update_link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT06686485"
     },
     {
       "id": "pulseselect",

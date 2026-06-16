@@ -12,6 +12,7 @@ const state = {
 const asOfEl = document.getElementById("asOf");
 const itemCountEl = document.getElementById("itemCount");
 const readoutCountEl = document.getElementById("readoutCount");
+const catalystCountEl = document.getElementById("catalystCount");
 const deviceUpdateListEl = document.getElementById("deviceUpdateList");
 const drugUpdateListEl = document.getElementById("drugUpdateList");
 const viewAllDevicesBtn = document.getElementById("viewAllDevices");
@@ -28,9 +29,13 @@ const conferenceFeedEl = document.getElementById("conferenceFeed");
 const conferenceCalendarEl = document.getElementById("conferenceCalendar");
 const conferenceStatusEl = document.getElementById("conferenceStatus");
 const conferenceChipsEl = document.getElementById("conferenceChips");
+const catalystListEl = document.getElementById("catalystList");
+const catalystWindowEl = document.getElementById("catalystWindow");
 const cardTemplate = document.getElementById("cardTemplate");
 const WEEKLY_PREVIEW_LIMIT = 5;
 const SUMMARY_UPDATE_LIMIT = 4;
+const CATALYST_WINDOW_DAYS = 180;
+const CONFERENCE_LOOKAHEAD_DAYS = 120;
 
 const uniq = (arr) => Array.from(new Set(arr)).sort((a, b) => a.localeCompare(b));
 
@@ -88,6 +93,17 @@ const textIncludes = (haystack, needle) =>
 
 function parseDate(dateStr) {
   if (!dateStr) return null;
+  if (/^\d{4}-\d{2}$/.test(dateStr)) {
+    const [year, month] = dateStr.split("-").map(Number);
+    return new Date(year, month, 0);
+  }
+  if (/^\d{4}$/.test(dateStr)) {
+    return new Date(Number(dateStr), 11, 31);
+  }
+  if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+    const [year, month, day] = dateStr.split("-").map(Number);
+    return new Date(year, month - 1, day);
+  }
   const parsed = new Date(dateStr);
   if (Number.isNaN(parsed.getTime())) return null;
   return parsed;
@@ -96,7 +112,29 @@ function parseDate(dateStr) {
 function formatDate(dateStr) {
   const date = parseDate(dateStr);
   if (!date) return dateStr || "—";
+  if (/^\d{4}-\d{2}$/.test(dateStr || "")) {
+    return date.toLocaleDateString(undefined, { year: "numeric", month: "short" });
+  }
+  if (/^\d{4}$/.test(dateStr || "")) {
+    return dateStr;
+  }
   return date.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+}
+
+function formatShortDate(date) {
+  if (!date) return "TBD";
+  return date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+}
+
+function addDays(date, days) {
+  const next = new Date(date);
+  next.setDate(next.getDate() + days);
+  return next;
+}
+
+function todayStart() {
+  const now = new Date();
+  return new Date(now.getFullYear(), now.getMonth(), now.getDate());
 }
 
 function buildFilters(items) {
@@ -420,6 +458,138 @@ function detectConferenceCode(entry, conferenceCodes) {
   return "";
 }
 
+function clinicalTrialUrl(registryId) {
+  const id = (registryId || "").trim().toUpperCase();
+  return /^NCT\d{8}$/.test(id) ? `https://clinicaltrials.gov/study/${id}` : "";
+}
+
+function findNearbyConference(catalystDate, calendarEntries) {
+  if (!catalystDate || !calendarEntries?.length) return null;
+  const maxDate = addDays(catalystDate, CONFERENCE_LOOKAHEAD_DAYS);
+  const upcoming = calendarEntries
+    .map((entry) => ({
+      ...entry,
+      _start: parseCalendarDate(entry.start_date),
+      _end: parseCalendarDate(entry.end_date),
+    }))
+    .filter((entry) => entry._start && entry._end)
+    .filter((entry) => {
+      const nearAfter = entry._start >= catalystDate && entry._start <= maxDate;
+      const nearActive = entry._start <= catalystDate && catalystDate <= addDays(entry._end, 14);
+      return nearAfter || nearActive;
+    })
+    .sort((a, b) => Math.abs(a._start - catalystDate) - Math.abs(b._start - catalystDate));
+  return upcoming[0] || null;
+}
+
+function buildCatalystEntries(items, calendarEntries) {
+  const start = todayStart();
+  const end = addDays(start, CATALYST_WINDOW_DAYS);
+  const grouped = new Map();
+
+  (items || []).forEach((item) => {
+    (item.trials || []).forEach((trial) => {
+      const catalystDate = parseDate(trial.readout_date);
+      if (!catalystDate || catalystDate < start || catalystDate > end) return;
+
+      const registryId = (trial.registry_id || "").trim().toUpperCase();
+      const key = registryId || `${trial.name || "Unnamed"}|${trial.readout_date}`;
+      if (!grouped.has(key)) {
+        grouped.set(key, {
+          key,
+          date: catalystDate,
+          dateLabel: formatDate(trial.readout_date),
+          trialName: trial.name || "Unnamed trial",
+          phase: trial.phase || "Phase not disclosed",
+          status: trial.status || "Status TBD",
+          readout: trial.readout || "Completion/readout window",
+          registryId,
+          url: clinicalTrialUrl(registryId),
+          assets: [],
+          companies: new Set(),
+          types: new Set(),
+          notes: new Set(),
+        });
+      }
+
+      const entry = grouped.get(key);
+      entry.assets.push(item.name);
+      if (item.company) entry.companies.add(item.company);
+      if (item.type) entry.types.add(item.type);
+      if (trial.note) entry.notes.add(trial.note);
+      if (!entry.url) entry.url = clinicalTrialUrl(registryId) || bestUpdateSource(item);
+    });
+  });
+
+  return Array.from(grouped.values())
+    .map((entry) => ({
+      ...entry,
+      companies: Array.from(entry.companies),
+      types: Array.from(entry.types),
+      notes: Array.from(entry.notes),
+      conference: findNearbyConference(entry.date, calendarEntries || []),
+    }))
+    .sort((a, b) => a.date - b.date || a.trialName.localeCompare(b.trialName));
+}
+
+function renderCatalysts(items, calendarEntries) {
+  if (!catalystListEl) return;
+  const entries = buildCatalystEntries(items, calendarEntries);
+  const start = todayStart();
+  const end = addDays(start, CATALYST_WINDOW_DAYS);
+
+  if (catalystWindowEl) {
+    catalystWindowEl.textContent = `${formatShortDate(start)} to ${formatShortDate(end)}`;
+  }
+  if (catalystCountEl) {
+    catalystCountEl.textContent = String(entries.length);
+  }
+
+  catalystListEl.innerHTML = "";
+  if (!entries.length) {
+    const empty = document.createElement("div");
+    empty.className = "catalyst-empty";
+    empty.textContent = "No trial completion windows loaded for the next 180 days.";
+    catalystListEl.appendChild(empty);
+    return;
+  }
+
+  entries.slice(0, 8).forEach((entry) => {
+    const node = document.createElement(entry.url ? "a" : "article");
+    node.className = "catalyst-card";
+    if (entry.url) {
+      node.href = entry.url;
+      node.target = "_blank";
+      node.rel = "noopener noreferrer";
+    }
+
+    const companyLabel = entry.companies.slice(0, 2).join(" / ") || "Sponsor TBD";
+    const assetLabel = entry.assets.slice(0, 3).join(", ");
+    const extraAssets = entry.assets.length > 3 ? ` +${entry.assets.length - 3}` : "";
+    const conferenceLabel = entry.conference
+      ? `${entry.conference.label || entry.conference.conference} (${formatCalendarRange(
+          entry.conference.start_date,
+          entry.conference.end_date,
+        )})`
+      : "No nearby conference loaded";
+    const watchFor = /topline|readout|results/i.test(entry.readout)
+      ? entry.readout
+      : `Watch for topline/update after ${entry.dateLabel}`;
+
+    node.innerHTML = `
+      <div class="catalyst-date">${entry.dateLabel}</div>
+      <div class="catalyst-main">
+        <strong>${entry.trialName}</strong>
+        <span>${companyLabel} · ${entry.phase} · ${entry.status}</span>
+      </div>
+      <div class="catalyst-assets">${assetLabel}${extraAssets}</div>
+      <div class="catalyst-watch">${watchFor}${entry.registryId ? ` · ${entry.registryId}` : ""}</div>
+      <div class="catalyst-conference">Conference watch: ${conferenceLabel}</div>
+    `;
+    catalystListEl.appendChild(node);
+  });
+}
+
 function renderConferenceChips(calendarEntries, defaultCode) {
   if (!conferenceChipsEl) return;
   conferenceChipsEl.innerHTML = "";
@@ -668,6 +838,7 @@ async function init() {
   renderUpdateList(deviceUpdateListEl, deviceUpdates);
   renderUpdateList(drugUpdateListEl, drugUpdates);
   readoutCountEl.textContent = String(deviceUpdates.length + drugUpdates.length);
+  renderCatalysts(data.items, conferenceCalendar);
   renderWeeklyIntel(data.weekly_updates);
   renderConferenceCalendar(conferenceCalendar, data.weekly_updates?.conference_abstracts || []);
   renderCards();

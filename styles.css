@@ -280,6 +280,108 @@ main {
   line-height: 1.4;
 }
 
+.catalysts {
+  margin: 8px 0 32px;
+  display: grid;
+  gap: 16px;
+}
+
+.catalyst-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.catalyst-head h2 {
+  margin: 0 0 6px;
+  font-family: "Sora", sans-serif;
+  font-size: 22px;
+}
+
+.catalyst-head p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.catalyst-status {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(228, 87, 46, 0.1);
+  border: 1px solid rgba(228, 87, 46, 0.16);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.catalyst-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.catalyst-card,
+.catalyst-empty {
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: var(--shadow);
+}
+
+.catalyst-card {
+  color: inherit;
+  text-decoration: none;
+  display: grid;
+  gap: 8px;
+  min-height: 190px;
+  align-content: start;
+}
+
+.catalyst-card:hover {
+  border-color: rgba(228, 87, 46, 0.36);
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.catalyst-date {
+  width: fit-content;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(228, 87, 46, 0.12);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.catalyst-main strong {
+  display: block;
+  font-family: "Sora", sans-serif;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.catalyst-main span,
+.catalyst-assets,
+.catalyst-watch,
+.catalyst-conference,
+.catalyst-empty {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.catalyst-assets {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.catalyst-watch {
+  padding-top: 4px;
+  border-top: 1px dashed var(--stroke);
+}
+
 .weekly {
   margin: 8px 0 32px;
   display: grid;
@@ -605,6 +707,10 @@ main {
     flex-direction: column;
   }
 
+  .catalyst-head {
+    flex-direction: column;
+  }
+
   .conference-grid {
     grid-template-columns: 1fr;
   }
@@ -682,6 +788,19 @@ main {
   .conference {
     margin: 6px 0 24px;
     gap: 12px;
+  }
+
+  .catalysts {
+    margin: 6px 0 24px;
+    gap: 12px;
+  }
+
+  .catalyst-status {
+    white-space: normal;
+  }
+
+  .catalyst-list {
+    grid-template-columns: 1fr;
   }
 
   .weekly-grid {

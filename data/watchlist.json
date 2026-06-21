@@ -164,6 +164,12 @@
       "note": "Regeneron AF stroke/systemic embolism prevention trial in participants unsuitable for oral anticoagulation"
     },
     {
+      "item_id": "regn7508",
+      "trial_name": "ROXI-EVEREST",
+      "nct_id": "NCT07626411",
+      "note": "Regeneron Phase 3 REGN7508 vs apixaban AF stroke/systemic embolism prevention trial"
+    },
+    {
       "item_id": "regn9933",
       "trial_name": "ROXI-INCLINE",
       "nct_id": "NCT07430956",
@@ -228,6 +234,12 @@
       "trial_name": "FARADIGM",
       "nct_id": "NCT07575269",
       "note": "Boston Scientific global FARAFLEX Mapping and PFA System study in paroxysmal and persistent AF"
+    },
+    {
+      "item_id": "kardium-globe",
+      "trial_name": "Globe Registry",
+      "nct_id": "NCT07651852",
+      "note": "Kardium post-market Globe Pulsed Field System registry study in symptomatic AF"
     }
   ],
   "press_releases": [

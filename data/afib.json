@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-12",
+  "as_of": "2026-06-21",
   "items": [
     {
       "id": "milvexian",
@@ -1564,7 +1564,7 @@
       "mechanism": "Left atrial appendage closure device",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-05-14: OPTION-A recruiting for concomitant FARAPULSE PFA + WATCHMAN LAAC procedure (NCT06686485)",
+      "latest_update": "2026-03-28: CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
       "tags": [
         "LAAO",
         "implant"
@@ -1608,7 +1608,7 @@
         "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       ],
       "press_2026": true,
-      "latest_update_link": "https://clinicaltrials.gov/study/NCT06686485"
+      "latest_update_link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
     },
     {
       "id": "amulet",
@@ -1619,7 +1619,7 @@
       "mechanism": "Left atrial appendage occluder",
       "focus": "Stroke prevention in AF",
       "company": "Abbott",
-      "latest_update": "2026-05-27: CLEAR trial recruiting for concomitant Volt PFA System + Amulet 2 LAAO procedure (NCT07523620)",
+      "latest_update": "ClinicalTrials.gov update posted 2026-05-27",
       "tags": [
         "LAAO",
         "implant"
@@ -1662,7 +1662,7 @@
       "mechanism": "Next-generation LAA closure device with extended sizes and enhanced sealing",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-05-14: OPTION-A recruiting for concomitant FARAPULSE PFA + WATCHMAN LAAC procedure (NCT06686485)",
+      "latest_update": "ClinicalTrials.gov update posted 2026-05-08",
       "tags": [
         "LAAO",
         "implant"
@@ -1809,7 +1809,7 @@
       "mechanism": "Conformable foam-based LAA occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Conformal Medical",
-      "latest_update": "ClinicalTrials.gov update posted 2026-05-26",
+      "latest_update": "ClinicalTrials.gov update posted 2026-06-16",
       "tags": [
         "LAAO",
         "foam"
@@ -2137,7 +2137,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal and persistent AF ablation",
       "company": "Boston Scientific",
-      "latest_update": "2026-05-14: OPTION-A recruiting for concomitant FARAPULSE PFA + WATCHMAN LAAC procedure (NCT06686485)",
+      "latest_update": "2026-04-24: Johnson &amp; Johnson Launches Landmark Head-to-Head Pulsed Field Ablation Trial in Persistent Atrial Fibrillation",
       "tags": [
         "PFA",
         "ablation"
@@ -2190,7 +2190,7 @@
         "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
       ],
       "press_2026": true,
-      "latest_update_link": "https://clinicaltrials.gov/study/NCT06686485"
+      "latest_update_link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
     },
     {
       "id": "faraflex",
@@ -2201,7 +2201,7 @@
       "mechanism": "Large focal pulsed field ablation catheter with integrated cardiac mapping",
       "focus": "Map-and-ablate workflow for paroxysmal and persistent AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-06-02: FARADIGM global FARAFLEX Mapping and PFA System study recruiting (NCT07575269)",
+      "latest_update": "ClinicalTrials.gov update posted 2026-06-02",
       "tags": [
         "PFA",
         "ablation",
@@ -2214,7 +2214,7 @@
           "phase": "Feasibility / first-in-human",
           "status": "RECRUITING",
           "readout": "Two-month remapping durability data reported; 1-year follow-up ongoing",
-          "readout_date": "2026-06-01",
+          "readout_date": "2027-02-15",
           "registry_id": "NCT06510556",
           "note": "Boston Scientific FARAFLEX mapping and PFA catheter study in persistent or paroxysmal AF"
         },
@@ -2987,7 +2987,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "AF ablation",
       "company": "Abbott",
-      "latest_update": "2026-04-25: Abbott showcases strength of its technologies to address abnormal heart rhythms with late-breaking clinical data at Heart Rhythm Society 2026 - Apr 25, 2026",
+      "latest_update": "ClinicalTrials.gov update posted 2026-05-27",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -3423,6 +3423,7 @@
     }
   ],
   "weekly_updates": {
+    "label_expansions": [],
     "press_pipeline": [
       {
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
@@ -3497,9 +3498,6 @@
         "link": "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&rank=6"
       }
     ],
-    "label_expansions": [],
-    "safety_signals": [],
-    "guideline_updates": [],
     "conference_abstracts": [
       {
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
@@ -3513,6 +3511,8 @@
         "source": "HRS News \u00b7 Match: Johnson",
         "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
       }
-    ]
+    ],
+    "safety_signals": [],
+    "guideline_updates": []
   }
 }

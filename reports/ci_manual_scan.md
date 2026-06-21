@@ -1,40 +1,46 @@
-# AFib CI Manual Scan (2026-06-12)
+# AFib CI Manual Scan (2026-06-20)
 
-Run time: 2026-06-12T12:18:29.255021+00:00
+Run time: 2026-06-20T12:38:59.501303+00:00
 
 ## Top Items
-- Medtronic announces strategic investments to support future expansion of cardiac ablation portfolio as physician demand for Affera™ technologies broadens (match: Medtronic)
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMingJBVV95cUxPYzVvNXlOU2s5dGpfZkV3d0lUcEpzNUZoT29oblRPWG1vUHdOUlJGQ1hJSE1VZFROT0JYX2lKRnl2MEtGM3p1UGtyOXg1ZVRQeGFkMkZjbW1mSmlzdXhEZ3JsS1htT3NtYlRqMlRUZXd4UkJPdC1GaTZYR1k4WDZyc2JTSy1qRnpqWmdOa0hoOWh5dVZxWVNtS3JFbTRUb0NlbzJIOVY0VzF5UnI1bHN4cUVPb0d6czRnWk9EbFBOaTJ0MkhrQnhGTDhSVGlmSVI1SDNhX1F1a0I0RTVjSmJEZGtmQjVxZmRRZXRKcE9IdU1sUEZxN1FvZWZBa21reGp5aWJnLWhzRF9wdWswbk9tVzFBZlF2QUd2WUtXeHdB?hl=en-US&gl=US&ceid=US%3Aen
-- Johnson & Johnson Receives Approval for VARIPULSE Platform (match: VARIPULSE Platform)
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMilAFBVV95cUxNeHBjNVBYdlNnRExCaUgwQWp1UGZ1RkYyMEZwb3lIeHJ1R0tzM2pNUzJQY0dwdUFhMjNsWG1sWDhlNkVPTkZ5NTdHS2dZOFB6eTMtZWh5QVNfeExpVWhlWnp5d1JVaFJhMGVZRl9NRFhKMV90WGRjbzlKbEUxTWgwakdITmxwcERKQm5oS1R3bGVGYlht?hl=en-US&gl=US&ceid=US%3Aen
-- Bayer Targets Atrial Fibrillation With New Phase 2 Rhythm Drug: What Investors Should Watch (match: Bayer)
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMi2gFBVV95cUxOV0o3NDJzc2o4YXE1eWhYd0dnSmx0N3RGX3F1bmdXZ1ZzdTVIZ2tSUWV3NHRVYXRKZ2tEUEp4ZVpGVDlQdkV2VXlIUHJhV3B5NlNGZGlrY3JHZmVrMVVWRnZiSUFMYWNpZjZSQU15cU5yUm0tVVBuVVJnSFd0LUNIc2NrNzZ5VmhtTU5za1J5b1BTX3JUQkFIZWU2S2YzZDR0Y0dscXN6clZiQUU0UDlYX2JFbl9XNm9OWVk1ZGNkSWQ2SGc3dmVuTTZiTjNTemhXMVR1N1BiajFTQQ?hl=en-US&gl=US&ceid=US%3Aen
-- AtriCure stock consolidates below key averages with bearish signals amid new Afib trial (match: AtriCure)
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMilgFBVV95cUxPRnFTVEJXT3pnbklEaFZPa0xZWmJmQXJGUUdBZndSeDEya0pWNmVmR3ZzRS1JaTNYVFZCUncxT3VyNWlYYWp2Z2FjeEhyZThOejhLTGo2dGRwQVo2RFByR2FtdGlRUmFWb3JQNjZMdEItUUJmaW1GYjJoQjJoZGpoajNSaEhoMXMwNlM5c0lqYlpVX0p5SWc?hl=en-US&gl=US&ceid=US%3Aen
-- AtriCure Advances Atrial Fibrillation Clinical Trial Timeline (match: AtriCure)
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMifkFVX3lxTE5uNTJXZ0N5NmV5UElHem5JeWZ6ZFprZFpKNms1RFg3LU1YbTlTR004eGRxc3NNUE01SXJ0elNyWEd1Y0xKb3p4RElEeXVreVdPcUVZRzlrZVg4aXR2anRXbzE5VnJzWGQ5YXREbG9zR2dUUmlueXB3eEdQWThyQQ?hl=en-US&gl=US&ceid=US%3Aen
-- U.S. Supreme Court sides with generic drug maker for severe hypertriglyceridemia agent icosapent ethyl (match: Generic)
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMi7AFBVV95cUxQeVo5cWlwRVM0YWpTMDBoeFVIdk51UW9lQTJTM3dQRDMtVm5HMUt5QzhSQXdGMHFPRUdXanlxeWJBQjFsUUN0bjVOT0VZUVJlY084Ykh5UHNBN2hNMm9lVWJVTXo0OHVYaFpleG50SjRsQkFRTGZydUJpYWhNbUZIZUJYcnlTUjBKWEpMeWJiaEYzdTgwZUtnUS0xbTNpRC1lbUZ6ZDVUYVAzdGpqUVpINUhEQ1NIS1U1UWZsUkpSdmV6N0xyV2NoM1paNURIbUlFcGpNU1ZmLXAwcmE2NEs4TF9pVjIzVWliUm5TZg?hl=en-US&gl=US&ceid=US%3Aen
+- Medtronic brings PulseSelect pulsed field ablation tech to India (match: Medtronic)
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMidEFVX3lxTE9mN2RZOFlXZzdzaVpYVVVwUU05THJ2WWI4MU5fMnRKWTVkLW9tX3B1NjZ5RDdObWxxSU5udWlQekFsc2puVWhEeUREcHZ0WE1sOEhhRDFwbFNHU2JOVnJydUJNWVR0NnkwYXFWamxudngyTXVt?hl=en-US&gl=US&ceid=US%3Aen
+- Medtronic launches device to treat atrial fibrillation (match: Medtronic)
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMiyAFBVV95cUxNTXBzMjBIVGpFUEFGd0ZSOGFRYnFXN2phZjRfZWRzdVo0T2dMSjRDWXNpTGdXeHg1T3JDYVFpT016cU1ZMU1VOXFVcDdHS0tJNU96dTVudU45dU9BdnljbWRvb0YtbnZBR3NvUGpLRTVTRWZwRE9Kdy1tVDNuanRVUHlaZW5uZGswb1RaRFdRdDJ3UzlVZlpnMFVOVTlKbTE3RDNqUmc1SFRGbGxZX2ZwNWVVQlFjV0w2eGlrZnQwOUlBMDJ0Yjk2QtIBzgFBVV95cUxPYjhGZHh3eHJCZ0RVUE01RlNRQmNETWhPUmc1NlR4VWZ4OE92UDQzSlB2RlJlY1BvRE16QXV6Z003SnJKbk1ya0xCbFBBY2hkazBwdkQta3FJZmRCWTNTbFpXWE40Z1prc1pJdFN4S3FhUlBnYW9sa0dPcTR1NmZhYUNOS2t0OXhvNkRjWkJ2MHlMMU05Q01GeXcxWVJQRnFublVjcnhOSzJuVGE4LUV0cFIydjFaM1ZCUmIxTVVsaTdMLTNYLWstR1A5VHg3Zw?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Scientific Advances FARAPULSE PFA Study in Atrial Fibrillation (match: Boston Scientific)
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMivgFBVV95cUxPZmpRMXdMd2lhMF9vWGpOanpDTXNaOGpNYkZoaUtqRDRUdkw1c3UtazdlbWNYYlpWRTJlSTZjSTJYZ3dwTjc1V3BIRTNCa182WERXcThaSEVPbnJiUThYRGRzVThUbVBVaDRrbVR4OW1FQk9uY0lVVFRkZWVPeXpBUzBad2hDRXktd3oybjQyZzBqNzVyVW56ZWZoblROWG1sWXhEd3lSLWs1OGhwVERQNF9pMC1sSTIxYVUwaUt3?hl=en-US&gl=US&ceid=US%3Aen
+- Kauvery Hospitals Launches Advanced Pulsed Field Ablation Systems in Chennai for Atrial Fibrillation Treatment in Tamil Nadu (match: BTL)
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMi_wFBVV95cUxOTDhfLUJMY2dmRVRwUDJXUXFkR2FfZVFKUW9fbTlHYnBEVGc3OVRSSDJFeTROMjgxaTAxRUY2YkQ3OW16NUk0OEtZZjZyQ2JzY2NQUTRieWxEZkNEeW5IWkMzLUFjOUdyV0VZTjd3U1BBdGg2eFR3TXozWThNVVcyR0Mxc1B5TnBYSHZGRG94U2RvU1lreWR5SlFYTWdZRENSX0lwWWo1VXd3MjRya0tLZElBSWhFWVd3NV9VNXZXWlFBQ0Z1bkdwbVkxU3JUeUVjNS01RllCLTc5T0VDU3NEcDhISUhENTJvZUJwWUhhNEVGeTAxQVUwY0FtVlpSbTg?hl=en-US&gl=US&ceid=US%3Aen
+- Medtronic Introduces PulseSelect™ PFA Technology to address India’s Growing AFib and Stroke Burden (match: Medtronic)
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMi0AFBVV95cUxNX01qMERaendTTWljTmtaN0dsVUFORHNpb1FDM29YS2drcWtldmtISU9famNyNG1wMWU2S2hqTFB2SDdMak41c0ZYVzh6OWE0WUNqWkdjX3FlQ1AyUlBmVlczRzgxeDI4b285VzVteDF6bElGU0lwc2ZPZFJxQ0JPeTJJUlBHQUhfTTRxTzN6R3F5Zmo5YnpkWGtsejQ1NlZaNEpFSzdkQy1iNXNidEFtR2FCUldXcUpWOUdOTXo1MUlIaEV2NGs1Q0xLVkZiYWZN?hl=en-US&gl=US&ceid=US%3Aen
+- First PulseSelect Pulse Field Ablation Procedure Opens New Treatment Pathway for Atrial Fibrillation Patients in Telangana (match: BTL)
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMi9gFBVV95cUxQWkdLbU1KVl9OMVpieUFEXzNHaDdVQXQtZXpTVnZEUkJZQ1JNUnUzdEVNRTdzX1JkWFVfamJyLU14cjZuR1Y3RkIxM1F0Zks0OHJtbF9KZlowNUIwS3dfSVRxSzV0cmpoXzNRV2F2SHlGMmZXNmo0bTlTZ1ZlYTNJMVV2WnhCRFllTmZCQThZaGxPdEh0WXY5amtZbHMwQ1NMTHFmUm9LM0FzN3dPUVNrZ3RyQ2VlZkcxVERNSlZHdEgxVWlCRXBpRjV5NVJzTGRXYXdtcXg5aHBlVkZOWHJsM3lKOXBQaTRGMHZsWVNWbW9fYWlIR0E?hl=en-US&gl=US&ceid=US%3Aen
+- PLSE: Nanosecond PFA platform shows high efficacy in AFib, with FDA approval targeted for late 2027 (match: BTL)
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMikgJBVV95cUxNOEUyZkRLcnFHRUZYNmlsZ1pTdXg3MGtWbTlhTGhoMzlOR2I2SmF1elQtOHF5TTJKVVdFdmZTUGNBZURWZGNUcnFjZEVHa0V3bVFvdTZaMDFTUkw1dWdlR3RlVW9SNGVYNzYwNDFUX2RBY2JRMjJjZllFYS1BRWltbkoyc3NiQmd2OXhCYWRCTEpJc1B3WXcxOFlJUlQ5aFlERV9wc2FJT2wxYVk4SnZTeFpQVzlkRFlSeFJBWExCWlMzUHBEeGN0ZHBLdlc5bE5TdWk5VzB0SU5wZkozSjZFOHhIZHd1SHBWSHBJaU5aRHpZRjBBc2JVRWhHMHZKSXoyTGlMbElFMFpOZDFVQmI0OVRB?hl=en-US&gl=US&ceid=US%3Aen
+- Why Medtronic’s PulseSelect PFA System could quietly reset atrial fibrillation therapy (match: PulseSelect PFA System)
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMiwgFBVV95cUxPS04tX2V6cUpOV2UxamVPMWwyUGRTVDRVUmhxaUhHZ0ZwdldIOXZ2MzJkOHNCSVNzQnZ4bm0yUFF0ckU4NGtLMU56N0gyYm1haGhGNnhJT2VtSWM2MVN1d25MdENZODhkU3ZZWlhnc0ZJOTZQMTR0cThDOV9XTHR6U2VLbGhpR2o2SUNCMnVOdUlNYVdldm1pTVRWREdhcWNJT0hTajY5RGstS2lxbERFb0NQcGlwR0ViUHFYT3R4S1V6QQ?hl=en-US&gl=US&ceid=US%3Aen
 - Get News Alerts by Email (match: Abbott)
-- Date: Captured 2026-06-12 (publish date unavailable)
+- Date: Captured 2026-06-20 (publish date unavailable)
 - https://abbott.mediaroom.com/alerts?type=1
 - Abbott’s next‑generation CardioMEMS™ remote heart failure monitoring reader receives FDA approval to enhance patient experience and help detect disease progression (match: Abbott)
-- Date: Captured 2026-06-12 (publish date unavailable)
+- Date: Captured 2026-06-20 (publish date unavailable)
 - https://abbott.mediaroom.com/press-releases?item=124735
 - Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients (match: Abbott)
-- Date: Captured 2026-06-12 (publish date unavailable)
+- Date: Captured 2026-06-20 (publish date unavailable)
 - https://abbott.mediaroom.com/press-releases?item=124733
 - February 10, 2026Argá Medtech Reports 87.6% Freedom from AF/AFL/AT at 12 MonthsArgá Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA SystemContinue Reading (match: Argá Medtech)
-- Date: Captured 2026-06-12 (publish date unavailable)
+- Date: Captured 2026-06-20 (publish date unavailable)
 - https://argamedtech.com/news/f/press-release-arg%C3%A1-medtech-reports-94%25-lesion-durability
 - AtriCure Announces the First Patient Treated in the BoxX-NoAF Clinical Trial (match: AtriCure)
-- Date: Captured 2026-06-12 (publish date unavailable)
+- Date: Captured 2026-06-20 (publish date unavailable)
 - https://ir.atricure.com/news-releases/news-release-details/atricure-announces-first-patient-treated-boxx-noaf-clinical
 - Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (match: WATCHMAN FLX)
 - Date: 2024-11-29
@@ -46,13 +52,13 @@ Run time: 2026-06-12T12:18:29.255021+00:00
 ## By Drug/Device
 - Abbott
 - Get News Alerts by Email
-- Date: Captured 2026-06-12 (publish date unavailable)
+- Date: Captured 2026-06-20 (publish date unavailable)
 - https://abbott.mediaroom.com/alerts?type=1
 - Abbott’s next‑generation CardioMEMS™ remote heart failure monitoring reader receives FDA approval to enhance patient experience and help detect disease progression
-- Date: Captured 2026-06-12 (publish date unavailable)
+- Date: Captured 2026-06-20 (publish date unavailable)
 - https://abbott.mediaroom.com/press-releases?item=124735
 - Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients
-- Date: Captured 2026-06-12 (publish date unavailable)
+- Date: Captured 2026-06-20 (publish date unavailable)
 - https://abbott.mediaroom.com/press-releases?item=124733
 
 - abelacimab
@@ -62,39 +68,45 @@ Run time: 2026-06-12T12:18:29.255021+00:00
 
 - Argá Medtech
 - February 10, 2026Argá Medtech Reports 87.6% Freedom from AF/AFL/AT at 12 MonthsArgá Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA SystemContinue Reading
-- Date: Captured 2026-06-12 (publish date unavailable)
+- Date: Captured 2026-06-20 (publish date unavailable)
 - https://argamedtech.com/news/f/press-release-arg%C3%A1-medtech-reports-94%25-lesion-durability
 
 - AtriCure
-- AtriCure stock consolidates below key averages with bearish signals amid new Afib trial
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMilgFBVV95cUxPRnFTVEJXT3pnbklEaFZPa0xZWmJmQXJGUUdBZndSeDEya0pWNmVmR3ZzRS1JaTNYVFZCUncxT3VyNWlYYWp2Z2FjeEhyZThOejhLTGo2dGRwQVo2RFByR2FtdGlRUmFWb3JQNjZMdEItUUJmaW1GYjJoQjJoZGpoajNSaEhoMXMwNlM5c0lqYlpVX0p5SWc?hl=en-US&gl=US&ceid=US%3Aen
-- AtriCure Advances Atrial Fibrillation Clinical Trial Timeline
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMifkFVX3lxTE5uNTJXZ0N5NmV5UElHem5JeWZ6ZFprZFpKNms1RFg3LU1YbTlTR004eGRxc3NNUE01SXJ0elNyWEd1Y0xKb3p4RElEeXVreVdPcUVZRzlrZVg4aXR2anRXbzE5VnJzWGQ5YXREbG9zR2dUUmlueXB3eEdQWThyQQ?hl=en-US&gl=US&ceid=US%3Aen
 - AtriCure Announces the First Patient Treated in the BoxX-NoAF Clinical Trial
-- Date: Captured 2026-06-12 (publish date unavailable)
+- Date: Captured 2026-06-20 (publish date unavailable)
 - https://ir.atricure.com/news-releases/news-release-details/atricure-announces-first-patient-treated-boxx-noaf-clinical
 
-- Bayer
-- Bayer Targets Atrial Fibrillation With New Phase 2 Rhythm Drug: What Investors Should Watch
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMi2gFBVV95cUxOV0o3NDJzc2o4YXE1eWhYd0dnSmx0N3RGX3F1bmdXZ1ZzdTVIZ2tSUWV3NHRVYXRKZ2tEUEp4ZVpGVDlQdkV2VXlIUHJhV3B5NlNGZGlrY3JHZmVrMVVWRnZiSUFMYWNpZjZSQU15cU5yUm0tVVBuVVJnSFd0LUNIc2NrNzZ5VmhtTU5za1J5b1BTX3JUQkFIZWU2S2YzZDR0Y0dscXN6clZiQUU0UDlYX2JFbl9XNm9OWVk1ZGNkSWQ2SGc3dmVuTTZiTjNTemhXMVR1N1BiajFTQQ?hl=en-US&gl=US&ceid=US%3Aen
+- Boston Scientific
+- Boston Scientific Advances FARAPULSE PFA Study in Atrial Fibrillation
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMivgFBVV95cUxPZmpRMXdMd2lhMF9vWGpOanpDTXNaOGpNYkZoaUtqRDRUdkw1c3UtazdlbWNYYlpWRTJlSTZjSTJYZ3dwTjc1V3BIRTNCa182WERXcThaSEVPbnJiUThYRGRzVThUbVBVaDRrbVR4OW1FQk9uY0lVVFRkZWVPeXpBUzBad2hDRXktd3oybjQyZzBqNzVyVW56ZWZoblROWG1sWXhEd3lSLWs1OGhwVERQNF9pMC1sSTIxYVUwaUt3?hl=en-US&gl=US&ceid=US%3Aen
 
-- Generic
-- U.S. Supreme Court sides with generic drug maker for severe hypertriglyceridemia agent icosapent ethyl
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMi7AFBVV95cUxQeVo5cWlwRVM0YWpTMDBoeFVIdk51UW9lQTJTM3dQRDMtVm5HMUt5QzhSQXdGMHFPRUdXanlxeWJBQjFsUUN0bjVOT0VZUVJlY084Ykh5UHNBN2hNMm9lVWJVTXo0OHVYaFpleG50SjRsQkFRTGZydUJpYWhNbUZIZUJYcnlTUjBKWEpMeWJiaEYzdTgwZUtnUS0xbTNpRC1lbUZ6ZDVUYVAzdGpqUVpINUhEQ1NIS1U1UWZsUkpSdmV6N0xyV2NoM1paNURIbUlFcGpNU1ZmLXAwcmE2NEs4TF9pVjIzVWliUm5TZg?hl=en-US&gl=US&ceid=US%3Aen
+- BTL
+- Kauvery Hospitals Launches Advanced Pulsed Field Ablation Systems in Chennai for Atrial Fibrillation Treatment in Tamil Nadu
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMi_wFBVV95cUxOTDhfLUJMY2dmRVRwUDJXUXFkR2FfZVFKUW9fbTlHYnBEVGc3OVRSSDJFeTROMjgxaTAxRUY2YkQ3OW16NUk0OEtZZjZyQ2JzY2NQUTRieWxEZkNEeW5IWkMzLUFjOUdyV0VZTjd3U1BBdGg2eFR3TXozWThNVVcyR0Mxc1B5TnBYSHZGRG94U2RvU1lreWR5SlFYTWdZRENSX0lwWWo1VXd3MjRya0tLZElBSWhFWVd3NV9VNXZXWlFBQ0Z1bkdwbVkxU3JUeUVjNS01RllCLTc5T0VDU3NEcDhISUhENTJvZUJwWUhhNEVGeTAxQVUwY0FtVlpSbTg?hl=en-US&gl=US&ceid=US%3Aen
+- First PulseSelect Pulse Field Ablation Procedure Opens New Treatment Pathway for Atrial Fibrillation Patients in Telangana
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMi9gFBVV95cUxQWkdLbU1KVl9OMVpieUFEXzNHaDdVQXQtZXpTVnZEUkJZQ1JNUnUzdEVNRTdzX1JkWFVfamJyLU14cjZuR1Y3RkIxM1F0Zks0OHJtbF9KZlowNUIwS3dfSVRxSzV0cmpoXzNRV2F2SHlGMmZXNmo0bTlTZ1ZlYTNJMVV2WnhCRFllTmZCQThZaGxPdEh0WXY5amtZbHMwQ1NMTHFmUm9LM0FzN3dPUVNrZ3RyQ2VlZkcxVERNSlZHdEgxVWlCRXBpRjV5NVJzTGRXYXdtcXg5aHBlVkZOWHJsM3lKOXBQaTRGMHZsWVNWbW9fYWlIR0E?hl=en-US&gl=US&ceid=US%3Aen
+- PLSE: Nanosecond PFA platform shows high efficacy in AFib, with FDA approval targeted for late 2027
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMikgJBVV95cUxNOEUyZkRLcnFHRUZYNmlsZ1pTdXg3MGtWbTlhTGhoMzlOR2I2SmF1elQtOHF5TTJKVVdFdmZTUGNBZURWZGNUcnFjZEVHa0V3bVFvdTZaMDFTUkw1dWdlR3RlVW9SNGVYNzYwNDFUX2RBY2JRMjJjZllFYS1BRWltbkoyc3NiQmd2OXhCYWRCTEpJc1B3WXcxOFlJUlQ5aFlERV9wc2FJT2wxYVk4SnZTeFpQVzlkRFlSeFJBWExCWlMzUHBEeGN0ZHBLdlc5bE5TdWk5VzB0SU5wZkozSjZFOHhIZHd1SHBWSHBJaU5aRHpZRjBBc2JVRWhHMHZKSXoyTGlMbElFMFpOZDFVQmI0OVRB?hl=en-US&gl=US&ceid=US%3Aen
 
 - Medtronic
-- Medtronic announces strategic investments to support future expansion of cardiac ablation portfolio as physician demand for Affera™ technologies broadens
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMingJBVV95cUxPYzVvNXlOU2s5dGpfZkV3d0lUcEpzNUZoT29oblRPWG1vUHdOUlJGQ1hJSE1VZFROT0JYX2lKRnl2MEtGM3p1UGtyOXg1ZVRQeGFkMkZjbW1mSmlzdXhEZ3JsS1htT3NtYlRqMlRUZXd4UkJPdC1GaTZYR1k4WDZyc2JTSy1qRnpqWmdOa0hoOWh5dVZxWVNtS3JFbTRUb0NlbzJIOVY0VzF5UnI1bHN4cUVPb0d6czRnWk9EbFBOaTJ0MkhrQnhGTDhSVGlmSVI1SDNhX1F1a0I0RTVjSmJEZGtmQjVxZmRRZXRKcE9IdU1sUEZxN1FvZWZBa21reGp5aWJnLWhzRF9wdWswbk9tVzFBZlF2QUd2WUtXeHdB?hl=en-US&gl=US&ceid=US%3Aen
+- Medtronic brings PulseSelect pulsed field ablation tech to India
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMidEFVX3lxTE9mN2RZOFlXZzdzaVpYVVVwUU05THJ2WWI4MU5fMnRKWTVkLW9tX3B1NjZ5RDdObWxxSU5udWlQekFsc2puVWhEeUREcHZ0WE1sOEhhRDFwbFNHU2JOVnJydUJNWVR0NnkwYXFWamxudngyTXVt?hl=en-US&gl=US&ceid=US%3Aen
+- Medtronic launches device to treat atrial fibrillation
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMiyAFBVV95cUxNTXBzMjBIVGpFUEFGd0ZSOGFRYnFXN2phZjRfZWRzdVo0T2dMSjRDWXNpTGdXeHg1T3JDYVFpT016cU1ZMU1VOXFVcDdHS0tJNU96dTVudU45dU9BdnljbWRvb0YtbnZBR3NvUGpLRTVTRWZwRE9Kdy1tVDNuanRVUHlaZW5uZGswb1RaRFdRdDJ3UzlVZlpnMFVOVTlKbTE3RDNqUmc1SFRGbGxZX2ZwNWVVQlFjV0w2eGlrZnQwOUlBMDJ0Yjk2QtIBzgFBVV95cUxPYjhGZHh3eHJCZ0RVUE01RlNRQmNETWhPUmc1NlR4VWZ4OE92UDQzSlB2RlJlY1BvRE16QXV6Z003SnJKbk1ya0xCbFBBY2hkazBwdkQta3FJZmRCWTNTbFpXWE40Z1prc1pJdFN4S3FhUlBnYW9sa0dPcTR1NmZhYUNOS2t0OXhvNkRjWkJ2MHlMMU05Q01GeXcxWVJQRnFublVjcnhOSzJuVGE4LUV0cFIydjFaM1ZCUmIxTVVsaTdMLTNYLWstR1A5VHg3Zw?hl=en-US&gl=US&ceid=US%3Aen
+- Medtronic Introduces PulseSelect™ PFA Technology to address India’s Growing AFib and Stroke Burden
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMi0AFBVV95cUxNX01qMERaendTTWljTmtaN0dsVUFORHNpb1FDM29YS2drcWtldmtISU9famNyNG1wMWU2S2hqTFB2SDdMak41c0ZYVzh6OWE0WUNqWkdjX3FlQ1AyUlBmVlczRzgxeDI4b285VzVteDF6bElGU0lwc2ZPZFJxQ0JPeTJJUlBHQUhfTTRxTzN6R3F5Zmo5YnpkWGtsejQ1NlZaNEpFSzdkQy1iNXNidEFtR2FCUldXcUpWOUdOTXo1MUlIaEV2NGs1Q0xLVkZiYWZN?hl=en-US&gl=US&ceid=US%3Aen
 
-- VARIPULSE Platform
-- Johnson & Johnson Receives Approval for VARIPULSE Platform
-- Date: Captured 2026-06-12 (publish date unavailable)
-- https://news.google.com/read/CBMilAFBVV95cUxNeHBjNVBYdlNnRExCaUgwQWp1UGZ1RkYyMEZwb3lIeHJ1R0tzM2pNUzJQY0dwdUFhMjNsWG1sWDhlNkVPTkZ5NTdHS2dZOFB6eTMtZWh5QVNfeExpVWhlWnp5d1JVaFJhMGVZRl9NRFhKMV90WGRjbzlKbEUxTWgwakdITmxwcERKQm5oS1R3bGVGYlht?hl=en-US&gl=US&ceid=US%3Aen
+- PulseSelect PFA System
+- Why Medtronic’s PulseSelect PFA System could quietly reset atrial fibrillation therapy
+- Date: Captured 2026-06-20 (publish date unavailable)
+- https://news.google.com/read/CBMiwgFBVV95cUxPS04tX2V6cUpOV2UxamVPMWwyUGRTVDRVUmhxaUhHZ0ZwdldIOXZ2MzJkOHNCSVNzQnZ4bm0yUFF0ckU4NGtLMU56N0gyYm1haGhGNnhJT2VtSWM2MVN1d25MdENZODhkU3ZZWlhnc0ZJOTZQMTR0cThDOV9XTHR6U2VLbGhpR2o2SUNCMnVOdUlNYVdldm1pTVRWREdhcWNJT0hTajY5RGstS2lxbERFb0NQcGlwR0ViUHFYT3R4S1V6QQ?hl=en-US&gl=US&ceid=US%3Aen
 
 - WATCHMAN FLX
 - Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet

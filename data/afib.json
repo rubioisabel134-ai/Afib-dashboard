@@ -357,11 +357,11 @@
       "name": "BAY 3670549",
       "type": "Drug",
       "category": "Rhythm Control - Antiarrhythmic Drugs",
-      "stage": "Phase 1",
+      "stage": "Phase 2",
       "mechanism": "Selective GIRK4 inhibitor",
       "focus": "Rapid pharmacologic cardioversion in AF",
       "company": "Bayer",
-      "latest_update": "Phase 1 study initiated for AF cardioversion candidate",
+      "latest_update": "2026-06-04: CARDIOVERT: Phase 2 BAY 3670549 IV cardioversion study in atrial fibrillation (NCT07625215)",
       "tags": [
         "GIRK4",
         "cardioversion",
@@ -376,14 +376,25 @@
           "readout_date": null,
           "registry_id": null,
           "note": "Healthy participants dose escalation"
+        },
+        {
+          "name": "CARDIOVERT",
+          "phase": "Phase 2",
+          "status": "NOT_YET_RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2030-05-16",
+          "registry_id": "NCT07625215",
+          "note": "Single IV BAY 3670549 infusion vs placebo in AF patients indicated for electrical cardioversion; primary endpoint is conversion to sinus rhythm within 3 hours."
         }
       ],
-      "notes": "Investigational GIRK4 inhibitor aimed at rapid cardioversion without anesthesia or electrical shock.",
+      "notes": "Investigational GIRK4 inhibitor aimed at rapid cardioversion without anesthesia or electrical shock; Phase 2 CARDIOVERT tests conversion to sinus rhythm before rescue electrical cardioversion.",
       "sources": [
         "https://www.bayer.com/media/en-us/bayer-starts-phase-i-study-with-girk4-inhibitor-for-treatment-of-patients-with-atrial-fibrillation/",
-        "https://www.bayer.com/en/us/news-stories/rapid-cardioversion"
+        "https://www.bayer.com/en/us/news-stories/rapid-cardioversion",
+        "https://clinicaltrials.gov/study/NCT07625215"
       ],
-      "latest_update_link": "https://www.bayer.com/media/en-us/bayer-starts-phase-i-study-with-girk4-inhibitor-for-treatment-of-patients-with-atrial-fibrillation/"
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT07625215",
+      "press_2026": true
     },
     {
       "id": "rivaroxaban",
@@ -3447,20 +3458,6 @@
   "weekly_updates": {
     "safety_signals": [],
     "guideline_updates": [],
-    "conference_abstracts": [
-      {
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
     "label_expansions": [],
     "press_pipeline": [
       {
@@ -3474,6 +3471,12 @@
         "date": "2026-06-04",
         "source": "ClinicalTrials.gov \u00b7 Match: REGN7508",
         "link": "https://clinicaltrials.gov/study/NCT07626411"
+      },
+      {
+        "title": "CARDIOVERT: Phase 2 BAY 3670549 IV cardioversion study in atrial fibrillation (NCT07625215)",
+        "date": "2026-06-04",
+        "source": "ClinicalTrials.gov \u00b7 Match: BAY 3670549",
+        "link": "https://clinicaltrials.gov/study/NCT07625215"
       },
       {
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
@@ -3528,12 +3531,20 @@
         "date": "2026-04-07",
         "source": "Johnson & Johnson Press Releases \u00b7 Match: Johnson",
         "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe"
+      }
+    ],
+    "conference_abstracts": [
+      {
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       },
       {
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
       }
     ]
   }

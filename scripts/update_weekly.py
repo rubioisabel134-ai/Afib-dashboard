@@ -10,6 +10,7 @@ DATA_PATH = ROOT / "data" / "afib.json"
 CSV_PATH = ROOT / "data" / "weekly_updates.csv"
 
 CATEGORIES = {
+    "regulatory_updates",
     "safety_signals",
     "label_expansions",
     "guideline_updates",
@@ -69,7 +70,22 @@ def sort_key(entry):
 
 def event_type(title: str) -> str:
     t = (title or "").lower()
-    if any(k in t for k in ["approval", "approved", "ce mark", "clearance", "pma", "510(k)", "patent"]):
+    if any(
+        k in t
+        for k in [
+            "approval",
+            "approved",
+            "authorization",
+            "accepted",
+            "priority review",
+            "new drug application",
+            "ce mark",
+            "clearance",
+            "pma",
+            "510(k)",
+            "patent",
+        ]
+    ):
         return "regulatory"
     if any(k in t for k in ["topline", "readout", "results"]):
         return "readout"
@@ -128,6 +144,7 @@ def top_entries_by_category(rows_by_category):
 
     global_seen = set()
     category_order = [
+        "regulatory_updates",
         "safety_signals",
         "label_expansions",
         "guideline_updates",
@@ -193,10 +210,19 @@ def main() -> int:
         reader = csv.DictReader(handle)
         for row in reader:
             category = (row.get("category") or "").strip()
+            row_event_type = event_type(row.get("title") or "")
+            if row_event_type == "regulatory":
+                category = "regulatory_updates"
+            elif row_event_type == "safety":
+                category = "safety_signals"
+            elif row_event_type == "guideline":
+                category = "guideline_updates"
             if category not in CATEGORIES:
                 continue
             weekly[category].append(
                 {
+                    "category": category,
+                    "event_type": row_event_type,
                     "title": (row.get("title") or "").strip(),
                     "date": (row.get("date") or "").strip(),
                     "source": (row.get("source") or "").strip(),

@@ -3496,94 +3496,149 @@
   "weekly_updates": {
     "press_pipeline": [
       {
-        "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
-        "date": "2026-06-26",
-        "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
-        "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254232"
-      },
-      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
         "date": "2026-06-23",
         "source": "CI manual scan \u00b7 Match: REGN7508",
         "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
       },
       {
+        "category": "press_pipeline",
+        "event_type": "general",
         "title": "Find Contact Information (NCT07430956)",
         "date": "2026-06-23",
         "source": "CI manual scan \u00b7 Match: REGN7508",
         "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5#contacts-and-locations"
       },
       {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation (NCT07626411)",
         "date": "2026-06-04",
         "source": "CI manual scan \u00b7 Match: REGN7508",
         "link": "https://clinicaltrials.gov/study/NCT07626411?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=2"
       },
       {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
         "title": "CARDIOVERT: Phase 2 BAY 3670549 IV cardioversion study in atrial fibrillation (NCT07625215)",
         "date": "2026-06-04",
         "source": "ClinicalTrials.gov \u00b7 Match: BAY 3670549",
         "link": "https://clinicaltrials.gov/study/NCT07625215"
       },
       {
+        "category": "press_pipeline",
+        "event_type": "general",
         "title": "Find Contact Information (NCT07626411)",
         "date": "2026-06-04",
         "source": "CI manual scan \u00b7 Match: REGN7508",
         "link": "https://clinicaltrials.gov/study/NCT07626411?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=2#contacts-and-locations"
       },
       {
+        "category": "press_pipeline",
+        "event_type": "general",
         "title": "AtriCure to Participate in the Goldman Sachs 47th Annual Global Health Care Conference | AtriCure News",
         "date": "2026-05-27",
         "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
         "link": "https://news.atricure.com/press-release/atricure-participate-goldman-sachs-47th-annual-global-health-care-conference"
       },
       {
-        "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
-        "date": "2026-05-19",
-        "source": "Bayer Media \u00b7 Match: Asundexian",
-        "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
-      },
-      {
+        "category": "press_pipeline",
+        "event_type": "readout",
         "title": "Pulse Biosciences Reports Business Updates and First Quarter 2026 Financial Results",
         "date": "2026-05-04",
         "source": "Pulse Biosciences Press Releases \u00b7 Match: nPulse Cardiac Catheter System",
         "link": "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-reports-business-updates-and-first-quarter-2"
       },
       {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
         "title": "Johnson &amp; Johnson Launches Landmark Head-to-Head Pulsed Field Ablation Trial in Persistent Atrial Fibrillation",
         "date": "2026-04-24",
         "source": "Johnson & Johnson Press Releases \u00b7 Match: FARAPULSE PFA",
         "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
       },
       {
+        "category": "press_pipeline",
+        "event_type": "readout",
         "title": "Phase III study results with Bayer\u2019s FXIa inhibitor demonstrating substantial reduction in ischemic stroke with no increase in ISTH major bleeding versus placebo published in New England Journal of Medicine",
         "date": "2026-04-16",
         "source": "Bayer Media \u00b7 Match: Asundexian",
         "link": "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
       },
       {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
         "title": "Ribo Submits Phase 2b Clinical Trial Application for world\u2019s first siRNA FXI inhibitor in atrial fibrillation",
         "date": "2026-04-14",
         "source": "Ribocure News \u00b7 Match: Vortosiran",
         "link": "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "general",
+        "title": "Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
+        "date": "2026-04-07",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: Johnson",
+        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
+        "date": "2025-11-06",
+        "source": "CI manual scan \u00b7 Match: Abelacimab",
+        "link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
       }
     ],
-    "safety_signals": [],
+    "guideline_updates": [],
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      }
+    ],
     "label_expansions": [],
     "conference_abstracts": [
       {
+        "category": "conference_abstracts",
+        "event_type": "general",
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
         "date": "2026-03-28",
         "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
         "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       },
       {
+        "category": "conference_abstracts",
+        "event_type": "general",
         "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
         "date": "2026-03-24",
         "source": "HRS News \u00b7 Match: Johnson",
         "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
       }
     ],
-    "guideline_updates": []
+    "regulatory_updates": [
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
+        "date": "2026-06-26",
+        "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
+        "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254232"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
+        "date": "2026-05-19",
+        "source": "Bayer Media \u00b7 Match: Asundexian",
+        "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
+      }
+    ]
   }
 }

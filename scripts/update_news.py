@@ -39,6 +39,7 @@ NON_HTML_EXTENSIONS = {
 }
 
 CATEGORIES = {
+    "regulatory_updates",
     "safety_signals",
     "label_expansions",
     "guideline_updates",
@@ -679,7 +680,14 @@ def is_regulatory_item(title: str, link: str, source: str = "") -> bool:
         "510(k)",
         "ce mark",
         "ce-mark",
+        "accepted by u.s. food and drug administration",
+        "accepted by us food and drug administration",
+        "accepted by fda",
+        "priority review",
+        "new drug application",
+        "marketing application",
         "ema approval",
+        "ema authorization",
         "marketing authorization",
         "nmpa",
         "pmda",
@@ -1722,10 +1730,10 @@ def main() -> int:
             ctgov_date_cache[nct_id] = fetch_ctgov_last_update_date(nct_id)
         if ctgov_date_cache[nct_id]:
             row["date"] = ctgov_date_cache[nct_id]
-    # Re-route regulatory items into the merged Regulatory+Safety column.
+    # Re-route regulatory items into the dedicated Regulatory/Safety/Labels column.
     for row in existing:
         if is_regulatory_item(row.get("title", ""), row.get("link", ""), row.get("source", "")):
-            row["category"] = "safety_signals"
+            row["category"] = "regulatory_updates"
     existing = dedupe_rows(existing)
     seen = set(
         (
@@ -1786,7 +1794,7 @@ def main() -> int:
                 "link": link,
             }
             if is_regulatory_item(title, link, source_label):
-                row["category"] = "safety_signals"
+                row["category"] = "regulatory_updates"
             key = (row["category"], normalize_title(row["title"]), row["date"])
             if key in seen:
                 continue

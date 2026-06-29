@@ -702,9 +702,7 @@ function renderWeeklyList(container, entries) {
       div.target = "_blank";
       div.rel = "noopener noreferrer";
     }
-    div.innerHTML = `<strong>${entry.title}</strong><span>${entry.date || "Date TBD"} · ${
-      entry.source || "Source TBD"
-    }</span>`;
+    div.innerHTML = weeklyItemHtml(entry);
     container.appendChild(div);
   });
 
@@ -721,9 +719,7 @@ function renderWeeklyList(container, entries) {
         div.target = "_blank";
         div.rel = "noopener noreferrer";
       }
-      div.innerHTML = `<strong>${entry.title}</strong><span>${entry.date || "Date TBD"} · ${
-        entry.source || "Source TBD"
-      }</span>`;
+      div.innerHTML = weeklyItemHtml(entry);
       extraWrap.appendChild(div);
     });
     container.appendChild(extraWrap);
@@ -739,6 +735,26 @@ function renderWeeklyList(container, entries) {
     });
     container.appendChild(toggle);
   }
+}
+
+function weeklyItemHtml(entry) {
+  const badge = weeklyEventLabel(entry);
+  return `<strong>${entry.title}</strong><span><b class="weekly-kind">${badge}</b>${entry.date || "Date TBD"} · ${
+    entry.source || "Source TBD"
+  }</span>`;
+}
+
+function weeklyEventLabel(entry) {
+  const category = entry?.category || "";
+  const eventType = entry?.event_type || "";
+  if (category === "regulatory_updates" || eventType === "regulatory") return "Regulatory";
+  if (category === "safety_signals" || eventType === "safety") return "Safety";
+  if (category === "label_expansions") return "Label";
+  if (category === "guideline_updates" || eventType === "guideline") return "Guideline";
+  if (category === "conference_abstracts") return "Conference";
+  if (eventType === "readout") return "Readout";
+  if (eventType === "trial_progress") return "Trial";
+  return "Pipeline";
 }
 
 function extractAssetKey(entry) {
@@ -810,6 +826,7 @@ function weeklyPriority(entry) {
 function renderWeeklyIntel(weekly) {
   if (!weekly) return;
   const mergedSafetyLabel = [
+    ...(weekly.regulatory_updates || []),
     ...(weekly.safety_signals || []),
     ...(weekly.label_expansions || []),
     ...(weekly.guideline_updates || []),

@@ -76,6 +76,13 @@
     "require_match": true
   },
   {
+    "name": "Edwards Lifesciences Newsroom",
+    "source_type": "html_press_room",
+    "url": "https://www.edwards.com/newsroom",
+    "crawl_limit": 4,
+    "require_match": true
+  },
+  {
     "name": "Medtronic Newsroom",
     "source_type": "html_press_room",
     "url": "https://news.medtronic.com/",

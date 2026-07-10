@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-07",
+  "as_of": "2026-07-10",
   "items": [
     {
       "id": "milvexian",
@@ -3494,7 +3494,7 @@
     }
   ],
   "weekly_updates": {
-    "label_expansions": [],
+    "guideline_updates": [],
     "conference_abstracts": [
       {
         "category": "conference_abstracts",
@@ -3513,15 +3513,22 @@
         "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
       }
     ],
-    "guideline_updates": [],
-    "safety_signals": [
+    "regulatory_updates": [
       {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
+        "date": "2026-06-26",
+        "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
+        "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254232"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
+        "date": "2026-05-19",
+        "source": "Bayer Media \u00b7 Match: Asundexian",
+        "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
       }
     ],
     "press_pipeline": [
@@ -3622,22 +3629,15 @@
         "link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
       }
     ],
-    "regulatory_updates": [
+    "label_expansions": [],
+    "safety_signals": [
       {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
-        "date": "2026-06-26",
-        "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
-        "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254232"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
-        "date": "2026-05-19",
-        "source": "Bayer Media \u00b7 Match: Asundexian",
-        "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
       }
     ]
   }

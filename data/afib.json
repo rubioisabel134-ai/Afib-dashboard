@@ -97,7 +97,7 @@
       "mechanism": "Monoclonal antibody targeting FXI/FXIa",
       "focus": "Stroke and systemic embolism prevention in AF",
       "company": "Novartis / Anthos Therapeutics",
-      "latest_update": "2025-11-06: Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
+      "latest_update": "2026-07-13: LILAC-TIMI 76 Phase 3 trial record updated on ClinicalTrials.gov",
       "tags": [
         "FXI",
         "mAb",
@@ -114,23 +114,25 @@
           "note": "AF moderate-to-high risk"
         },
         {
-          "name": "Phase 3 AF program",
+          "name": "LILAC-TIMI 76",
           "phase": "Phase 3",
-          "status": "Ongoing",
-          "readout": "TBD",
-          "readout_date": null,
-          "registry_id": null,
-          "note": "Stroke and systemic embolism prevention"
+          "status": "Recruiting",
+          "readout": "Event-driven trial evaluating ischemic stroke/systemic embolism and BARC 3c/5 bleeding",
+          "readout_date": "2027-12-30",
+          "registry_id": "NCT05712200",
+          "note": "High-risk AF patients unsuitable for oral anticoagulation; abelacimab 150 mg SC monthly vs placebo"
         }
       ],
-      "notes": "Novartis announced abelacimab as a late-stage AF asset with Phase 3 development for stroke/systemic embolism prevention; Anthos reports Phase 2 AZALEA-TIMI 71 and Phase 3 enrollment milestones.",
+      "notes": "Novartis announced abelacimab as a late-stage AF asset with Phase 3 development for stroke/systemic embolism prevention. LILAC-TIMI 76 is recruiting high-risk AF patients deemed unsuitable for oral anticoagulation and has an estimated primary completion date in December 2027.",
       "sources": [
         "https://www.novartis.com/news/media-releases/novartis-bolsters-late-stage-cardiovascular-pipeline-agreement-acquire-anthos-therapeutics-usd-925-million-upfront",
         "https://anthostherapeutics.com/press-release/anthos_2024-08-15_release-10/",
         "https://anthostherapeutics.com/press-release/anthos_2024-08-27_release/",
+        "https://clinicaltrials.gov/study/NCT05712200",
+        "https://timi.org/lilac-timi-76/",
         "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
       ],
-      "latest_update_link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT05712200"
     },
     {
       "id": "shr-2004",
@@ -3015,6 +3017,41 @@
       ]
     },
     {
+      "id": "dual-energy-thermocool-smarttouch-sf",
+      "name": "Dual Energy THERMOCOOL SMARTTOUCH SF Platform",
+      "type": "Device",
+      "category": "Catheter Ablation - Dual Energy",
+      "stage": "FDA Approved",
+      "mechanism": "Integrated radiofrequency and pulsed field ablation catheter platform",
+      "focus": "Atrial fibrillation ablation with RF/PF energy selection",
+      "company": "Johnson & Johnson MedTech (Biosense Webster)",
+      "latest_update": "2026-07-08: FDA approval announced for Dual Energy THERMOCOOL SMARTTOUCH SF Platform",
+      "tags": [
+        "dual energy",
+        "RF",
+        "PFA",
+        "CARTO"
+      ],
+      "trials": [
+        {
+          "name": "SmartfIRE",
+          "phase": "Pivotal",
+          "status": "Completed enrollment",
+          "readout": "Supported dual-energy focal ablation platform evaluation",
+          "readout_date": null,
+          "registry_id": null,
+          "note": "Dual-energy PF/RF ablation system integrated with CARTO"
+        }
+      ],
+      "notes": "FDA-approved integrated catheter ablation solution that can deliver both radiofrequency and pulsed field energy through a single catheter; first U.S. procedures are expected in summer 2026 during phased commercial rollout.",
+      "sources": [
+        "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform",
+        "https://www.dicardiology.com/content/biosense-webster-completes-enrollment-pivotal-trial-evaluating-pfa-and-rf-dual-energy"
+      ],
+      "press_2026": true,
+      "latest_update_link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform"
+    },
+    {
       "id": "varipulse",
       "name": "VARIPULSE Platform",
       "type": "Device",
@@ -3518,6 +3555,14 @@
       {
         "category": "regulatory_updates",
         "event_type": "regulatory",
+        "title": "Johnson & Johnson Announces FDA Approval for the Dual Energy THERMOCOOL SMARTTOUCH SF Platform",
+        "date": "2026-07-08",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: Dual Energy THERMOCOOL",
+        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
         "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
         "date": "2026-06-26",
         "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
@@ -3543,6 +3588,14 @@
       }
     ],
     "press_pipeline": [
+      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "Study to evaLuate the effIcacy and Safety of abeLacimab in High-risk Patients With Atrial Fibrillation Who Have Been Deemed Unsuitable for Oral antiCoagulation (LILAC-TIMI 76) (NCT05712200)",
+        "date": "2026-07-13",
+        "source": "ClinicalTrials.gov \u00b7 Match: Abelacimab",
+        "link": "https://clinicaltrials.gov/study/NCT05712200"
+      },
       {
         "category": "press_pipeline",
         "event_type": "trial_progress",

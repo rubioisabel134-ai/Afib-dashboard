@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-10",
+  "as_of": "2026-07-17",
   "items": [
     {
       "id": "milvexian",
@@ -1640,7 +1640,7 @@
       "mechanism": "Left atrial appendage occluder",
       "focus": "Stroke prevention in AF",
       "company": "Abbott",
-      "latest_update": "ClinicalTrials.gov update posted 2026-05-27",
+      "latest_update": "ClinicalTrials.gov update posted 2026-07-13",
       "tags": [
         "LAAO",
         "implant"
@@ -3058,7 +3058,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "AF ablation",
       "company": "Abbott",
-      "latest_update": "ClinicalTrials.gov update posted 2026-05-27",
+      "latest_update": "ClinicalTrials.gov update posted 2026-07-13",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -3495,6 +3495,7 @@
   ],
   "weekly_updates": {
     "guideline_updates": [],
+    "label_expansions": [],
     "conference_abstracts": [
       {
         "category": "conference_abstracts",
@@ -3529,6 +3530,16 @@
         "date": "2026-05-19",
         "source": "Bayer Media \u00b7 Match: Asundexian",
         "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
+      }
+    ],
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
       }
     ],
     "press_pipeline": [
@@ -3627,17 +3638,6 @@
         "date": "2025-11-06",
         "source": "CI manual scan \u00b7 Match: Abelacimab",
         "link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
-      }
-    ],
-    "label_expansions": [],
-    "safety_signals": [
-      {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
       }
     ]
   }

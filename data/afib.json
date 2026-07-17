@@ -97,7 +97,7 @@
       "mechanism": "Monoclonal antibody targeting FXI/FXIa",
       "focus": "Stroke and systemic embolism prevention in AF",
       "company": "Novartis / Anthos Therapeutics",
-      "latest_update": "2026-07-13: LILAC-TIMI 76 Phase 3 trial record updated on ClinicalTrials.gov",
+      "latest_update": "2026-07-13: LILAC-TIMI 76 increased planned enrollment from 1900 to 2500 participants",
       "tags": [
         "FXI",
         "mAb",
@@ -117,13 +117,13 @@
           "name": "LILAC-TIMI 76",
           "phase": "Phase 3",
           "status": "Recruiting",
-          "readout": "Event-driven trial evaluating ischemic stroke/systemic embolism and BARC 3c/5 bleeding",
+          "readout": "Event-driven trial evaluating ischemic stroke/systemic embolism and BARC 3c/5 bleeding; planned enrollment increased from 1900 to 2500",
           "readout_date": "2027-12-30",
           "registry_id": "NCT05712200",
           "note": "High-risk AF patients unsuitable for oral anticoagulation; abelacimab 150 mg SC monthly vs placebo"
         }
       ],
-      "notes": "Novartis announced abelacimab as a late-stage AF asset with Phase 3 development for stroke/systemic embolism prevention. LILAC-TIMI 76 is recruiting high-risk AF patients deemed unsuitable for oral anticoagulation and has an estimated primary completion date in December 2027.",
+      "notes": "Novartis announced abelacimab as a late-stage AF asset with Phase 3 development for stroke/systemic embolism prevention. LILAC-TIMI 76 is recruiting high-risk AF patients deemed unsuitable for oral anticoagulation; the July 2026 registry update increased planned enrollment from 1900 to 2500 participants, with estimated primary completion in December 2027.",
       "sources": [
         "https://www.novartis.com/news/media-releases/novartis-bolsters-late-stage-cardiovascular-pipeline-agreement-acquire-anthos-therapeutics-usd-925-million-upfront",
         "https://anthostherapeutics.com/press-release/anthos_2024-08-15_release-10/",
@@ -3591,7 +3591,7 @@
       {
         "category": "press_pipeline",
         "event_type": "trial_progress",
-        "title": "Study to evaLuate the effIcacy and Safety of abeLacimab in High-risk Patients With Atrial Fibrillation Who Have Been Deemed Unsuitable for Oral antiCoagulation (LILAC-TIMI 76) (NCT05712200)",
+        "title": "LILAC-TIMI 76 abelacimab Phase 3 AF trial increases planned enrollment from 1900 to 2500 participants (NCT05712200)",
         "date": "2026-07-13",
         "source": "ClinicalTrials.gov \u00b7 Match: Abelacimab",
         "link": "https://clinicaltrials.gov/study/NCT05712200"

@@ -680,7 +680,11 @@ def read_existing() -> List[Dict[str, str]]:
 
 def write_rows(rows: List[Dict[str, str]]) -> None:
     with CSV_PATH.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["category", "title", "date", "source", "link"])
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=["category", "title", "date", "source", "link"],
+            lineterminator="\n",
+        )
         writer.writeheader()
         writer.writerows(rows)
 
@@ -742,24 +746,41 @@ def source_priority(source: str) -> int:
     return 3
 
 
+def has_page_title_date_suffix(title: str) -> bool:
+    return bool(re.search(r"\s[-\u2014]\s(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)", title or "", re.I))
+
+
 def dedupe_rows(rows: List[Dict[str, str]]) -> List[Dict[str, str]]:
-    # Deduplicate within each category by normalized title + date.
+    # Deduplicate within each category by normalized title + date, then by link + date.
     best = {}
     for row in rows:
         title = (row.get("title") or "").strip()
         if not title:
             continue
-        key = (
+        title_key = (
             (row.get("category") or "").strip(),
             normalize_title(title),
             (row.get("date") or "").strip(),
         )
+        link_key = (
+            (row.get("category") or "").strip(),
+            (row.get("link") or "").strip(),
+            (row.get("date") or "").strip(),
+        )
+        key = link_key if link_key[1] else title_key
         current = best.get(key)
         if current is None:
             best[key] = row
             continue
         score_new = source_priority(row.get("source", ""))
         score_old = source_priority(current.get("source", ""))
+        if row.get("link") and row.get("link") == current.get("link"):
+            new_has_suffix = has_page_title_date_suffix(row.get("title", ""))
+            old_has_suffix = has_page_title_date_suffix(current.get("title", ""))
+            if new_has_suffix != old_has_suffix:
+                if old_has_suffix:
+                    best[key] = row
+                continue
         # Prefer higher-trust source and longer title detail when tied.
         if score_new < score_old or (
             score_new == score_old and len(row.get("title", "")) > len(current.get("title", ""))
@@ -1376,7 +1397,9 @@ def should_crawl_press_link(
         return True
     if any(hint in haystack for hint in hints):
         return True
-    if re.search(r"/\d{2,}\.html?$", article_path):
+    if re.search(r"/\d{2,}\.(?:html?|php)$", article_path):
+        return True
+    if re.search(r"/news-[^/]+\.(?:html?|php)$", article_path):
         return True
     return False
 
@@ -1769,6 +1792,15 @@ def main() -> int:
         )
         for row in existing
     )
+    seen_links = set(
+        (
+            row.get("category", ""),
+            (row.get("link") or "").strip(),
+            row.get("date", ""),
+        )
+        for row in existing
+        if (row.get("link") or "").strip()
+    )
 
     new_rows: List[Dict[str, str]] = []
     source_timings: List[Tuple[float, str, int]] = []
@@ -1822,9 +1854,12 @@ def main() -> int:
             if is_regulatory_item(title, link, source_label):
                 row["category"] = "regulatory_updates"
             key = (row["category"], normalize_title(row["title"]), row["date"])
-            if key in seen:
+            link_key = (row["category"], (row.get("link") or "").strip(), row["date"])
+            if key in seen or (link_key[1] and link_key in seen_links):
                 continue
             seen.add(key)
+            if link_key[1]:
+                seen_links.add(link_key)
             new_rows.append(row)
 
     new_rows.extend(manual_ci_rows(terms=terms, seen=seen, registry_map=registry_map))

@@ -679,18 +679,27 @@
       "mechanism": "Precision oral anticoagulant (direct thrombin inhibitor)",
       "focus": "Stroke and heart attack prevention with reduced bleeding risk",
       "company": "Verseon",
-      "latest_update": "Phase 1; preclinical efficacy published",
+      "latest_update": "2026-07-15: New European patent granted covering Verseon's PROAC program",
       "tags": [
         "PROAC",
         "thrombin",
         "oral"
       ],
+      "aliases": [
+        "PROAC",
+        "PROACs",
+        "Precision Oral Anticoagulant",
+        "Precision Oral Anticoagulants"
+      ],
       "trials": [],
-      "notes": "Verseon PROAC candidate in Phase 1; preclinical thrombin inhibitor data published.",
+      "notes": "Verseon PROAC candidate in Phase 1; preclinical thrombin inhibitor data published. The European Patent Office granted a new patent covering Verseon's PROAC program in July 2026, extending IP protection for its precision oral anticoagulant compounds.",
       "sources": [
         "https://www.verseon.com/pipeline-1-anticoagulation.html",
-        "https://www.verseon.com/news-efficacyanticoagulant_content.html"
-      ]
+        "https://www.verseon.com/news-efficacyanticoagulant_content.html",
+        "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
+      ],
+      "press_2026": true,
+      "latest_update_link": "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
     },
     {
       "id": "ve-2851",
@@ -701,18 +710,27 @@
       "mechanism": "Precision oral anticoagulant (direct thrombin inhibitor)",
       "focus": "Stroke and heart attack prevention with reduced bleeding risk",
       "company": "Verseon",
-      "latest_update": "Preclinical; second-generation PROAC candidate",
+      "latest_update": "2026-07-15: New European patent granted covering Verseon's PROAC program",
       "tags": [
         "PROAC",
         "thrombin",
         "oral"
       ],
+      "aliases": [
+        "PROAC",
+        "PROACs",
+        "Precision Oral Anticoagulant",
+        "Precision Oral Anticoagulants"
+      ],
       "trials": [],
-      "notes": "Second-generation PROAC candidate listed as preclinical on Verseon pipeline.",
+      "notes": "Second-generation PROAC candidate listed as preclinical on Verseon pipeline. The European Patent Office granted a new patent covering Verseon's PROAC program in July 2026, extending IP protection for its precision oral anticoagulant compounds.",
       "sources": [
         "https://www.verseon.com/pipeline-1-anticoagulation.html",
-        "https://www.verseon.com/pipeline.html"
-      ]
+        "https://www.verseon.com/pipeline.html",
+        "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
+      ],
+      "press_2026": true,
+      "latest_update_link": "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
     },
     {
       "id": "tah3311",
@@ -3536,7 +3554,45 @@
     }
   ],
   "weekly_updates": {
+    "label_expansions": [],
+    "conference_abstracts": [
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
+    "guideline_updates": [],
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      }
+    ],
     "regulatory_updates": [
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Verseon\u2019s Precision Oral Anticoagulants Receive New European Patent | Verseon",
+        "date": "2026-07-15",
+        "source": "Verseon News \u00b7 Match: Precision Oral Anticoagulants",
+        "link": "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
+      },
       {
         "category": "regulatory_updates",
         "event_type": "regulatory",
@@ -3562,36 +3618,6 @@
         "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
       }
     ],
-    "conference_abstracts": [
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
-    "safety_signals": [
-      {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
-      }
-    ],
-    "label_expansions": [],
-    "guideline_updates": [],
     "press_pipeline": [
       {
         "category": "press_pipeline",
@@ -3600,14 +3626,6 @@
         "date": "2026-07-16",
         "source": "Abbott MediaRoom \u00b7 Match: Abbott",
         "link": "https://abbott.mediaroom.com/2026-07-16-Abbott-Reports-Second-Quarter-2026-Results-and-Raises-Full-Year-EPS-Guidance"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "trial_progress",
-        "title": "LILAC-TIMI 76 abelacimab Phase 3 AF trial increases planned enrollment from 1900 to 2500 participants (NCT05712200)",
-        "date": "2026-07-13",
-        "source": "ClinicalTrials.gov \u00b7 Match: Abelacimab",
-        "link": "https://clinicaltrials.gov/study/NCT05712200"
       },
       {
         "category": "press_pipeline",
@@ -3688,6 +3706,14 @@
         "date": "2026-04-07",
         "source": "Johnson & Johnson Press Releases \u00b7 Match: Johnson",
         "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
+        "date": "2025-11-06",
+        "source": "CI manual scan \u00b7 Match: Abelacimab",
+        "link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
       }
     ]
   }

@@ -55,6 +55,13 @@
     "require_match": true
   },
   {
+    "name": "Verseon News",
+    "source_type": "html_press_room",
+    "url": "https://www.verseon.com/news.html",
+    "crawl_limit": 6,
+    "require_match": true
+  },
+  {
     "name": "Sirius Press Room",
     "source_type": "html_press_room",
     "url": "https://www.siriusrna.com/companynews/",

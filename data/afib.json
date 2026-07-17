@@ -777,18 +777,21 @@
       "stage": "Preclinical",
       "mechanism": "Oral FXIIa inhibitor",
       "focus": "Antithrombotic therapy with reduced bleeding risk",
-      "company": "KalVista Pharmaceuticals",
-      "latest_update": "Preclinical FXIIa inhibitor described in KalVista scientific presentation",
+      "company": "Chiesi Group / KalVista Pharmaceuticals",
+      "latest_update": "2026-06-11: Chiesi Group completed acquisition of KalVista Pharmaceuticals",
       "tags": [
         "FXII",
         "oral",
         "preclinical"
       ],
       "trials": [],
-      "notes": "Preclinical small\u2011molecule FXIIa inhibitor; development status beyond early research not publicly detailed.",
+      "notes": "Preclinical small\u2011molecule FXIIa inhibitor; development status beyond early research not publicly detailed. Chiesi completed its acquisition of KalVista in June 2026, making KalVista a wholly owned Chiesi subsidiary and shifting ownership of KalVista's pipeline and research platform.",
       "sources": [
-        "https://www.kalvista.com/sites/default/files/Kinin2022_NIM_Zymogen_06-01_PRINT.pdf"
-      ]
+        "https://www.kalvista.com/sites/default/files/Kinin2022_NIM_Zymogen_06-01_PRINT.pdf",
+        "https://ir.kalvista.com/news-releases/news-release-details/chiesi-group-completes-acquisition-kalvista-pharmaceuticals"
+      ],
+      "press_2026": true,
+      "latest_update_link": "https://ir.kalvista.com/news-releases/news-release-details/chiesi-group-completes-acquisition-kalvista-pharmaceuticals"
     },
     {
       "id": "mpi-8",
@@ -3588,6 +3591,14 @@
       }
     ],
     "press_pipeline": [
+      {
+        "category": "press_pipeline",
+        "event_type": "business_development",
+        "title": "Chiesi Group completes acquisition of KalVista Pharmaceuticals, adding KalVista's oral kallikrein/FXII research platform",
+        "date": "2026-06-11",
+        "source": "KalVista Press Release \u00b7 Match: KalVista",
+        "link": "https://ir.kalvista.com/news-releases/news-release-details/chiesi-group-completes-acquisition-kalvista-pharmaceuticals"
+      },
       {
         "category": "press_pipeline",
         "event_type": "trial_progress",

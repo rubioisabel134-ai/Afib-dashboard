@@ -168,6 +168,24 @@ DEVELOPMENT_SIGNAL_TERMS = [
     "abstract",
     "congress",
     "scientific sessions",
+    "results",
+    "business update",
+    "quarterly results",
+    "financial results",
+    "submission",
+    "submitted",
+]
+
+COMPANY_REPORT_SIGNAL_TERMS = [
+    "reports first-quarter",
+    "reports second-quarter",
+    "reports third-quarter",
+    "reports fourth-quarter",
+    "reports quarterly",
+    "quarterly results",
+    "financial results",
+    "business update",
+    "business updates",
 ]
 
 CONFERENCE_SIGNAL_TERMS = [
@@ -1085,7 +1103,8 @@ def find_match(text_value: str, terms: List[str]) -> str:
 
 
 def is_af_relevant(title: str, link: str, body_text: str = "") -> bool:
-    haystack = f"{title} {link} {body_text}".lower()
+    headline = f"{title} {link}".lower()
+    haystack = f"{headline} {body_text}".lower()
     has_core_signal = any(term in haystack for term in AF_RELEVANT_TERMS)
     has_fxi_stroke_exception = any(term in haystack for term in FXI_STROKE_CONTEXT_TERMS) and any(
         term in haystack for term in FXI_STROKE_REQUIRED_TERMS
@@ -1093,7 +1112,7 @@ def is_af_relevant(title: str, link: str, body_text: str = "") -> bool:
     if not has_core_signal and not has_fxi_stroke_exception:
         return False
 
-    if any(term in haystack for term in AF_EXCLUDE_TERMS):
+    if any(term in headline for term in AF_EXCLUDE_TERMS):
         return False
     return True
 
@@ -1115,6 +1134,11 @@ def has_conference_signal(
 def has_development_signal(text_value: str) -> bool:
     lower = text_value.lower()
     return any(term in lower for term in DEVELOPMENT_SIGNAL_TERMS)
+
+
+def has_company_report_signal(text_value: str) -> bool:
+    lower = text_value.lower()
+    return any(term in lower for term in COMPANY_REPORT_SIGNAL_TERMS)
 
 
 def find_new_candidate(text_value: str, terms: List[str]) -> str:
@@ -1171,6 +1195,8 @@ def analyze_match(title: str, link: str, terms: List[str], body_text: str = "") 
         return headline_match, ""
     tracked_match = find_match(full_text, terms)
     if tracked_match and is_company_like_term(tracked_match):
+        if has_company_report_signal(headline) and overall_af and has_development_signal(full_text):
+            return tracked_match, ""
         if headline_af:
             return tracked_match, ""
         return "", ""

@@ -91,11 +91,23 @@ def event_type(title: str) -> str:
         return "readout"
     if any(k in t for k in ["enrollment", "first patient", "recruiting", "trial"]):
         return "trial_progress"
+    if any(k in t for k in ["acquisition", "acquires", "merger", "licensing", "license agreement", "partnership"]):
+        return "business_development"
     if "guideline" in t:
         return "guideline"
     if "safety" in t:
         return "safety"
     return "general"
+
+
+def is_low_value_trial_anchor(entry) -> bool:
+    title = (entry.get("title") or "").strip().lower()
+    link = (entry.get("link") or "").strip().lower()
+    if "clinicaltrials.gov/study/" not in link:
+        return False
+    if "#" not in link:
+        return False
+    return title.startswith(("find contact information", "check who can join", "show all "))
 
 
 def prefer(new_entry, old_entry) -> bool:
@@ -155,6 +167,8 @@ def top_entries_by_category(rows_by_category):
         unique_entries = []
         seen_by_week = {}
         for entry in weekly.get(category, []):
+            if is_low_value_trial_anchor(entry):
+                continue
             key = (normalize_title(entry.get("title", "")), entry.get("date", ""))
             week_key = (
                 category,

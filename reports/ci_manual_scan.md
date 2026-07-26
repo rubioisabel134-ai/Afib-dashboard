@@ -1,6 +1,6 @@
 # AFib CI Manual Scan (2026-07-26)
 
-Run time: 2026-07-26T12:02:17.251167+00:00
+Run time: 2026-07-26T16:43:58.297471+00:00
 
 ## Top Items
 - Boston Scientific (BSX) Enrolls First Patients In Global Faraflex AFib Trial (match: Boston Scientific)
@@ -27,6 +27,15 @@ Run time: 2026-07-26T12:02:17.251167+00:00
 - Abbott’s next‑generation CardioMEMS™ remote heart failure monitoring reader receives FDA approval to enhance patient experience and help detect disease progression (match: Abbott)
 - Date: Captured 2026-07-26 (publish date unavailable)
 - https://abbott.mediaroom.com/press-releases?item=124735
+- Acesion Pharma starts Phase 2 trial of AP31969 in patients with atrial fibrillation (match: AP31969)
+- Date: Captured 2026-07-26 (publish date unavailable)
+- https://acesionpharma.com/acesion-pharma-announces-initiation-of-phase2-trial/
+- Acesion Pharma announces Nature Medicine publication of clinical results in Atrial Fibrillation (match: Acesion Pharma)
+- Date: Captured 2026-07-26 (publish date unavailable)
+- https://acesionpharma.com/acesion-pharma-announces-nature-medicine-publication-of-clinical-results-in-atrial-fibrillation/
+- Acesion Pharma Announces Positive Results for Novel Drug Targeting Atrial Fibrillation (match: Acesion Pharma)
+- Date: Captured 2026-07-26 (publish date unavailable)
+- https://acesionpharma.com/acesion-pharma-announces-positive-results-for-novel-drug-targeting-atrial-fibrillation/
 - February 10, 2026Argá Medtech Reports 87.6% Freedom from AF/AFL/AT at 12 MonthsArgá Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA SystemContinue Reading (match: Argá Medtech)
 - Date: Captured 2026-07-26 (publish date unavailable)
 - https://argamedtech.com/news/f/press-release-arg%C3%A1-medtech-reports-94%25-lesion-durability
@@ -53,6 +62,19 @@ Run time: 2026-07-26T12:02:17.251167+00:00
 - Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation
 - Date: 2025-11-06
 - https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=6
+
+- Acesion Pharma
+- Acesion Pharma announces Nature Medicine publication of clinical results in Atrial Fibrillation
+- Date: Captured 2026-07-26 (publish date unavailable)
+- https://acesionpharma.com/acesion-pharma-announces-nature-medicine-publication-of-clinical-results-in-atrial-fibrillation/
+- Acesion Pharma Announces Positive Results for Novel Drug Targeting Atrial Fibrillation
+- Date: Captured 2026-07-26 (publish date unavailable)
+- https://acesionpharma.com/acesion-pharma-announces-positive-results-for-novel-drug-targeting-atrial-fibrillation/
+
+- AP31969
+- Acesion Pharma starts Phase 2 trial of AP31969 in patients with atrial fibrillation
+- Date: Captured 2026-07-26 (publish date unavailable)
+- https://acesionpharma.com/acesion-pharma-announces-initiation-of-phase2-trial/
 
 - Argá Medtech
 - February 10, 2026Argá Medtech Reports 87.6% Freedom from AF/AFL/AT at 12 MonthsArgá Medtech Reports 94% Lesion Durability and Strong Safety Profile in First-in-Human BURST-AF Trial of Single-Catheter PFA SystemContinue Reading

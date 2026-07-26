@@ -295,6 +295,16 @@ def is_press_focused_url(url: str) -> bool:
     return True
 
 
+def is_low_value_ctgov_anchor(title: str, url: str) -> bool:
+    lower_title = (title or "").strip().lower()
+    lower_url = (url or "").strip().lower()
+    if "clinicaltrials.gov/study/" not in lower_url:
+        return False
+    if not any(fragment in lower_url for fragment in ("#locations", "#contacts-and-locations", "#participation-criteria")):
+        return False
+    return lower_title.startswith(("show all ", "find contact information", "check who can join"))
+
+
 def parse_date_from_text(text: str) -> Optional[datetime]:
     s = text or ""
 
@@ -475,6 +485,8 @@ def main() -> int:
                 title = title_from_url(url)
 
         hay = f"{title} {url}"
+        if is_low_value_ctgov_anchor(title, url):
+            continue
         if is_excluded(hay):
             continue
         if not is_press_focused_url(url):

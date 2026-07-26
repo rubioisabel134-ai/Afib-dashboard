@@ -794,6 +794,8 @@ def keep_row(row: Dict[str, str]) -> bool:
     link = (row.get("link") or "").lower()
     title = (row.get("title") or "")
     nct_id = extract_nct_id(f"{title} {link}")
+    if is_low_value_ctgov_anchor(title, link):
+        return False
     # Drop older broad CI-manual imports; retain only ClinicalTrials.gov tracked links.
     if "ci manual scan" in source and "clinicaltrials.gov/study/" not in link:
         return False
@@ -1302,6 +1304,16 @@ def extract_nct_id(text_value: str) -> str:
     return m.group(0) if m else ""
 
 
+def is_low_value_ctgov_anchor(title: str, link: str) -> bool:
+    lower_title = (title or "").strip().lower()
+    lower_link = (link or "").strip().lower()
+    if "clinicaltrials.gov/study/" not in lower_link:
+        return False
+    if not any(fragment in lower_link for fragment in ("#locations", "#contacts-and-locations", "#participation-criteria")):
+        return False
+    return lower_title.startswith(("show all ", "find contact information", "check who can join"))
+
+
 def manual_ci_rows(
     terms: List[str],
     seen: set,
@@ -1317,6 +1329,8 @@ def manual_ci_rows(
             continue
         title, link = parsed
         if not link:
+            continue
+        if is_low_value_ctgov_anchor(title, link):
             continue
         nct_id = extract_nct_id(f"{title} {link}")
         has_ctgov_trial = "clinicaltrials.gov/study/" in link.lower() and bool(nct_id)

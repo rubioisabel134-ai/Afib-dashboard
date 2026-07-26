@@ -70,12 +70,24 @@ def dedupe_rows(rows: List[Tuple[str, str]]) -> List[Tuple[str, str]]:
     seen = set()
     out = []
     for title, url in rows:
+        if is_low_value_ctgov_anchor(title, url):
+            continue
         key = (title.strip().lower(), url.strip())
         if key in seen:
             continue
         seen.add(key)
         out.append((title.strip(), url.strip()))
     return out
+
+
+def is_low_value_ctgov_anchor(title: str, url: str) -> bool:
+    lower_title = (title or "").strip().lower()
+    lower_url = (url or "").strip().lower()
+    if "clinicaltrials.gov/study/" not in lower_url:
+        return False
+    if not any(fragment in lower_url for fragment in ("#locations", "#contacts-and-locations", "#participation-criteria")):
+        return False
+    return lower_title.startswith(("show all ", "find contact information", "check who can join"))
 
 
 def main() -> int:

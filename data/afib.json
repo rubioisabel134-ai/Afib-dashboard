@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-26",
+  "as_of": "2026-08-01",
   "items": [
     {
       "id": "milvexian",
@@ -10,7 +10,7 @@
       "mechanism": "Oral Factor XIa inhibitor",
       "focus": "Stroke prevention in AF and secondary stroke prevention",
       "company": "BMS / Johnson & Johnson",
-      "latest_update": "ClinicalTrials.gov update posted 2026-07-06",
+      "latest_update": "ClinicalTrials.gov update posted 2026-07-31",
       "tags": [
         "FXI",
         "oral",
@@ -647,7 +647,7 @@
       "mechanism": "Oral investigational therapy (mechanism not disclosed publicly)",
       "focus": "Reduction of AF burden; HDAC6 inhibitor licensed from Chong Kun Dang",
       "company": "Novartis (licensed from Chong Kun Dang)",
-      "latest_update": "ClinicalTrials.gov update posted 2026-05-18",
+      "latest_update": "ClinicalTrials.gov update posted 2026-07-31",
       "tags": [
         "AF burden",
         "Phase 2",
@@ -2286,7 +2286,7 @@
       "mechanism": "Large focal pulsed field ablation catheter with integrated cardiac mapping",
       "focus": "Map-and-ablate workflow for paroxysmal and persistent AF",
       "company": "Boston Scientific",
-      "latest_update": "ClinicalTrials.gov update posted 2026-06-29",
+      "latest_update": "ClinicalTrials.gov update posted 2026-07-27",
       "tags": [
         "PFA",
         "ablation",
@@ -2308,7 +2308,7 @@
           "phase": "Global prospective single-arm",
           "status": "RECRUITING",
           "readout": "Estimated primary completion",
-          "readout_date": "2028-06-12",
+          "readout_date": "2028-07-20",
           "registry_id": "NCT07575269",
           "note": "Evaluates FARAFLEX Mapping and PFA System safety and effectiveness in symptomatic drug-refractory paroxysmal and persistent AF"
         }
@@ -3556,36 +3556,6 @@
     }
   ],
   "weekly_updates": {
-    "conference_abstracts": [
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
-    "label_expansions": [],
-    "guideline_updates": [],
-    "safety_signals": [
-      {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
-      }
-    ],
     "regulatory_updates": [
       {
         "category": "regulatory_updates",
@@ -3620,7 +3590,16 @@
         "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
       }
     ],
+    "label_expansions": [],
     "press_pipeline": [
+      {
+        "category": "press_pipeline",
+        "event_type": "general",
+        "title": "Abbott MediaRoom - Press Releases",
+        "date": "2026-07-28",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": "https://abbott.mediaroom.com/press-releases?item=124760"
+      },
       {
         "category": "press_pipeline",
         "event_type": "general",
@@ -3708,14 +3687,35 @@
         "date": "2026-04-14",
         "source": "Ribocure News \u00b7 Match: Vortosiran",
         "link": "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/"
+      }
+    ],
+    "conference_abstracts": [
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       },
       {
-        "category": "press_pipeline",
+        "category": "conference_abstracts",
         "event_type": "general",
-        "title": "Johnson &amp; Johnson Advances Pulsed Field Ablation Portfolio with the Launch of VARIPULSE Pro in Europe",
-        "date": "2026-04-07",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: Johnson",
-        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe"
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
+    "guideline_updates": [],
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
       }
     ]
   }

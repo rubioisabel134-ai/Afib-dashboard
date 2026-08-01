@@ -1,21 +1,46 @@
 #!/usr/bin/env python3
 import json
+import subprocess
 import sys
 from datetime import date
 from pathlib import Path
 from typing import Any, Dict, Optional
-
-import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "afib.json"
 WATCHLIST_PATH = ROOT / "data" / "watchlist.json"
 
 
-def fetch_json(url: str) -> Dict[str, Any]:
-  req = urllib.request.Request(url, headers={"User-Agent": "AFib-Dashboard-Update/1.0"})
-  with urllib.request.urlopen(req, timeout=20) as resp:
-    return json.load(resp)
+def fetch_json(url: str, timeout: int = 12) -> Dict[str, Any]:
+  command = [
+    "curl",
+    "--fail",
+    "--location",
+    "--silent",
+    "--show-error",
+    "--connect-timeout",
+    "5",
+    "--max-time",
+    str(timeout),
+    "--user-agent",
+    "AFib-Dashboard-Update/1.0",
+    url,
+  ]
+  try:
+    result = subprocess.run(
+      command,
+      check=True,
+      capture_output=True,
+      timeout=timeout + 3,
+      text=True,
+    )
+  except subprocess.TimeoutExpired as exc:
+    raise TimeoutError(f"request timed out after {timeout}s: {url}") from exc
+  except subprocess.CalledProcessError as exc:
+    detail = (exc.stderr or exc.stdout or "").strip().splitlines()
+    message = detail[-1] if detail else f"curl exit {exc.returncode}"
+    raise RuntimeError(f"HTTP fetch failed ({message}): {url}") from exc
+  return json.loads(result.stdout)
 
 
 def get_trial_status(nct_id: str) -> Dict[str, Optional[str]]:

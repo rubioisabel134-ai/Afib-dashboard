@@ -4,15 +4,14 @@ import csv
 import html
 import json
 import re
+import subprocess
 import time
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
-from typing import Dict, List, Optional, Set, Tuple
-from urllib.error import HTTPError, URLError
+from typing import Dict, List, Optional, Set, Tuple, Union
 from urllib.parse import urljoin, urlparse
-from urllib.request import Request, urlopen
 import urllib.parse
 import xml.etree.ElementTree as ET
 
@@ -51,6 +50,10 @@ GOOGLE_NEWS_BASE = "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&
 
 
 class NonHtmlContentError(ValueError):
+    pass
+
+
+class FetchError(RuntimeError):
     pass
 
 AF_RELEVANT_TERMS = [
@@ -343,25 +346,56 @@ class ListingLinkParser(HTMLParser):
         self._text_parts = []
 
 
-def fetch_xml(url: str) -> bytes:
-    req = Request(
+def curl_fetch(
+    url: str,
+    *,
+    accept: str,
+    timeout: int = 12,
+    text: bool = False,
+) -> Union[bytes, str]:
+    command = [
+        "curl",
+        "--fail",
+        "--location",
+        "--silent",
+        "--show-error",
+        "--connect-timeout",
+        "5",
+        "--max-time",
+        str(timeout),
+        "--user-agent",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AFib-Dashboard-News/1.0",
+        "--header",
+        f"Accept: {accept}",
         url,
-        headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AFib-Dashboard-News/1.0",
-            "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.5",
-        },
-    )
+    ]
+    try:
+        result = subprocess.run(
+            command,
+            check=True,
+            capture_output=True,
+            timeout=timeout + 3,
+            text=text,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise FetchError(f"request timed out after {timeout}s: {url}") from exc
+    except subprocess.CalledProcessError as exc:
+        detail_source = exc.stderr if text else exc.stderr.decode("utf-8", errors="ignore")
+        detail = (detail_source or "").strip().splitlines()
+        message = detail[-1] if detail else f"curl exit {exc.returncode}"
+        raise FetchError(f"HTTP fetch failed ({message}): {url}") from exc
+    return result.stdout
+
+
+def fetch_xml(url: str) -> bytes:
     # Retry transient upstream throttling / gateway failures.
     for attempt in range(3):
         try:
-            with urlopen(req, timeout=20) as resp:
-                return resp.read()
-        except HTTPError as exc:
-            if exc.code in {429, 500, 502, 503, 504} and attempt < 2:
-                time.sleep(1.2 * (attempt + 1))
-                continue
-            raise
-        except URLError:
+            return curl_fetch(
+                url,
+                accept="application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.5",
+            )
+        except FetchError:
             if attempt < 2:
                 time.sleep(1.2 * (attempt + 1))
                 continue
@@ -377,28 +411,14 @@ def fetch_html(url: str) -> str:
     if is_probably_non_html_url(url):
         raise NonHtmlContentError(f"Skipping non-HTML URL: {url}")
 
-    req = Request(
-        url,
-        headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AFib-Dashboard-News/1.0",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.8",
-        },
-    )
     for attempt in range(3):
         try:
-            with urlopen(req, timeout=20) as resp:
-                content_type = resp.headers.get_content_type()
-                if content_type not in {"text/html", "application/xhtml+xml"}:
-                    raise NonHtmlContentError(f"Skipping {content_type} content: {url}")
-                charset = resp.headers.get_content_charset() or "utf-8"
-                return resp.read().decode(charset, errors="ignore")
-        except HTTPError as exc:
-            if exc.code in {429, 500, 502, 503, 504} and attempt < 2:
-                time.sleep(1.2 * (attempt + 1))
-                continue
-            raise
-        except URLError:
+            return curl_fetch(
+                url,
+                accept="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                text=True,
+            )
+        except FetchError:
             if attempt < 2:
                 time.sleep(1.2 * (attempt + 1))
                 continue
@@ -411,9 +431,13 @@ def fetch_ctgov_last_update_date(nct_id: str) -> str:
         return ""
     url = f"https://clinicaltrials.gov/api/v2/studies/{nct}"
     try:
-        req = Request(url, headers={"User-Agent": "AFib-Dashboard-News/1.0"})
-        with urlopen(req, timeout=20) as resp:
-            payload = json.load(resp)
+        payload = json.loads(
+            curl_fetch(
+                url,
+                accept="application/json",
+                text=True,
+            )
+        )
     except Exception:
         return ""
 

@@ -31,6 +31,11 @@
       "priority": 1
     },
     {
+      "name": "Argo Biopharma",
+      "url": "https://www.argobiopharma.com/news/",
+      "priority": 1
+    },
+    {
       "name": "AtriCure",
       "url": "https://www.atricure.com/about-atricure/news",
       "priority": 1
@@ -177,7 +182,7 @@
     },
     {
       "name": "Kardium",
-      "url": "https://kardium.com/kardium-news/",
+      "url": "https://kardium.com/newsroom/",
       "priority": 1
     },
     {
@@ -336,6 +341,10 @@
     {
       "name": "Aronora",
       "url": "http://aronorabio.com/site/pipeline/"
+    },
+    {
+      "name": "Argo Biopharma",
+      "url": "https://www.argobiopharma.com/pipeline/"
     },
     {
       "name": "Attgeno",

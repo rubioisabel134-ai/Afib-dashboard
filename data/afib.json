@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-01",
+  "as_of": "2026-08-07",
   "items": [
     {
       "id": "milvexian",
@@ -323,6 +323,42 @@
       "sources": [
         "https://www.siriusrna.com/html/companynews/81.html"
       ]
+    },
+    {
+      "id": "bw-41012",
+      "name": "BW-41012",
+      "type": "Drug",
+      "category": "Stroke Prevention - FXI Inhibitors",
+      "stage": "Phase 1",
+      "mechanism": "siRNA targeting Factor XI mRNA",
+      "focus": "Prevention of thromboembolic diseases; AF stroke-prevention relevance to monitor",
+      "company": "Argo Biopharma",
+      "latest_update": "2026-07-20: Argo Biopharma Doses First Participant in Phase 1 Clinical Trial of Factor XI Targeting siRNA Therapy BW-41012",
+      "tags": [
+        "FXI",
+        "siRNA",
+        "thromboembolism",
+        "watch"
+      ],
+      "trials": [
+        {
+          "name": "BW-41012 Phase 1 SAD",
+          "phase": "Phase 1",
+          "status": "RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2027-10-30",
+          "registry_id": "NCT07584876",
+          "note": "Randomized single-ascending-dose study of subcutaneous BW-41012 in healthy participants; not AF-specific yet."
+        }
+      ],
+      "notes": "New FXI siRNA entrant from Argo's RNAi pipeline. Track for transition from healthy-volunteer PK/PD into thromboembolic indications such as stroke prevention, DVT/PE, or AF-adjacent anticoagulation.",
+      "sources": [
+        "https://www.argobiopharma.com/news/",
+        "https://www.prnewswire.com/news-releases/argo-biopharma-doses-first-participant-in-phase-i-clinical-trial-of-factor-xi-targeting-sirna-therapy-bw-41012-302829601.html",
+        "https://clinicaltrials.gov/study/NCT07584876"
+      ],
+      "latest_update_link": "https://www.prnewswire.com/news-releases/argo-biopharma-doses-first-participant-in-phase-i-clinical-trial-of-factor-xi-targeting-sirna-therapy-bw-41012-302829601.html",
+      "press_2026": true
     },
     {
       "id": "apixaban",
@@ -2597,11 +2633,11 @@
       "name": "Globe Pulsed Field System",
       "type": "Device",
       "category": "Catheter Ablation - PFA",
-      "stage": "FDA Approved (PMA)",
+      "stage": "FDA Approved (PMA); Health Canada Medical Device Licence",
       "mechanism": "Single-shot spherical multielectrode PFA with integrated mapping",
       "focus": "Paroxysmal AF ablation",
       "company": "Kardium",
-      "latest_update": "ClinicalTrials.gov update posted 2026-06-16",
+      "latest_update": "2026-08-06: Kardium Receives Health Canada Approval for the Globe Pulsed Field System",
       "tags": [
         "PFA",
         "single-shot",
@@ -2627,14 +2663,15 @@
           "note": "Prospective post-market registry of Globe PF System real-world effectiveness and safety."
         }
       ],
-      "notes": "Single catheter provides mapping and ablation; PMA submission based on PULSAR IDE, with a post-market Globe Registry planned.",
+      "notes": "Single catheter provides mapping and ablation; FDA PMA approval supported U.S. launch, and Health Canada approval expands access in Canada. Post-market Globe Registry planned.",
       "sources": [
+        "https://www.businesswire.com/news/home/20260806262559/en/Kardium-Receives-Health-Canada-Approval-for-the-Globe-Pulsed-Field-System",
         "https://kardium.com/news/kardium-receives-fda-approval-of-the-globe-pulsed-field-system/",
         "https://kardium.com/news/kardium-announces-1-year-pulsar-ide-study-results-for-its-pfa-device-the-globe-pf-system/",
         "https://kardium.com/news/kardium-announces-completion-of-paroxysmal-enrollment-in-the-pulsar-ide-study/",
         "https://clinicaltrials.gov/study/NCT07651852"
       ],
-      "latest_update_link": "https://clinicaltrials.gov/study/NCT07651852",
+      "latest_update_link": "https://www.businesswire.com/news/home/20260806262559/en/Kardium-Receives-Health-Canada-Approval-for-the-Globe-Pulsed-Field-System",
       "press_2026": true
     },
     {
@@ -3556,7 +3593,43 @@
     }
   ],
   "weekly_updates": {
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      }
+    ],
+    "conference_abstracts": [
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
     "regulatory_updates": [
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Kardium Receives Health Canada Approval for the Globe Pulsed Field System",
+        "date": "2026-08-06",
+        "source": "Kardium Press Release \u00b7 Match: Globe Pulsed Field System",
+        "link": "https://www.businesswire.com/news/home/20260806262559/en/Kardium-Receives-Health-Canada-Approval-for-the-Globe-Pulsed-Field-System"
+      },
       {
         "category": "regulatory_updates",
         "event_type": "regulatory",
@@ -3591,6 +3664,7 @@
       }
     ],
     "label_expansions": [],
+    "guideline_updates": [],
     "press_pipeline": [
       {
         "category": "press_pipeline",
@@ -3607,6 +3681,14 @@
         "date": "2026-07-22",
         "source": "Verseon News \u00b7 Match: Verseon",
         "link": "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "Argo Biopharma Doses First Participant in Phase 1 Clinical Trial of Factor XI Targeting siRNA Therapy BW-41012",
+        "date": "2026-07-20",
+        "source": "Argo Biopharma Press Release \u00b7 Match: BW-41012",
+        "link": "https://www.prnewswire.com/news-releases/argo-biopharma-doses-first-participant-in-phase-i-clinical-trial-of-factor-xi-targeting-sirna-therapy-bw-41012-302829601.html"
       },
       {
         "category": "press_pipeline",
@@ -3679,43 +3761,6 @@
         "date": "2026-04-16",
         "source": "Bayer Media \u00b7 Match: Asundexian",
         "link": "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "trial_progress",
-        "title": "Ribo Submits Phase 2b Clinical Trial Application for world\u2019s first siRNA FXI inhibitor in atrial fibrillation",
-        "date": "2026-04-14",
-        "source": "Ribocure News \u00b7 Match: Vortosiran",
-        "link": "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/"
-      }
-    ],
-    "conference_abstracts": [
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
-    "guideline_updates": [],
-    "safety_signals": [
-      {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
       }
     ]
   }

@@ -246,6 +246,12 @@
       "trial_name": "Globe Registry",
       "nct_id": "NCT07651852",
       "note": "Kardium post-market Globe Pulsed Field System registry study in symptomatic AF"
+    },
+    {
+      "item_id": "bw-41012",
+      "trial_name": "BW-41012 Phase 1 SAD",
+      "nct_id": "NCT07584876",
+      "note": "Argo Biopharma FXI-targeting siRNA Phase 1 healthy-volunteer study; watch for thromboembolic indication expansion"
     }
   ],
   "press_releases": [

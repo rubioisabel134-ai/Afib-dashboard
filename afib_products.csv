@@ -6,6 +6,7 @@ shr-2004,SHR-2004,Drug,Stroke Prevention - FXI Inhibitors,Phase 1b,Jiangsu Hengr
 regn7508,REGN7508,Drug,Stroke Prevention - FXI Inhibitors,Phase 2 (AF); Phase 3 in VTE,Regeneron,Monoclonal antibody targeting FXI catalytic domain,Anticoagulation with reduced bleeding risk; AF stroke prevention program planned
 regn9933,REGN9933,Drug,Stroke Prevention - FXI Inhibitors,Phase 2 (AF); Phase 2 completed in VTE,Regeneron,Monoclonal antibody targeting FXI A2 domain,Anticoagulation for patients with higher bleeding risk; AF safety program
 srsd107,SRSD107,Drug,Stroke Prevention - FXI Inhibitors,Phase 2,Sirius Therapeutics / CRISPR Therapeutics,Long-acting FXI siRNA,Thromboembolic disorders including AF stroke prevention
+bw-41012,BW-41012,Drug,Stroke Prevention - FXI Inhibitors,Phase 1,Argo Biopharma,siRNA targeting Factor XI mRNA,Prevention of thromboembolic diseases; AF stroke-prevention relevance to monitor
 apixaban,Apixaban (Eliquis),Drug,Stroke Prevention - Anticoagulants,Approved,BMS / Pfizer,Direct oral anticoagulant (Factor Xa inhibitor),Stroke prevention in AF
 bay-3670549,BAY 3670549,Drug,Rhythm Control - Antiarrhythmic Drugs,Phase 1,Bayer,Selective GIRK4 inhibitor,Rapid pharmacologic cardioversion in AF
 rivaroxaban,Rivaroxaban (Xarelto),Drug,Stroke Prevention - Anticoagulants,Approved,Bayer / Janssen,Direct oral anticoagulant (Factor Xa inhibitor),Stroke prevention in AF
@@ -79,7 +80,7 @@ episense,EPi-Sense System,Device,Hybrid/Surgical Ablation,FDA Approved,AtriCure,
 omnypulse,OMNYPULSE Platform,Device,Catheter Ablation - PFA,Investigational,Biosense Webster (J&J MedTech),Large-tip focal PFA catheter platform,Paroxysmal AF ablation
 tactiflex,"TactiFlex Ablation Catheter, Sensor Enabled",Device,Catheter Ablation - RF,FDA Approved,Abbott,Contact-force RF ablation catheter with flexible tip,Paroxysmal AF and typical atrial flutter
 heliostar,HELIOSTAR Balloon Ablation Catheter,Device,Catheter Ablation - RF,CE Mark (not US-approved),Biosense Webster (J&J MedTech),Multi-electrode RF balloon ablation,Paroxysmal AF pulmonary vein isolation
-kardium-globe,Globe Pulsed Field System,Device,Catheter Ablation - PFA,FDA Approved (PMA),Kardium,Single-shot spherical multielectrode PFA with integrated mapping,Paroxysmal AF ablation
+kardium-globe,Globe Pulsed Field System,Device,Catheter Ablation - PFA,FDA Approved (PMA); Health Canada Medical Device Licence,Kardium,Single-shot spherical multielectrode PFA with integrated mapping,Paroxysmal AF ablation
 optishot,OptiShot PFA Balloon System,Device,Catheter Ablation - PFA,Investigational,CardioFocus,Compliant PFA balloon for single-shot PVI,Paroxysmal AF ablation
 quickshot,QuickShot PFA System,Device,Catheter Ablation - PFA,Clinical (CE Mark trial),CardioFocus (acquired Galvanize EP division),Large-area focal PFA catheter,AF ablation (focal PFA)
 heartlight-x4,HeartLight X4 PFA Balloon,Device,Catheter Ablation - PFA,Planned human trials,CardioFocus,PFA balloon for single-shot PVI,AF ablation

@@ -10,7 +10,7 @@
       "mechanism": "Oral Factor XIa inhibitor",
       "focus": "Stroke prevention in AF and secondary stroke prevention",
       "company": "BMS / Johnson & Johnson",
-      "latest_update": "ClinicalTrials.gov update posted 2026-07-31",
+      "latest_update": "2026-07-30: BMS Q2 2026 presentation moves Milvexian AF (LIBREXIA-AF) registrational data readout to 2027",
       "tags": [
         "FXI",
         "oral",
@@ -22,10 +22,10 @@
           "name": "LIBREXIA AF",
           "phase": "Phase 3",
           "status": "ACTIVE_NOT_RECRUITING",
-          "readout": "Topline expected 2026",
-          "readout_date": "2026-10-31",
+          "readout": "BMS projected registrational data readout in 2027",
+          "readout_date": "2027",
           "registry_id": "NCT05757869",
-          "note": "AF stroke prevention"
+          "note": "AF stroke prevention vs apixaban; ClinicalTrials.gov still lists estimated primary completion as 2026-10-31, but BMS Q2 2026 deck places the data readout in 2027."
         },
         {
           "name": "LIBREXIA STROKE",
@@ -37,10 +37,14 @@
           "note": "Secondary stroke prevention"
         }
       ],
-      "notes": "Librexia ACS was discontinued after interim analysis; AF and STROKE programs continue with 2026 readouts.",
+      "notes": "Librexia ACS was discontinued after interim analysis. BMS Q2 2026 guidance now places LIBREXIA-AF registrational data readout in 2027, while LIBREXIA-STROKE remains listed as a 2026 readout.",
       "sources": [
-        "https://news.bms.com/news/details/2025/Update-on-Phase-3-Librexia-ACS-Trial/default.aspx"
-      ]
+        "https://news.bms.com/news/details/2025/Update-on-Phase-3-Librexia-ACS-Trial/default.aspx",
+        "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_presentations/2026/BMY-2026-Q2-Results-Investor-Presentation-with-Appendix.pdf",
+        "https://clinicaltrials.gov/study/NCT05757869"
+      ],
+      "latest_update_link": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_presentations/2026/BMY-2026-Q2-Results-Investor-Presentation-with-Appendix.pdf",
+      "press_2026": true
     },
     {
       "id": "asundexian",
@@ -3593,34 +3597,8 @@
     }
   ],
   "weekly_updates": {
-    "safety_signals": [
-      {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
-      }
-    ],
-    "conference_abstracts": [
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
+    "guideline_updates": [],
+    "label_expansions": [],
     "regulatory_updates": [
       {
         "category": "regulatory_updates",
@@ -3663,9 +3641,43 @@
         "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
       }
     ],
-    "label_expansions": [],
-    "guideline_updates": [],
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      }
+    ],
+    "conference_abstracts": [
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
     "press_pipeline": [
+      {
+        "category": "press_pipeline",
+        "event_type": "readout",
+        "title": "BMS Q2 2026 presentation moves Milvexian AF (LIBREXIA-AF) registrational data readout to 2027",
+        "date": "2026-07-30",
+        "source": "BMS Q2 2026 Investor Presentation \u00b7 Match: Milvexian",
+        "link": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_presentations/2026/BMY-2026-Q2-Results-Investor-Presentation-with-Appendix.pdf"
+      },
       {
         "category": "press_pipeline",
         "event_type": "general",
@@ -3753,14 +3765,6 @@
         "date": "2026-04-24",
         "source": "Johnson & Johnson Press Releases \u00b7 Match: FARAPULSE PFA",
         "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "readout",
-        "title": "Phase III study results with Bayer\u2019s FXIa inhibitor demonstrating substantial reduction in ischemic stroke with no increase in ISTH major bleeding versus placebo published in New England Journal of Medicine",
-        "date": "2026-04-16",
-        "source": "Bayer Media \u00b7 Match: Asundexian",
-        "link": "https://www.bayer.com/media/en-us/asundexian-oceanic-stroke-phase-iii-study-results-demonstrating-substantial-reduction-in-ischemic-stroke-with-no-increase-in-isth-major-bleeding-versus-placebo-published-in-new-england-journal-of-medicine/"
       }
     ]
   }

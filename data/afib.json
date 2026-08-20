@@ -10,7 +10,7 @@
       "mechanism": "Oral Factor XIa inhibitor",
       "focus": "Stroke prevention in AF and secondary stroke prevention",
       "company": "BMS / Johnson & Johnson",
-      "latest_update": "ClinicalTrials.gov update posted 2026-07-31",
+      "latest_update": "2026-07-30: BMS Q2 2026 presentation moves Milvexian AF (LIBREXIA-AF) registrational data readout to 2027",
       "tags": [
         "FXI",
         "oral",
@@ -23,7 +23,7 @@
           "phase": "Phase 3",
           "status": "ACTIVE_NOT_RECRUITING",
           "readout": "BMS projected registrational data readout in 2027",
-          "readout_date": "2026-10-31",
+          "readout_date": "2027",
           "registry_id": "NCT05757869",
           "note": "AF stroke prevention vs apixaban; ClinicalTrials.gov still lists estimated primary completion as 2026-10-31, but BMS Q2 2026 deck places the data readout in 2027."
         },
@@ -2641,7 +2641,7 @@
       "mechanism": "Single-shot spherical multielectrode PFA with integrated mapping",
       "focus": "Paroxysmal AF ablation",
       "company": "Kardium",
-      "latest_update": "ClinicalTrials.gov update posted 2026-06-16",
+      "latest_update": "2026-08-06: Kardium Receives Health Canada Approval for the Globe Pulsed Field System",
       "tags": [
         "PFA",
         "single-shot",
@@ -3597,35 +3597,6 @@
     }
   ],
   "weekly_updates": {
-    "conference_abstracts": [
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
-    "safety_signals": [
-      {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
-      }
-    ],
-    "guideline_updates": [],
     "press_pipeline": [
       {
         "category": "press_pipeline",
@@ -3634,6 +3605,14 @@
         "date": "2026-08-10",
         "source": "CI manual scan \u00b7 Match: SHR-2004",
         "link": "https://clinicaltrials.gov/study/NCT06280768?term=factor%20XI%20atrial%20fibrillation&rank=3"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "readout",
+        "title": "BMS Q2 2026 presentation moves Milvexian AF (LIBREXIA-AF) registrational data readout to 2027",
+        "date": "2026-07-30",
+        "source": "BMS Q2 2026 Investor Presentation \u00b7 Match: Milvexian",
+        "link": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_presentations/2026/BMY-2026-Q2-Results-Investor-Presentation-with-Appendix.pdf"
       },
       {
         "category": "press_pipeline",
@@ -3714,18 +3693,46 @@
         "date": "2026-05-04",
         "source": "Pulse Biosciences Press Releases \u00b7 Match: nPulse Cardiac Catheter System",
         "link": "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-reports-business-updates-and-first-quarter-2"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "trial_progress",
-        "title": "Johnson &amp; Johnson Launches Landmark Head-to-Head Pulsed Field Ablation Trial in Persistent Atrial Fibrillation",
-        "date": "2026-04-24",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: FARAPULSE PFA",
-        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
       }
     ],
-    "label_expansions": [],
+    "guideline_updates": [],
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      }
+    ],
+    "conference_abstracts": [
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
     "regulatory_updates": [
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Kardium Receives Health Canada Approval for the Globe Pulsed Field System",
+        "date": "2026-08-06",
+        "source": "Kardium Press Release \u00b7 Match: Globe Pulsed Field System",
+        "link": "https://www.businesswire.com/news/home/20260806262559/en/Kardium-Receives-Health-Canada-Approval-for-the-Globe-Pulsed-Field-System"
+      },
       {
         "category": "regulatory_updates",
         "event_type": "regulatory",
@@ -3758,6 +3765,7 @@
         "source": "Bayer Media \u00b7 Match: Asundexian",
         "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
       }
-    ]
+    ],
+    "label_expansions": []
   }
 }

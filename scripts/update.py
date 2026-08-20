@@ -10,6 +10,15 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "afib.json"
 WATCHLIST_PATH = ROOT / "data" / "watchlist.json"
 
+MANUAL_LATEST_UPDATE_LOCKS = {
+  "milvexian",
+  "kardium-globe",
+}
+
+MANUAL_READOUT_DATE_LOCKS = {
+  "NCT05757869": "2027",
+}
+
 
 def fetch_json(url: str, timeout: int = 12) -> Dict[str, Any]:
   command = [
@@ -83,10 +92,14 @@ def update_trial(item: Dict[str, Any], watch: Dict[str, str], status: Dict[str, 
   if status.get("overall_status"):
     matching["status"] = status["overall_status"]
 
-  if status.get("primary_completion"):
+  registry_id = (matching.get("registry_id") or watch.get("nct_id") or "").upper()
+  locked_readout = MANUAL_READOUT_DATE_LOCKS.get(registry_id)
+  if locked_readout:
+    matching["readout_date"] = locked_readout
+  elif status.get("primary_completion"):
     matching["readout_date"] = status["primary_completion"]
 
-  if status.get("last_update"):
+  if status.get("last_update") and item.get("id") not in MANUAL_LATEST_UPDATE_LOCKS:
     item["latest_update"] = f"ClinicalTrials.gov update posted {status['last_update']}"
 
 

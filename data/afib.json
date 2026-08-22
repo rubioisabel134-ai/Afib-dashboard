@@ -1036,7 +1036,7 @@
       "mechanism": "Intranasal calcium channel blocker (short-acting)",
       "focus": "Acute treatment of AFib with rapid ventricular rate (AFib-RVR)",
       "company": "Milestone Pharmaceuticals",
-      "latest_update": "Company states Phase 3 development for AFib-RVR in adults",
+      "latest_update": "2026-08-21: Milestone Pharmaceuticals initiates pivotal Phase 3 ReVeRA-301 trial of etripamil nasal spray for self-administered AFib-RVR treatment",
       "tags": [
         "intranasal",
         "AFib-RVR",
@@ -1053,20 +1053,23 @@
           "note": "AFib-RVR rate reduction"
         },
         {
-          "name": "AFib-RVR Phase 3 program",
+          "name": "ReVeRA-301",
           "phase": "Phase 3",
-          "status": "Planned",
-          "readout": "TBD",
+          "status": "Recruiting",
+          "readout": "Event-driven Phase 3 study; primary endpoint is ventricular rate reduction within 30 minutes",
           "readout_date": null,
           "registry_id": null,
-          "note": "Self-administered nasal spray"
+          "note": "Approximately 150 AFib-RVR patients; self-administered 70 mg repeat-dose regimen in medically unsupervised setting"
         }
       ],
-      "notes": "Intranasal, rapid-acting calcium channel blocker being developed for episodic AFib-RVR; Phase 2 ReVeRA supported Phase 3 planning.",
+      "notes": "Intranasal, rapid-acting calcium channel blocker being developed for episodic AFib-RVR; Phase 3 ReVeRA-301 builds on positive Phase 2 ReVeRA data.",
       "sources": [
         "https://milestonepharma.com/pipeline/etripamil/",
-        "https://www.prnewswire.com/news-releases/milestone-pharmaceuticals-presents-positive-results-from-revera-phase-2-study-of-etripamil-in-afib-rvr-at-the-american-heart-association-scientific-sessions-2023-301985199.html"
-      ]
+        "https://www.prnewswire.com/news-releases/milestone-pharmaceuticals-presents-positive-results-from-revera-phase-2-study-of-etripamil-in-afib-rvr-at-the-american-heart-association-scientific-sessions-2023-301985199.html",
+        "https://investors.milestonepharma.com/news-releases/news-release-details/milestone-pharmaceuticals-initiates-pivotal-phase-3-trial"
+      ],
+      "latest_update_link": "https://investors.milestonepharma.com/news-releases/news-release-details/milestone-pharmaceuticals-initiates-pivotal-phase-3-trial",
+      "press_2026": true
     },
     {
       "id": "inrhythm-flecainide",
@@ -3597,7 +3600,45 @@
     }
   ],
   "weekly_updates": {
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      }
+    ],
+    "guideline_updates": [],
+    "label_expansions": [],
+    "conference_abstracts": [
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
     "press_pipeline": [
+      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "Milestone Pharmaceuticals initiates pivotal Phase 3 ReVeRA-301 trial of etripamil nasal spray for self-administered AFib-RVR treatment",
+        "date": "2026-08-21",
+        "source": "Milestone Pharmaceuticals Press Release \u00b7 Match: Etripamil",
+        "link": "https://investors.milestonepharma.com/news-releases/news-release-details/milestone-pharmaceuticals-initiates-pivotal-phase-3-trial"
+      },
       {
         "category": "press_pipeline",
         "event_type": "trial_progress",
@@ -3685,43 +3726,6 @@
         "date": "2026-05-27",
         "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
         "link": "https://news.atricure.com/press-release/atricure-participate-goldman-sachs-47th-annual-global-health-care-conference"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "readout",
-        "title": "Pulse Biosciences Reports Business Updates and First Quarter 2026 Financial Results",
-        "date": "2026-05-04",
-        "source": "Pulse Biosciences Press Releases \u00b7 Match: nPulse Cardiac Catheter System",
-        "link": "https://investors.pulsebiosciences.com/news-releases/news-release-details/pulse-biosciences-reports-business-updates-and-first-quarter-2"
-      }
-    ],
-    "guideline_updates": [],
-    "safety_signals": [
-      {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
-      }
-    ],
-    "conference_abstracts": [
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
       }
     ],
     "regulatory_updates": [
@@ -3765,7 +3769,6 @@
         "source": "Bayer Media \u00b7 Match: Asundexian",
         "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
       }
-    ],
-    "label_expansions": []
+    ]
   }
 }

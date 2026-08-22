@@ -95,5 +95,12 @@
     "url": "https://news.medtronic.com/",
     "crawl_limit": 4,
     "require_match": true
+  },
+  {
+    "name": "Milestone Pharmaceuticals Press Releases",
+    "source_type": "html_press_room",
+    "url": "https://investors.milestonepharma.com/press-releases",
+    "crawl_limit": 4,
+    "require_match": true
   }
 ]

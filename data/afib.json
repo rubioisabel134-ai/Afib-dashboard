@@ -1576,11 +1576,11 @@
       "name": "VMX-C001",
       "type": "Drug",
       "category": "Reversal Agents",
-      "stage": "Phase 3 (planned)",
-      "mechanism": "Small-molecule Factor Xa inhibitor reversal",
-      "focus": "Reversal of FXa inhibitors in bleeding",
+      "stage": "Phase 3",
+      "mechanism": "Recombinant modified human coagulation Factor X protein designed to bypass FXa inhibitor anticoagulant activity",
+      "focus": "Reversal of FXa inhibitors for urgent surgery/procedures and severe bleeding",
       "company": "VarmX",
-      "latest_update": "EquilibriX\u2011S Phase 3 study announced in 2025",
+      "latest_update": "2026-08-20: VarmX enrolls first participant in global Phase 3 EquilibriX-S trial evaluating VMX-C001 for urgent surgery/procedures in patients taking FXa inhibitors",
       "tags": [
         "reversal",
         "FXa inhibitors"
@@ -1589,17 +1589,20 @@
         {
           "name": "EquilibriX-S",
           "phase": "Phase 3",
-          "status": "Planned",
-          "readout": "TBD",
+          "status": "Recruiting",
+          "readout": "Primary endpoint is proportion of participants achieving good or excellent hemostatic efficacy",
           "readout_date": null,
-          "registry_id": null,
-          "note": "Severe bleeding reversal"
+          "registry_id": "NCT07288489",
+          "note": "Global randomized controlled registrational study of VMX-C001 vs usual pharmacologic care in patients taking FXa inhibitors who require urgent surgery/procedure"
         }
       ],
-      "notes": "Investigational reversal agent targeting FXa inhibitors; Phase 3 trial announced.",
+      "notes": "Investigational FXa inhibitor reversal agent; AFib relevance is indirect but important because chronic FXa inhibitor use includes stroke prevention in atrial fibrillation.",
       "sources": [
-        "https://varmx.com/press/vmx-announces-phase-3-trial-for-vmx-c001/"
-      ]
+        "https://varmx.com/press/vmx-announces-phase-3-trial-for-vmx-c001/",
+        "https://varmx.com/news/varmx-enrols-first-participant-in-global-phase-3-equilibrix-s-trial-evaluating-vmx-c001-in-urgent-surgery/"
+      ],
+      "latest_update_link": "https://varmx.com/news/varmx-enrols-first-participant-in-global-phase-3-equilibrix-s-trial-evaluating-vmx-c001-in-urgent-surgery/",
+      "press_2026": true
     },
     {
       "id": "okl-1111",
@@ -3600,34 +3603,46 @@
     }
   ],
   "weekly_updates": {
-    "safety_signals": [
+    "regulatory_updates": [
       {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
-      }
-    ],
-    "guideline_updates": [],
-    "label_expansions": [],
-    "conference_abstracts": [
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Kardium Receives Health Canada Approval for the Globe Pulsed Field System",
+        "date": "2026-08-06",
+        "source": "Kardium Press Release \u00b7 Match: Globe Pulsed Field System",
+        "link": "https://www.businesswire.com/news/home/20260806262559/en/Kardium-Receives-Health-Canada-Approval-for-the-Globe-Pulsed-Field-System"
       },
       {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Verseon\u2019s Precision Oral Anticoagulants Receive New European Patent | Verseon",
+        "date": "2026-07-15",
+        "source": "Verseon News \u00b7 Match: Precision Oral Anticoagulants",
+        "link": "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Johnson & Johnson Announces FDA Approval for the Dual Energy THERMOCOOL SMARTTOUCH SF Platform",
+        "date": "2026-07-08",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: Dual Energy THERMOCOOL",
+        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
+        "date": "2026-06-26",
+        "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
+        "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254232"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
+        "date": "2026-05-19",
+        "source": "Bayer Media \u00b7 Match: Asundexian",
+        "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
       }
     ],
     "press_pipeline": [
@@ -3638,6 +3653,14 @@
         "date": "2026-08-21",
         "source": "Milestone Pharmaceuticals Press Release \u00b7 Match: Etripamil",
         "link": "https://investors.milestonepharma.com/news-releases/news-release-details/milestone-pharmaceuticals-initiates-pivotal-phase-3-trial"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "VarmX enrolls first participant in global Phase 3 EquilibriX-S trial evaluating VMX-C001 for urgent surgery/procedures in patients taking FXa inhibitors",
+        "date": "2026-08-20",
+        "source": "VarmX News \u00b7 Match: VMX-C001",
+        "link": "https://varmx.com/news/varmx-enrols-first-participant-in-global-phase-3-equilibrix-s-trial-evaluating-vmx-c001-in-urgent-surgery/"
       },
       {
         "category": "press_pipeline",
@@ -3718,57 +3741,37 @@
         "date": "2026-06-04",
         "source": "ClinicalTrials.gov \u00b7 Match: BAY 3670549",
         "link": "https://clinicaltrials.gov/study/NCT07625215"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "general",
-        "title": "AtriCure to Participate in the Goldman Sachs 47th Annual Global Health Care Conference | AtriCure News",
-        "date": "2026-05-27",
-        "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
-        "link": "https://news.atricure.com/press-release/atricure-participate-goldman-sachs-47th-annual-global-health-care-conference"
       }
     ],
-    "regulatory_updates": [
+    "safety_signals": [
       {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Kardium Receives Health Canada Approval for the Globe Pulsed Field System",
-        "date": "2026-08-06",
-        "source": "Kardium Press Release \u00b7 Match: Globe Pulsed Field System",
-        "link": "https://www.businesswire.com/news/home/20260806262559/en/Kardium-Receives-Health-Canada-Approval-for-the-Globe-Pulsed-Field-System"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Verseon\u2019s Precision Oral Anticoagulants Receive New European Patent | Verseon",
-        "date": "2026-07-15",
-        "source": "Verseon News \u00b7 Match: Precision Oral Anticoagulants",
-        "link": "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Johnson & Johnson Announces FDA Approval for the Dual Energy THERMOCOOL SMARTTOUCH SF Platform",
-        "date": "2026-07-08",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: Dual Energy THERMOCOOL",
-        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
-        "date": "2026-06-26",
-        "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
-        "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254232"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
-        "date": "2026-05-19",
-        "source": "Bayer Media \u00b7 Match: Asundexian",
-        "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
       }
-    ]
+    ],
+    "conference_abstracts": [
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
+    "label_expansions": [],
+    "guideline_updates": []
   }
 }

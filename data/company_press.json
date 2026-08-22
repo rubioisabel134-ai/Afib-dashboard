@@ -102,5 +102,12 @@
     "url": "https://investors.milestonepharma.com/press-releases",
     "crawl_limit": 4,
     "require_match": true
+  },
+  {
+    "name": "VarmX News",
+    "source_type": "html_press_room",
+    "url": "https://varmx.com/news-events/",
+    "crawl_limit": 4,
+    "require_match": true
   }
 ]

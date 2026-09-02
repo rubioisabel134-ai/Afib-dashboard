@@ -820,6 +820,17 @@ def keep_row(row: Dict[str, str]) -> bool:
     nct_id = extract_nct_id(f"{title} {link}")
     if is_low_value_ctgov_anchor(title, link):
         return False
+    normalized = normalize_title(title)
+    generic_press_titles = {
+        "abbott mediaroom press releases",
+        "press releases",
+        "news releases",
+        "newsroom",
+    }
+    if normalized in generic_press_titles:
+        return False
+    if has_company_report_signal(title) and not is_af_relevant(title, link):
+        return False
     # Drop older broad CI-manual imports; retain only ClinicalTrials.gov tracked links.
     if "ci manual scan" in source and "clinicaltrials.gov/study/" not in link:
         return False

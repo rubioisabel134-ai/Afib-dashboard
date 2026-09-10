@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-02",
+  "as_of": "2026-09-10",
   "items": [
     {
       "id": "milvexian",
@@ -424,7 +424,7 @@
         {
           "name": "CARDIOVERT",
           "phase": "Phase 2",
-          "status": "NOT_YET_RECRUITING",
+          "status": "RECRUITING",
           "readout": "Estimated primary completion",
           "readout_date": "2030-05-16",
           "registry_id": "NCT07625215",
@@ -2574,7 +2574,7 @@
       "mechanism": "Contact-force RF ablation catheter with flexible tip",
       "focus": "Paroxysmal AF and typical atrial flutter",
       "company": "Abbott",
-      "latest_update": "2026-08-27: Abbott's next-generation Amulet 360\u2122 device receives CE Mark to treat people with atrial fibrillation at risk of stroke - Aug 27, 2026",
+      "latest_update": "2026-09-08: Abbott receives FDA approval for its TactiFlex\u2122 Duo Ablation Catheter to treat people with abnormal heart rhythms - Sep 8, 2026",
       "tags": [
         "RF",
         "contact force"
@@ -2596,10 +2596,11 @@
         "https://abbott.mediaroom.com/2023-05-19-Abbott-Receives-FDA-Approval-for-TactiFlex-TM-Ablation-Catheter-for-Treatment-of-Abnormal-Heart-Rhythm",
         "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026",
         "https://abbott.mediaroom.com/press-releases?item=124768",
-        "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke"
+        "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke",
+        "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms"
       ],
       "press_2026": true,
-      "latest_update_link": "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke"
+      "latest_update_link": "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms"
     },
     {
       "id": "heliostar",
@@ -3312,7 +3313,7 @@
       "mechanism": "Nanosecond pulsed field ablation (nsPFA)",
       "focus": "AF ablation; pulmonary vein isolation",
       "company": "Pulse Biosciences",
-      "latest_update": "2026-05-04: Pulse Biosciences Reports Business Updates and First Quarter 2026 Financial Results",
+      "latest_update": "ClinicalTrials.gov update posted 2026-05-05",
       "press_2026": true,
       "tags": [
         "nsPFA",
@@ -3354,7 +3355,7 @@
       "mechanism": "Nanosecond PFA surgical clamp system",
       "focus": "Concomitant surgical AF ablation",
       "company": "Pulse Biosciences",
-      "latest_update": "ClinicalTrials.gov update posted 2026-01-12",
+      "latest_update": "ClinicalTrials.gov update posted 2026-09-09",
       "tags": [
         "nsPFA",
         "surgical",
@@ -3608,7 +3609,17 @@
     }
   ],
   "weekly_updates": {
+    "label_expansions": [],
+    "guideline_updates": [],
     "regulatory_updates": [
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Abbott receives FDA approval for its TactiFlex\u2122 Duo Ablation Catheter to treat people with abnormal heart rhythms - Sep 8, 2026",
+        "date": "2026-09-08",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: TactiFlex",
+        "link": "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms"
+      },
       {
         "category": "regulatory_updates",
         "event_type": "regulatory",
@@ -3616,14 +3627,6 @@
         "date": "2026-08-27",
         "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
         "link": "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Kardium Receives Health Canada Approval for the Globe Pulsed Field System",
-        "date": "2026-08-06",
-        "source": "Kardium Press Release \u00b7 Match: Globe Pulsed Field System",
-        "link": "https://www.businesswire.com/news/home/20260806262559/en/Kardium-Receives-Health-Canada-Approval-for-the-Globe-Pulsed-Field-System"
       },
       {
         "category": "regulatory_updates",
@@ -3693,14 +3696,6 @@
       },
       {
         "category": "press_pipeline",
-        "event_type": "readout",
-        "title": "BMS Q2 2026 presentation moves Milvexian AF (LIBREXIA-AF) registrational data readout to 2027",
-        "date": "2026-07-30",
-        "source": "BMS Q2 2026 Investor Presentation \u00b7 Match: Milvexian",
-        "link": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_presentations/2026/BMY-2026-Q2-Results-Investor-Presentation-with-Appendix.pdf"
-      },
-      {
-        "category": "press_pipeline",
         "event_type": "general",
         "title": "Taking Drug Design Beyond AI's limits | Verseon",
         "date": "2026-07-22",
@@ -3754,27 +3749,17 @@
         "date": "2026-05-27",
         "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
         "link": "https://news.atricure.com/press-release/atricure-participate-goldman-sachs-47th-annual-global-health-care-conference"
-      }
-    ],
-    "safety_signals": [
+      },
       {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "Johnson &amp; Johnson Launches Landmark Head-to-Head Pulsed Field Ablation Trial in Persistent Atrial Fibrillation",
+        "date": "2026-04-24",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: FARAPULSE PFA",
+        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
       }
     ],
     "conference_abstracts": [
-      {
-        "category": "conference_abstracts",
-        "event_type": "readout",
-        "title": "ESC 2026 Hot Line 8 Answers in AF summarizes AFFIRMO PVI-SHAM-AF NEXAF and IDEAL-AF results",
-        "date": "2026-08-30",
-        "source": "ESC Congress 2026 \u00b7 Match: Atrial Fibrillation",
-        "link": "https://www.escardio.org/news/news-room/congress-news/hot-line-8-answers-in-af/"
-      },
       {
         "category": "conference_abstracts",
         "event_type": "general",
@@ -3792,7 +3777,15 @@
         "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
       }
     ],
-    "guideline_updates": [],
-    "label_expansions": []
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      }
+    ]
   }
 }

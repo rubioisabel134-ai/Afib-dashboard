@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-10",
+  "as_of": "2026-09-18",
   "items": [
     {
       "id": "milvexian",
@@ -183,7 +183,7 @@
       "mechanism": "Monoclonal antibody targeting FXI catalytic domain",
       "focus": "Anticoagulation with reduced bleeding risk; AF stroke prevention program planned",
       "company": "Regeneron",
-      "latest_update": "2026-08-25: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation (NCT07626411)",
+      "latest_update": "2026-09-17: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -240,7 +240,7 @@
         "https://clinicaltrials.gov/study/NCT07626411?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=2"
       ],
       "press_2026": true,
-      "latest_update_link": "https://clinicaltrials.gov/study/NCT07626411?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=2"
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
     },
     {
       "id": "regn9933",
@@ -251,7 +251,7 @@
       "mechanism": "Monoclonal antibody targeting FXI A2 domain",
       "focus": "Anticoagulation for patients with higher bleeding risk; AF safety program",
       "company": "Regeneron",
-      "latest_update": "2026-06-23: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+      "latest_update": "2026-09-17: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -721,7 +721,7 @@
       "mechanism": "Precision oral anticoagulant (direct thrombin inhibitor)",
       "focus": "Stroke and heart attack prevention with reduced bleeding risk",
       "company": "Verseon",
-      "latest_update": "2026-07-22: Taking Drug Design Beyond AI's limits | Verseon",
+      "latest_update": "2026-09-16: ICH E14/S7B (R1) Q&amp;As: The clinical evaluation of QT/ QTc interval prolongation and proarrhythmic potential for non-antiarrhythmic drugs - Questions and Answers | European Medicines Agency (EMA)",
       "tags": [
         "PROAC",
         "thrombin",
@@ -739,10 +739,11 @@
         "https://www.verseon.com/pipeline-1-anticoagulation.html",
         "https://www.verseon.com/news-efficacyanticoagulant_content.html",
         "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php",
-        "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php"
+        "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php",
+        "https://www.ema.europa.eu/en/ich-e14-s7b-r1-qas-clinical-evaluation-qt-qtc-interval-prolongation-proarrhythmic-potential-non-antiarrhythmic-drugs-questions-answers"
       ],
       "press_2026": true,
-      "latest_update_link": "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php"
+      "latest_update_link": "https://www.ema.europa.eu/en/ich-e14-s7b-r1-qas-clinical-evaluation-qt-qtc-interval-prolongation-proarrhythmic-potential-non-antiarrhythmic-drugs-questions-answers"
     },
     {
       "id": "ve-2851",
@@ -753,7 +754,7 @@
       "mechanism": "Precision oral anticoagulant (direct thrombin inhibitor)",
       "focus": "Stroke and heart attack prevention with reduced bleeding risk",
       "company": "Verseon",
-      "latest_update": "2026-07-22: Taking Drug Design Beyond AI's limits | Verseon",
+      "latest_update": "2026-09-16: ICH E14/S7B (R1) Q&amp;As: The clinical evaluation of QT/ QTc interval prolongation and proarrhythmic potential for non-antiarrhythmic drugs - Questions and Answers | European Medicines Agency (EMA)",
       "tags": [
         "PROAC",
         "thrombin",
@@ -771,10 +772,11 @@
         "https://www.verseon.com/pipeline-1-anticoagulation.html",
         "https://www.verseon.com/pipeline.html",
         "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php",
-        "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php"
+        "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php",
+        "https://www.ema.europa.eu/en/ich-e14-s7b-r1-qas-clinical-evaluation-qt-qtc-interval-prolongation-proarrhythmic-potential-non-antiarrhythmic-drugs-questions-answers"
       ],
       "press_2026": true,
-      "latest_update_link": "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php"
+      "latest_update_link": "https://www.ema.europa.eu/en/ich-e14-s7b-r1-qas-clinical-evaluation-qt-qtc-interval-prolongation-proarrhythmic-potential-non-antiarrhythmic-drugs-questions-answers"
     },
     {
       "id": "tah3311",
@@ -1658,7 +1660,7 @@
       "mechanism": "Left atrial appendage closure device",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "2026-03-28: CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+      "latest_update": "2026-09-16: Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
       "tags": [
         "LAAO",
         "implant"
@@ -1702,7 +1704,7 @@
         "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
       ],
       "press_2026": true,
-      "latest_update_link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&rank=6"
     },
     {
       "id": "amulet",
@@ -1758,7 +1760,7 @@
       "mechanism": "Next-generation LAA closure device with extended sizes and enhanced sealing",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "ClinicalTrials.gov update posted 2026-08-05",
+      "latest_update": "ClinicalTrials.gov update posted 2026-09-11",
       "tags": [
         "LAAO",
         "implant"
@@ -3003,7 +3005,7 @@
       "mechanism": "Expandable lattice PFA catheter with multiple configurations",
       "focus": "Paroxysmal AF ablation",
       "company": "Affera / Medtronic",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-13",
+      "latest_update": "ClinicalTrials.gov update posted 2026-09-15",
       "tags": [
         "PFA",
         "Affera",
@@ -3015,7 +3017,7 @@
           "phase": "Prospective",
           "status": "RECRUITING",
           "readout": "One-year outcomes published",
-          "readout_date": "2027-03-15",
+          "readout_date": "2029-09-15",
           "registry_id": "NCT05144503",
           "note": "Safety and performance"
         }
@@ -3172,7 +3174,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "AF ablation",
       "company": "Abbott",
-      "latest_update": "ClinicalTrials.gov update posted 2026-07-13",
+      "latest_update": "2026-09-15: First Canadian Commercial Use of Abbott\u2019s Volt\u2122 Pulsed Field Ablation System Advances Minimally Invasive Atrial Fibrillation Care",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -3204,9 +3206,10 @@
         "https://abbott.mediaroom.com/2026-02-06-Late-breaking-data-presentations-showcase-the-safety-and-efficacy-of-Abbotts-ablation-catheters-to-treat-people-with-atrial-fibrillation",
         "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026",
         "https://clinicaltrials.gov/study/NCT07523620",
-        "https://abbott.mediaroom.com/2026-07-16-Abbott-Reports-Second-Quarter-2026-Results-and-Raises-Full-Year-EPS-Guidance"
+        "https://abbott.mediaroom.com/2026-07-16-Abbott-Reports-Second-Quarter-2026-Results-and-Raises-Full-Year-EPS-Guidance",
+        "https://abbott.mediaroom.com/2026-09-15-First-Canadian-Commercial-Use-of-Abbotts-Volt-TM-Pulsed-Field-Ablation-System-Advances-Minimally-Invasive-Atrial-Fibrillation-Care"
       ],
-      "latest_update_link": "https://abbott.mediaroom.com/2026-07-16-Abbott-Reports-Second-Quarter-2026-Results-and-Raises-Full-Year-EPS-Guidance"
+      "latest_update_link": "https://abbott.mediaroom.com/2026-09-15-First-Canadian-Commercial-Use-of-Abbotts-Volt-TM-Pulsed-Field-Ablation-System-Advances-Minimally-Invasive-Atrial-Fibrillation-Care"
     },
     {
       "id": "sphere-360",
@@ -3217,7 +3220,7 @@
       "mechanism": "Single-shot PFA mapping and ablation catheter",
       "focus": "Paroxysmal AF ablation",
       "company": "Medtronic",
-      "latest_update": "ClinicalTrials.gov update posted 2026-02-13",
+      "latest_update": "ClinicalTrials.gov update posted 2026-09-15",
       "press_2026": true,
       "tags": [
         "PFA",
@@ -3239,7 +3242,7 @@
           "phase": "Prospective",
           "status": "RECRUITING",
           "readout": "One-year results presented at HRS 2025",
-          "readout_date": "2027-03-15",
+          "readout_date": "2029-09-15",
           "registry_id": "NCT05115214",
           "note": "Single-arm European study"
         }
@@ -3609,8 +3612,24 @@
     }
   ],
   "weekly_updates": {
-    "label_expansions": [],
-    "guideline_updates": [],
+    "conference_abstracts": [
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
     "regulatory_updates": [
       {
         "category": "regulatory_updates",
@@ -3661,14 +3680,50 @@
         "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
       }
     ],
+    "guideline_updates": [],
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      }
+    ],
+    "label_expansions": [],
     "press_pipeline": [
       {
         "category": "press_pipeline",
         "event_type": "trial_progress",
-        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation (NCT07626411)",
-        "date": "2026-08-25",
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+        "date": "2026-09-17",
         "source": "CI manual scan \u00b7 Match: REGN7508",
-        "link": "https://clinicaltrials.gov/study/NCT07626411?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=2"
+        "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "general",
+        "title": "ICH E14/S7B (R1) Q&amp;As: The clinical evaluation of QT/ QTc interval prolongation and proarrhythmic potential for non-antiarrhythmic drugs - Questions and Answers | European Medicines Agency (EMA)",
+        "date": "2026-09-16",
+        "source": "EMA What's New \u00b7 Match: PROAC",
+        "link": "https://www.ema.europa.eu/en/ich-e14-s7b-r1-qas-clinical-evaluation-qt-qtc-interval-prolongation-proarrhythmic-potential-non-antiarrhythmic-drugs-questions-answers"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "Combined Pulsed-field Ablation (PFA) and Left Atrial Appendage Occlusion Using Watchman Flx or Amulet (NCT05560204)",
+        "date": "2026-09-16",
+        "source": "CI manual scan \u00b7 Match: WATCHMAN FLX",
+        "link": "https://clinicaltrials.gov/study/NCT05560204?term=LAAO&rank=6"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "First Canadian Commercial Use of Abbott\u2019s Volt\u2122 Pulsed Field Ablation System Advances Minimally Invasive Atrial Fibrillation Care",
+        "date": "2026-09-15",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": "https://abbott.mediaroom.com/2026-09-15-First-Canadian-Commercial-Use-of-Abbotts-Volt-TM-Pulsed-Field-Ablation-System-Advances-Minimally-Invasive-Atrial-Fibrillation-Care"
       },
       {
         "category": "press_pipeline",
@@ -3720,14 +3775,6 @@
       },
       {
         "category": "press_pipeline",
-        "event_type": "trial_progress",
-        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
-        "date": "2026-06-23",
-        "source": "CI manual scan \u00b7 Match: REGN7508",
-        "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
-      },
-      {
-        "category": "press_pipeline",
         "event_type": "business_development",
         "title": "Chiesi Group completes acquisition of KalVista Pharmaceuticals, adding KalVista's oral kallikrein/FXII research platform",
         "date": "2026-06-11",
@@ -3741,50 +3788,6 @@
         "date": "2026-06-04",
         "source": "ClinicalTrials.gov \u00b7 Match: BAY 3670549",
         "link": "https://clinicaltrials.gov/study/NCT07625215"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "general",
-        "title": "AtriCure to Participate in the Goldman Sachs 47th Annual Global Health Care Conference | AtriCure News",
-        "date": "2026-05-27",
-        "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
-        "link": "https://news.atricure.com/press-release/atricure-participate-goldman-sachs-47th-annual-global-health-care-conference"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "trial_progress",
-        "title": "Johnson &amp; Johnson Launches Landmark Head-to-Head Pulsed Field Ablation Trial in Persistent Atrial Fibrillation",
-        "date": "2026-04-24",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: FARAPULSE PFA",
-        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-launches-landmark-head-to-head-pulsed-field-ablation-trial-in-persistent-atrial-fibrillation"
-      }
-    ],
-    "conference_abstracts": [
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
-    "safety_signals": [
-      {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
       }
     ]
   }

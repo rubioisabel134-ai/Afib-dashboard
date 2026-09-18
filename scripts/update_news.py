@@ -1145,7 +1145,11 @@ def find_match(text_value: str, terms: List[str]) -> str:
     title_lower = html.unescape(text_value).lower()
     matches = []
     for idx, term in enumerate(terms):
-        if term.lower() in title_lower:
+        normalized_term = html.unescape(term).lower().strip()
+        if normalized_term and re.search(
+            rf"(?<![a-z0-9]){re.escape(normalized_term)}(?![a-z0-9])",
+            title_lower,
+        ):
             matches.append(term)
     if not matches:
         return ""

@@ -721,7 +721,7 @@
       "mechanism": "Precision oral anticoagulant (direct thrombin inhibitor)",
       "focus": "Stroke and heart attack prevention with reduced bleeding risk",
       "company": "Verseon",
-      "latest_update": "2026-09-16: ICH E14/S7B (R1) Q&amp;As: The clinical evaluation of QT/ QTc interval prolongation and proarrhythmic potential for non-antiarrhythmic drugs - Questions and Answers | European Medicines Agency (EMA)",
+      "latest_update": "2026-07-22: Taking Drug Design Beyond AI's limits | Verseon",
       "tags": [
         "PROAC",
         "thrombin",
@@ -739,11 +739,10 @@
         "https://www.verseon.com/pipeline-1-anticoagulation.html",
         "https://www.verseon.com/news-efficacyanticoagulant_content.html",
         "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php",
-        "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php",
-        "https://www.ema.europa.eu/en/ich-e14-s7b-r1-qas-clinical-evaluation-qt-qtc-interval-prolongation-proarrhythmic-potential-non-antiarrhythmic-drugs-questions-answers"
+        "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php"
       ],
       "press_2026": true,
-      "latest_update_link": "https://www.ema.europa.eu/en/ich-e14-s7b-r1-qas-clinical-evaluation-qt-qtc-interval-prolongation-proarrhythmic-potential-non-antiarrhythmic-drugs-questions-answers"
+      "latest_update_link": "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php"
     },
     {
       "id": "ve-2851",
@@ -754,7 +753,7 @@
       "mechanism": "Precision oral anticoagulant (direct thrombin inhibitor)",
       "focus": "Stroke and heart attack prevention with reduced bleeding risk",
       "company": "Verseon",
-      "latest_update": "2026-09-16: ICH E14/S7B (R1) Q&amp;As: The clinical evaluation of QT/ QTc interval prolongation and proarrhythmic potential for non-antiarrhythmic drugs - Questions and Answers | European Medicines Agency (EMA)",
+      "latest_update": "2026-07-22: Taking Drug Design Beyond AI's limits | Verseon",
       "tags": [
         "PROAC",
         "thrombin",
@@ -772,11 +771,10 @@
         "https://www.verseon.com/pipeline-1-anticoagulation.html",
         "https://www.verseon.com/pipeline.html",
         "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php",
-        "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php",
-        "https://www.ema.europa.eu/en/ich-e14-s7b-r1-qas-clinical-evaluation-qt-qtc-interval-prolongation-proarrhythmic-potential-non-antiarrhythmic-drugs-questions-answers"
+        "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php"
       ],
       "press_2026": true,
-      "latest_update_link": "https://www.ema.europa.eu/en/ich-e14-s7b-r1-qas-clinical-evaluation-qt-qtc-interval-prolongation-proarrhythmic-potential-non-antiarrhythmic-drugs-questions-answers"
+      "latest_update_link": "https://www.verseon.com/news-verseon-bets-physics-can-take-drug-design-beyond-ais-training-data.php"
     },
     {
       "id": "tah3311",
@@ -3691,7 +3689,6 @@
         "link": ""
       }
     ],
-    "label_expansions": [],
     "press_pipeline": [
       {
         "category": "press_pipeline",
@@ -3700,14 +3697,6 @@
         "date": "2026-09-17",
         "source": "CI manual scan \u00b7 Match: REGN7508",
         "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "general",
-        "title": "ICH E14/S7B (R1) Q&amp;As: The clinical evaluation of QT/ QTc interval prolongation and proarrhythmic potential for non-antiarrhythmic drugs - Questions and Answers | European Medicines Agency (EMA)",
-        "date": "2026-09-16",
-        "source": "EMA What's New \u00b7 Match: PROAC",
-        "link": "https://www.ema.europa.eu/en/ich-e14-s7b-r1-qas-clinical-evaluation-qt-qtc-interval-prolongation-proarrhythmic-potential-non-antiarrhythmic-drugs-questions-answers"
       },
       {
         "category": "press_pipeline",
@@ -3788,7 +3777,16 @@
         "date": "2026-06-04",
         "source": "ClinicalTrials.gov \u00b7 Match: BAY 3670549",
         "link": "https://clinicaltrials.gov/study/NCT07625215"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "general",
+        "title": "AtriCure to Participate in the Goldman Sachs 47th Annual Global Health Care Conference | AtriCure News",
+        "date": "2026-05-27",
+        "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
+        "link": "https://news.atricure.com/press-release/atricure-participate-goldman-sachs-47th-annual-global-health-care-conference"
       }
-    ]
+    ],
+    "label_expansions": []
   }
 }

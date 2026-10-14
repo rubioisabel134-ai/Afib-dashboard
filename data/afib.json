@@ -405,7 +405,7 @@
       "mechanism": "Selective GIRK4 inhibitor",
       "focus": "Rapid pharmacologic cardioversion in AF",
       "company": "Bayer",
-      "latest_update": "2026-06-04: CARDIOVERT: Phase 2 BAY 3670549 IV cardioversion study in atrial fibrillation (NCT07625215)",
+      "latest_update": "2026-11-07: AHA 2026: First-in-human evaluation of BAY 3670549 for pharmacological cardioversion in atrial fibrillation",
       "tags": [
         "GIRK4",
         "cardioversion",
@@ -435,9 +435,10 @@
       "sources": [
         "https://www.bayer.com/media/en-us/bayer-starts-phase-i-study-with-girk4-inhibitor-for-treatment-of-patients-with-atrial-fibrillation/",
         "https://www.bayer.com/en/us/news-stories/rapid-cardioversion",
-        "https://clinicaltrials.gov/study/NCT07625215"
+        "https://clinicaltrials.gov/study/NCT07625215",
+        "https://professional.heart.org/en/meetings/scientific-sessions/programming/late-breaking-science"
       ],
-      "latest_update_link": "https://clinicaltrials.gov/study/NCT07625215",
+      "latest_update_link": "https://professional.heart.org/en/meetings/scientific-sessions/programming/late-breaking-science",
       "press_2026": true
     },
     {
@@ -449,7 +450,7 @@
       "mechanism": "Direct oral anticoagulant (Factor Xa inhibitor)",
       "focus": "Stroke prevention in AF",
       "company": "Bayer / Janssen",
-      "latest_update": "2025-12-17: Svariya (previously Rivaroxaban Koanaa) | European Medicines Agency (EMA)",
+      "latest_update": "Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
       "tags": [
         "DOAC",
         "Factor Xa"
@@ -468,10 +469,9 @@
       "notes": "Standard-of-care anticoagulant for non-valvular AF.",
       "sources": [
         "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af",
-        "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5",
-        "https://www.ema.europa.eu/en/medicines/human/EPAR/svariya"
+        "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
       ],
-      "latest_update_link": "https://www.ema.europa.eu/en/medicines/human/EPAR/svariya"
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
     },
     {
       "id": "dabigatran",
@@ -3593,14 +3593,14 @@
         {
           "name": "ORBIT-FXI-AF",
           "phase": "Phase 2b",
-          "status": "CTA submitted",
-          "readout": "TBD",
-          "readout_date": null,
-          "registry_id": null,
-          "note": "Planned atrial fibrillation stroke-prevention study; future registry listing may use vortosiran or RBD4059."
+          "status": "NOT_YET_RECRUITING",
+          "readout": "Estimated primary completion",
+          "readout_date": "2028-07-31",
+          "registry_id": "NCT07870889",
+          "note": "Randomized Phase IIb trial of two blinded subcutaneous vortosiran doses versus open-label apixaban in 150 patients with non-valvular AF; follow-up through Week 64."
         }
       ],
-      "notes": "Ribocure renamed RBD4059 to vortosiran and announced a Phase 2b CTA submission for AF. Watch for a future ClinicalTrials.gov record under either vortosiran, RBD4059, or ORBIT-FXI-AF.",
+      "notes": "Ribocure's industry-sponsored Phase IIb ORBIT-FXI-AF trial is registered and not yet recruiting. It compares two vortosiran dose regimens with open-label apixaban in 150 patients with non-valvular AF.",
       "sources": [
         "https://ashpublications.org/bloodadvances/article/doi/10.1182/bloodadvances.2025018348/565939/RNA-interference-therapy-targeting-coagulation",
         "https://pharmaphorum.com/news/rna-specialist-ribo-files-205m-ipo-hong-kong",
@@ -3612,86 +3612,8 @@
     }
   ],
   "weekly_updates": {
-    "conference_abstracts": [
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
-        "date": "2026-03-28",
-        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
-        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
-      },
-      {
-        "category": "conference_abstracts",
-        "event_type": "general",
-        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
-        "date": "2026-03-24",
-        "source": "HRS News \u00b7 Match: Johnson",
-        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
-    "regulatory_updates": [
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Abbott receives FDA approval for its TactiFlex\u2122 Duo Ablation Catheter to treat people with abnormal heart rhythms - Sep 8, 2026",
-        "date": "2026-09-08",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: TactiFlex",
-        "link": "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Abbott's next-generation Amulet 360\u2122 device receives CE Mark to treat people with atrial fibrillation at risk of stroke - Aug 27, 2026",
-        "date": "2026-08-27",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Verseon\u2019s Precision Oral Anticoagulants Receive New European Patent | Verseon",
-        "date": "2026-07-15",
-        "source": "Verseon News \u00b7 Match: Precision Oral Anticoagulants",
-        "link": "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Johnson & Johnson Announces FDA Approval for the Dual Energy THERMOCOOL SMARTTOUCH SF Platform",
-        "date": "2026-07-08",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: Dual Energy THERMOCOOL",
-        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
-        "date": "2026-06-26",
-        "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
-        "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254232"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
-        "date": "2026-05-19",
-        "source": "Bayer Media \u00b7 Match: Asundexian",
-        "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
-      }
-    ],
-    "guideline_updates": [],
-    "safety_signals": [
-      {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
-      }
-    ],
     "label_expansions": [],
+    "guideline_updates": [],
     "press_pipeline": [
       {
         "category": "press_pipeline",
@@ -3788,6 +3710,100 @@
         "date": "2026-06-11",
         "source": "KalVista Press Release \u00b7 Match: KalVista",
         "link": "https://ir.kalvista.com/news-releases/news-release-details/chiesi-group-completes-acquisition-kalvista-pharmaceuticals"
+      }
+    ],
+    "conference_abstracts": [
+      {
+        "category": "conference_abstracts",
+        "event_type": "trial_progress",
+        "title": "AHA 2026: COAST-AF randomized trial of substrate-guided ablation for persistent atrial fibrillation",
+        "date": "2026-11-08",
+        "source": "AHA Scientific Sessions 2026 \u00b7 Match: COAST-AF",
+        "link": "https://professional.heart.org/en/meetings/scientific-sessions/programming/late-breaking-science"
+      },
+      {
+        "category": "conference_abstracts",
+        "event_type": "trial_progress",
+        "title": "AHA 2026: First-in-human evaluation of BAY 3670549 for pharmacological cardioversion in atrial fibrillation",
+        "date": "2026-11-07",
+        "source": "AHA Scientific Sessions 2026 \u00b7 Match: BAY 3670549",
+        "link": "https://professional.heart.org/en/meetings/scientific-sessions/programming/late-breaking-science"
+      },
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
+        "date": "2026-03-28",
+        "source": "TCTMD Meetings \u00b7 Match: WATCHMAN FLX",
+        "link": "https://www.tctmd.com/news/champion-af-win-watchman-flx-caveats"
+      },
+      {
+        "category": "conference_abstracts",
+        "event_type": "general",
+        "title": "HRS Releases Scientific Statement on Pulsed Field Ablation for Cardiac Arrhythmias - HRS",
+        "date": "2026-03-24",
+        "source": "HRS News \u00b7 Match: Johnson",
+        "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
+      }
+    ],
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      }
+    ],
+    "regulatory_updates": [
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Abbott receives FDA approval for its TactiFlex\u2122 Duo Ablation Catheter to treat people with abnormal heart rhythms - Sep 8, 2026",
+        "date": "2026-09-08",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: TactiFlex",
+        "link": "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Abbott's next-generation Amulet 360\u2122 device receives CE Mark to treat people with atrial fibrillation at risk of stroke - Aug 27, 2026",
+        "date": "2026-08-27",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Verseon\u2019s Precision Oral Anticoagulants Receive New European Patent | Verseon",
+        "date": "2026-07-15",
+        "source": "Verseon News \u00b7 Match: Precision Oral Anticoagulants",
+        "link": "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Johnson & Johnson Announces FDA Approval for the Dual Energy THERMOCOOL SMARTTOUCH SF Platform",
+        "date": "2026-07-08",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: Dual Energy THERMOCOOL",
+        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
+        "date": "2026-06-26",
+        "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
+        "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254232"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
+        "date": "2026-05-19",
+        "source": "Bayer Media \u00b7 Match: Asundexian",
+        "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
       }
     ]
   }

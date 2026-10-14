@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-18",
+  "as_of": "2026-10-14",
   "items": [
     {
       "id": "milvexian",
@@ -183,7 +183,7 @@
       "mechanism": "Monoclonal antibody targeting FXI catalytic domain",
       "focus": "Anticoagulation with reduced bleeding risk; AF stroke prevention program planned",
       "company": "Regeneron",
-      "latest_update": "2026-09-17: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+      "latest_update": "2026-10-14: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -251,7 +251,7 @@
       "mechanism": "Monoclonal antibody targeting FXI A2 domain",
       "focus": "Anticoagulation for patients with higher bleeding risk; AF safety program",
       "company": "Regeneron",
-      "latest_update": "2026-09-17: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
+      "latest_update": "2026-10-14: Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
       "tags": [
         "FXI",
         "mAb",
@@ -449,7 +449,7 @@
       "mechanism": "Direct oral anticoagulant (Factor Xa inhibitor)",
       "focus": "Stroke prevention in AF",
       "company": "Bayer / Janssen",
-      "latest_update": "Safety and Tolerability of Abelacimab (MAA868) vs. Rivaroxaban in Patients With Atrial Fibrillation (NCT04755283)",
+      "latest_update": "2025-12-17: Svariya (previously Rivaroxaban Koanaa) | European Medicines Agency (EMA)",
       "tags": [
         "DOAC",
         "Factor Xa"
@@ -468,9 +468,10 @@
       "notes": "Standard-of-care anticoagulant for non-valvular AF.",
       "sources": [
         "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af",
-        "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
+        "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5",
+        "https://www.ema.europa.eu/en/medicines/human/EPAR/svariya"
       ],
-      "latest_update_link": "https://clinicaltrials.gov/study/NCT04755283?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=5"
+      "latest_update_link": "https://www.ema.europa.eu/en/medicines/human/EPAR/svariya"
     },
     {
       "id": "dabigatran",
@@ -689,7 +690,7 @@
       "mechanism": "Oral investigational therapy (mechanism not disclosed publicly)",
       "focus": "Reduction of AF burden; HDAC6 inhibitor licensed from Chong Kun Dang",
       "company": "Novartis (licensed from Chong Kun Dang)",
-      "latest_update": "ClinicalTrials.gov update posted 2026-07-31",
+      "latest_update": "ClinicalTrials.gov update posted 2026-09-28",
       "tags": [
         "AF burden",
         "Phase 2",
@@ -923,7 +924,7 @@
       "mechanism": "Oral SK ion channel inhibitor",
       "focus": "Rhythm control in AF; reduction in AF burden",
       "company": "Acesion Pharma",
-      "latest_update": "ClinicalTrials.gov update posted 2026-06-12",
+      "latest_update": "ClinicalTrials.gov update posted 2026-09-30",
       "press_2026": true,
       "tags": [
         "SK channel",
@@ -936,7 +937,7 @@
           "phase": "Phase 2",
           "status": "RECRUITING",
           "readout": "Completion expected Q1 2027",
-          "readout_date": "2026-11",
+          "readout_date": "2027-05",
           "registry_id": "NCT07267949",
           "note": "AF burden endpoint"
         }
@@ -1758,7 +1759,7 @@
       "mechanism": "Next-generation LAA closure device with extended sizes and enhanced sealing",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Boston Scientific",
-      "latest_update": "ClinicalTrials.gov update posted 2026-09-11",
+      "latest_update": "ClinicalTrials.gov update posted 2026-10-13",
       "tags": [
         "LAAO",
         "implant"
@@ -1943,7 +1944,7 @@
       "mechanism": "Conformable foam-based LAA occluder",
       "focus": "Stroke prevention in non-valvular AF",
       "company": "Conformal Medical",
-      "latest_update": "ClinicalTrials.gov update posted 2026-08-19",
+      "latest_update": "ClinicalTrials.gov update posted 2026-09-25",
       "tags": [
         "LAAO",
         "foam"
@@ -2335,7 +2336,7 @@
       "mechanism": "Large focal pulsed field ablation catheter with integrated cardiac mapping",
       "focus": "Map-and-ablate workflow for paroxysmal and persistent AF",
       "company": "Boston Scientific",
-      "latest_update": "ClinicalTrials.gov update posted 2026-08-28",
+      "latest_update": "ClinicalTrials.gov update posted 2026-09-24",
       "tags": [
         "PFA",
         "ablation",
@@ -3579,8 +3580,8 @@
       "mechanism": "RNA interference therapy targeting coagulation factor XI",
       "focus": "Stroke prevention and anticoagulation risk reduction in AF",
       "company": "Ribocure / RiboLife",
-      "latest_update": "2026-04-14: Ribo Submits Phase 2b Clinical Trial Application for world\u2019s first siRNA FXI inhibitor in atrial fibrillation",
-      "latest_update_link": "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/",
+      "latest_update": "2026-10-13: Vortosiran in Atrial Fibrillation (NCT07870889)",
+      "latest_update_link": "https://clinicaltrials.gov/study/NCT07870889?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=2",
       "tags": [
         "FXI",
         "RNAi",
@@ -3604,7 +3605,8 @@
         "https://ashpublications.org/bloodadvances/article/doi/10.1182/bloodadvances.2025018348/565939/RNA-interference-therapy-targeting-coagulation",
         "https://pharmaphorum.com/news/rna-specialist-ribo-files-205m-ipo-hong-kong",
         "https://ribocure.com/ribo-and-ribocure-announce-exclusive-global-licensing-agreement/",
-        "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/"
+        "https://ribocure.com/ribo-submits-phase-2b-clinical-trial-application-for-worlds-first-sirna-fxi-inhibitor-in-atrial-fibrillation/",
+        "https://clinicaltrials.gov/study/NCT07870889?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=2"
       ],
       "press_2026": true
     }
@@ -3689,14 +3691,31 @@
         "link": ""
       }
     ],
+    "label_expansions": [],
     "press_pipeline": [
       {
         "category": "press_pipeline",
         "event_type": "trial_progress",
         "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation for Whom Oral Anticoagulation is Unsuitable (NCT07430956)",
-        "date": "2026-09-17",
+        "date": "2026-10-14",
         "source": "CI manual scan \u00b7 Match: REGN7508",
         "link": "https://clinicaltrials.gov/study/NCT07430956?term=factor%20XI%20atrial%20fibrillation&rank=4"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "Vortosiran in Atrial Fibrillation (NCT07870889)",
+        "date": "2026-10-13",
+        "source": "CI manual scan \u00b7 Match: Vortosiran",
+        "link": "https://clinicaltrials.gov/study/NCT07870889?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=2"
+      },
+      {
+        "category": "press_pipeline",
+        "event_type": "trial_progress",
+        "title": "Stroke and Systemic Embolism Prevention in Adult Participants With Atrial Fibrillation (NCT07626411)",
+        "date": "2026-10-08",
+        "source": "CI manual scan \u00b7 Match: REGN7508",
+        "link": "https://clinicaltrials.gov/study/NCT07626411?term=factor%20XI%20atrial%20fibrillation&viewType=Card&rank=2"
       },
       {
         "category": "press_pipeline",
@@ -3769,24 +3788,7 @@
         "date": "2026-06-11",
         "source": "KalVista Press Release \u00b7 Match: KalVista",
         "link": "https://ir.kalvista.com/news-releases/news-release-details/chiesi-group-completes-acquisition-kalvista-pharmaceuticals"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "trial_progress",
-        "title": "CARDIOVERT: Phase 2 BAY 3670549 IV cardioversion study in atrial fibrillation (NCT07625215)",
-        "date": "2026-06-04",
-        "source": "ClinicalTrials.gov \u00b7 Match: BAY 3670549",
-        "link": "https://clinicaltrials.gov/study/NCT07625215"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "general",
-        "title": "AtriCure to Participate in the Goldman Sachs 47th Annual Global Health Care Conference | AtriCure News",
-        "date": "2026-05-27",
-        "source": "AtriCure Press Releases (site query) \u00b7 Match: AtriCure",
-        "link": "https://news.atricure.com/press-release/atricure-participate-goldman-sachs-47th-annual-global-health-care-conference"
       }
-    ],
-    "label_expansions": []
+    ]
   }
 }

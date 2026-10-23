@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-23",
   "items": [
     {
       "id": "milvexian",
@@ -1714,7 +1714,7 @@
       "mechanism": "Left atrial appendage occluder",
       "focus": "Stroke prevention in AF",
       "company": "Abbott",
-      "latest_update": "2026-08-27: Abbott's next-generation Amulet 360\u2122 device receives CE Mark to treat people with atrial fibrillation at risk of stroke - Aug 27, 2026",
+      "latest_update": "2026-10-21: Abbott Reports Third-Quarter 2026 Results and Reaffirms Full-Year EPS Guidance - Oct 21, 2026",
       "tags": [
         "LAAO",
         "implant"
@@ -1745,10 +1745,11 @@
         "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026",
         "https://clinicaltrials.gov/study/NCT07523620",
         "https://abbott.mediaroom.com/2026-07-16-Abbott-Reports-Second-Quarter-2026-Results-and-Raises-Full-Year-EPS-Guidance",
-        "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke"
+        "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke",
+        "https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance"
       ],
       "press_2026": true,
-      "latest_update_link": "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke"
+      "latest_update_link": "https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance"
     },
     {
       "id": "watchman-flx-pro",
@@ -2336,7 +2337,7 @@
       "mechanism": "Large focal pulsed field ablation catheter with integrated cardiac mapping",
       "focus": "Map-and-ablate workflow for paroxysmal and persistent AF",
       "company": "Boston Scientific",
-      "latest_update": "ClinicalTrials.gov update posted 2026-09-24",
+      "latest_update": "ClinicalTrials.gov update posted 2026-10-23",
       "tags": [
         "PFA",
         "ablation",
@@ -2383,7 +2384,7 @@
       "mechanism": "Pulsed field ablation",
       "focus": "Paroxysmal and persistent AF ablation",
       "company": "Medtronic",
-      "latest_update": "2023-12-13: FDA approval announced for PulseSelect PFA System",
+      "latest_update": "2026-10-22: Medtronic announces positive results from real-world registries for the Sphere-9\u2122 catheter and PulseSelect\u2122 PFA System at APHRS 2026 - Oct 22, 2026",
       "tags": [
         "PFA",
         "ablation"
@@ -2401,9 +2402,10 @@
       ],
       "notes": "First PFA system to receive FDA approval.",
       "sources": [
-        "https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation"
+        "https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation",
+        "https://news.medtronic.com/2026-10-22-Medtronic-announces-positive-results-from-real-world-registries-for-the-Sphere-9-TM-catheter-and-PulseSelect-TM-PFA-System-at-APHRS-2026"
       ],
-      "latest_update_link": "https://news.medtronic.com/2023-12-13-Medtronic-creates-history-with-FDA-approval-of-its-novel-PulseSelect-TM-Pulsed-Field-Ablation-System-to-treat-atrial-fibrillation"
+      "latest_update_link": "https://news.medtronic.com/2026-10-22-Medtronic-announces-positive-results-from-real-world-registries-for-the-Sphere-9-TM-catheter-and-PulseSelect-TM-PFA-System-at-APHRS-2026"
     },
     {
       "id": "farawave",
@@ -2575,7 +2577,7 @@
       "mechanism": "Contact-force RF ablation catheter with flexible tip",
       "focus": "Paroxysmal AF and typical atrial flutter",
       "company": "Abbott",
-      "latest_update": "2026-09-08: Abbott receives FDA approval for its TactiFlex\u2122 Duo Ablation Catheter to treat people with abnormal heart rhythms - Sep 8, 2026",
+      "latest_update": "2026-10-21: Abbott Reports Third-Quarter 2026 Results and Reaffirms Full-Year EPS Guidance - Oct 21, 2026",
       "tags": [
         "RF",
         "contact force"
@@ -2598,10 +2600,11 @@
         "https://abbott.mediaroom.com/2026-04-25-Abbott-showcases-strength-of-its-technologies-to-address-abnormal-heart-rhythms-with-late-breaking-clinical-data-at-Heart-Rhythm-Society-2026",
         "https://abbott.mediaroom.com/press-releases?item=124768",
         "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke",
-        "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms"
+        "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms",
+        "https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance"
       ],
       "press_2026": true,
-      "latest_update_link": "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms"
+      "latest_update_link": "https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance"
     },
     {
       "id": "heliostar",
@@ -3394,7 +3397,7 @@
       "mechanism": "Wrist- and ear-worn neuromodulation targeting peripheral nerves",
       "focus": "AF burden reduction",
       "company": "Cala Health",
-      "latest_update": "ClinicalTrials.gov update posted 2023-02-08",
+      "latest_update": "ClinicalTrials.gov update posted 2026-10-21",
       "tags": [
         "neuromodulation",
         "wearable",
@@ -3404,9 +3407,9 @@
         {
           "name": "AFIB-01",
           "phase": "Not applicable",
-          "status": "UNKNOWN",
+          "status": "TERMINATED",
           "readout": "Results not posted",
-          "readout_date": "2023-12",
+          "readout_date": "2025-09-24",
           "registry_id": "NCT05653583",
           "note": "Wrist, ear, and sham devices"
         }
@@ -3612,9 +3615,65 @@
     }
   ],
   "weekly_updates": {
-    "label_expansions": [],
-    "guideline_updates": [],
+    "regulatory_updates": [
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Abbott receives FDA approval for its TactiFlex\u2122 Duo Ablation Catheter to treat people with abnormal heart rhythms - Sep 8, 2026",
+        "date": "2026-09-08",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: TactiFlex",
+        "link": "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Abbott's next-generation Amulet 360\u2122 device receives CE Mark to treat people with atrial fibrillation at risk of stroke - Aug 27, 2026",
+        "date": "2026-08-27",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Verseon\u2019s Precision Oral Anticoagulants Receive New European Patent | Verseon",
+        "date": "2026-07-15",
+        "source": "Verseon News \u00b7 Match: Precision Oral Anticoagulants",
+        "link": "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Johnson & Johnson Announces FDA Approval for the Dual Energy THERMOCOOL SMARTTOUCH SF Platform",
+        "date": "2026-07-08",
+        "source": "Johnson & Johnson Press Releases \u00b7 Match: Dual Energy THERMOCOOL",
+        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
+        "date": "2026-06-26",
+        "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
+        "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254232"
+      },
+      {
+        "category": "regulatory_updates",
+        "event_type": "regulatory",
+        "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
+        "date": "2026-05-19",
+        "source": "Bayer Media \u00b7 Match: Asundexian",
+        "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
+      }
+    ],
     "press_pipeline": [
+      {
+        "category": "press_pipeline",
+        "event_type": "readout",
+        "title": "Abbott Reports Third-Quarter 2026 Results and Reaffirms Full-Year EPS Guidance - Oct 21, 2026",
+        "date": "2026-10-21",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": "https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance"
+      },
       {
         "category": "press_pipeline",
         "event_type": "trial_progress",
@@ -3702,16 +3761,20 @@
         "date": "2026-07-16",
         "source": "Abbott MediaRoom \u00b7 Match: Abbott",
         "link": "https://abbott.mediaroom.com/2026-07-16-Abbott-Reports-Second-Quarter-2026-Results-and-Raises-Full-Year-EPS-Guidance"
-      },
-      {
-        "category": "press_pipeline",
-        "event_type": "business_development",
-        "title": "Chiesi Group completes acquisition of KalVista Pharmaceuticals, adding KalVista's oral kallikrein/FXII research platform",
-        "date": "2026-06-11",
-        "source": "KalVista Press Release \u00b7 Match: KalVista",
-        "link": "https://ir.kalvista.com/news-releases/news-release-details/chiesi-group-completes-acquisition-kalvista-pharmaceuticals"
       }
     ],
+    "label_expansions": [],
+    "safety_signals": [
+      {
+        "category": "safety_signals",
+        "event_type": "safety",
+        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
+        "date": "2026-02-06",
+        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
+        "link": ""
+      }
+    ],
+    "guideline_updates": [],
     "conference_abstracts": [
       {
         "category": "conference_abstracts",
@@ -3731,6 +3794,14 @@
       },
       {
         "category": "conference_abstracts",
+        "event_type": "readout",
+        "title": "Medtronic announces positive results from real-world registries for the Sphere-9\u2122 catheter and PulseSelect\u2122 PFA System at APHRS 2026 - Oct 22, 2026",
+        "date": "2026-10-22",
+        "source": "Medtronic Newsroom \u00b7 Match: NEW: APHRS-2026",
+        "link": "https://news.medtronic.com/2026-10-22-Medtronic-announces-positive-results-from-real-world-registries-for-the-Sphere-9-TM-catheter-and-PulseSelect-TM-PFA-System-at-APHRS-2026"
+      },
+      {
+        "category": "conference_abstracts",
         "event_type": "general",
         "title": "CHAMPION-AF: A Win for Watchman FLX, but With Caveats | tctmd.com",
         "date": "2026-03-28",
@@ -3744,66 +3815,6 @@
         "date": "2026-03-24",
         "source": "HRS News \u00b7 Match: Johnson",
         "link": "https://www.hrsonline.org/news/hrs-releases-scientific-statement-pfa-for-cardiac-arrhythmias/"
-      }
-    ],
-    "safety_signals": [
-      {
-        "category": "safety_signals",
-        "event_type": "safety",
-        "title": "Late-breaking data show positive safety outcomes and closure rates for new Abbott device designed to reduce stroke risk in non-valvular AFib patients",
-        "date": "2026-02-06",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": ""
-      }
-    ],
-    "regulatory_updates": [
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Abbott receives FDA approval for its TactiFlex\u2122 Duo Ablation Catheter to treat people with abnormal heart rhythms - Sep 8, 2026",
-        "date": "2026-09-08",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: TactiFlex",
-        "link": "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Abbott's next-generation Amulet 360\u2122 device receives CE Mark to treat people with atrial fibrillation at risk of stroke - Aug 27, 2026",
-        "date": "2026-08-27",
-        "source": "Abbott MediaRoom (Press Releases) \u00b7 Match: Abbott",
-        "link": "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Verseon\u2019s Precision Oral Anticoagulants Receive New European Patent | Verseon",
-        "date": "2026-07-15",
-        "source": "Verseon News \u00b7 Match: Precision Oral Anticoagulants",
-        "link": "https://www.verseon.com/news-verseon-s-precision-oral-anticoagulants-receive-new-european-patent.php"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Johnson & Johnson Announces FDA Approval for the Dual Energy THERMOCOOL SMARTTOUCH SF Platform",
-        "date": "2026-07-08",
-        "source": "Johnson & Johnson Press Releases \u00b7 Match: Dual Energy THERMOCOOL",
-        "link": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "Edwards wins FDA 510(k) clearance for ECLIPTIS Left Atrial Appendage Exclusion System",
-        "date": "2026-06-26",
-        "source": "FDA 510(k) / MedTech Dive \u00b7 Match: ECLIPTIS",
-        "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254232"
-      },
-      {
-        "category": "regulatory_updates",
-        "event_type": "regulatory",
-        "title": "New drug applications for Bayer\u2019s FXIa inhibitor accepted by U.S. Food and Drug Administration under Priority Review and by Japan\u2019s Ministry of Health, Labour and Welfare",
-        "date": "2026-05-19",
-        "source": "Bayer Media \u00b7 Match: Asundexian",
-        "link": "https://www.bayer.com/media/en-us/new-drug-applications-for-asundexian-accepted-by-us-food-and-drug-administration-under-priority-review-and-by-japans-ministry-of-health-labour-and-welfare/"
       }
     ]
   }
